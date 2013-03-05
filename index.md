@@ -29,6 +29,8 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 * Ces niveaux ont été présentés au Hackfest 2012.
 * Niveau de difficulté: Facile
 
+Présenté par Philippe Arteau.
+
 # English version
 
 We would like to invite you to the first official edition of an event aimed at sharing our passion of information security and capture the flag competitions. 
@@ -53,6 +55,9 @@ This month, our target will be the website of a mafia baker (Anonymousse).  Your
 
 * These levels have been presented at Hackfest 2012.
 * Difficulty level: Easy
+
+Presented by Philippe Arteau.
+
 
 # 13 février 2013
 
