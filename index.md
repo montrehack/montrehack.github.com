@@ -6,7 +6,7 @@ title: MontréHack
 
 *english version below*
 
-Nous aimerions vous inviter à la première édition officielle événement qui vise à partager notre passion pour la sécurité informatique et les compétitions de type capture the flag ("CTF"). 
+Nous aimerions vous inviter à la première édition officielle de l'événement qui vise à partager notre passion pour la sécurité informatique et les compétitions de type capture the flag ("CTF"). 
 
 Nous voulons simplement rassembler des personnes qui s'intéressent à la sécurité pendant une soirée relaxe, pour travailler sur des problèmes vus dans des compétitions passées. C'est l'occasion idéale d'apprendre et de partager nos outils et techniques de travail.
 
@@ -31,7 +31,7 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 
 # English version
 
-We would like to invite you to the first official edition an event aimed at sharing our passion of information security and capture the flag competitions. 
+We would like to invite you to the first official edition of an event aimed at sharing our passion of information security and capture the flag competitions. 
 
 We simply want a relaxed meeting where people can work together on challenges that were recently seen in CTF competitions. This is the perfect opportunity to learn and share experience on your tools and techniques.
 
@@ -49,7 +49,7 @@ Wednesday, March 13th. 6:00 to 9:00 pm
 * Solutions to each challenge will be presented to everyone at the end of the event
 
 ## Problem Description
-This month, our target will be the website of a mafia baker (Anonymousse).  Your objective is to discover secret informations related to this organization.  The task will not be easy.  The developpers of their extracet have used many cryptographic mechanism to secure their infrastructure.  Security of obscurity?
+This month, our target will be the website of a mafia baker (Anonymousse).  Your objective is to discover secret informations related to this organization.  The task will not be easy.  The developpers of their extranet have used many cryptographic mechanism to secure their infrastructure.  Security of obscurity?
 
 * These levels have been presented at Hackfest 2012.
 * Difficulty level: Easy
