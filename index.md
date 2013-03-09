@@ -4,7 +4,7 @@ title: MontréHack
 ---
 # 13 mars 2013
 
-*english version below*
+[English version](#2013-03-english)
 
 Nous aimerions vous inviter à la première édition officielle de l'événement qui vise à partager notre passion pour la sécurité informatique et les compétitions de type capture the flag ("CTF"). 
 
@@ -39,6 +39,7 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 
 Présenté par Philippe Arteau.
 
+<a id="2013-03-english"></a>
 # English version
 
 We would like to invite you to the first official edition of an event aimed at sharing our passion of information security and capture the flag competitions. 
