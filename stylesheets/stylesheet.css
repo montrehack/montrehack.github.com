@@ -56,6 +56,12 @@ header h1 {
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
+/* header make header link invisible */
+header h1 a,
+header h1 a:link {
+  color: #b5e853;
+  text-decoration: none;
+}
 
 header h1:before {
   content: "./ ";

@@ -7,6 +7,7 @@ pygments: true
 markdown: redcarpet
 redcarpet:
   extensions: [ "autolink" ]
+#  extensions: [ "autolink", "with_toc_data" ]
 
 # exclude some files we don't want to leak
 exclude: [ 'README.md', 'CNAME']
