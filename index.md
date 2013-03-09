@@ -29,6 +29,14 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 * Ces niveaux ont été présentés au Hackfest 2012.
 * Niveau de difficulté: Facile
 
+### Outils nécessaires
+* Subgraph Vega ou tout autre proxy HTTP
+* Langage de scriptage (Python, Ruby ou autre)
+* Papier et crayon
+
+### Connaissances requises
+* Compréhension de base des "stream ciphers" et "block ciphers"
+
 Présenté par Philippe Arteau.
 
 # English version
@@ -55,6 +63,14 @@ This month, our target will be the website of a mafia baker (Anonymousse).  Your
 
 * These levels have been presented at Hackfest 2012.
 * Difficulty level: Easy
+
+### Needed Tools
+* Subgraph Vega or any other HTTP proxy
+* Your favorite scripting language (Python, Ruby, etc.)
+* Pen and paper
+
+### Required knowledge
+* Basic understanding of stream and block ciphers
 
 Presented by Philippe Arteau.
 
