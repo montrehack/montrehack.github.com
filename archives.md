@@ -6,6 +6,11 @@ title: MontréHack
 # 13 février 2013
 [English version](#english)
 
+## Photos
+
+* [de Gabriel Tremblay](http://imgur.com/a/CaGQ9/all)
+* [de Marc-Etienne Léveillé](http://www.flickr.com/photos/marcetienne/sets/72157632947684515/)
+
 ## Problèmes
 
 ### Zombie AV
@@ -34,6 +39,11 @@ Outils nécessaires:
 
 <a id="english"></a>
 # February 13rd 2013
+
+## Photos
+* [from Gabriel Tremblay](http://imgur.com/a/CaGQ9/all)
+* [from Marc-Etienne Léveillé](http://www.flickr.com/photos/marcetienne/sets/72157632947684515/)
+
 
 ## Problems
 ### Zombie AV
