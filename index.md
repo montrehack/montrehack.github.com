@@ -2,7 +2,10 @@
 layout: default
 title: MontréHack
 ---
+
 # Prochaine édition : 13 mars 2013
+
+![Hackers at work](/images/130213.jpg)
 
 [English version](#english)
 
