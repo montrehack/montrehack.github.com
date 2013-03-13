@@ -73,7 +73,7 @@ This month, our target will be the website of a mafia baker (Anonymousse).  Your
 * Difficulty level: Easy
 
 ### Needed Tools
-* Subgraph Vega or any other HTTP proxy
+* [Subgraph Vega](http://http://subgraph.com) or any other HTTP proxy
 * Your favorite scripting language (Python, Ruby, etc.)
 * Pen and paper
 
