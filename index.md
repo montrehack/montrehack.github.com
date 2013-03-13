@@ -37,7 +37,7 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 * Niveau de difficulté: Facile
 
 ### Outils nécessaires
-* [Subgraph Vega](http://http://subgraph.com) ou tout autre proxy HTTP
+* [Subgraph Vega](http://subgraph.com) ou tout autre proxy HTTP
 * Langage de scriptage (Python, Ruby ou autre)
 * Papier et crayon
 
@@ -73,7 +73,7 @@ This month, our target will be the website of a mafia baker (Anonymousse).  Your
 * Difficulty level: Easy
 
 ### Needed Tools
-* [Subgraph Vega](http://http://subgraph.com) or any other HTTP proxy
+* [Subgraph Vega](http://subgraph.com) or any other HTTP proxy
 * Your favorite scripting language (Python, Ruby, etc.)
 * Pen and paper
 
