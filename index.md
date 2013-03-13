@@ -37,7 +37,7 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 * Niveau de difficulté: Facile
 
 ### Outils nécessaires
-* Subgraph Vega ou tout autre proxy HTTP
+* [Subgraph Vega](http://http://subgraph.com) ou tout autre proxy HTTP
 * Langage de scriptage (Python, Ruby ou autre)
 * Papier et crayon
 
