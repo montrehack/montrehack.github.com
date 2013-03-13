@@ -3,6 +3,10 @@ layout: default
 title: MontréHack
 ---
 
+# MontreHack en cours! MontreHack in progress!
+
+* Instructions: http://rnicrosoft.biz/montrehack/
+
 # Prochaine édition : 13 mars 2013
 
 ![Hackers at work](/images/130213.jpg)
