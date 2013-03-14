@@ -3,9 +3,11 @@ layout: default
 title: MontréHack
 ---
 
-# MontreHack en cours! MontreHack in progress!
+# MontréHack Avril / April
 
-* Instructions: http://rnicrosoft.biz/montrehack/
+Sera annoncé sous peu.
+
+Will be announced soon.
 
 # Prochaine édition : 13 mars 2013
 
