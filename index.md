@@ -3,84 +3,99 @@ layout: default
 title: MontréHack
 ---
 
-# MontréHack Avril / April
-
-Sera annoncé sous peu.
-
-Will be announced soon.
-
-# Prochaine édition : 13 mars 2013
-
-![Hackers at work](/images/130213.jpg)
-
+# Prochaine édition: 18 avril 2013
 [English version](#english)
 
-Nous aimerions vous inviter à la première édition officielle de l'événement qui vise à partager notre passion pour la sécurité informatique et les compétitions de type capture the flag ("CTF"). 
+La prochaine édition de Montréhack aura lieu jeudi le 18 avril 2013.  Le thème du mois est Northsec, une super compétition qui a eu lieu à l'ETS du 5 au 7 avril dernier.  
 
-Nous voulons simplement rassembler des personnes qui s'intéressent à la sécurité pendant une soirée relaxe, pour travailler sur des problèmes vus dans des compétitions passées. C'est l'occasion idéale d'apprendre et de partager nos outils et techniques de travail.
+Nous aurons donc l'occasion de retravailler certains problèmes et d'avoir les explications détaillées directement par les créateurs de ceux-ci!
+
+![NorthSec](/images/nsec_logo.png)
 
 ## Où
 Café Notman: http://notman.org
 
 ## Quand
-Mercredi, 13 mars, 18h00 à 21h00
+Jeudi, 18 avril, 18h00 à 21h00
 
 ## Comment
-* Confirmer votre présence ici: http://www.eventbrite.ca/event/5713886388/
 * Bring your own laptop
-* Plusieurs problèmes seront étudiés et expliqués
+* Deux problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
-## Description du problème
-Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse). Votre objectif découvrir des informations secrètes sur cette organisation. La tâche ne sera pas aisée. Les développeurs de l'extranet ont fait usage d'une multitude de mécanismes cryptographiques. Sécurité ou obscurité?
+## iOS Forensics
+Pour ce mois ci, la cible sera un groupe de criminels à cravate qui effectue des transactions financières douteuses. Vous ferez parti d'une équipe d'experts en analyse de preuves judiciaires (forensics). Un agent d'information a pu momentanément distraire le suspect pour lui subtiliser son appareil juste assez longtemps pour faire une copie exacte de celui-ci avant de lui retourner sans qu'il ne s'en rende compte... 
 
-* Ces niveaux ont été présentés au Hackfest 2012.
-* Niveau de difficulté: Facile
+Votre objectif: découvrir des informations secrètes sur les activités de ce groupe de criminels. La tâche ne sera pas aisée. Les criminels utilisent des codes lorsqu'ils parlent de leurs activités et des rumeurs nous font croire qu'ils auraient même été chargé du développement d'une application iPhone pour une société financière.... Celle-ci semble utiliser toutes les bonnes pratiques en termes de chiffrement... ou pas? 
 
-### Outils nécessaires
-* [Subgraph Vega](http://subgraph.com) ou tout autre proxy HTTP
-* Langage de scriptage (Python, Ruby ou autre)
-* Papier et crayon
+Vous devrez répondre aux questions des enquêteurs afin qu'ils puissent étoffer leur dossier avant de procéder aux arrestations.
 
-### Connaissances requises
-* Compréhension de base des "stream ciphers" et "block ciphers"
+* Cette série de défis faisait partie de NorthSec 2013 (iOS Forensics Track)
+* Niveau de difficulté: Moyen
 
-Présenté par Philippe Arteau.
+### Outils nécessaires:
+* Ordinateur Mac, Windows ou Linux
+* Sur Windows: ajouter les outils de type strings, grep, find, etc. (Cygwin)
+* language de scriptage (Python, Ruby ou autre)
+* sqlite3 et/ou client de BD SQLite graphique
+* plutil (Mac) ou libplist (Linux) 
+* Optionnel (pour l'app iPhone): 
+** class-dump-z
+** version démo de IDA ou Hopper Disassembler
+
+### Connaissances requises:
+Habilité à combiner les divers outils du command line efficacement (strings, grep, find, etc.)
+Optionnel (pour l'app iPhone): brève familiarité avec un désassembleur et connaissances en cryptographie.
+
+Présenté par: François Proulx
+
+## Problème réseau: Annonce à venir
 
 <a id="english"></a>
-# Next edition: March 13rd 2013
+# Next edition: April 18th 2013
 
-We would like to invite you to the first official edition of an event aimed at sharing our passion of information security and capture the flag competitions. 
+The next edition of Montrehack will be held on Thursday, April 18th 2013.  This month's theme will be Northsec, a great competition that was held at the ETS at the beginning of April.
 
-We simply want a relaxed meeting where people can work together on challenges that were recently seen in CTF competitions. This is the perfect opportunity to learn and share experience on your tools and techniques.
+This month's Montreack will be a good opportunity to review some of the challenges that were presented at Northsec and to receive explanations from the people who prepared them!
 
 ## Where
 Café Notman: http://notman.org/
 
 ## When
-Wednesday, March 13th. 6:00 to 9:00 pm
+Thursday, April 18th. 6:00 to 9:00 pm
 
 ## How
-* RSVP here: http://www.eventbrite.ca/event/5713886388/
 * Bring your own laptop
-* A few challenges will be analyzed
+* Two challenges will be analyzed
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
 
-## Problem Description
-This month, our target will be the website of a mafia baker (Anonymousse).  Your objective is to discover secret informations related to this organization.  The task will not be easy.  The developpers of their extranet have used many cryptographic mechanism to secure their infrastructure.  Security of obscurity?
+## iOS Forensics
+This month, the target is a group of white collar criminals involved in shady financial transactions.  You will be part of a team of forensics experts.  One of your agent was able to distract one of the suspects to steal his mobile phone, just long enough to get an exact copy of the filesystem.
 
-* These levels have been presented at Hackfest 2012.
-* Difficulty level: Easy
+Your objective is to discover secret information related to the activities of this group of criminals.  The task will not be easy.  The criminals use code words when discussing business.  The rumor has it that were also involved in developping an iPhone application for a financial institution...  The application seems to be programmed following the best cryptographic standards, or is it?
+
+You will have to answer questions from the investigators to help them prepare their file on this criminal group.
+
+*  This set of challenges has been created for NorthSec 2013 (iOS Forensics Track).
+* Difficulty level: Medium
 
 ### Needed Tools
-* [Subgraph Vega](http://subgraph.com) or any other HTTP proxy
-* Your favorite scripting language (Python, Ruby, etc.)
-* Pen and paper
+* Computer Mac, Windows, or Linux
+* Under Windows: use tools provided by Cygwin: strings, grep, find, etc.
+* Scripting language (Python, Ruby, etc.)
+* sqlite3 and/or GUI for sqlite
+* plutil (Mac) or libplist (Linux)
+* Optionnal (for the iPhone app):
+** class-dump-z
+** demo version of IDA or Hopper Disassembler
 
 ### Required knowledge
-* Basic understanding of stream and block ciphers
+* Hability to combine various command line tools (strings, grep, find, etc).
+* Basic knowledge of disassembly
+* Basic knowledge of cryptography
 
-Presented by Philippe Arteau.
+Presented by François Proulx.
 
+## Network Track: TBA
