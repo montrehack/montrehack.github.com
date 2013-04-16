@@ -50,7 +50,21 @@ Optionnel (pour l'app iPhone): brève familiarité avec un désassembleur et con
 
 Présenté par: François Proulx
 
-## Problème réseau: Annonce à venir
+
+## Problème #2: Forensic réseau et packet carving
+Vous aurez un fichier de [capture réseau](http://en.wikipedia.org/wiki/Pcap)
+à analyser. Vous devrez y découvrir un secret qui vous permettra d'accéder à
+cette infrastructure réseau secrète. Plusieurs chemins mènent a Rome.
+
+Ce défi faisait partie de la portion réseau de NorthSec 2013.
+
+### Outils
+* [Wireshark](http://wireshark.org)
+* [Scapy](http://www.secdev.org/projects/scapy/)
+
+Présenté par [Olivier Bilodeau](http://twitter.com/obilodeau), conçu par
+Guillaume Germain
+
 
 <a id="english"></a>
 # Next edition: April 18th 2013
@@ -98,4 +112,16 @@ You will have to answer questions from the investigators to help them prepare th
 
 Presented by François Proulx.
 
-## Network Track: TBA
+## Problem #2: Network forensic and packet carving
+You will have a [packet capture](http://en.wikipedia.org/wiki/Pcap) file to
+analyze. You will have to discover a secret that will give you access to this
+secret network infrastructure. Many paths leads to Rome.
+
+This challenge was part of NorthSec 2013's Network track.
+
+### Tools
+* [Wireshark](http://wireshark.org)
+* [Scapy](http://www.secdev.org/projects/scapy/)
+
+Presented by [Olivier Bilodeau](http://twitter.com/obilodeau), designed by
+Guillaume Germain
