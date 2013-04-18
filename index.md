@@ -3,6 +3,23 @@ layout: default
 title: MontréHack
 ---
 
+# Ce soir / Tonight
+
+## iOS Forensics
+
+* [Instructions](https://github.com/montrehack/slides/raw/master/res/13-04/ios.txt)
+* File: http://bit.ly/11lxTsD (or ask us for a USB key)
+
+## Network Forensics / Packet Carving
+
+Connect to SSID: montreack, passphrase: montrehack
+
+Fichier de [capture réseau](https://github.com/montrehack/slides/raw/master/res/13-04/network.pcap)
+à analyser. Vous devrez y découvrir un secret qui vous permettra d'accéder à
+cette infrastructure réseau secrète. Plusieurs chemins mènent a Rome.
+
+Hint: Pensez à une façon alternative d'authentification
+
 # Prochaine édition: 18 avril 2013
 [English version](#english)
 
