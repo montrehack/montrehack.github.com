@@ -72,6 +72,9 @@ Guillaume Germain
 
 ![Hackers at work](/images/130213.jpg)
 
+## Photos
+* [de Gabriel Tremblay](http://imgur.com/a/Bu5Ei)
+
 ## Description du problème
 Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse). Votre objectif découvrir des informations secrètes sur cette organisation. La tâche ne sera pas aisée. Les développeurs de l'extranet ont fait usage d'une multitude de mécanismes cryptographiques. Sécurité ou obscurité?
 
@@ -85,6 +88,9 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 
 ### Connaissances requises
 * Compréhension de base des "stream ciphers" et "block ciphers"
+
+### Instructions et solutionnaire
+* https://github.com/h3xstream/montrehack-2013-03
 
 Présenté par Philippe Arteau.
 
@@ -191,6 +197,9 @@ Guillaume Germain
 <a id="2013-03-en"></a>
 # March 13rd 2013
 
+## Photos
+* [from Gabriel Tremblay](http://imgur.com/a/Bu5Ei)
+
 ## Problem Description
 This month, our target will be the website of a mafia baker (Anonymousse).  Your objective is to discover secret informations related to this organization.  The task will not be easy.  The developpers of their extranet have used many cryptographic mechanism to secure their infrastructure.  Security of obscurity?
 
@@ -204,6 +213,9 @@ This month, our target will be the website of a mafia baker (Anonymousse).  Your
 
 ### Required knowledge
 * Basic understanding of stream and block ciphers
+
+### Instructions and write-up
+* https://github.com/h3xstream/montrehack-2013-03
 
 Presented by Philippe Arteau.
 
