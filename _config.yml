@@ -10,4 +10,4 @@ redcarpet:
 #  extensions: [ "autolink", "with_toc_data" ]
 
 # exclude some files we don't want to leak
-exclude: [ 'README.md', 'CNAME']
+exclude: [ 'README.md', 'CNAME', 'meta' ]
