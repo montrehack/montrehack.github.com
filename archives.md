@@ -63,6 +63,9 @@ montréhack. Vous pouvez néanmoins analyser [la capture](https://github.com/mon
 pour tenter de trouver ce qui, selon vous, était la clé menant a une
 impersonification réussie.
 
+### Solution
+https://github.com/montrehack/slides/blob/master/13-04-writeup-network.adoc
+
 Présenté par [Olivier Bilodeau](http://twitter.com/obilodeau), conçu par
 Guillaume Germain
 
@@ -189,6 +192,9 @@ This challenge was part of NorthSec 2013's Network track.
 This challenge required an access point only available during montrehack. You
 may still analyze [the capture](https://github.com/montrehack/slides/raw/master/res/13-04/network.pcap)
 and try to find the key leading to a successful impersonation.
+
+### Write-up
+https://github.com/montrehack/slides/blob/master/13-04-writeup-network.adoc
 
 Presented by [Olivier Bilodeau](http://twitter.com/obilodeau), designed by
 Guillaume Germain
