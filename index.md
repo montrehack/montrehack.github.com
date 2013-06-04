@@ -17,6 +17,7 @@ Café Notman: http://notman.org
 Lundi le 17 juin 2013 de 18h à 21h
 
 ## Comment
+* Enregistrez-vous sur: http://www.eventbrite.ca/event/6961310467
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
@@ -52,6 +53,7 @@ Café Notman: http://notman.org/
 Monday June 17th 2013 from 6:00 to 9:00 pm
 
 ## How
+* Register at: http://www.eventbrite.ca/event/6961310467
 * Bring your own laptop
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
