@@ -4,7 +4,7 @@
   editorial niceties.
 
   Put this in index.md and update the following variables (like w/ vim's s///)
-  $en_date
+  $date $en_date
   $image (optional) format: ![AltText](path_to_image.png)
   $problem1_name, $problem1_desc, $problem1_tools, $problem1_presenter
   $en_problem1_name, $en_problem1_desc, $en_problem1_tools, $en_problem1_presenter
@@ -58,10 +58,11 @@ $en_date from 6:00 to 9:00 pm
 * Solutions to each challenge will be presented to everyone at the end of the event
 
 ## Problem #1: $en_problem1_name
-$en_problem1_name
+$en_problem1_desc
 
 ### Needed Tools
-$en_problem1_desc
+$en_problem1_tools
 
 Presented by $problem1_presenter
 
+[Intéressé a présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
