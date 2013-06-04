@@ -5,6 +5,7 @@
 
   Put this in index.md and update the following variables (like w/ vim's s///)
   $date $en_date
+  $eventbrite_link
   $image (optional) format: ![AltText](path_to_image.png)
   $problem1_name, $problem1_desc, $problem1_tools, $problem1_presenter
   $en_problem1_name, $en_problem1_desc, $en_problem1_tools, $en_problem1_presenter
@@ -26,6 +27,7 @@ Café Notman: http://notman.org
 $date de 18h à 21h
 
 ## Comment
+* Enregistrez-vous sur: $eventbrite_link
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
@@ -52,6 +54,7 @@ Café Notman: http://notman.org/
 $en_date from 6:00 to 9:00 pm
 
 ## How
+* Register at: $eventbrite_link
 * Bring your own laptop
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
