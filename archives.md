@@ -5,9 +5,43 @@ title: MontréHack
 
 [English version](#english)
 
+* [17 juin 2013](#2013-06-fr) Unix exploitation
 * [18 avril 2013](#2013-04-fr) iOS Forensics et Network
 * [13 mars  2013](#2013-03-fr) Web/Crypto
 * [13 février 2013](#2013-02-fr) Binary
+
+<a id="2013-06-fr"></a>
+# 17 juin 2013
+
+![Hacker at work](http://i.imgur.com/6Imva7uh.jpg)
+
+## Problème: naga3
+
+Problème de type applicatif Unix et exploitation.
+
+Le scénario du CTF était d'attaquer l'infrastructure des hackers de la Corée du Nord. La description du challenge était "To monitor local system performance, a tool was developed to take some timing measurements by executing some commands."
+
+### Outils nécessaires:
+
+* gdb
+* objdump
+* IDA (facultatif)
+* Langage de programmation au choix : C, python, ruby
+
+### Instructions
+
+Nous avons utilisé une VM localement. Par contre vous pouvez toujours
+résoudre le problème sur [OverTheWire](http://kishi.labs.overthewire.org/naga.html).
+
+### Solution
+
+* [Write-up](http://solution-36.blogspot.ca/2013/06/writeup-for-naga3-nosuchcon-ctf-2013.html)
+* [Code](https://github.com/ekse/naga3)
+
+Présenté par: Sébastien Duquette, [@ekse0x](https://twitter.com/ekse0x)
+
+Créé par: Hackito Ergo Sum (HES) et NoSuchCon 2013
+
 
 <a id="2013-04-fr"></a>
 # 18 avril 2013
@@ -137,9 +171,43 @@ Outils nécessaires:
 <a id="english"></a>
 **English version**
 
+* [June 17th 2013](#2013-06-en) Unix exploitation
 * [April 18th 2013](#2013-04-en) iOS Forensics and Network
 * [March 13rd 2013](#2013-03-en) Web/Crypto
 * [February 13rd 2013](#2013-02-en) Binary
+
+
+<a id="2013-06-en"></a>
+# June 17th 2013
+
+![Hacker at work](http://i.imgur.com/6Imva7uh.jpg)
+
+## Problem: naga3
+
+Challenge about exploiting and understanding Unix applications.
+
+The scenario of the CTF was to attack North Korea's infrastructure. The challenge description was: "To monitor local system performance, a tool was developed to take some timing measurements by executing some commands."
+
+### Needed Tools
+
+* gdb
+* objdump
+* IDA (optional)
+* Programming language of choice: C, python, ruby
+
+### Instructions
+
+We used a VM locally. However, you can still access the problem on
+[OverTheWire](http://kishi.labs.overthewire.org/naga.html).
+
+### Solution
+
+* [Write-up](http://solution-36.blogspot.ca/2013/06/writeup-for-naga3-nosuchcon-ctf-2013.html)
+* [Code](https://github.com/ekse/naga3)
+
+Presented by: Sébastien Duquette, [@ekse0x](https://twitter.com/ekse0x)
+
+Created by: Hackito Ergo Sum (HES) and NoSuchCon 2013
 
 
 <a id="2013-04-en"></a>
