@@ -3,29 +3,13 @@ layout: default
 title: MontréHack
 ---
 
-# MontreHack 15 juillet 2013 is now!
+# Prochaine édition / Next event
 
-## Live instructions
+Lundi le 19 août / Monday August 19th
 
-Code: http://bit.ly/145E7DJ
+En cours de planification / In planning stage
 
-Instructions: Check the code, figure it out, hack it locally then hack the server at 10.0.100.51:4433.
-
-![Your own crypto!?](http://i.imgur.com/eF7HvTk.png)
-
-## Problem #1: Cryptographic Oracle
-
-Attack an encryption service. You have the source code.
-
-### Needed Tools
-
-* Know how to program
-* Google-fu
-* Twisted mind
-
-Presented by: Laurent Desaulniers, [@el_d33](https://twitter.com/el_d33)
-
-Created by: [PlaidCTF](https://twitter.com/PlaidCTF)
+Stay tuned!
 
 <hr/>
 
