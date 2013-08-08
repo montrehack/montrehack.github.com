@@ -1,3 +1,7 @@
+---
+layout: default
+title: MontréHack
+---
 <!-- 
 
   This is the absolute minimum to get stuff up. Feel free [obliged] to add
@@ -41,6 +45,8 @@ $problem1_tools
 
 Présenté par: $problem1_presenter
 
+Créé par: ...
+
 
 <a id="english"></a>
 # Next edition: $en_date
@@ -67,6 +73,8 @@ $en_problem1_desc
 $en_problem1_tools
 
 Presented by $problem1_presenter
+
+Created by: ...
 
 <hr/>
 
