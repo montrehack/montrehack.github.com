@@ -3,9 +3,17 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition / Next event
+# Prochaine édition
 
-En cours de planification / In planning stage
+Lundi le $DATE 18h au [café Notman](http://notman.org)
+
+En cours de planification
+
+# Next event
+
+Monday $DATE 6pm at [Notman cafe](http://notman.org)
+
+In planning stage
 
 Stay tuned!
 
