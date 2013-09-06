@@ -8,7 +8,7 @@ title: MontréHack
 
 La prochaine édition de Montréhack aura lieu lundi le 16 septembre 2013.
 
-![Would you like to reset your password?](images/password_reset.png)
+![Would you like to reset your password?](http://i.imgur.com/fvamN2L.png)
 
 ## Où
 Café Notman: http://notman.org
