@@ -44,32 +44,6 @@ Présenté par: Jonathan Marcil ([@jonathanmarcil](https://twitter.com/jonathanm
 
 Créé par: [NorthSec 2013](https://nsec.io/)
 
-## Problem: Web4kids
-
-Web and Trivia problems for beginners and intermediates
-
-Theses exercises were part of the challenge Web4kids held at NorthSec
-2013. It is composed of fourteen (14) challenges that will lead the
-participant to understand the basics of Web security weaknesses and
-practice the usage of diverse tools.
-
-### Needed Tools
-
-* Web Browser ([old version of Firefox recommended](http://portableapps.com/apps/internet/firefox_portable/localization#legacy36))
-* Web proxy ([Zap](https://code.google.com/p/zaproxy/downloads/list),
-  [Burp](http://portswigger.net/burp/downloadfree.html),
-  [Vega](http://www.subgraph.com/vega_download.php),
-  etc.)
-* Operating system with common Unix tools (ex: cygwin under Windows)
-
-### Instructions
-
-An IP address and port will be given at the event and will give HTTP
-access to the exercises.
-
-Presented by: Jonathan Marcil ([@jonathanmarcil](https://twitter.com/jonathanmarcil)) of OWASP Montreal ([@owaspmontreal](https://twitter.com/owaspmontreal)) and NorthSec ([@northsec_io](https://twitter.com/NorthSec_io))
-
-Created by: [NorthSec 2013](https://nsec.io/)
 
 <a id="2013-07-fr"></a>
 # 15 juillet 2013
@@ -261,11 +235,44 @@ Outils nécessaires:
 <a id="english"></a>
 **English version**
 
+* [August 19th 2013](#2013-08-en) Web4Kids
 * [July 15th 2013](#2013-07-en) Crypto-Oracle
 * [June 17th 2013](#2013-06-en) Unix exploitation
 * [April 18th 2013](#2013-04-en) iOS Forensics and Network
 * [March 13rd 2013](#2013-03-en) Web/Crypto
 * [February 13rd 2013](#2013-02-en) Binary
+
+<a id="2013-08-en"></a>
+# August 19th 2013
+
+![Perfect challenges for your BlackHat / Defcon hangover](http://i.imgur.com/Bypqvfs.png)
+
+## Problem: Web4kids
+
+Web and Trivia problems for beginners and intermediates
+
+Theses exercises were part of the challenge Web4kids held at NorthSec
+2013. It is composed of fourteen (14) challenges that will lead the
+participant to understand the basics of Web security weaknesses and
+practice the usage of diverse tools.
+
+### Needed Tools
+
+* Web Browser ([old version of Firefox recommended](http://portableapps.com/apps/internet/firefox_portable/localization#legacy36))
+* Web proxy ([Zap](https://code.google.com/p/zaproxy/downloads/list),
+  [Burp](http://portswigger.net/burp/downloadfree.html),
+  [Vega](http://www.subgraph.com/vega_download.php),
+  etc.)
+* Operating system with common Unix tools (ex: cygwin under Windows)
+
+### Instructions
+
+An IP address and port will be given at the event and will give HTTP
+access to the exercises.
+
+Presented by: Jonathan Marcil ([@jonathanmarcil](https://twitter.com/jonathanmarcil)) of OWASP Montreal ([@owaspmontreal](https://twitter.com/owaspmontreal)) and NorthSec ([@northsec_io](https://twitter.com/NorthSec_io))
+
+Created by: [NorthSec 2013](https://nsec.io/)
 
 <a id="2013-07-en"></a>
 # July 15th 2013
