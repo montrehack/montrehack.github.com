@@ -17,7 +17,7 @@ Café Notman: http://notman.org
 Lundi le 16 septembre de 18h à 21h
 
 ## Comment
-* Enregistrez-vous sur: XXX
+* Enregistrez-vous sur: https://www.eventbrite.com/event/8209758609
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
@@ -51,7 +51,7 @@ Café Notman: http://notman.org/
 Monday September 16th from 6:00 to 9:00 pm
 
 ## How
-* Register at: $eventbrite_link
+* Register at: https://www.eventbrite.com/event/8209758609
 * Bring your own laptop
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
