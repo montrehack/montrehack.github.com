@@ -5,7 +5,7 @@ title: MontréHack
 
 [English version](#english)
 
-* [19 août 2013](#2013-08-fr) Web4Kidsæ
+* [19 août 2013](#2013-08-fr) Web4Kids
 * [15 juillet 2013](#2013-07-fr) Crypt-oracle
 * [17 juin 2013](#2013-06-fr) Unix exploitation
 * [18 avril 2013](#2013-04-fr) iOS Forensics et Network
