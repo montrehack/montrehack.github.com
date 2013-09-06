@@ -25,16 +25,17 @@ Lundi le 16 septembre de 18h à 21h
 
 ## Problème: Password Reset _Features_
 
-Une série de 4 petits challenges mettant en vedette certaines particularités souvent ignorées des fonctionnalités de récupération de mot de passe. Certains avec code, certains blackbox!
+Une série de 4 petits challenges mettant en vedette certaines particularités souvent ignorées des fonctionnalités de récupération de mot de passe. Certains avec code, certains blackbox.
 
-### Catégorie: Web + Code
-
-### Outils nécessaires:
+### Outils nécessaires
 * Burp suite 
 * Firefox 
 * Python
 
-### Créé et présenté par: Nom: Gabriel Tremblay @etrangeca
+### Créé et présenté par
+
+Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
+
 
 <hr/>
 
