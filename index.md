@@ -3,10 +3,10 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 19 août 2013
+# Prochaine édition: 16 septembre 2013
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 19 août 2013.
+La prochaine édition de Montréhack aura lieu lundi le 16 septembre 2013.
 
 ![Would you like to reset your password?](images/password_reset.png)
 
