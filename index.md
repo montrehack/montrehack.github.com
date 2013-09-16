@@ -8,8 +8,6 @@ title: MontréHack
 
 La prochaine édition de Montréhack aura lieu lundi le 16 septembre 2013.
 
-![Would you like to reset your password?](http://i.imgur.com/fvamN2L.png)
-
 ## Où
 Café Notman: http://notman.org
 
@@ -41,8 +39,6 @@ Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
 # Next edition: September 16th 2013
 
 The next edition of Montrehack will be held on Monday September 16th 2013.
-
-![Would you like to reset your password?](http://i.imgur.com/fvamN2L.png)
 
 ## Where
 Café Notman: http://notman.org/
