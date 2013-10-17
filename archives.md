@@ -5,12 +5,33 @@ title: MontréHack
 
 [English version](#english)
 
+* [16 septembre 2013](#2013-09-fr) Password Reset
 * [19 août 2013](#2013-08-fr) Web4Kids
 * [15 juillet 2013](#2013-07-fr) Crypt-oracle
 * [17 juin 2013](#2013-06-fr) Unix exploitation
 * [18 avril 2013](#2013-04-fr) iOS Forensics et Network
 * [13 mars  2013](#2013-03-fr) Web/Crypto
 * [13 février 2013](#2013-02-fr) Binary
+
+<a id="2013-09-fr"></a>
+# 16 septembre 2013
+
+## Problème: Password Reset _Features_
+
+Une série de 4 petits challenges mettant en vedette certaines particularités souvent ignorées des fonctionnalités de récupération de mot de passe. Certains avec code, certains blackbox.
+
+## Code et solutions
+
+[ici](https://github.com/montrehack/challenges/tree/master/2013-09-16)
+
+### Outils nécessaires
+* Burp suite 
+* Firefox 
+* Python
+
+### Créé et présenté par
+
+Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
 
 <a id="2013-08-fr"></a>
 # 19 août 2013
@@ -235,12 +256,34 @@ Outils nécessaires:
 <a id="english"></a>
 **English version**
 
+* [September 16th 2013](#2013-09-en) Password Reset
 * [August 19th 2013](#2013-08-en) Web4Kids
 * [July 15th 2013](#2013-07-en) Crypto-Oracle
 * [June 17th 2013](#2013-06-en) Unix exploitation
 * [April 18th 2013](#2013-04-en) iOS Forensics and Network
 * [March 13rd 2013](#2013-03-en) Web/Crypto
 * [February 13rd 2013](#2013-02-en) Binary
+
+<a id="2013-09-en"></a>
+# September 16th 2013
+
+## Problem #1: Password Reset _Features_
+
+A series of 4 small challenges featuring commonly ignored quirks of password recovery features. Expect whitebox testing (w/ code) and blackbox testing.
+
+### Needed Tools
+* Burp suite
+* Firefox
+* Python
+
+### Created and presented by
+
+Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
+
+### Code and Solutions
+
+[Here](https://github.com/montrehack/challenges/tree/master/2013-09-16)
+
 
 <a id="2013-08-en"></a>
 # August 19th 2013

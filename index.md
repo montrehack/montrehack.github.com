@@ -3,69 +3,59 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 16 septembre 2013
+# Prochaine édition: 21 octobre 2013
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 16 septembre 2013.
+La prochaine édition de Montréhack aura lieu lundi le 21 octobre 2013.
 
 ## Où
-Café Notman: http://notman.org
+*Attention - changement de lieu* Salle sh-3260 de l'UQAM
 
 ## Quand
-Lundi le 16 septembre de 18h à 21h
+Lundi le 21 octobre de 18h à 21h
 
 ## Comment
-* Enregistrez-vous sur: https://www.eventbrite.com/event/8209758609
+* Enregistrez-vous sur eventbrite: à venir
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
-## Problème: Password Reset _Features_
+## Problème: CSAW Recap
 
-Une série de 4 petits challenges mettant en vedette certaines particularités souvent ignorées des fonctionnalités de récupération de mot de passe. Certains avec code, certains blackbox.
+Nous repasserons en rafale sur les problèmes vues à 
+[CSAW](https://ctf.isis.poly.edu/) en montrant
+des exemples de solutions trouvées pendant la compétition.
 
 ### Outils nécessaires
-* Burp suite 
-* Firefox 
+* Debugger unix (gdb) 
 * Python
-
-### Créé et présenté par
-
-Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
-
+* Votre imagination
 
 <a id="english"></a>
-# Next edition: September 16th 2013
+# Next edition: October 21st 2013
 
-The next edition of Montrehack will be held on Monday September 16th 2013.
+The next edition of Montrehack will be held on Monday October 21st 2013.
 
 ## Where
-Café Notman: http://notman.org/
+*New location* Room sh-3260 at UQAM
 
 ## When
-Monday September 16th from 6:00 to 9:00 pm
+Monday October 21st from 6:00 to 9:00 pm
 
 ## How
-* Register at: https://www.eventbrite.com/event/8209758609
+* Register at: coming soon
 * Bring your own laptop
 * Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
 
-## Problem #1: Password Reset _Features_
+## Problem #1: CSAW Recap
 
-A series of 4 small challenges featuring commonly ignored quirks of password recovery features. Expect whitebox testing (w/ code) and blackbox testing.
+We will present challenges and solutions to problems recently seen
+during the [CSAW](https://ctf.isis.poly.edu/) CTF.
 
 ### Needed Tools
-* Burp suite
-* Firefox
+* Unix debugger
 * Python
-
-### Created and presented by
-
-Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
-
+* Your imagination
 
 <hr/>
 
