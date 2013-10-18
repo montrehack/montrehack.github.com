@@ -15,7 +15,7 @@ La prochaine édition de Montréhack aura lieu lundi le 21 octobre 2013.
 Lundi le 21 octobre de 18h à 21h
 
 ## Comment
-* Enregistrez-vous sur eventbrite: à venir
+* Enregistrez-vous sur eventbrite: https://www.eventbrite.com/event/8900229827
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
@@ -43,7 +43,7 @@ The next edition of Montrehack will be held on Monday October 21st 2013.
 Monday October 21st from 6:00 to 9:00 pm
 
 ## How
-* Register at: coming soon
+* Register at: https://www.eventbrite.com/event/8900229827
 * Bring your own laptop
 * Challenges will be analyzed
 
