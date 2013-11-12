@@ -3,59 +3,62 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 21 octobre 2013
+# Prochaine édition: 18 novembre 2013
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 21 octobre 2013.
+La prochaine édition de Montréhack aura lieu lundi le 18 novembre 2013.
+
+![Hackfest Retaliation](http://i.imgur.com/osh3Gks.png)
 
 ## Où
-*Attention - changement de lieu* Salle sh-3260 de l'UQAM
+_De retour_ au Café Notman: http://notman.org/
 
 ## Quand
-Lundi le 21 octobre de 18h à 21h
+Lundi le 18 novembre de 18h à 21h
+
 
 ## Comment
-* Enregistrez-vous sur eventbrite: https://www.eventbrite.com/event/8900229827
+* Enregistrez-vous sur: https://www.eventbrite.com/e/montrehack-novembre-november-tbd-tickets-9298125945
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
+* Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
-## Problème: CSAW Recap
+## Problème: à confirmer
 
-Nous repasserons en rafale sur les problèmes vues à 
-[CSAW](https://ctf.isis.poly.edu/) en montrant
-des exemples de solutions trouvées pendant la compétition.
+Montréhack aura lieu mais le problème a résoudre n'est pas encore
+confirmé a ce stade-ci.
 
 ### Outils nécessaires
-* Debugger unix (gdb) 
-* Python
-* Votre imagination
+* à venir
 
 <a id="english"></a>
-# Next edition: October 21st 2013
+# Next edition: November 18th 2013
 
-The next edition of Montrehack will be held on Monday October 21st 2013.
+The next edition of Montrehack will be held on Monday November 18th 2013.
+
+![Hackfest Retaliation](http://i.imgur.com/osh3Gks.png)
 
 ## Where
-*New location* Room sh-3260 at UQAM
+_Back to normal location_ at Café Notman: http://notman.org/
 
 ## When
-Monday October 21st from 6:00 to 9:00 pm
+Monday November 18th from 6:00 to 9:00 pm
 
 ## How
-* Register at: https://www.eventbrite.com/event/8900229827
+* Register at: https://www.eventbrite.com/e/montrehack-novembre-november-tbd-tickets-9298125945
 * Bring your own laptop
 * Challenges will be analyzed
+* Small groups of people can work on each challenge
+* Solutions to each challenge will be presented to everyone at the end of the event
 
-## Problem #1: CSAW Recap
+## Problem: to confirm
 
-We will present challenges and solutions to problems recently seen
-during the [CSAW](https://ctf.isis.poly.edu/) CTF.
+Montréhack will happen but the challenge to tackle hasn't been confirmed at
+the moment.
 
 ### Needed Tools
-* Unix debugger
-* Python
-* Your imagination
+* to be determined
 
 <hr/>
 

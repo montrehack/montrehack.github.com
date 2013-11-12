@@ -5,6 +5,7 @@ title: MontréHack
 
 [English version](#english)
 
+* [21 octobre 2013](#2013-10-fr) CSAW Quals Recap
 * [16 septembre 2013](#2013-09-fr) Password Reset
 * [19 août 2013](#2013-08-fr) Web4Kids
 * [15 juillet 2013](#2013-07-fr) Crypt-oracle
@@ -12,6 +13,24 @@ title: MontréHack
 * [18 avril 2013](#2013-04-fr) iOS Forensics et Network
 * [13 mars  2013](#2013-03-fr) Web/Crypto
 * [13 février 2013](#2013-02-fr) Binary
+
+<a id="2013-10-fr"></a>
+# 21 octobre 2013
+
+## Problème: CSAW Quals Recap
+
+Nous repasserons en rafale sur les problèmes vus aux qualifications de
+[CSAW](https://ctf.isis.poly.edu/) en montrant
+des exemples de solutions trouvées pendant la compétition.
+
+## Diapos
+
+À venir
+
+Présenté par: Sébastien Duquette ([@ekse0x](https://twitter.com/ekse0x))
+
+Créé par: [CSAW CTF Quals 2013](https://ctf.isis.poly.edu/)
+
 
 <a id="2013-09-fr"></a>
 # 16 septembre 2013
@@ -252,10 +271,10 @@ Outils nécessaires:
 [Solution](http://delogrand.blogspot.ca/2012/10/hacklu-ctf-tux-bomb-writeup.html)
 
 
-
 <a id="english"></a>
 **English version**
 
+* [October 21st 2013](#2013-10-en) CSAW Quals Recap
 * [September 16th 2013](#2013-09-en) Password Reset
 * [August 19th 2013](#2013-08-en) Web4Kids
 * [July 15th 2013](#2013-07-en) Crypto-Oracle
@@ -263,6 +282,22 @@ Outils nécessaires:
 * [April 18th 2013](#2013-04-en) iOS Forensics and Network
 * [March 13rd 2013](#2013-03-en) Web/Crypto
 * [February 13rd 2013](#2013-02-en) Binary
+
+<a id="2013-10-en"></a>
+# October 21st 2013
+
+## CSAW Quals Recap
+
+We will present challenges and solutions to problems recently seen
+during the [CSAW](https://ctf.isis.poly.edu/) CTF qualifications.
+
+## Slides
+
+To come...
+
+Presented by: Sébastien Duquette ([@ekse0x](https://twitter.com/ekse0x))
+
+Created by: [CSAW CTF Quals 2013](https://ctf.isis.poly.edu/)
 
 <a id="2013-09-en"></a>
 # September 16th 2013
