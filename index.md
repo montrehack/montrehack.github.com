@@ -26,9 +26,7 @@ Lundi le 18 novembre de 18h à 21h
 
 ## Problème: Web login et crackme's
 
-Retour sur certain challenges du Hackfest 2013. Solution pour tout les niveaux
-orientée sur les challenges web et crackme. Web login bypass 2x, Crackme
-Windows, Remote Crackme Linux.
+Retour sur certain challenges du Hackfest 2013: Web login bypass 2x, Crackme Windows, Remote Crackme Linux.
 
 ### Outils nécessaires
 * Python
@@ -63,8 +61,7 @@ Monday November 18th from 6:00 to 9:00 pm
 
 ## Problem: Web login and crackme's
 
-Hackfest 2013 challenges. Solution for all levels oriented around Web and
-Crackme's. Web login bypass 2x, Crackme Windows, Remote Crackme Linux.
+Some Hackfest 2013 challenges: Web login bypass 2x, Crackme Windows and Remote Crackme Linux.
 
 ### Needed Tools
 * Python
