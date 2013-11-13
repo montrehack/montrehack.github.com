@@ -24,13 +24,22 @@ Lundi le 18 novembre de 18h à 21h
 * Chaque problème sera analysé en petit groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
-## Problème: à confirmer
+## Problème: Web login et crackme's
 
-Montréhack aura lieu mais le problème a résoudre n'est pas encore
-confirmé a ce stade-ci.
+Retour sur certain challenges du Hackfest 2013. Solution pour tout les niveaux
+orientée sur les challenges web et crackme. Web login bypass 2x, Crackme
+Windows, Remote Crackme Linux.
 
 ### Outils nécessaires
-* à venir
+* Python
+* Sqlmap
+* [IDA](https://www.hex-rays.com/products/ida/support/download_demo.shtml)
+
+### Créé et présenté par
+
+Charles F Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) lors du
+[HackFest 2013](http://hackfest.ca).
+
 
 <a id="english"></a>
 # Next edition: November 18th 2013
@@ -52,13 +61,21 @@ Monday November 18th from 6:00 to 9:00 pm
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
 
-## Problem: to confirm
+## Problem: Web login and crackme's
 
-Montréhack will happen but the challenge to tackle hasn't been confirmed at
-the moment.
+Hackfest 2013 challenges. Solution for all levels oriented around Web and
+Crackme's. Web login bypass 2x, Crackme Windows, Remote Crackme Linux.
 
 ### Needed Tools
-* to be determined
+* Python
+* Sqlmap
+* [IDA](https://www.hex-rays.com/products/ida/support/download_demo.shtml)
+
+### Created and presented by
+
+Charles F Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) during
+[HackFest 2013](http://hackfest.ca).
+
 
 <hr/>
 
