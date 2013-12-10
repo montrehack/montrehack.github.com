@@ -8,11 +8,9 @@ title: MontréHack
 
 La prochaine édition de Montréhack aura lieu lundi le 16 décembre 2013.
 
-Venez nous montrer vos talents d'élites!
-
-![landing a shell on the first try with a shiny new exploit](http://i.imgur.com/hxjrrK2.gif)
-
 ## Problème: Silkstreet
+
+![You didn't say the magic word!](/images/13-12_hacked.png)
 
 Problème de type exploitation pour intermédiaire. Ce défi
 était présenté à CSAW13 Finals. C'est un défi d'exploitation classique
@@ -48,11 +46,9 @@ Lundi le 16 décembre de 18h à 21h
 
 The next edition of Montrehack will be held on Monday December 16th 2013.
 
-Come show us your leet skillz!
-
-![landing a shell on the first try with a shiny new exploit](http://i.imgur.com/hxjrrK2.gif)
-
 ## Problem: Silkstreet
+
+![You didn't say the magic word!](/images/13-12_hacked.png)
 
 Silkstreet is an intermediary exploitation challenge that was presented at
 CSAW13 Finals. This is a classical exploitation challenge in which the
