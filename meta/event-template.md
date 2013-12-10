@@ -24,6 +24,16 @@ La prochaine édition de Montréhack aura lieu $date.
 
 $image
 
+## Problème #1: $problem1_name
+$problem1_desc
+
+Présenté par: $problem1_presenter
+
+Créé par: ...
+
+### Outils nécessaires:
+$problem1_tools
+
 ## Où
 Café Notman: http://notman.org
 
@@ -37,21 +47,25 @@ $date de 18h à 21h
 * Chaque problème sera analysé en petit groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
-## Problème #1: $problem1_name
-$problem1_desc
-
-### Outils nécessaires:
-$problem1_tools
-
-Présenté par: $problem1_presenter
-
-Créé par: ...
-
 
 <a id="english"></a>
 # Next edition: $en_date
 
 The next edition of Montrehack will be held on $en_date.
+
+$image
+
+## Problem #1: $en_problem1_name
+
+$en_problem1_desc
+
+### Needed Tools
+
+$en_problem1_tools
+
+Presented by $problem1_presenter
+
+Created by: ...
 
 ## Where
 Café Notman: http://notman.org/
@@ -65,16 +79,6 @@ $en_date from 6:00 to 9:00 pm
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
-
-## Problem #1: $en_problem1_name
-$en_problem1_desc
-
-### Needed Tools
-$en_problem1_tools
-
-Presented by $problem1_presenter
-
-Created by: ...
 
 <hr/>
 
