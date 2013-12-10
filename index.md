@@ -36,7 +36,7 @@ Café Notman: http://notman.org
 Lundi le 16 décembre de 18h à 21h
 
 ## Comment
-* Enregistrez-vous sur: $eventbrite_link
+* Enregistrez-vous sur: https://www.eventbrite.ca/e/montrehack-decembre-december-silkstreet-linux-exploitation-tickets-9739935409
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
@@ -76,7 +76,7 @@ Café Notman: http://notman.org/
 Monday December 16th from 6:00 to 9:00 pm
 
 ## How
-* Register at: $eventbrite_link
+* Register at: https://www.eventbrite.ca/e/montrehack-decembre-december-silkstreet-linux-exploitation-tickets-9739935409
 * Bring your own laptop
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
