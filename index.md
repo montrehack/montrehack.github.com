@@ -12,6 +12,8 @@ La prochaine édition de Montréhack aura lieu lundi le 20 janvier 2013.
 
 Problèmes variés de Steganographie présentés au Plaid CTF 2012.
 
+![Such Hidden!](http://i.imgur.com/8NWXTbA.png)
+
 Problèmes (en ordre de difficulté):
 1) 3D
 The robots appear to be testing some kind of new camera technology but we haven't quite figured it out yet. Understanding this imaging could be crucial to our understanding the enemy and winning the war.
@@ -60,6 +62,8 @@ The next edition of Montrehack will be held on Monday January 20th 2014.
 ## Problem: Plaid CTF 2012 recap
 
 Various steganography challenges presented at Plaid CTF 2012.
+
+![Such Hidden!](http://i.imgur.com/8NWXTbA.png)
 
 ### Needed Tools
 
