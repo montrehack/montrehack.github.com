@@ -8,33 +8,46 @@ title: MontréHack
 
 La prochaine édition de Montréhack aura lieu lundi le 16 décembre 2013.
 
-## Problème: Silkstreet
+## Problème: Plaid CTF 2012 recap
 
 ![You didn't say the magic word!](/images/13-12_hacked.png)
 
-Problème de type exploitation pour intermédiaire. Ce défi
-était présenté à CSAW13 Finals. C'est un défi d'exploitation classique
-dans lequel le participant doit decouvrir les failles dans un binaire x86
-afin de les exploiter pour contrôler l'exécution du programme.
+Problèmes variés de Steganographie présentés au Plaid CTF 2012.
+
+Problèmes (en ordre de difficulté):
+1) 3D
+The robots appear to be testing some kind of new camera technology but we haven't quite figured it out yet. Understanding this imaging could be crucial to our understanding the enemy and winning the war.
+
+2) Rpo
+Ok, so we think we intercepted some robot pr0n but we are not entirely sure. Can you help us decide what it is?
+
+3) Stego
+We are a little unsure what the robots fascination with Star Trek is but it would seem from the amount of accesses this image has been getting that it holds something interesting for them. Can you figure out what it is?
+
+[Source](http://www.techbrunch.fr/wp-content/uploads/2012/05/Plaid-CTF-2012-Simple-interface.htm)
+[Challenges](http://repo.shell-storm.org/CTF/PlaidCTF-2012/)
+
 
 ### Outils nécessaires:
 
-* Linux
-* gdb
-* désassembleur (IDA, etc.)
+* Un Hex Editor
+* Foremost
+* Irfan View
+* [Connaissance de base du format Jpeg](http://fr.wikipedia.org/wiki/JPEG#Syntaxe_et_structure)
+* Connaissance du format BMP (24 bits et palette)
+* Connaissance de base de la programmation
 
-Présenté par: Benjamin Vanheuverzwijn
+Présenté par: Mathieu Lavoie
 
-Créé par: [CSAW CTF Finals 2013](https://ctf.isis.poly.edu/)
+Créé par: [Plaid CTF](http://www.plaidctf.com/)
 
 ## Où
 Café Notman: http://notman.org
 
 ## Quand
-Lundi le 16 décembre de 18h à 21h
+Lundi le 20 janvier de 18h à 21h
 
 ## Comment
-* Enregistrez-vous sur: https://www.eventbrite.ca/e/montrehack-decembre-december-silkstreet-linux-exploitation-tickets-9739935409
 * Bring your own laptop
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
@@ -42,37 +55,34 @@ Lundi le 16 décembre de 18h à 21h
 
 
 <a id="english"></a>
-# Next edition: Monday December 16th 2013
+# Next edition: Monday January 20th 2014
 
-The next edition of Montrehack will be held on Monday December 16th 2013.
+The next edition of Montrehack will be held on Monday January 20th 2014.
 
-## Problem: Silkstreet
+## Problem: Plaid CTF 2012 recap
 
-![You didn't say the magic word!](/images/13-12_hacked.png)
-
-Silkstreet is an intermediary exploitation challenge that was presented at
-CSAW13 Finals. This is a classical exploitation challenge in which the
-participant must find the flaws in an x86 binary and exploit them to control
-the program's execution.
+Various steganography challenges presented at Plaid CTF 2012.
 
 ### Needed Tools
 
-* Linux
-* gdb
-* disassembler (IDA, etc.)
+* Hex Editor
+* Foremost
+* Irfan View
+* [Basic knowledge of JPEG file format](http://en.wikipedia.org/wiki/JPEG)
+* Knowledge of BMP file format
+* Basic programming knowledge
 
-Presented by: Benjamin Vanheuverzwijn
+Presented by: Mathieu Lavoie
 
-Created by: [CSAW CTF Finals 2013](https://ctf.isis.poly.edu/)
+Created by: [Plaid CTF](http://www.plaidctf.com/)
 
 ## Where
 Café Notman: http://notman.org/
 
 ## When
-Monday December 16th from 6:00 to 9:00 pm
+Monday January 20th 2014 from 6:00 to 9:00 pm
 
 ## How
-* Register at: https://www.eventbrite.ca/e/montrehack-decembre-december-silkstreet-linux-exploitation-tickets-9739935409
 * Bring your own laptop
 * Challenges will be analyzed
 * Small groups of people can work on each challenge

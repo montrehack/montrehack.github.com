@@ -5,6 +5,7 @@ title: MontréHack
 
 [English version](#english)
 
+* [26 décembre 2013](#2013-12-16-fr) Silkstreet
 * [21 octobre 2013](#2013-10-fr) CSAW Quals Recap
 * [16 septembre 2013](#2013-09-fr) Password Reset
 * [19 août 2013](#2013-08-fr) Web4Kids
@@ -13,6 +14,28 @@ title: MontréHack
 * [18 avril 2013](#2013-04-fr) iOS Forensics et Network
 * [13 mars  2013](#2013-03-fr) Web/Crypto
 * [13 février 2013](#2013-02-fr) Binary
+
+<a id="2013-12-16-fr"></a>
+# 16 décembre 2013
+
+## Problème: Silkstreet (CSAW Finals)
+
+![You didn't say the magic word!](/images/13-12_hacked.png)
+
+Problème de type exploitation pour intermédiaire. Ce défi
+était présenté à CSAW13 Finals. C'est un défi d'exploitation classique
+dans lequel le participant doit decouvrir les failles dans un binaire x86
+afin de les exploiter pour contrôler l'exécution du programme.
+
+### Outils nécessaires:
+
+* Linux
+* gdb
+* désassembleur (IDA, etc.)
+
+Présenté par: Benjamin Vanheuverzwijn
+
+Créé par: [CSAW CTF Finals 2013](https://ctf.isis.poly.edu/)
 
 <a id="2013-10-fr"></a>
 # 21 octobre 2013
