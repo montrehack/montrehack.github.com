@@ -3,14 +3,12 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: Lundi le 16 décembre 2013
+# Prochaine édition: Lundi le 20 janvier 2014
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 16 décembre 2013.
+La prochaine édition de Montréhack aura lieu lundi le 20 janvier 2013.
 
 ## Problème: Plaid CTF 2012 recap
-
-![You didn't say the magic word!](/images/13-12_hacked.png)
 
 Problèmes variés de Steganographie présentés au Plaid CTF 2012.
 
