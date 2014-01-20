@@ -26,7 +26,7 @@ We are a little unsure what the robots fascination with Star Trek is but it woul
 
 ### Outils nécessaires:
 
-* Un Hex Editor
+* Un Hex Editor, (Windows: [HxD](http://mh-nexus.de/en/hxd/), Linux: you know the one)
 * Foremost
 * Irfan View
 * [Connaissance de base du format Jpeg](http://fr.wikipedia.org/wiki/JPEG#Syntaxe_et_structure)
