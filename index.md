@@ -25,7 +25,10 @@ pour le [HackFest 2013](http://hackfest.ca).
 
 ## Où
 
-*CHANGEMENT: la rencontre sera au pavillion de l'UQAM sur Sherbrooke à 18h! Local à déterminer.*
+*CHANGEMENT: la rencontre sera au pavillion de l'UQAM sur Sherbrooke à 18h!*
+
+* 200, rue Sherbrooke Ouest, H2X 3P2, http://www.uqam.ca/campus/pavillons/sh.htm
+* Local SH-3220
 
 ## Quand
 Lundi le 17 février de 18h à 21h
@@ -59,7 +62,10 @@ Created and presented by: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com
 
 ## Where
 
-*CHANGE: the meetup will be at UQAM pavillon on Sherbrooke at 6pm! Room info upcoming.*
+*CHANGE: the meetup will be at UQAM pavillon on Sherbrooke at 6pm!*
+
+* 200, rue Sherbrooke Ouest, H2X 3P2, http://www.uqam.ca/campus/pavillons/sh.htm
+* Room SH-3220
 
 ## When
 Monday February 17th from 6:00 to 9:00 pm
