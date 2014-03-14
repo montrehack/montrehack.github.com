@@ -35,7 +35,7 @@ Lien alternatif : http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
 * Debugger (gdb, edb)
 * IDA
 
-Présenté par: Xavier Garceau-Aranda (j4v) et Sébastien Lorrain (Lrouge)
+Présenté par: Xavier Garceau-Aranda (j4v) et Sébastien Lorrain (Lrouge) de [PolyHack](http://polyhack.org/)
 
 ## Où
 
@@ -86,7 +86,7 @@ Mirror: http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
 * Debugger (gdb, edb)
 * IDA
 
-Presented by: Xavier Garceau-Aranda (j4v) et Sébastien Lorrain (Lrouge)
+Presented by: Xavier Garceau-Aranda (j4v) and Sébastien Lorrain (Lrouge) of [PolyHack](http://polyhack.org/)
 
 ## Where
 
