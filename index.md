@@ -82,7 +82,7 @@ Mirror: http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
 
 *Tools required:*
 
-* Une distro linux x64
+* Linux x64 distro
 * Debugger (gdb, edb)
 * IDA
 
