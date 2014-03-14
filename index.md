@@ -6,32 +6,46 @@ title: MontréHack
 # Prochaine édition: lundi le 17 février 2014
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 17 février 2014.
+La prochaine édition de Montréhack aura lieu lundi le 17 mars 2014.
 
-![Back in my day, XSS was a feature](http://i.imgur.com/5DP0Xmt.png)
+## Défis Rétro(ingénierie)
 
-## Défis Web!
+![I'll just learn to use gdb and then do the challenge...](https://i.imgflip.com/7ioef.jpg)
 
-Des défis Web sur une interface de webmail.
+Défis de rétro-ingénierie provenant du [Boston Key Party](http://bostonkeyparty.net/) CTF.
 
-Créé et présenté par: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der))
-pour le [HackFest 2013](http://hackfest.ca).
+### sketchy (pas x86-64)
 
-### Outils nécessaires:
+Lien : http://bostonkeyparty.net/challenges/sketchy.pcap
+Lien alternatif : http://polyhack.org/wp-content/uploads/2014/03/sketchy.pcap_.zip
 
-* Proxy web local ([Burp Suite](http://portswigger.net/burp/), 
-  [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project),
-  [VEGA](http://subgraph.com/products.html))
+*Outils nécessaires :*
+
+* WireShark
+* python
+
+### risc\_emu (x86-64)
+
+Lien : http://bostonkeyparty.net/challenges/emu-c7c4671145c5bb6ad48682ec0c58b831
+Lien alternatif : http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
+
+*Outils nécessaires :*
+
+* Une distro linux x64
+* Debugger (gdb, edb)
+* IDA
+
+Présenté par: Xavier Garceau-Aranda (j4v) et Sébastien Lorrain (Lrouge)
 
 ## Où
 
-*CHANGEMENT: la rencontre sera au pavillion de l'UQAM sur Sherbrooke à 18h!*
+*CHANGEMENT: la rencontre sera au pavillion de l'UQAM sur Président Kennedy à 18h!*
 
-* 200, rue Sherbrooke Ouest, H2X 3P2, http://www.uqam.ca/campus/pavillons/sh.htm
-* Local SH-3220
+* 201, avenue du Président-Kennedy, H2X 3Y7, http://www.uqam.ca/campus/pavillons/pk.htm
+* Local PK-1780
 
 ## Quand
-Lundi le 17 février de 18h à 21h
+Lundi le 17 mars de 18h à 21h
 
 ## Comment
 * Bring your own laptop
@@ -41,34 +55,48 @@ Lundi le 17 février de 18h à 21h
 
 
 <a id="english"></a>
-# Next edition: Monday February 17th 2014
+# Next edition: Monday March 17th 2014
 
-The next edition of Montrehack will be held on Monday February 17th 2014.
+The next edition of Montrehack will be held on Monday March 17th 2014.
 
-![Back in my day, XSS was a feature](http://i.imgur.com/5DP0Xmt.png)
+## Reversing challenges!
 
-## Web challenges!
+![I'll just learn to use gdb and then do the challenge...](https://i.imgflip.com/7ioef.jpg)
 
-Web challenges on a Webmail interface.
+Reverse-engineering challenges from the [Boston Key Party](http://bostonkeyparty.net/) CTF.
 
-Created and presented by: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) for
-[HackFest 2013](http://hackfest.ca).
+### sketchy (non x86-64)
 
-### Needed Tools
+Link: http://bostonkeyparty.net/challenges/sketchy.pcap
+Mirror: http://polyhack.org/wp-content/uploads/2014/03/sketchy.pcap_.zip
 
-* Local Web Proxy ([Burp Suite](http://portswigger.net/burp/), 
-  [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project),
-  [VEGA](http://subgraph.com/products.html))
+*Tools required:*
+
+* WireShark
+* python
+
+### risc\_emu (X86-64)
+
+Link: http://bostonkeyparty.net/challenges/emu-c7c4671145c5bb6ad48682ec0c58b831
+Mirror: http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
+
+*Tools required:*
+
+* Une distro linux x64
+* Debugger (gdb, edb)
+* IDA
+
+Presented by: Xavier Garceau-Aranda (j4v) et Sébastien Lorrain (Lrouge)
 
 ## Where
 
-*CHANGE: the meetup will be at UQAM pavillon on Sherbrooke at 6pm!*
+*CHANGE: the meetup will be at UQAM pavillon on Président-Kennedy at 6pm!*
 
-* 200, rue Sherbrooke Ouest, H2X 3P2, http://www.uqam.ca/campus/pavillons/sh.htm
-* Room SH-3220
+* 201, avenue du Président-Kennedy, H2X 3Y7, http://www.uqam.ca/campus/pavillons/pk.htm
+* Room PK-1780
 
 ## When
-Monday February 17th from 6:00 to 9:00 pm
+Monday March 17th from 6:00 to 9:00 pm
 
 ## How
 * Bring your own laptop
