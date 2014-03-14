@@ -3,7 +3,7 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: lundi le 17 février 2014
+# Prochaine édition: lundi le 17 mars 2014
 [English version](#english)
 
 La prochaine édition de Montréhack aura lieu lundi le 17 mars 2014.
