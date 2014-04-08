@@ -3,106 +3,80 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: lundi le 17 mars 2014
+# Prochaine édition: lundi le 21 avril 2014
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 17 mars 2014.
+La prochaine édition de Montréhack aura lieu lundi le 21 avril 2014.
 
-## Défis Rétro(ingénierie)
+## NorthSec Pré-party!
 
-![I'll just learn to use gdb and then do the challenge...](https://i.imgflip.com/7ioef.jpg)
+![No challenges this month. Only booze](http://i.imgur.com/zrSOYCN.png)
 
-Défis de rétro-ingénierie provenant du [Boston Key Party](http://bostonkeyparty.net/) CTF.
+Montréhack fait un spécial pré-northsec ce mois-ci avec une édition de
+réseautage et discussions quelques jours avant NorthSec. Du plaisir garanti
+avec les membres de plusieurs communautés infosec du Québec!
 
-### sketchy (pas x86-64)
+RSVP question de pouvoir réserver assez d'espace:
+https://www.eventbrite.ca/e/montrehack-avril-april-northsec-pre-party-tickets-11232307133
 
-Lien : http://bostonkeyparty.net/challenges/sketchy.pcap
-Lien alternatif : http://polyhack.org/wp-content/uploads/2014/03/sketchy.pcap_.zip
+En collaboration avec :
 
-*Outils nécessaires :*
+[<img src="images/nsec_logo.png" alt="NorthSec" width="200px">](http://nsec.io/)
+[![mtlsec](images/mtlsec_logo.png)](http://blog.mtlsec.com)
+[![OWASP Montreal](images/owasp.png)](https://www.owasp.org/index.php/Montr%C3%A9al)
 
-* WireShark
-* python
+Outils nécessaires :
 
-### risc\_emu (x86-64)
-
-Lien : http://bostonkeyparty.net/challenges/emu-c7c4671145c5bb6ad48682ec0c58b831
-Lien alternatif : http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
-
-*Outils nécessaires :*
-
-* Une distro linux x64
-* Debugger (gdb, edb)
-* IDA
-
-Présenté par: Xavier Garceau-Aranda (j4v) et Sébastien Lorrain (Lrouge) de [PolyHack](http://polyhack.org/)
+* socialdbg
+* overflow mitigation
 
 ## Où
 
-*CHANGEMENT: la rencontre sera au pavillion de l'UQAM sur Président Kennedy à 18h!*
+Benelux Sherbrooke
 
-* 201, avenue du Président-Kennedy, H2X 3Y7, http://www.uqam.ca/campus/pavillons/pk.htm
-* Local PK-1780
+* 245, rue Sherbrooke Ouest
+* http://www.brasseriebenelux.com/sherbrooke
 
 ## Quand
-Lundi le 17 mars de 18h à 21h
-
-## Comment
-* Bring your own laptop
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petit groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
+Lundi le 21 avril de 18h à 21h (minimum!)
 
 
 <a id="english"></a>
-# Next edition: Monday March 17th 2014
+# Next edition: Monday April 21st 2014
 
-The next edition of Montrehack will be held on Monday March 17th 2014.
+The next edition of Montrehack will be held on Monday April 21st 2014.
 
-## Reversing challenges!
+## NorthSec pre-party!
 
-![I'll just learn to use gdb and then do the challenge...](https://i.imgflip.com/7ioef.jpg)
+![No challenges this month. Only booze](http://i.imgur.com/zrSOYCN.png)
 
-Reverse-engineering challenges from the [Boston Key Party](http://bostonkeyparty.net/) CTF.
+Montréhack hosts a special pre-northsec party this month with networking and
+discussions just a few days short of NorthSec. Great fun with several infosec
+communities!
 
-### sketchy (non x86-64)
+RSVP will be required to reserve enough room for the group:
+https://www.eventbrite.ca/e/montrehack-avril-april-northsec-pre-party-tickets-11232307133
 
-Link: http://bostonkeyparty.net/challenges/sketchy.pcap
-Mirror: http://polyhack.org/wp-content/uploads/2014/03/sketchy.pcap_.zip
+In collaboration with:
 
-*Tools required:*
+[<img src="images/nsec_logo.png" alt="NorthSec" width="200px">](http://nsec.io/)
+[![mtlsec](images/mtlsec_logo.png)](http://blog.mtlsec.com)
+[![OWASP Montreal](images/owasp.png)](https://www.owasp.org/index.php/Montr%C3%A9al)
 
-* WireShark
-* python
+Tools required:
 
-### risc\_emu (X86-64)
-
-Link: http://bostonkeyparty.net/challenges/emu-c7c4671145c5bb6ad48682ec0c58b831
-Mirror: http://polyhack.org/wp-content/uploads/2014/03/risc_emu.zip
-
-*Tools required:*
-
-* Linux x64 distro
-* Debugger (gdb, edb)
-* IDA
-
-Presented by: Xavier Garceau-Aranda (j4v) and Sébastien Lorrain (Lrouge) of [PolyHack](http://polyhack.org/)
+* socialdbg
+* overflow mitigation
 
 ## Where
 
-*CHANGE: the meetup will be at UQAM pavillon on Président-Kennedy at 6pm!*
+Benelux Sherbrooke
 
-* 201, avenue du Président-Kennedy, H2X 3Y7, http://www.uqam.ca/campus/pavillons/pk.htm
-* Room PK-1780
+* 245, rue Sherbrooke Ouest
+* http://www.brasseriebenelux.com/sherbrooke
 
 ## When
-Monday March 17th from 6:00 to 9:00 pm
-
-## How
-* Bring your own laptop
-* Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
+Monday April 21st from 6:00 to 9:00 pm (minimum!)
 
 <hr/>
 
