@@ -3,80 +3,74 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: lundi le 21 avril 2014
+# Prochaine édition: lundi le 19 mai 2014
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 21 avril 2014.
+ATTENTION CHANGEMENT DE LIEU ET INSCRIPTION OBLIGATOIRE.
+La prochaine édition de Montréhack aura lieu lundi le 19 mai 2014 et se tiendra aux bureaux
+de Google. Nous devons fournir la liste des gens présents donc l'inscription est oblgatoire
+via le EventBrite ci-dessous.
 
-## NorthSec Pré-party!
+## Thank you MrISP
 
-![No challenges this month. Only booze](http://i.imgur.com/zrSOYCN.png)
+![Total Information Awareness](images/totalinfo.png)
 
-Montréhack fait un spécial pré-northsec ce mois-ci avec une édition de
-réseautage et discussions quelques jours avant NorthSec. Du plaisir garanti
-avec les membres de plusieurs communautés infosec du Québec!
+L'édition de ce mois-ci est présentée par Marc-André Labonté, nous verrons les challenges de la track 'Thank you MrISP' de Northsec 2014.
 
-RSVP question de pouvoir réserver assez d'espace:
-https://www.eventbrite.ca/e/montrehack-avril-april-northsec-pre-party-tickets-11232307133
+Inscription obligatoire :
+https://www.eventbrite.com/e/montrehack-post-northsec-tickets-11583876687
 
-En collaboration avec :
-
-[<img src="images/nsec_logo.png" alt="NorthSec" width="200px">](http://nsec.io/)
-[![mtlsec](images/mtlsec_logo.png)](http://blog.mtlsec.com)
-[![OWASP Montreal](images/owasp.png)](https://www.owasp.org/index.php/Montr%C3%A9al)
+Catégorie: analyse réseau
 
 Outils nécessaires :
 
-* socialdbg
-* overflow mitigation
+* outils analyse pcap (wireshark, scappy etc.) 
+* éditeur hexadécimal
+* openssl
 
 ## Où
 
-Benelux Sherbrooke
+Google 
 
-* 245, rue Sherbrooke Ouest
-* http://www.brasseriebenelux.com/sherbrooke
+* 1253 McGill College Ave Montreal, QC H3B 2Y5 CA
+* http://goo.gl/nZzgGv
 
 ## Quand
-Lundi le 21 avril de 18h à 21h (minimum!)
-
+Lundi le 19 mai de 18h à 21h (minimum!)
 
 <a id="english"></a>
-# Next edition: Monday April 21st 2014
+# Next edition: Monday May 19th 2014
 
-The next edition of Montrehack will be held on Monday April 21st 2014.
+PLEASE NOTE : DIFFERENT VENUE AND MANDATORY REGISTRATION THIS MONTH
+The next edition of Montrehack will be held on Monday May 19th 2014 at the Montreal offices
+of Google. We need to provide the list of people attending so registration is mandatory via
+the EventBrite below.
 
-## NorthSec pre-party!
+## Thank you MrISP
 
-![No challenges this month. Only booze](http://i.imgur.com/zrSOYCN.png)
+![Total Information Awareness](images/totalinfo.png)
 
-Montréhack hosts a special pre-northsec party this month with networking and
-discussions just a few days short of NorthSec. Great fun with several infosec
-communities!
+Please register:
+https://www.eventbrite.com/e/montrehack-post-northsec-tickets-11583876687
 
-RSVP will be required to reserve enough room for the group:
-https://www.eventbrite.ca/e/montrehack-avril-april-northsec-pre-party-tickets-11232307133
-
-In collaboration with:
-
-[<img src="images/nsec_logo.png" alt="NorthSec" width="200px">](http://nsec.io/)
-[![mtlsec](images/mtlsec_logo.png)](http://blog.mtlsec.com)
-[![OWASP Montreal](images/owasp.png)](https://www.owasp.org/index.php/Montr%C3%A9al)
+Category:
+Network analysis
 
 Tools required:
 
-* socialdbg
-* overflow mitigation
+* pcap analysis tool (wireshark, scappy etc.) 
+* hex editor
+* openssl
 
 ## Where
 
-Benelux Sherbrooke
+Google 
 
-* 245, rue Sherbrooke Ouest
-* http://www.brasseriebenelux.com/sherbrooke
+* 1253 McGill College Ave Montreal, QC H3B 2Y5 CA
+* http://goo.gl/nZzgGv
 
 ## When
-Monday April 21st from 6:00 to 9:00 pm (minimum!)
+Monday May 19th from 6:00 to 9:00 pm (minimum!)
 
 <hr/>
 
