@@ -3,6 +3,10 @@ layout: default
 title: MontréHack
 ---
 
+# Les instructions / Tonight's instructions
+
+http://www.ouaibe.qc.ca/mtrehack/instructions/
+
 # 3e Lundi / 3rd Monday: 2014-09-15
 
 ## NorthSec Smartcards
