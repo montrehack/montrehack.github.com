@@ -40,7 +40,7 @@ Liens :
 * nginx http://nginx.org/en/download.html
 * Apache http://httpd.apache.org/download.cgi
 
-Présenté par : Philippe Arteau 
+Présenté par : Philippe Arteau Twitter: [@hexstream](https://twitter.com/h3xstream) 
 
 <hr/>
 
@@ -80,7 +80,7 @@ Links :
 * nginx http://nginx.org/en/download.html
 * Apache http://httpd.apache.org/download.cgi
 
-Presented by : Philippe Arteau 
+Presented by : Philippe Arteau Twitter: [@hexstream](https://twitter.com/h3xstream) 
 
 <hr/>
 
