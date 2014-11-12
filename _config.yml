@@ -1,7 +1,7 @@
 # pages github defaults
 safe: true
 lsi: false
-pygments: true
+highlighter: pygments
 
 # get automatic linking of URLs w/ redcarpet and autolink extension
 markdown: redcarpet

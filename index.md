@@ -7,80 +7,92 @@ title: MontréHack
 
 [English version](#english)
 
-## 2014-10-20
-## Problème: Défis Web
+## 2014-11-17
+## GoSec CTF Web crypto et pcap forensic
 
-![the web](/images/Web.jpg)
+![Javascript Cryptography](http://i.imgur.com/gTwMDPv.jpg)
 
-Ce mois-ci, MontréHack présente deux défis Web de niveau intermédiaire. À partir de deux applications web en apparence banales, vous devriez arriver à obtenir un accès "shell" aux différents serveurs.
+### Secure mail (Web challenge)
 
-## Inscription 
+La meilleure façon d'être certain que votre compte courriel reste secret c'est
+l'utilisation de forte cryptographie. Mais encore il faut l'utiliser
+correctement! Peut-être qu'on peut obtenir un shell sur le serveur Web?
 
-L'inscription pour ce mois-ci est facultative, mais nous avons un commanditaire qui offre de la **pizza** aux participants. Donc si vous en voulez merci de vous inscrire sur le EventBrite suivant pour qu'on sache quelle quantité commander :
+### The lost data (pcap forensic)
 
-**EventBrite** : https://www.eventbrite.ca/e/montrehack-tickets-13452331285
+Quelqu'un a volé un secret mais on ne peut pas le prouver. Pouvez-vous aider?
 
-## Où : 
+## Inscription
 
-Maison Notman, 51 Sherbrooke Ouest, Montréal. [Google Maps](http://goo.gl/Cv4Z5O) 
+L'inscription pour ce mois-ci est *obligatoire* afin de prévoir l'espace et les
+rafraîchissements. Merci de vous inscrire sur le lien suivant :
+https://www.eventbrite.ca/e/montrehack-novembre-november-gosec-ctf-web-crypto-and-pcap-forensics-tickets-14308618463
 
-## Quand : 
+## Où :
 
-Lundi 20 octobre de 18h à 21h (et bière après au BENELUX)
+Google
+
+* 1253 McGill College Ave Montreal, QC H3B 2Y5 CA
+* http://goo.gl/nZzgGv
+
+## Quand :
+
+Lundi 17 novembre de 18h à 21h (et bière après au 3 Brasseurs Ste-Catherine)
 
 ### Outils nécessaires:
 
-* un proxy HTTP : Burp Suite, OWASP ZAP, Fiddler etc.
-* un serveur HTTP prêt à servir des fichiers : Apache, nginx etc. 
+* Burpsuite
+* Python
+* tshark, wireshark
+* Your eyes
 
-Liens :
-
-* Burp Suite http://portswigger.net/burp/download.html
-* OWASP ZAP https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-* nginx http://nginx.org/en/download.html
-* Apache http://httpd.apache.org/download.cgi
-
-Présenté par : Philippe Arteau Twitter: [@hexstream](https://twitter.com/h3xstream) 
+Créé et présenté par : Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r))
 
 <hr/>
 
 <a id="english"></a>
 **English version**
 
-## 2014-10-20
-## Challenge: Web Challenges
+## 2014-11-17
+## GoSec CTF Web crypto and pcap forensic
 
-![the web](/images/Web.jpg)
+![Javascript Cryptography](http://i.imgur.com/gTwMDPv.jpg)
 
-This month MontreHack will present two intermediate Web challenges. Your goal is to hack 2 web applications to get shell access on the web servers. 
+### Secure mail (Web challenge)
 
-## Registration 
+Better way to make sure your email remain secret is to use strong cryptography.
+But use it the right way will help. Maybe we can try go gain a shell on the web
+server.
 
-Registration is not mandatory, but we have a sponsor offering **pizza**! Please register on the EventBrite below if you want some so that we know how many to order :
+### The lost data (pcap forensic)
 
-**EventBrite** : https://www.eventbrite.ca/e/montrehack-tickets-13452331285
+Someone steal some secret data but we are not able to prove it. Can you please
+help us.
 
-## Where : 
+## Registration
 
-Notman House, 51 Sherbrooke Ouest, Montréal. [Google Maps](http://goo.gl/Cv4Z5O) 
+This month's registration is *mandatory*. Please register using the following link:
+https://www.eventbrite.ca/e/montrehack-novembre-november-gosec-ctf-web-crypto-and-pcap-forensics-tickets-14308618463
 
-## When : 
+## Where:
 
-Monday October 20th, 6PM to 9PM (and beer afterwards at BENELUX)
+Google
 
-### Needed Tools:
+* 1253 McGill College Ave Montreal, QC H3B 2Y5 CA
+* http://goo.gl/nZzgGv
 
-* an HTTP proxy : Burp Suite, OWASP ZAP, Fiddler etc.
-* an HTTP to serve files : Apache, nginx etc. 
+## When:
 
-Links :
+Monday November 17th, 6pm to 9pm (and beer afterwards at 3 Brasseurs Ste-Catherine)
 
-* Burp Suite http://portswigger.net/burp/download.html
-* OWASP ZAP https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-* nginx http://nginx.org/en/download.html
-* Apache http://httpd.apache.org/download.cgi
+### Required Tools:
 
-Presented by : Philippe Arteau Twitter: [@hexstream](https://twitter.com/h3xstream) 
+* Burpsuite
+* Python
+* tshark, wireshark
+* Your eyes
+
+Created and presented by: Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r))
 
 <hr/>
 
