@@ -3,15 +3,11 @@ Quick how-to.
 
 ## Local testing
 
-* Install dependencies:
-
-        $ sudo apt-get install jekyll ruby-redcarpet
-
-  Could also be done from `gem`
+* Install jekyll: http://jekyllrb.com/docs/installation/ (don't use packaged versions they are too old)
 
 * Run the dev server:
 
-        $ jekyll --server --auto
+        $ jekyll serve --watch
 
 * View the site: http://localhost:4000/
 
