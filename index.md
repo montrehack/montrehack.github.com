@@ -33,7 +33,7 @@ H3B 2Y5
 
 ## Quand :
 
-Lundi, 21 janvier 2015 de 18h à 21h (suivi de bières au Bénélux)
+Lundi, 12 janvier 2015 de 18h à 21h (suivi de bières au Bénélux)
 
 ## Outils nécessaires:
 
