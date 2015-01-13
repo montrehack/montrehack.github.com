@@ -7,82 +7,80 @@ title: MontréHack
 
 [English version](#english)
 
-## 2014-12-15
-## Poppin' the Linux kernel (CSAW Finals 2013)
+## 2015-01-12
+## Initiation au CTF microcorruption
 
-![Corn Kernel poping](images/14-12_kern_pop.gif)
+Nous présenterons certaines épreuves de Microcorruption, une compétition 
+de sécurité embarquée.  Vous pouvez jouer à en ligne: 
+https://microcorruption.com/about.  Les épreuves concernent principalement 
+l'exploitation de failles logiciel.
 
-### Exploitation d'un module noyau vulnérable
-
-Échangez votre navigateur web pour un shell ce mois-ci. Il faudra bucher
-pour obtenir les privilèges root sur une machine Linux. Le but est simple:
-utiliser un module kernel vulnérable pour transformer votre `$` pour un `#`.
+Les premiers niveaux de ce CTF seront présentés, en espérant vous motiver à 
+toutes les solutionner par la suite.
 
 ## Inscription
 
-Merci de vous inscrire sur le lien suivant: https://www.eventbrite.ca/e/montrehack-decembre-december-poppin-the-linux-kernel-tickets-14810363195
+**Inscription obligatoire**: merci de vous inscrire sur le lien suivant: 
+https://www.eventbrite.com/e/montrehack-janvier-2015-tickets-15295059936
 
 ## Où :
 
-Salle de réunion de la [Maison Notman](http://notman.org/).
+[Google Montreal](https://www.google.ca/about/careers/locations/montreal/#tab=tab-map)
 
-[51 Sherbrooke Ouest](https://www.google.ca/maps/place/Notman+House/@45.511777,-73.570094,17z)  
+1253 McGill College  
 Montréal, QC  
-H2X 1X2
+H3B 2Y5
 
 ## Quand :
 
-Lundi, 15 décembre 2014 de 18h à 21h (suivi de bières au Bénélux)
+Lundi, 21 janvier 2015 de 18h à 21h (suivi de bières au Bénélux)
 
 ## Outils nécessaires:
 
-* VirtualBox (Une machine virtuelle sera distribuée)
-* Un shell
+* Un navigateur internet
+* Un compte sur le site [microcorruption](https://microcorruption.com)
 * De la patience
 
-Épreuve par Brad Oberberg  
-Présenté par Marc-Etienne M.Léveillé ([@marc\_etienne\_](https://twitter.com/marc_etienne_))
+Présenté par Pierre-Marc Bureau [@pmbureau](https://twitter.com/pmbureau)
 
 <hr/>
 
 <a id="english"></a>
 **English version**
 
-## 2014-12-15
-## Poppin' the Linux kernel (CSAW Finals 2013)
+## 2015-01-12
+## Starting with the microcorruption CTF
 
-![Corn Kernel poping](images/14-12_kern_pop.gif)
+We are presenting some challenges from Microcorruption, an embedded 
+security CTF, which can be played online: https://microcorruption.com/.  The
+ challenges are about exploitation of software vulnerabilities.
 
-### Exploiting a vulnerable kernel module
-
-Trade your web browser for a shell this month. Hard work will be required to
-gain root privileges on a Linux machine. The goal is simple: exploit a kernel
-module vulnerability to transform your `$ into a `#`.
+Solutions for the first levels will be presented in hope to motivate you into 
+solving them all afterward.
 
 ## Registration
 
-Please register by following the link: https://www.eventbrite.ca/e/montrehack-decembre-december-poppin-the-linux-kernel-tickets-14810363195
+**It is mandatory to register**, please register by following the link: https://www.eventbrite.com/e/montrehack-janvier-2015-tickets-15295059936
 
 ## Where:
 
-[Maison Notman](http://notman.org/)'s meeting room.
+[Google Montreal](https://www.google.ca/about/careers/locations/montreal/#tab=tab-map)
 
-[51 Sherbrooke Ouest](https://www.google.ca/maps/place/Notman+House/@45.511777,-73.570094,17z)  
+1253 McGill College  
 Montréal, QC  
-H2X 1X2
+H3B 2Y5
 
 ## When:
 
-Monday, Décembre 15th 2014 from 6pm to 9pm (followed by drinks at Bénélux)
+Monday, January 12th 2015 from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Required Tools:
 
-* VirtualBox (A virtual machine will be distributed)
-* A shell
+* A web browser
+* An account on [microcorruption](https://microcorruption.com)
 * Patience
 
-Challenge by Brad Oberberg  
-Presented by Marc-Etienne M.Léveillé ([@marc\_etienne\_](https://twitter.com/marc_etienne_))
+Presented by [@pmbureau](https://twitter.com/pmbureau)
 
 <hr/>
 
