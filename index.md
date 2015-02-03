@@ -7,66 +7,80 @@ title: MontréHack
 
 [English version](#english)
 
-## 2015-02-16
-## Forensics android CySCA2014
+## 2015-01-19
+## Initiation au CTF microcorruption
 
-Dans le cadre de cet exercice, on demande aux participants d'inspecter la 
-mémoire d'un téléphone Android pour y identifier des comportements suspects.
+Nous présenterons certaines épreuves de Microcorruption, une compétition 
+de sécurité embarquée.  Vous pouvez jouer à en ligne: 
+https://microcorruption.com/about.  Les épreuves concernent principalement 
+l'exploitation de failles logiciel.
+
+Les premiers niveaux de ce CTF seront présentés, en espérant vous motiver à 
+toutes les solutionner par la suite.
 
 ## Inscription
 
-L'inscription à l'avance n'est pas nécessaire, juste à vous présenter sur place!
+**Inscription obligatoire**: merci de vous inscrire sur le lien suivant: 
+https://www.eventbrite.com/e/montrehack-janvier-2015-tickets-15295059936
 
 ## Où :
 
-[Maison Notman](http://notman.org/)
+[Google Montreal](https://www.google.ca/about/careers/locations/montreal/#tab=tab-map)
 
-51 Rue Sherbrooke Ouest
-Montréal, QC H2X 1X2
-Canada
+1253 McGill College  
+Montréal, QC  
+H3B 2Y5
 
 ## Quand :
 
-Lundi, 16 février 2015 de 18h à 21h (suivi de bières au Bénélux)
+Lundi, 19 janvier 2015 de 18h à 21h (suivi de bières au Bénélux)
 
 ## Outils nécessaires:
 
-* [Volatility](https://code.google.com/p/volatility/)
+* Un navigateur internet
+* Un compte sur le site [microcorruption](https://microcorruption.com)
+* De la patience
 
-Présenté par Xavier Garceau-Aranda de [PolyHack](http://polyhack.org/)
+Présenté par Pierre-Marc Bureau [@pmbureau](https://twitter.com/pmbureau)
 
 <hr/>
 
 <a id="english"></a>
 **English version**
 
-## 2015-02-16
-## Android Forensics CySCA2014
+## 2015-01-19
+## Starting with the microcorruption CTF
 
-The Android Forensics challenges require participants to conduct an analysis of a 
-memory dump taken from an Android phone to identify any suspicious behaviour.
+We are presenting some challenges from Microcorruption, an embedded 
+security CTF, which can be played online: https://microcorruption.com/.  The
+ challenges are about exploitation of software vulnerabilities.
+
+Solutions for the first levels will be presented in hope to motivate you into 
+solving them all afterward.
 
 ## Registration
 
-No registration required!
+**It is mandatory to register**, please register by following the link: https://www.eventbrite.com/e/montrehack-janvier-2015-tickets-15295059936
 
 ## Where:
 
-[Notman House](http://notman.org/)
+[Google Montreal](https://www.google.ca/about/careers/locations/montreal/#tab=tab-map)
 
-51 Rue Sherbrooke Ouest
-Montréal, QC H2X 1X2
-Canada
+1253 McGill College  
+Montréal, QC  
+H3B 2Y5
 
 ## When:
 
-Monday, February 16th 2015 from 6pm to 9pm (followed by drinks at Bénélux)
+Monday, January 19th 2015 from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Required Tools:
 
-* [Volatility](https://code.google.com/p/volatility/)
+* A web browser
+* An account on [microcorruption](https://microcorruption.com)
+* Patience
 
-Presented by Xavier Garceau-Aranda from [PolyHack](http://polyhack.org/)
+Presented by [@pmbureau](https://twitter.com/pmbureau)
 
 <hr/>
 
