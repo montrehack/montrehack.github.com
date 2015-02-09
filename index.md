@@ -10,6 +10,8 @@ title: MontréHack
 ## 2015-02-16
 ## Forensics android CySCA2014
 
+![CTF Forensics](https://i.imgflip.com/h3p2x.jpg)
+
 Dans le cadre de cet exercice, on demande aux participants d'inspecter la 
 mémoire d'un téléphone Android pour y identifier des comportements suspects.
 
