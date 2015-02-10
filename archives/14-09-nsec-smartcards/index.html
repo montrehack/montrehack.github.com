@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Montrehack NorthSec Smart Cards</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/nsec.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+<!--
+Page d'accueil
+
+~whoami
+
+- B.Sc. C.S.
+- EMV/PCI (& other payment specs) Expert
+- Infosec passionate (*REcon, 2x nsec, CTFs ...)
+- Currently employed by FI (security architect/smart card expertise)
+- Originally JAPH, now CoolKids&trade; Python convert
+- Obligatory Venn diagram : NP-Hard, Social(ist) issues, Computing
+
+~man smartcard
+
+- Often misunderstood, bad rep, the "dark art" of CS.
+	<image dark voodoo card>
+
+- Then again very "simple" designs.
+	- Usually based on intel 8051 instruction set (16 bit)
+	- Proprietary/custom designs
+	- Some KB to few MB storage (EEPROM/Flash)
+	<image>
+	
+- Protections
+	- DPA/SCA detection <image>
+	- Fault detection (dual CPU)
+	- 5 to 6 layer metal interconnect <image>
+	- Gate obfuscation
+	- Memory/bus/cache encryption
+	- Active shields/phototransistors <image>
+	- EAL5+/EMVco yada yada certified
+	
+- Then again...
+	- Moneyshot SLE66PE
+	<image>
+	- Photonic emission
+	<image>
+	- IC backside
+	<image>
+	
+	- But, this is not what you'll be doing (no budget for FIB) :)
+
+- So how do you communicate with the chip ?
+	- Bi-directional serial interface 
+	- T=0/T=1 (or T=CL) protocol
+	- Vcc GND
+	  RST Vpp
+	  CLK I/O
+	- Basically : we send data, the chip replies.
+	
+	
+- So in the end 
+~ 
+
+
+- Crediter les sources.
+
+-->
+			<!-- hack from http://www.raymondcamden.com/index.cfm/2014/4/1/Adding-an-Absolutely-Positioned-Header-to-Revealjs -->
+			<!--<header style="position: absolute;top: 50px; left: 100px; z-index:500;   margin: 0 0 20px 0;color: #428BCA;font-size: 1.55em;font-family: impact,ImpactRegular,arial,sans-serif;line-height: 0.9em;letter-spacing: 0.02em;text-transform: uppercase;text-shadow: none;"></header>-->
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1><img class="tst" src="img/nsec_logo.png"></h1>
+					<h3>The "infamous" NorthSec <br> Smart Card Track</h3>
+					<p>
+						<small><a href="http://twitter.com/ouaibe_">@ouaibe_</a> / <a href="#">ouaibe&#x000000000000040nsec.io</a></small>
+					</p>
+				</section>
+
+				<section>	
+							<h3><font color="#333">$</font>whoami</h3>
+							<ul>
+								<li class="fragment">B.Sc. C.S.</li>
+								<li class="fragment">EMV/PCI (& other payment specs) Expert (avid ISO/RFC reader) </li>
+								<li class="fragment">Infosec passionate (*REcon, 2x nsec, CTFs ...)</li>
+								<li class="fragment">Originally JAPH, now <i>CoolKids&trade;</i> Python convert</li>
+								<li class="fragment">Currently employed by FI (security architect/smart card expertise)</li>
+								<li class="fragment">Obligatory Venn diagram : </li>
+							</ul><h1><img class="fragment" src="img/venn.png"></h1>
+								<div  class="fragment">Also, father :)</div>
+				</section>
+				<section>
+					<section>
+						<h3><font color="#333">$</font>man smartcard</h3>
+							<br>
+							Often  misunderstood & FUD-infused...
+						<div class="fragment">
+							<blockquote cite="https://en.wikipedia.org/wiki/Clarke%27s_three_laws">
+								&ldquo;Any sufficiently advanced technology is indistinguishable from magic&rdquo; <br>--Arthur C. Clarke
+							</blockquote>
+							<h1><img src="img/black_magic_card.png"></h1>
+						</div>
+						<div class="fragment">
+							<b>But is it really ?</b>
+						</div>
+					</section>
+					<section>
+						<h3><font color="#333">$</font>man smartcard_arch</h3>
+						<ul>
+								<li class="fragment">Pretty "simple" Von Neumann(-ish) designs</li>
+								<li class="fragment">Usually based on intel 8051 instruction set (16 bit)</li>
+								<li class="fragment">Proprietary/custom design/instructions</li>
+								<li class="fragment">*SOME* other arch (ARM, MIPS, etc.)</li>
+								<li class="fragment">Hardware crypto-processors (RSA/DES/AES)</li>
+								<li class="fragment">From a couple KB to a couple MB storage.</li>
+						</ul><br>
+						<img class="fragment" height="400px" width="400px" src="img/die_outlined.jpg">
+					</section>	
+					<section>
+						<h3><font color="#333">$</font>man smartcard_sec</h3>
+						<div>Many security features...</div>
+						<table border="1" class="fragment" data-fragment-index="1">
+						<tr><td>
+						<ul>
+							<li>DPA/SCA detection</li>
+							<li class="fragment" data-fragment-index="2">Fault detection (dual CPU)</li>
+							<li class="fragment" data-fragment-index="3">5+ layer metal interconnect</li>
+							<li class="fragment" data-fragment-index="4">Gate obfuscation</li>
+							<li class="fragment" data-fragment-index="5">Memory/bus/cache encryption</li>
+							<li class="fragment" data-fragment-index="6">Active shields & phototransistors</li>
+							<li class="fragment" data-fragment-index="7">EAL5+/EMVco <i>yada yada</i> certified</li>
+						</ul></td>
+						<td style="vertical-align:top">
+							<div class="fragment" data-fragment-index="3"><img height="200px" src="img/multi_layer_interconnect.png"></div><br><div class="fragment"  data-fragment-index="6"><img height="200px" src="img/meshes_sm1.jpg"></div></td>
+						</tr>
+						</table>
+					</section>
+					<section>
+						<h3><font color="#333">$</font>man smartcard_fail</h3>
+						<div>Then again...</div>
+						<table border="0" class="fragment">
+							<tr>
+								<td colspan="3">Smart delayering/netlist reconstruction<br><img height="175px" src="img/moneyshot.jpg"></td>
+							</tr>
+							<tr>
+								<td class="fragment">Photonic emission<br><img height="200px"  src="img/photonic_emission.jpg"></td>
+								<td class="fragment">IC Backside<br><img height="200px" src="img/ic_backside.jpg"></td>
+								<td class="fragment">Laser probing<br><img height="200px"  src="img/laser_probing.jpg"></td>
+							</tr>
+						</table>
+
+					</section>
+					<section>
+						But, this is <b>not</b> what you'll be doing (no budget for FIB) :)<br><img height="282px" src="img/fib.jpg">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div>How do you communicate with the chip ?</div><br>
+						<ul>
+							<li class="fragment">Via a bi-directional serial interface</li><br>
+							<li class="fragment">Using T=0/T=1 (or T=CL) protocol</li><br>
+							<li class="fragment">Card contacts pinout: <br><h1><img height="150px" src="img/contact_pinout.png"></h1></li><br>
+							<li class="fragment">Only Vcc, I/O, RST, CLK & GND used</li><br>
+							<li class="fragment"><u>Or just install the right packages & USB reader...</u></li>
+						</ul>
+					</section>
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div>Basically, you send data to the card, it replies (or not).</div><br>
+						<div data-markdown>
+						<script type="text/template">
+```
+	*RESET / ATR*
+    
+    Terminal ----Command1----> Card
+
+    Terminal <---Response1---- Card
+
+    Terminal ----Command2----> Card
+
+    Terminal <---Response2---- Card
+
+    ...
+```
+					</script>
+						</div>
+					</section>
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div>Steps to communicate with the card.</div><br>
+						<ol>
+							<li class="fragment">Establish protocol parameters, a.k.a obtain <b>ATR</b> (Answer To Reset), depends on tooling & reader.</li><br>
+							<li class="fragment">Send commands to the card, called <b>APDU</b> (Application Protocol Data Unit)</li><br>
+							<li class="fragment">Receive data & response code, called <b>SW</b> (Status Words)</li><br>
+						</ol>
+						<div data-markdown class="fragment">
+						<script type="text/template">
+```							
+    Terminal ----APDU----> Card
+	Terminal <--DATA+SW--- Card
+```
+or
+```
+	Terminal ----APDU----> Card
+	Terminal <---SW------- Card
+```						
+						</script>
+						</div>
+					</section>
+					
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div><b>APDU</b> format <i>(XX denotes 1 Byte in Hex)</i></div>			
+						<div data-markdown class="fragment">
+						<script type="text/template">
+```
+	  ___CLA
+	 |   ___INS
+	 |  |   ____P1
+	 |  |  |   ____P2
+	 |  |  |  |   ___Lc
+	 |  |  |  |  |   ____Data
+	 |  |  |  |  |  |     
+	XX XX XX XX XX XXXXXX...
+```
+						</script>
+						</div>
+						<ul>
+							<li class="fragment"><b>CLA</b>: Class of the command "generally" '00' for industry-standard command and '80' for proprietary commands (could differ).</li>
+							<li class="fragment"><b>INS</b>: The instruction of the command : The actual instruction that the card will act upon (i.e. what to do).</li>
+							<li class="fragment"><b>P1/P2</b>: The First/Second Parameter : The parameters for the Instruction whenever it needs one (or '00' otherwise).</li>
+							<li class="fragment"><b>Lc</b>: The length of the Data that follows.</li>
+							<li class="fragment"><b>Data</b>: The Data to send to the card (also in hex), optional and not needed if Lc='00'.<br><u>Except for the Data, all those bytes are <b>mandatory</b>.</u></li>
+						</ul>
+					</section>
+					
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div><b>SW</b> format <i>(XX denotes 1 Byte in Hex)</i></div><br>
+						<div data-markdown class="fragment">
+						<script type="text/template">
+```
+	  _SW1
+	 |   _SW2
+	 |  |
+	XX XX
+```
+						</script>
+						</div>
+						<ul>
+							<li class="fragment"><b>SUCCESS</b>: 9000</li>
+							<li class="fragment"><b>ERROR</b>: 6XXX  (Could be '6985', '6601', etc.) different code = different error.</li>
+							<li class="fragment"><b>Special Case</b>: 61XX, more bytes await in reply, send "GET RESPONSE" to card to have them.</li>	
+						</ul>
+					</section>
+					
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div>Example using <b>SELECT</b> command.</div>
+						<div data-markdown class="fragment">
+						<script type="text/template">
+							
+	00 A4 04 00 07 414E4F42415231
+	_______________A N O B A R 1 (Following the ASCII Table).
+	
+Looking like this as a flow :
+
+	Terminal --00A4040007414E4F42415231--> Card
+	Terminal <----------9000-------------- Card (No specific message)
+
+Or  :
+
+	Terminal --00A4040007414E4F42415231--> Card
+	Terminal <---ABCDEF00112233449000----- Card (Some application data returned)
+
+Or  :
+
+	Terminal --00A4040007414E4F42415231--> Card
+	Terminal <---ABCDEF00112233446109----- Card (Data + '09' bytes remaining)
+	Terminal ---------00C0000009---------> Card
+	Terminal <--0102030405060708099000---- Card	               
+						</script>
+						</div>
+					</section>
+
+					<section>
+						<h3><font color="#333">$</font>cat /dev/smartcard</h3>
+						<div>One last advice... <i>(a.k.a I was lazy)</i></div><br>
+						You have to be very careful of the return of the <b>SELECT</b> command, some cards might return <b>9000</b> for any <b>SELECT</b> command even if the selected context does not exist.<br><br>
+						You would only be able to know you've selected the right context by looking at the returned value from <b>SELECT</b> or by sending other commands to the application and see if they work.
+					</section>					
+					
+				</section>
+				
+				<section>
+					<h3>HAX AWAY !</h3>
+					You need to find 11 flags :
+					<ul class="fragment">
+						<li>The Card OS version<b>* <i>(Card I/O)</i></b></li>
+						<li>The Card Serial Number<b>* <i>(Card I/O)</i></b></li>
+						<li>The Protected Derived Key<b>* <i>(Card I/O)</i></b></li>
+						<font color="#FF0000"><li>The First & Second Migration Export Key Part<b>* <i>(Crypto)</i></b></li></font>
+						<li>The Mother Card Key <b><i>(Crypto)</i></b></li>
+						<font color="#FF0000"><li>The Derived Card Key<b>* <i>(Crypto)</i></b></li></font>
+						<li>The Original Key<b>* <i>(Crypto)</i></b></li>
+						<font color="#FF0000"<li>The Master Key <b><i>(Crypto)</i></b></li></font>
+						<li><del>The Expense Count Reset Phone Number</del> <b><i>(N/A)</i></b></li>
+						<li>The Visual Flag<br><b>*</b> = Independent flags.</li>
+					</ul><br>
+					
+				</section>
+				<section>
+					<section>
+						<h3><font color="#333">$</font>grep flag *</h3>
+						<h1><img src="img/NSEC14 - Key architecture diagram.png"></h1>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3><font color="#333">$</font>grep Migration Export Key</h3>
+						Magic Formula :
+						<div data-markdown class="fragment">
+						<script type="text/template">
+```
+ENC(KP1,ENC(CSN^CV,ENC(KP2,ENC(CSN^CV^KP1,CV)))) = CV
+ ^       ^          ^       ^
+ |       |          |       |
+ |       |          |       |__ 1
+ |       |          |__________ 2
+ |       |_____________________ 3
+ |_____________________________ 4
+```
+						</script>
+						</div>
+						<div class="fragment">
+						4 Nested <b>3DES_EDE2_ECB</b> Encryptions with varying keys.<br>
+						<img class="fragment" src="img/rage.png" height="200">			
+						</div>
+					</section>
+					<section>
+					<h3><font color="#333">$</font>grep Migration Export Key</h3>
+					<div data-markdown>
+					<script type="text/template">
+```
+ENC(KP1,ENC(CSN^CV,ENC(KP2,ENC(CSN^CV^KP1,CV)))) = CV
+```
+					</script>
+				</div>
+					<ul>
+						<li class="fragment"><i>Always encrypt.</i> OK. <i>Cancels itself out.</i> Hmmmm ?</li>
+						<li class="fragment">Special Property of DES key schedule.</li>
+						<li class="fragment">DES(key,DES(key,X)) == X when key is a <b>WEAK KEY</b>.</li>
+						<li class="fragment">DES(key1,DES(key2,X)) == X when key1/2 is a <b>SEMI-WEAK KEY</b>.</li>
+						<li class="fragment">Property transposes from DES to 3DES (E, D, E).</li>
+						<li class="fragment">Known DES Semi-Weak Keys in pairs (c.f. Wikipedia) : <br>
+						<div data-markdown>
+						<script type="text/template">
+```
+    0x011F011F010E010E and 0x1F011F010E010E01
+    0x01E001E001F101F1 and 0xE001E001F101F101
+    0x01FE01FE01FE01FE and 0xFE01FE01FE01FE01
+    0x1FE01FE00EF10EF1 and 0xE01FE01FF10EF10E
+    0x1FFE1FFE0EFE0EFE and 0xFE1FFE1FFE0EFE0E
+    0xE0FEE0FEF1FEF1FE and 0xFEE0FEE0FEF1FEF1
+```
+</script>
+</div>
+						</li>
+					</ul>
+					</section>
+					<section>
+					<h3><font color="#333">$</font>grep Migration Export Key</h3>
+					<div data-markdown>
+					<script type="text/template">
+```
+ENC(KP1,ENC(CSN^CV,ENC(KP2,ENC(CSN^CV^KP1,CV)))) = CV
+```
+					</script>
+					</div>
+					<table>
+						<tr><td>
+							<img class="fragment" src="img/mays.jpg">
+							</td>
+							<td style="vertical-align:top">
+							<ul>
+							<li class="fragment">You probably thought <b>CSN</b> was random.</li>
+							<li class="fragment">*Chuck Testa!* :</li>
+					<div data-markdown class="fragment">
+					<script type="text/template">
+```
+CSN ^ CV =
+5EB050BA4BB84FAB53AA54BB57AD4BAA ^
+414E4F44454641554C544B4559534554 =
+1FFE1FFE0EFE0EFE1FFE1FFE0EFE0EFE
+```
+					</script>
+					</div>							
+					<li class="fragment">OH HAI !  So....</li>
+					<li class="fragment">
+					<div data-markdown>
+					<script type="text/template">
+```
+Let KP1 := 
+FE1FFE1FFE0EFE0EFE1FFE1FFE0EFE0E
+CSN^CV^KP1 = 
+E1E1E1E1F0F0F0F0E1E1E1E1F0F0F0F0
+Hence KP2 = 
+E1E1E1E1F0F0F0F0E1E1E1E1F0F0F0F0
+```
+					</script>
+					</div>
+					</li>
+							</ul>
+							</td>
+						</tr>
+					</table>
+					<div class="fragment">
+					<b>This also gives you the MCK !</b><br>
+					<div style="text-align: right">
+					&#x220e;</div></div>
+					
+					</section>
+				</section>
+				<section>
+					<section>
+					<h3><font color="#333">$</font>grep Derived (internal) Card Key.</h3>	
+					<div data-markdown>
+					<script type="text/template">
+```
+RSA algorithm has been carefully set at '03' with 'minimal padding' (...)
+```
+					</script>
+					</div>
+					<ul>
+						<li class="fragment" data-fragment-index="1">Weak exponent.</li>
+						<li class="fragment" data-fragment-index="2">Weak padding.</li>
+						<li class="fragment" data-fragment-index="3">Could this be... Textbook RSA fawkery ?</li>
+					</ul>
+					<div class="fragment" data-fragment-index="3"><img src="img/aliens.jpg" height="200"></div>
+					</section>
+					<section>
+					<h3><font color="#333">$</font>grep Migration Export Key</h3>
+					Quick reminder on RSA :
+					<div data-markdown>
+					<script type="text/template">
+```
+c = m ^ e mod n
+```
+					</script>
+					</div>
+					<div class="fragment">
+					What could happen if 'e' is small and 'm' is badly padded ?
+					</div>
+					<div class="fragment">
+					<div data-markdown>
+					<script type="text/template">
+```
+m ^ e < n
+c = m ^ e
+m = pow(m, 1/e)
+```
+					</script>
+					</div>
+					</div>
+					<div class="fragment">
+					Which leads to :
+					<div data-markdown>
+					<script type="text/template">
+```
+m = pow(m, 1/3)
+m = AE6A67017D502D2E4FBB9F1C809625DF
+```
+					</script>
+					</div>
+					<div style="text-align: right" class="fragment">&#x220e;</div>
+					</div>
+					</section>
+			</section>
+			<section>
+					<section>
+					<h3><font color="#333">$</font>grep Master Key</h3>
+					First, find <b>Original Key</b><i>*Not Presented Tonight*</i>.<br>
+					<a href="http://smartfacts.cr.yp.to/smartfacts-20130916.pdf">http://smartfacts.cr.yp.to/smartfacts-20130916.pdf</a><br>
+					<div class="fragment" class="fragment" data-fragment-index="1">
+					Then, notice that we know 'MCK', 'OK' and 'DCK'.<br>
+					</div>
+					<center>
+					<table width="900" align="center">
+						<tr>
+							<td style="vertical-align:top">
+					<div data-markdown  class="fragment" class="fragment" data-fragment-index="2">
+					<script type="text/template">
+```
+ENC:=AES_128_ENC(MCK,<data>)
+DEC:=AES_128_DEC(MCK,<data>)
+```
+					</script>
+					</div>
+					
+					<div data-markdown  class="fragment">
+					<script type="text/template">
+```
+DCK         = ENC(MK^OK)
+```						
+					</script>
+					</div>
+					
+					<div data-markdown  class="fragment">
+					<script type="text/template">
+```
+DEC(DCK)    = DEC(ENC(MK^OK))
+```						
+					</script>
+					</div>
+					
+					<div data-markdown  class="fragment">
+					<script type="text/template">
+```
+DEC(DCK)    = MK^OK
+```						
+					</script>
+					</div>
+					
+					<div data-markdown  class="fragment">
+					<script type="text/template">
+```
+OK^DEC(DCK) = MK^OK^OK
+```						
+					</script>
+					</div>
+
+					<div data-markdown  class="fragment">
+					<script type="text/template">
+```
+OK^DEC(DCK) = MK
+```						
+					</script>
+				</div></td>
+				<td style="text-align: right" class="fragment" data-fragment-index="2"><img src="img/fry.jpg" height="290" ></td>
+			</tr>
+		</table></center>
+					<div data-markdown  class="fragment">
+					<script type="text/template">
+```
+MK = 2B3A1625C1FE4863E34C692BB2B1AAC4
+```						
+					</script>
+				</div>
+				<div class="fragment" style="text-align: right">&#x220e;</div>
+					</section>
+				</section>
+				<section>
+					<h3><font color="#333">$</font>source .images</h3>
+					<ul>
+						<li>Chris Tarnovsky (Flylogic / IOActive) <br><i>bh-eu-08-tarnovsky.pdf</i><br><A href="http://www.securitytube.net/video/945">http://www.securitytube.net/video/945</a></li>
+						<li>Dmitry Nedospasov (starbug) <br><i>psj2013-day2_Dmitry_starbug_slides_PacSec.pdf</i><br><A href="www.youtube.com/watch?v=wmv7tu7FSW0">www.youtube.com/watch?v=wmv7tu7FSW0</a></li>
+						<li>Karsten Nohl (srlabs.de) <br><i>BlackHat-Japan-08-Nohl-Secret-Algorithms-in-Hardware.pdf</i></li>
+						<li>Wikipedia</li>
+						<li>The Intertubes</li>
+					</ul>
+				</section>
+<!-- ************************************************************************************************************* 
+				<section>
+					<h2>Heads Up</h2>
+					<p>
+						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
+						support for CSS 3D transforms to see it in its full glory.
+					</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides 
+				<section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>
+							Slides can be nested inside of other slides,
+							try pressing <a href="#" class="navigate-down">down</a>.
+						</p>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<h2>Basement Level 1</h2>
+						<p>Press down or up to navigate.</p>
+					</section>
+					<section>
+						<h2>Basement Level 2</h2>
+						<p>Cornify</p>
+						<a class="test" href="http://cornify.com">
+							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
+						</a>
+					</section>
+					<section>
+						<h2>Basement Level 3</h2>
+						<p>That's it, time to go back up.</p>
+						<a href="#/2" class="image">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
+						</a>
+					</section>
+				</section>
+
+				<section>
+					<h2>Slides</h2>
+					<p>
+						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Point of View</h2>
+					<p>
+						Press <strong>ESC</strong> to enter the slide overview.
+					</p>
+					<p>
+						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+					</p>
+				</section>
+
+				<section>
+					<h2>Works in Mobile Safari</h2>
+					<p>
+						Try it out! You can swipe through the slides and pinch your way to the overview.
+					</p>
+				</section>
+
+				<section>
+					<h2>Marvelous Unordered List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+
+						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+
+						```
+						<section data-markdown>
+						  ## Markdown support
+
+						  For those of you who like that sort of thing.
+						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+						</section>
+						```
+					</script>
+				</section>
+
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=cube#/transitions">Cube</a> -
+						<a href="?transition=page#/transitions">Page</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a> -
+						<a href="?transition=linear#/transitions">Linear</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?#/transitions">Default</a>
+					</p>
+				</section>
+
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						Reveal.js comes with a few themes built in: <br>
+						<a href="?#/themes">Default</a> -
+						<a href="?theme=sky#/themes">Sky</a> -
+						<a href="?theme=beige#/themes">Beige</a> -
+						<a href="?theme=simple#/themes">Simple</a> -
+						<a href="?theme=serif#/themes">Serif</a> -
+						<a href="?theme=night#/themes">Night</a> <br>
+						<a href="?theme=moon#/themes">Moon</a> -
+						<a href="?theme=solarized#/themes">Solarized</a>
+					</p>
+					<p>
+						<small>
+							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
+						</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Global State</h2>
+					<p>
+						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+						will be added as a class to the document element when the slide is open. This lets you
+						apply broader style changes, like switching the background.
+					</p>
+				</section>
+
+				<section data-state="customevent">
+					<h2>Custom Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
+
+				<section>
+					<section data-background="#007777">
+						<h2>Slide Backgrounds</h2>
+						<p>
+							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
+						</p>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
+						<h2>Image Backgrounds</h2>
+						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
+						<h2>Repeated Image Backgrounds</h2>
+						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					</section>
+				</section>
+
+				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
+					<h2>Background Transitions</h2>
+					<p>
+						Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
+					</p>
+				</section>
+
+				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
+					<h2>Background Transition Override</h2>
+					<p>
+						You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+				</section>
+
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+
+				<section>
+					<section id="fragments">
+						<h2>Fragmented Views</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<ol>
+							<li class="fragment"><code>any type</code></li>
+							<li class="fragment"><em>of view</em></li>
+							<li class="fragment"><strong>fragments</strong></li>
+						</ol>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's a few styles of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment roll-in">roll-in</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment highlight-red">highlight-red</p>
+						<p class="fragment highlight-green">highlight-green</p>
+						<p class="fragment highlight-blue">highlight-blue</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p class="fragment highlight-current-blue">highlight-current-blue</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Spectacular image!</h2>
+					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
+						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
+					</a>
+				</section>
+
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
+					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+					<script>
+						document.getElementById('slideshare').attributeName = 'allowfullscreen';
+					</script>
+				</section>
+
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
+						during a presentation.
+					</p>
+				</section>
+
+				<section>
+					<h2>Stellar Links</h2>
+					<ul>
+						<li><a href="http://slid.es">Try the online editor</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
+						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>THE END</h1>
+					<h3>BY Hakim El Hattab / hakim.se</h3>
+				</section>
+-->
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				slideNumber: true,
+				keyboard: true,
+				touch: true,
+				progress: true,
+				history: true,
+				//center: true,
+				//width: '100%',
+				//height: '100%',
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				parallaxBackgroundImage: 'img/bg_2.jpg',
+				parallaxBackgroundSize: '851px 2000px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
