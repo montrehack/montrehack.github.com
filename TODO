@@ -1,0 +1,9 @@
+= Stuff to do
+
+* finish conversion of archives to _posts/
+* Move footer into template (or menu)
+* Diverge from default layout for archives?
+** give more head space (remove information less relevant for people there)
+** prepend: "Archive: " to page's title
+* link in footer to https://github.com/montrehack/montrehack.github.com/wiki/Sponsorships-at-Montrehack
+* agree on and document the standard tags for posts (and stick to them)
