@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crypto-Oracle
-tags: crypto
+tags: cryptography
 ---
 
 [English version](#english)

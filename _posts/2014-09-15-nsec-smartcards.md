@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NorthSec Smartcards
-tags: crypto hardware
+tags: cryptography hardware
 ---
 
 # NorthSec Smartcards

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Password Reset "Features"
-tags: crypto web
+tags: cryptography web
 ---
 
 [English version](#english)
