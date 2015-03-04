@@ -43,7 +43,7 @@ gratuit](http://ringzer0team.com/register).
 
 ## Solutions
 
-À venir...
+* [Diapos](https://docs.google.com/presentation/d/1RgaCB-egJbmEpbYbzFbzUeFZtHwikvkgSU7c81JINns)
 
 ## Remerciements
 
@@ -91,7 +91,7 @@ Exceptionally, to access the challenge, an account on
 
 ## Solutions
 
-Coming up...
+* [Slides](https://docs.google.com/presentation/d/1RgaCB-egJbmEpbYbzFbzUeFZtHwikvkgSU7c81JINns)
 
 ## Credits
 
