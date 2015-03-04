@@ -18,9 +18,21 @@ La meilleure façon d'être certain que votre compte courriel reste secret c'est
 l'utilisation de forte cryptographie. Mais encore il faut l'utiliser
 correctement! Peut-être qu'on peut obtenir un shell sur le serveur Web?
 
-## The lost data (pcap forensic)
+Exceptionnellement, pour accéder au défi, un compte sur
+[RingZer0Team](http://ringzer0team.com/) est requis. [C'est
+gratuit](http://ringzer0team.com/register).
+
+* [Secure mail](http://ringzer0team.com/challenges/151)
+
+## Someone steal my flag (pcap forensic)
 
 Quelqu'un a volé un secret mais on ne peut pas le prouver. Pouvez-vous aider?
+
+Exceptionnellement, pour accéder au défi, un compte sur
+[RingZer0Team](http://ringzer0team.com/) est requis. [C'est
+gratuit](http://ringzer0team.com/register).
+
+* [Someone steal my flag](http://ringzer0team.com/challenges/150)
 
 ## Outils nécessaires:
 
@@ -28,6 +40,10 @@ Quelqu'un a volé un secret mais on ne peut pas le prouver. Pouvez-vous aider?
 * Python
 * tshark, wireshark
 * Your eyes
+
+## Solutions
+
+À venir...
 
 ## Remerciements
 
@@ -49,10 +65,22 @@ Better way to make sure your email remain secret is to use strong cryptography.
 But use it the right way will help. Maybe we can try go gain a shell on the web
 server.
 
-## The lost data (pcap forensic)
+Exceptionally, to access the challenge, an account on
+[RingZer0Team](http://ringzer0team.com/) is required. [It's free
+](http://ringzer0team.com/register).
+
+* [Secure mail](http://ringzer0team.com/challenges/151)
+
+## Someone steal my flag (pcap forensic)
 
 Someone steal some secret data but we are not able to prove it. Can you please
 help us.
+
+Exceptionally, to access the challenge, an account on
+[RingZer0Team](http://ringzer0team.com/) is required. [It's free
+](http://ringzer0team.com/register).
+
+* [Someone steal my flag](http://ringzer0team.com/challenges/150)
 
 ## Required Tools:
 
@@ -60,6 +88,12 @@ help us.
 * Python
 * tshark, wireshark
 * Your eyes
+
+## Solutions
+
+Coming up...
+
+## Credits
 
 Created and presented by: Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r))
 
