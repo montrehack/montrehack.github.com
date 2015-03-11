@@ -31,22 +31,36 @@ Présenté par: $problem1_presenter
 
 Créé par: ...
 
-### Outils nécessaires:
+## Outils nécessaires
+
 $problem1_tools
 
 ## Où
-Café Notman: http://notman.org
+
+[Maison Notman](http://notman.org/)
+
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
 ## Quand
-$date de 18h à 21h
+
+$date de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
+
 * Enregistrez-vous sur: $eventbrite_link
-* Bring your own laptop
+* Formule workshop
+* Apportez votre ordinateur portable
 * Des problèmes seront étudiés et expliqués
 * Chaque problème sera analysé en petit groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
+## Remerciements
+
+Présenté par ...
+
+Créé par ...
+
+$sponsor
 
 <a id="english"></a>
 # Next edition: $en_date
@@ -59,26 +73,36 @@ $image
 
 $en_problem1_desc
 
-### Needed Tools
+## Needed Tools
 
 $en_problem1_tools
 
-Presented by $problem1_presenter
-
-Created by: ...
-
 ## Where
-Café Notman: http://notman.org/
+
+[Maison Notman](http://notman.org/)
+
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
 
 ## When
-$en_date from 6:00 to 9:00 pm
+
+$en_date from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
+
 * Register at: $eventbrite_link
+* Workshop style
 * Bring your own laptop
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
+
+## Credits
+
+Presented by: ...
+
+Created by: ...
+
+$sponsor
 
 <hr/>
 
