@@ -22,7 +22,7 @@ flag caché dans le binaire.
 ## Outils nécessaires
 
 * votre debugger: gdb, radare2, IDA Pro, etc.
-* un moyen pour exécuter un ELF 32-bit (linux vm)
+* un moyen pour exécuter un ELF 32-bit (linux vm 32-bit)
 
 ## Où
 
@@ -68,7 +68,7 @@ discover hidden flag in the binary.
 ## Needed Tools
 
 * your debugger: gdb, radare2, IDA Pro, etc.
-* make sure you can run 32-bit ELF (linux vm)
+* make sure you can run 32-bit ELF (linux vm 32-bit)
 
 ## Where
 
