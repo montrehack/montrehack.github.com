@@ -37,7 +37,7 @@ $problem1_tools
 
 ## Où
 
-[Maison Notman](http://notman.org/)
+Salle de reception de la [Maison Notman](http://notman.org/)
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
@@ -79,7 +79,7 @@ $en_problem1_tools
 
 ## Where
 
-[Maison Notman](http://notman.org/)
+Reception room of [Maison Notman](http://notman.org/)
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
 
