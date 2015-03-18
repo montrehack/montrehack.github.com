@@ -1,0 +1,4 @@
+= README
+
+Sources for the slides are here:
+https://github.com/montrehack/slides/tree/master/15-03-16-password-checker

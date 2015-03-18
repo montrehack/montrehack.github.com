@@ -1,0 +1,186 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="author" content="Olivier Bilodeau" /><title>password-checker</title><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport" /><link href="reveal.js/css/reveal.css" rel="stylesheet" /><link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme" /><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet" /><script type="text/javascript">document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section><h2>password-checker</h2><p><small>Olivier Bilodeau</small></p></section><section id="_password_checker"><h2>password-checker</h2><div class="ulist"><ul><li><p>Grab the binary: <a href="http://montrehack.ca" class="bare">http://montrehack.ca</a></p></li><li><p>First hint in 30 minutes</p></li></ul></div></section>
+<section id="_hint_1"><h2>Hint #1</h2><div class="ulist"><ul><li class="fragment"><p>It&#8217;s a Perl interpreter</p><div class="listingblock"><div class="content"><pre class="highlight"><code>$ strings -a password-checker</code></pre></div></div></li><li class="fragment"><p>The flag must be hidden inside</p></li><li class="fragment"><p>But there is a <strong>lot</strong> of code</p></li><li class="fragment"><p><code>B::Deparse</code> can decompile Perl&#8217;s internal compiled structures</p></li><li class="fragment"><p>Next hint in 30 minutes</p></li></ul></div></section>
+<section id="_hint_2"><h2>Hint #2</h2><div class="ulist"><ul><li class="fragment"><p>Looks like ELF produced by <code>perlcc</code> (google hint)</p></li><li class="fragment"><p>You got <code>B::Decode</code> running right?</p></li><li class="fragment"><p>If we could load a binary compatible environment, maybe <code>B::Deparse</code> would
+work better?</p></li><li class="fragment"><p>How is this thing deployed?</p></li><li class="fragment"><p>Perl 5.8.9 is end-of-life since 2008 :(</p></li><li class="fragment"><p>plenv</p></li></ul></div></section>
+<section id="_hint_3"><h2>Hint #3</h2><div class="ulist"><ul><li class="fragment"><p>plenv is setup right?</p></li><li class="fragment"><p>you have the exact perl version? 32-bit? i686-linux-multi/ is there?</p></li><li class="fragment"><p>You need a 32-bit linux VM. <a href="http://www.vagrantbox.es/" class="bare">http://www.vagrantbox.es/</a> is easiest for quick
+setup</p></li><li class="fragment"><p><code>plenv install 5.8.9 -Dusemultiplicity</code></p></li><li class="fragment"><p>Some of the usual <code>B::Deparse</code> tricks don&#8217;t work</p></li><li class="fragment"><p>Think of <code>eval</code>-ing perl code in the right context</p></li><li class="fragment"><p>Last hint in 30 minutes</p></li></ul></div></section>
+<section id="_hint_last"><h2>Hint $last</h2><div class="paragraph"><p>You got that <code>eval</code> thing working, right?</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code>(gdb) b perl_run
+Breakpoint 1 at 0x80fc5ea: file perl.c, line 2350.
+(gdb) r
+Starting program: /home/olivier/Documents/projets/infosec/adctf2014/15/password-checker·
+
+Breakpoint 1, perl_run (my_perl=0x81d0008) at perl.c:2350
+2350    perl.c: No such file or directory.
+(gdb) p Perl_eval_pv (my_perl, "use B::Deparse; B::Deparse-&gt;compile-&gt;()", 1)</code></pre></div></div>
+<div class="paragraph"><p>Warnings:</p></div>
+<div class="ulist"><ul><li><p>be careful of output buffering, add a <code>die("flush")</code> to flush the buffers</p></li><li><p>backslashes need to be escaped (gdb eats them)</p></li></ul></div></section>
+<section id="_hint_last_cont"><h2>Hint $last (cont.)</h2><div class="paragraph"><p>Think introspection. Like python&#8217;s</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code class="python language-python">import __main__ as i
+dir(i)</code></pre></div></div>
+<div class="paragraph"><p>Of course I won&#8217;t tell you perl&#8217;s equivalent ;)</p></div></section>
+<section id="_solution"><h2>Solution</h2></section>
+<section id="_how_i_saw_myself"><h2>How I saw myself</h2><div class="paragraph"><p><span class="image"><img src="images/hacker.jpg" alt="hacker" /></span></p></div></section>
+<section id="_how_it_really_happened"><h2>How it really happened</h2><div class="paragraph"><p><span class="image"><img src="images/no-idea.jpg" alt="no-idea" /></span></p></div></section>
+<section id="_first_b_deparse"><h2>First, B::Deparse</h2><div class="paragraph"><p>B::Deparse is <strong>the</strong> thing to reverse perl code.</p></div>
+<div class="paragraph"><p>Trying to add B::Deparse to my PERL5OPT environment variable to force it to dump its code</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code>$ export PERL5OPT=-MO=Deparse
+$ ./password-checker
+-e syntax OK</code></pre></div></div>
+<div class="paragraph"><p>This usually work but it didn&#8217;t work here.</p></div></section>
+<section id="_how_can_i_bypass_this_check"><h2>How can I bypass this check?</h2><div class="ulist"><ul><li class="fragment"><p>gdb and break later? but break where?</p></li><li class="fragment"><p>listing calls under main</p><div class="listingblock"><div class="content"><pre class="highlight"><code>...
+0x080a9e6d    e8aa9afbff   call sym.imp.exit
+0x080a9e79    e8a2b50b00   call sym.Perl_Gcurinterp_ptr
+0x080a9e83    e800030000   call sym.dl_init
+0x080a9e90    e84b270500   call sym.perl_run
+0x080a9ea1    e87a540500   call sym.perl_destruct
+0x080a9eae    e84d540500   call sym.perl_free
+...</code></pre></div></div></li><li class="fragment"><p>perl_run stands out as a good spot</p></li><li class="fragment"><p>and it&#8217;s documented here: <a href="http://stackoverflow.com/a/4048916" class="bare">http://stackoverflow.com/a/4048916</a></p></li></ul></div></section>
+<section id="_eval_ing_code"><h2>Eval&#8217;ing code</h2><div class="paragraph"><p>Use <code>eval</code> to load <code>B::Deparse</code> and dump optree</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code>gdb-peda$ b perl_run
+Breakpoint 1 at 0x80fc5ea: file perl.c, line 2350.
+
+gdb-peda$ r
+Breakpoint 1, perl_run (my_perl=0x81d0008) at perl.c:2350
+2350    perl.c: No such file or directory.
+
+gdb-peda$ p Perl_eval_pv (my_perl, "use B::Deparse; B::Deparse-&gt;compile-&gt;()", 1)
+package �[w;
+use warnings;
+use strict 'refs';
+print 'password: ';
+While deparsing� near line 5,
+at /home/vagrant/.plenv/versions/5.8.9/lib/perl5/5.8.9/i686-linux-multi/B/Deparse.pm line 1223
+    B::Deparse::gv_name('B::Deparse=HASH(0x83935bc)', 'B::SPECIAL=SCALAR(0x83e96d8)') called at /home/vagrant/.plenv/versions/5.8.9/lib/perl5/5.8.9/i686-linux-multi/B/Deparse.pm line 2842
+[...]
+    eval 'use B::Deparse; B::Deparse-&gt;compile-&gt;()
+;' called at (eval 1) line 0
+[Inferior 1 (process 21239) exited with code 041]
+The program being debugged exited while in a function called from GDB.
+Evaluation of the expression containing the function
+(Perl_eval_pv) will be abandoned.</code></pre></div></div></section>
+<section id="_what_happened"><h2>What happened?</h2><div class="paragraph"><p><code>B::Deparse</code> relies on C code we need to have a binary compatible module ready to load.</p></div></section>
+<section id="_the_right_environment"><h2>The right environment</h2><div class="ulist"><ul><li><p>based on strings in the binary:</p><div class="literalblock"><div class="content"><pre>/home/vagrant/.plenv/versions/5.8.9/lib/perl5/5.8.9/i686-linux-multi/</pre></div></div></li><li><p>32-bit plenv Perl built with <code>-Dusemultiplicity</code> (builds the native code with
+multiple interpreter per process support)</p></li></ul></div></section>
+<section id="_setup_a_vm"><h2>Setup a VM</h2><div class="paragraph"><p>Since vagrant is all over the place, lets leverage it by doing the same thing.
+(and I love fancy devops tools)</p></div>
+<div class="ulist"><ul><li><p>vagrant up (an old CentOS 32-bit box)</p></li><li><p>yum install git gdb</p></li><li><p>install plenv (git clone two repos)</p></li><li><p>install Perl 5.8.9 with binary compatibility with <code>password-checker</code></p><div class="literalblock"><div class="content"><pre>~/.plenv/bin/plenv install 5.8.9 -Dusemultiplicity</pre></div></div></li><li><p>vagrant ssh</p></li></ul></div></section>
+<section id="_getting_b_deparse_right"><h2>Getting B::Deparse right</h2><div class="paragraph"><p>If you used <code>vagrant</code> + <code>plenv</code> you don&#8217;t need to mangle with PERL5LIB since
+all the files will be at the expected place.</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code>(gdb) p Perl_eval_pv (my_perl, "use B::Deparse; B::Deparse-&gt;compile-&gt;()", 1)
+use warnings;
+use strict 'refs';
+print 'password: ';
+&lt;ARGV&gt;;
+print "wrong\n";
+my(@c) = ('"', '`', '!', '$', '#', '{', '/', '&amp;', '_', '^', '.', '[', '(',
+            '*', ')', '+', '%', ',', '\\', ']', '-', '', ':', '=', ';', '|');
+$1 = (SV *) 0x83dfde0</code></pre></div></div>
+<div class="paragraph"><p>Still no flag&#8230;&#8203;</p></div></section>
+<section id="__introspection"><h2>$introspection</h2><div class="paragraph"><p>Lets eval funky stuff</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code class="perl language-perl">local $, = '\n'; print %main::;</code></pre></div></div>
+<div class="paragraph"><p>Lists all top-level symbols.</p></div></section>
+<section id="_results"><h2>Results</h2><div class="literalblock"><div class="content"><pre>...
+flag
+*main::flag
+...</pre></div></div></section>
+<section id="_found_flag"><h2>found flag</h2><div class="paragraph"><p>There&#8217;s a flag symbol but I can&#8217;t print it&#8230;&#8203;</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code class="perl language-perl">print $flag;</code></pre></div></div>
+<div class="paragraph"><p>or</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code class="perl language-perl">print $main::flag;</code></pre></div></div>
+<div class="paragraph"><p>Yields nothing.</p></div></section>
+<section id="_so_what_is_it_exactly"><h2>So what is it exactly?</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="perl language-perl">{
+    no strict;
+    local $, = '\n';
+    print 'its a scalar (or a ref)' if defined($flag);
+    print 'its an array' if defined(@flag);
+    print 'its a hash' if defined(%flag);
+    print 'its code' if defined(&amp;flag);
+    die('flush buffers');
+}</code></pre></div></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code>(gdb) p Perl_eval_pv (my_perl, "{ no strict; local $, = '\n'; print 'its a scalar (or a ref)' if defined($flag); print 'its an array' if defined(@flag); print 'its a hash' if defined(%flag); print 'its code' if defined(&amp;flag); die('flush buffers'); }", 1)</code></pre></div></div>
+<div class="paragraph"><p>Turns out its code&#8230;&#8203;</p></div></section>
+<section id="_dump_it"><h2>Dump it</h2><div class="paragraph"><p><code>B::Deparse</code> to the rescue!</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code class="perl language-perl">use B::Deparse;
+$deparse = B::Deparse-&gt;new();
+print $deparse-&gt;coderef2text(*main::flag{CODE});</code></pre></div></div>
+<div class="paragraph"><p><code>*main::flag{CODE}</code> is a fancy way of saying <code>\&amp;flag</code> (reference to <code>flag()</code>)
+without a backslash</p></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code>(gdb) p Perl_eval_pv (my_perl, "use B::Deparse; $deparse = B::Deparse-&gt;new(); print $deparse-&gt;coderef2text(*main::flag{CODE});", 1)</code></pre></div></div></section>
+<section id="_result"><h2>Result</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="perl language-perl">{
+use warnings;
+use strict 'refs';
+die "^_^\n";
+print eval eval $c[0] . $c[12] . $c[18] . $c[3] . ($c[1] | $c[4]) . $c[11]
+                . ($c[9] ^ ($c[1] | $c[6])) . $c[19] . $c[9] . $c[18] .
+                $c[3] . ($c[1] | $c[4]) . $c[11] . ($c[9] ^ ($c[1] |
+                $c[17])) . $c[19] . $c[14] . $c[10] . $c[12] . $c[12] .
+[...]
+}</code></pre></div></div>
+<div class="ulist"><ul><li><p>Array operations seems to hold our flag</p></li><li><p>Behind the <code>die()</code> so it&#8217;s never reached</p></li><li><p>We saw this <code>c</code> array before&#8230;&#8203;</p></li></ul></div></section>
+<section id="_finish_him"><h2>Finish him</h2><div class="ulist"><ul><li><p>Take <code>@c</code> definition from main scope</p></li><li><p>Add the <code>print eval eval</code> code</p></li><li><p>Run it</p></li><li><p>$FLAG</p></li></ul></div></section>
+<section id="_thanks"><h2>Thanks!</h2><div class="paragraph"><p>Any questions?</p></div></section>
+<section id="_references"><h2>References</h2><div class="ulist"><ul><li><p><a href="http://adctf2014.katsudon.org/" class="bare">http://adctf2014.katsudon.org/</a>, Day 15</p></li><li><p><a href="http://stackoverflow.com/a/4048916" class="bare">http://stackoverflow.com/a/4048916</a></p></li><li><p><a href="https://metacpan.org/pod/B::Deparse" class="bare">https://metacpan.org/pod/B::Deparse</a></p></li><li><p><a href="https://www.vagrantup.com/" class="bare">https://www.vagrantup.com/</a></p></li><li><p><a href="https://github.com/tokuhirom/plenv" class="bare">https://github.com/tokuhirom/plenv</a></p></li><li><p><a href="https://github.com/tokuhirom/perl-build" class="bare">https://github.com/tokuhirom/perl-build</a></p></li><li><p><code>perldoc perlmod</code>: The main:: special package</p></li><li><p><code>perldoc perlref</code>: Typeglobs and references</p></li></ul></div></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script type="text/javascript">// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: false,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: true,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, blood, league, moon, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'league',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'none',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'slide',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

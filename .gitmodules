@@ -1,0 +1,3 @@
+[submodule "archives/2015-03-16-adctf-2014-password-checker/reveal.js"]
+	path = archives/2015-03-16-adctf-2014-password-checker/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
