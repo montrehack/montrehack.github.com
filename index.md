@@ -1,101 +1,21 @@
 ---
 layout: default
 title: MontréHack
-tags: reverse-engineering crackme
 ---
 
-# Ce soir!
-[English version](#english)
+# Prochaine édition
 
-![Absolute Madness](/images/15-03_absolute-madness.jpg)
+Lundi le 20 avril à 18h
 
-## password-checker
+En cours de planification
 
-J'obtiens toujours "wrong". Quelque chose est étrange. Vous pouvez découvrir le
-flag caché dans le binaire.
+# Next event
 
-    $ file password-checker
-    password-checker: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, BuildID[sha1]=cdd477e580d6256b9605bf062b493239b4940999, not stripped
+Monday April 20th at 6pm
 
-## Le défi
+In planning stage
 
-* [Le binaire](http://adctf2014.katsudon.org/dat/AkgyBathNidfcvKa/password-checker.xz) ([miroir](https://github.com/montrehack/challenges/raw/master/2015-03-16/password-checker.xz))
-
-## Outils nécessaires
-
-* votre debugger: gdb, radare2, IDA Pro, etc.
-* un moyen pour exécuter un ELF 32-bit (linux vm 32-bit)
-
-## Où
-
-[Maison Notman](http://notman.org/)
-
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
-
-## Quand
-
-Lundi, 16 mars 2015 de 18h à 21h (suivi de bières au Bénélux)
-
-## Comment
-
-* Formule workshop
-* Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petit groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
-
-## Remerciements
-
-Présenté par: Olivier Bilodeau ([obilodeau](https://twitter.com/obilodeau/))
-
-Créé par: [Advent Calendar CTF 2014](http://adctf2014.katsudon.org/)
-
-
-<a id="english"></a>
-# Tonight!
-
-![Absolute Madness](/images/15-03_absolute-madness.jpg)
-
-## password-checker
-
-This checker tells me "wrong" everytime. There is something strange, you can
-discover hidden flag in the binary.
-
-    $ file password-checker
-    password-checker: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, BuildID[sha1]=cdd477e580d6256b9605bf062b493239b4940999, not stripped
-
-## The challenge
-
-* [Binary](http://adctf2014.katsudon.org/dat/AkgyBathNidfcvKa/password-checker.xz) ([mirror](https://github.com/montrehack/challenges/raw/master/2015-03-16/password-checker.xz))
-
-## Needed Tools
-
-* your debugger: gdb, radare2, IDA Pro, etc.
-* make sure you can run 32-bit ELF (linux vm 32-bit)
-
-## Where
-
-[Maison Notman](http://notman.org/)
-
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
-
-## When
-
-Monday March 16th 2015 from 6pm to 9pm (followed by drinks at Bénélux)
-
-## How
-
-* Workshop style
-* Bring your own laptop
-* Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
-
-## Credits
-
-Presented by: Olivier Bilodeau ([obilodeau](https://twitter.com/obilodeau/))
-
-Created by: [Advent Calendar CTF 2014](http://adctf2014.katsudon.org/)
+Stay tuned!
 
 <hr/>
 
