@@ -1,7 +1,7 @@
 ---
 layout: default
 title: iOS Forensics and Network
-tags: forensics network
+tags: forensic network ios
 ---
 
 [English version](#english)

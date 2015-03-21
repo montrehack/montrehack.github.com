@@ -2,7 +2,7 @@
 layout: default
 title: Android Forensics CySCA2014
 status: FIXME
-tags: forensics
+tags: forensic android
 ---
 
 [English version](#english)
