@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Hackfest 2013 Retaliation
-tags: sql crackme
-status: FIXME
+tags: sql-injection crackme exploit
 ---
 
 [English version](#english)
@@ -19,6 +18,17 @@ Retour sur certain challenges du Hackfest 2013: Web login bypass 2x, Crackme Win
 * Python
 * Sqlmap
 * [IDA](https://www.hex-rays.com/products/ida/support/download_demo.shtml)
+
+### Défis
+
+Exceptionnellement, pour accéder aux défis, un compte sur
+[RingZer0Team](http://ringzer0team.com/) est requis. [C'est
+gratuit](http://ringzer0team.com/register).
+
+* [Crackme1](http://ringzer0team.com/challenges/9)
+* [Exploitme Linux](http://ringzer0team.com/challenges/109)
+* [Web login 1](http://ringzer0team.com/challenges/5)
+* [Web login 2](http://ringzer0team.com/challenges/6)
 
 ### Solution
 
@@ -43,6 +53,17 @@ Some Hackfest 2013 challenges: Web login bypass 2x, Crackme Windows and Remote C
 * Python
 * Sqlmap
 * [IDA](https://www.hex-rays.com/products/ida/support/download_demo.shtml)
+
+### Challenges
+
+Exceptionally, to access the challenges, an account on
+[RingZer0Team](http://ringzer0team.com/) is required. [It's free
+](http://ringzer0team.com/register).
+
+* [Crackme1](http://ringzer0team.com/challenges/9)
+* [Linux Exploitme](http://ringzer0team.com/challenges/109)
+* [Web login 1](http://ringzer0team.com/challenges/5)
+* [Web login 2](http://ringzer0team.com/challenges/6)
 
 ### Solution
 
