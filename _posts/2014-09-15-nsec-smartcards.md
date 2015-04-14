@@ -80,13 +80,13 @@ help.
 
 ## Diapos / Slides
 
+* [Instructions](https://www.ouaibe.qc.ca/mtrehack/instructions/) ([Mirror](https://github.com/montrehack/slides/tree/master/14-09-15-nsec-smartcards/instructions))
 * [Présentation incluant solutions](/archives/14-09-nsec-smartcards/) // [Presentation including solutions](/archives/14-09-nsec-smartcards/)
 
 ## Remerciements / Credits
 
 * Présenté par / Presented by: ouaibe ([@ouaibe_](https://twitter.com/ouaibe_))
 * [NorthSec](https://nsec.io/)
-
 
 <hr/>
 
