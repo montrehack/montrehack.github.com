@@ -8,15 +8,6 @@ tags: cryptography hardware
 
 a.k.a the Employee Crypto-Storage HSM
 
-Tenu le / Held: 2014-09-15
-
-## Diapos / Slides
-
-* [Présentation (incluant solutions)](/archives/14-09-nsec-smartcards/)
-* Instructions
-
-## Annonce originale
-
 ![a NorthSec smartcard](/images/14-09_nsec_smartcards.jpg)
 
 Lors de l'événement NorthSec 2014, des cartes spécialement conçues pour
@@ -36,27 +27,6 @@ as a faithful employee.*
 *It serves many purposes, as a way of showing our commitment to openness and
 adhering to Kerchkoffs's principle we are able to share a maximum of
 information with you, described hereafter."*
-
-[RSVP obligatoire / RSVP is mandatory](https://www.eventbrite.ca/e/montrehack-septembre-september-northsec-smartcards-tickets-12926039131)
-
-Présenté par / Presented by: ouaibe ([@ouaibe_](https://twitter.com/ouaibe_))
-
-## Comment / How
-* [Enregistrez-vous / Register](https://www.eventbrite.ca/e/montrehack-septembre-september-northsec-smartcards-tickets-12926039131)
-* Bring your own laptop and be prepared
-* Style atelier / Workshop style
-* Les solutions seront présentées à la fin de la rencontre / Solutions are given at the end of the meetup
-
-## Où / Where
-
-Google 
-
-* 1253 McGill College Ave Montreal, QC H3B 2Y5 CA
-* http://goo.gl/nZzgGv
-
-## Quand / When
-
-Monday September 15th from 6:00 to 9:00 pm
 
 ## Outils et préparation / Tools and preparation
 
@@ -107,6 +77,16 @@ help.
 
 * http://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line
 * http://ludovicrousseau.blogspot.ca/
+
+## Diapos / Slides
+
+* [Instructions](https://www.ouaibe.qc.ca/mtrehack/instructions/) ([Mirror](https://github.com/montrehack/slides/tree/master/14-09-15-nsec-smartcards/instructions))
+* [Présentation incluant solutions](/archives/14-09-nsec-smartcards/) // [Presentation including solutions](/archives/14-09-nsec-smartcards/)
+
+## Remerciements / Credits
+
+* Présenté par / Presented by: ouaibe ([@ouaibe_](https://twitter.com/ouaibe_))
+* [NorthSec](https://nsec.io/)
 
 <hr/>
 
