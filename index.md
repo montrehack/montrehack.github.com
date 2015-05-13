@@ -32,7 +32,7 @@ Notre nouveau partenaire Benelux offre une bière gratuite aux inscrits!
 ## Outils nécessaires
 
 * EDF (enthusiast deobfuscation framework)
-* Stack Smashing Protection
+* Smashing Protection
 
 ## Où
 
@@ -70,7 +70,7 @@ Our new sponsor Benelux will offer a free beer to people who registered!
 ## Tools required
 
 * EDF (enthusiast deobfuscation framework)
-* Stack Smashing Protection
+* Smashing Protection
 
 ## Where
 
