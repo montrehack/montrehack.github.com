@@ -31,8 +31,8 @@ Notre nouveau partenaire Benelux offre une bière gratuite aux inscrits!
 
 ## Outils nécessaires
 
-* EDF (enthusiast deobfuscation framework)
-* Smashing Protection
+* EDF: Enthusiast Deobfuscation Framework
+* WPA: Way-back-home Pathfinding Algorithm
 
 ## Où
 
@@ -69,8 +69,8 @@ Our new sponsor Benelux will offer a free beer to people who registered!
 
 ## Tools required
 
-* EDF (enthusiast deobfuscation framework)
-* Smashing Protection
+* EDF: Enthusiast Deobfuscation Framework
+* WPA: Way-back-home Pathfinding Algorithm
 
 ## Where
 
