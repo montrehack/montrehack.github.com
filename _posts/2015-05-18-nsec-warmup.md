@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Montrehack May 2015 NorthSec Warm-up Party!
+title: NorthSec 2015 Warm-up Party!
 tags: things-humans-do
 ---
 
