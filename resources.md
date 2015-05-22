@@ -29,3 +29,8 @@ title: MontréHack
 
 * [CTF Time](https://ctftime.org/writeups)
 * [GitHub Repo](https://github.com/ctfs/write-ups)
+
+## Local CTFs
+
+* [NorthSec](https://nsec.io/) in Montreal
+* [Hackfest](https://hackfest.ca) in Quebec City
