@@ -25,6 +25,14 @@ title: MontréHack
 * [Zenk-Security](http://www.zenk-security.com/)
 * [w3challs](http://w3challs.com/)
 * [Root-Me](http://www.root-me.org/)
+* [NewbieContest](http://www.newbiecontest.org/)
+* [Escape](http://escape.alf.nu/)
+* [Microcorruption](https://microcorruption.com/)
+* [The Matasano Crypto Challenges](http://cryptopals.com/)
+* [Try2hack](http://www.try2hack.nl/)
+* [Microcontest](http://www.microcontest.com/)
+* [Hack-me](http://hack-me.org/)
+* [Lost Chall](http://lost-chall.org/)
 
 ## CTF Write-ups
 
