@@ -2,20 +2,101 @@
 layout: default
 title: MontréHack
 ---
+<!-- 
 
-# Prochaine édition
+  This is the absolute minimum to get stuff up. Feel free [obliged] to add
+  editorial niceties.
 
-Lundi le 15 juin 18h au [café Notman](http://notman.org)
+  Put this in index.md and update the following variables (like w/ vim's s///)
+  $date $en_date
+  $eventbrite_link
+  $image (optional) format: ![AltText](path_to_image.png)
+  $problem1_name, $problem1_desc, $problem1_tools, $problem1_presenter
+  $en_problem1_name, $en_problem1_desc, $en_problem1_tools, $en_problem1_presenter
+  repeat for problem 2, 3, etc.
 
-En cours de planification
+/-->
 
-# Next event
+# Prochaine édition: 15 juin
+[English version](#english)
 
-Monday June 15th 6pm at [Notman cafe](http://notman.org)
+La prochaine édition de Montréhack aura lieu le 15 juin à la maison Notman.
 
-In planning stage
+![Access Denied](/images/access_denied.jpg)
 
-Stay tuned!
+## Challenge: Access Control
+
+Description: It's all about who you know and what you want. 
+
+Présenté par: Ron Bowes
+
+Créé par: Defcon Quals 2015
+
+## Outils nécessaires
+
+* Linux
+* Debugger / Desassembleur (gdb, IDA, radare2)
+* tcpdump / wireshark
+* langage de programmation : python, ruby, Go, D, brainfuck etc.
+
+## Où
+
+Salle de reception de la [Maison Notman](http://notman.org/)
+
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
+
+## Quand
+
+lundi le 15 juin de 18h à 21h (suivi de bières au Bénélux)
+
+## Notes
+
+* Formule workshop
+* Apportez votre ordinateur portable
+* Des problèmes seront étudiés et expliqués
+* Chaque problème sera analysé en petit groupes
+* Les solutions seront présentées avec tout le monde à la fin de la rencontre
+
+
+<a id="english"></a>
+# Next edition: June 15th
+
+The next edition of Montrehack will be held on June 15 at the Notman house.
+
+![Access Denied](/images/access_denied.jpg)
+
+## Challenge : Access Control
+
+Description : It's all about who you know and what you want. 
+
+Presented by : Ron Bowes
+
+Created by : Defcon Quals 2015
+
+## Tools needed
+
+* Linux
+* Debugger / Desassembleur (gdb, IDA, radare2)
+* tcpdump / wireshark
+* a programming language : python, ruby, Go, D, brainfuck etc.
+
+## Where
+
+Reception room of [Maison Notman](http://notman.org/)
+
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
+
+## When
+
+Monday June 15th from 6pm to 9pm (followed by drinks at Bénélux)
+
+## How
+
+* Workshop style
+* Bring your laptop
+* Challenges will be analyzed
+* Small groups of people can work on each challenge
+* Solutions to each challenge will be presented to everyone at the end of the event
 
 <hr/>
 
