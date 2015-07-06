@@ -27,7 +27,7 @@ La prochaine édition de Montréhack aura lieu le 20 juillet à la maison Notman
 
 ## Challenge: Find The Key
 
-Description: Reverse engineering et cryptographie.  Vous devez comprendre comment les clés cryptographiques sont générées.  Trois dégis: 2 keygen me et 1 autoit.
+Description: Reverse engineering et cryptographie.  Vous devez comprendre comment les clés cryptographiques sont générées.  Trois défis: 2 keygen me et 1 autoit.
 
 Présenté par: [Thomas](https://twitter.com/nyx__o)
 
@@ -67,7 +67,7 @@ The next edition of Montrehack will be held on July 20th at the Notman house.
 
 ## Challenge : Find The Key
 
-Description : Reverse engineering and cryptography challenges.  You must understand how the cryptographic keys are generated.  2 keygenme and 1 autoit fike.
+Description : Reverse engineering and cryptography challenges.  You must understand how the cryptographic keys are generated.  Three challenges: 2 keygenme and 1 autoit file.
 
 Presented by : [Thomas](https://twitter.com/nyx__o)
 
