@@ -36,7 +36,7 @@ Créé par: [rootme](http://www.root-me.org/)
 ## Outils nécessaires
 
 * Windows
-* Debugger / Desassembleur (gdb, IDA, radare2)
+* Debugger / Desassembleur (IDA, radare2)
 * langage de programmation : python
 
 ## Où
@@ -76,7 +76,7 @@ Created by : [rootme](http://www.root-me.org/)
 ## Tools needed
 
 * Windows
-* Debugger / Desassembleur (gdb, IDA, radare2)
+* Debugger / Desassembleur (IDA, radare2)
 * a programming language : python
 
 ## Where
