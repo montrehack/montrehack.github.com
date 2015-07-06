@@ -17,27 +17,27 @@ title: MontréHack
 
 /-->
 
-# Prochaine édition: 15 juin
+
+# Prochaine édition: 20 juillet 2015
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le 15 juin à la maison Notman.
+La prochaine édition de Montréhack aura lieu le 20 juillet à la maison Notman.
 
-![Access Denied](/images/access_denied.jpg)
+![Find The Key](/images/15-07_find_the_key.gif)
 
-## Challenge: Access Control
+## Challenge: Find The Key
 
-Description: It's all about who you know and what you want. 
+Description: Reverse engineering et cryptographie.  Vous devez comprendre comment les clés cryptographiques sont générées.  Trois dégis: 2 keygen me et 1 autoit.
 
-Présenté par: Ron Bowes
+Présenté par: [Thomas](https://twitter.com/nyx__o)
 
-Créé par: Defcon Quals 2015
+Créé par: [rootme](http://www.root-me.org/)
 
 ## Outils nécessaires
 
-* Linux
+* Windows
 * Debugger / Desassembleur (gdb, IDA, radare2)
-* tcpdump / wireshark
-* langage de programmation : python, ruby, Go, D, brainfuck etc.
+* langage de programmation : python
 
 ## Où
 
@@ -47,7 +47,7 @@ Salle de reception de la [Maison Notman](http://notman.org/)
 
 ## Quand
 
-lundi le 15 juin de 18h à 21h (suivi de bières au Bénélux)
+lundi le 20 juillet de 18h à 21h (suivi de bières au Bénélux)
 
 ## Notes
 
@@ -59,26 +59,25 @@ lundi le 15 juin de 18h à 21h (suivi de bières au Bénélux)
 
 
 <a id="english"></a>
-# Next edition: June 15th
+# Next edition: July 20th 2015
 
-The next edition of Montrehack will be held on June 15 at the Notman house.
+The next edition of Montrehack will be held on July 20th at the Notman house.
 
-![Access Denied](/images/access_denied.jpg)
+![Find The Key](/images/15-07_find_the_key.gif)
 
-## Challenge : Access Control
+## Challenge : Find The Key
 
-Description : It's all about who you know and what you want. 
+Description : Reverse engineering and cryptography challenges.  You must understand how the cryptographic keys are generated.  2 keygenme and 1 autoit fike.
 
-Presented by : Ron Bowes
+Presented by : [Thomas](https://twitter.com/nyx__o)
 
-Created by : Defcon Quals 2015
+Created by : [rootme](http://www.root-me.org/)
 
 ## Tools needed
 
-* Linux
+* Windows
 * Debugger / Desassembleur (gdb, IDA, radare2)
-* tcpdump / wireshark
-* a programming language : python, ruby, Go, D, brainfuck etc.
+* a programming language : python
 
 ## Where
 
@@ -88,7 +87,7 @@ Reception room of [Maison Notman](http://notman.org/)
 
 ## When
 
-Monday June 15th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday July 20th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
