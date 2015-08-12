@@ -18,36 +18,34 @@ title: MontréHack
 /-->
 
 
-# Prochaine édition: 20 juillet 2015
+# Prochaine édition: 17 août 2015
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le 20 juillet à la maison Notman.
+La prochaine édition de Montréhack aura lieu le 17 août à la maison Notman.
 
-![Find The Key](/images/15-07_find_the_key.gif)
+![XSS](/images/15-08_xss.png)
 
-## Challenge: Find The Key
+## XSS for grown-ups
 
-Description: Reverse engineering et cryptographie.  Vous devez comprendre comment les clés cryptographiques sont générées.  Trois défis: 2 keygen me et 1 autoit.
+Description: Trois défis (difficiles) de cross site scripting (XSS) du NorthSec 2015.
 
-Présenté par: [Thomas](https://twitter.com/nyx__o)
+Présenté par: [Olivier Arteau](http://holyvier.blogspot.ca/)
 
-Créé par: [rootme](http://www.root-me.org/)
+Créé par: [Laurent Desaulniers](https://twitter.com/el_d33)
 
 ## Outils nécessaires
 
-* Windows
-* Debugger / Desassembleur (IDA, radare2)
-* langage de programmation : python
+* Navigateur web
 
 ## Où
 
-Salle de reception de la [Maison Notman](http://notman.org/)
+Salle de réception de la [Maison Notman](http://notman.org/)
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
 ## Quand
 
-lundi le 20 juillet de 18h à 21h (suivi de bières au Bénélux)
+lundi le 17 août de 18h à 21h (suivi de bières au Bénélux)
 
 ## Notes
 
@@ -59,25 +57,23 @@ lundi le 20 juillet de 18h à 21h (suivi de bières au Bénélux)
 
 
 <a id="english"></a>
-# Next edition: July 20th 2015
+# Next edition: August 17th 2015
 
-The next edition of Montrehack will be held on July 20th at the Notman house.
+The next edition of Montrehack will be held on August 17th at the Notman house.
 
-![Find The Key](/images/15-07_find_the_key.gif)
+![XSS](/images/15-08_xss.png)
 
-## Challenge : Find The Key
+## XSS for grown-ups
 
-Description : Reverse engineering and cryptography challenges.  You must understand how the cryptographic keys are generated.  Three challenges: 2 keygenme and 1 autoit file.
+Description : Three (hard) cross site scripting (XSS) challenges from NorthSec 2015.
 
-Presented by : [Thomas](https://twitter.com/nyx__o)
+Presented by : [Olivier Arteau](http://holyvier.blogspot.ca/)
 
-Created by : [rootme](http://www.root-me.org/)
+Created by : [Laurent Desaulniers](https://twitter.com/el_d33)
 
 ## Tools needed
 
-* Windows
-* Debugger / Desassembleur (IDA, radare2)
-* a programming language : python
+* Web browser
 
 ## Where
 
@@ -87,7 +83,7 @@ Reception room of [Maison Notman](http://notman.org/)
 
 ## When
 
-Monday July 20th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday August 17th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
