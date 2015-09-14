@@ -28,7 +28,7 @@ La prochaine édition de Montréhack aura lieu le 21 septembre à la maison Notm
 ## Got Malware?
 
 Description: Revivez les défis malware du NorthSec 2015. Au programme: une
-machine est infecté par un logiciel malveillant. Votre tâche: le trouver et le
+machine est infectée par un logiciel malveillant. Votre tâche: le trouver et le
 comprendre pour découvrir que ce n'est que le début d'une quête vers plus de
 systèmes compromis.
 
