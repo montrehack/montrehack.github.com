@@ -18,24 +18,34 @@ title: MontréHack
 /-->
 
 
-# Prochaine édition: 17 août 2015
+# Prochaine édition: 21 septembre 2015
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le 17 août à la maison Notman.
+La prochaine édition de Montréhack aura lieu le 21 septembre à la maison Notman.
 
-![XSS](/images/15-08_xss.png)
+![Malware cleaning](/images/15-09_malware_cleaning.gif)
 
-## XSS for grown-ups
+## Got Malware?
 
-Description: Trois défis (difficiles) de cross site scripting (XSS) du NorthSec 2015.
+Description: Revivez les défis malware du NorthSec 2015. Au programme: une
+machine est infecté par un logiciel malveillant. Votre tâche: le trouver et le
+comprendre pour découvrir que ce n'est que le début d'une quête vers plus de
+systèmes compromis.
 
-Présenté par: [Olivier Arteau](http://holyvier.blogspot.ca/)
+Présenté par: [Louis Dion-Marcil](https://github.com/ldionmarcil)
 
-Créé par: [Laurent Desaulniers](https://twitter.com/el_d33)
+Créé par: [Marc-Etienne M.Léveillé](https://twitter.com/marc_etienne_)
 
 ## Outils nécessaires
 
-* Navigateur web
+* VirtualBox
+* Client OpenVPN (une configuration sera fournie sur place)
+* Wireshark
+* Désassembleur: metasm, IDA Pro (propriétaire)
+* Client SSH
+
+Il est préférable de télécharger l'image au préalable (1 Go):
+http://ikan.marcetienne.com/hoon_desktop_montrehack.7z
 
 ## Où
 
@@ -45,7 +55,7 @@ Salle de réception de la [Maison Notman](http://notman.org/)
 
 ## Quand
 
-lundi le 17 août de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 21 septembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Notes
 
@@ -57,23 +67,34 @@ lundi le 17 août de 18h à 21h (suivi de bières au Bénélux)
 
 
 <a id="english"></a>
-# Next edition: August 17th 2015
+# Next edition: September 21st 2015
 
-The next edition of Montrehack will be held on August 17th at the Notman house.
+The next edition of Montrehack will be held on September 21st at the Notman house.
 
-![XSS](/images/15-08_xss.png)
+![Malware cleaning](/images/15-09_malware_cleaning.gif)
 
-## XSS for grown-ups
+## Got malware?
 
-Description : Three (hard) cross site scripting (XSS) challenges from NorthSec 2015.
 
-Presented by : [Olivier Arteau](http://holyvier.blogspot.ca/)
+Description: Relive NorthSec 2015's malware track. Program: a machine is
+infected with a piece of malware. Your task: find it and understand it to
+discover that it's only the beginning of a quest to more compromised systems.
 
-Created by : [Laurent Desaulniers](https://twitter.com/el_d33)
+Presented by : [Louis Dion-Marcil](https://github.com/ldionmarcil)
+
+Created by : [Marc-Etienne M.Léveillé](https://twitter.com/marc_etienne_)
 
 ## Tools needed
 
-* Web browser
+* VirtualBox
+* OpenVPN client (a configuration will be provided on site)
+* Wireshark
+* Desassembler: metasm, IDA Pro (proprietary)
+* SSH client
+
+It is preferable to download the image before the event (1 Gb):
+http://ikan.marcetienne.com/hoon_desktop_montrehack.7z
+
 
 ## Where
 
@@ -83,7 +104,7 @@ Reception room of [Maison Notman](http://notman.org/)
 
 ## When
 
-Monday August 17th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday September 21st from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
