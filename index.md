@@ -18,44 +18,45 @@ title: MontréHack
 /-->
 
 
-# Prochaine édition: 21 septembre 2015
+# Prochaine édition: 19 octobre 2015
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le 21 septembre à la maison Notman.
+La prochaine édition de Montréhack aura lieu le 19 octobre chez Google.
 
-![Malware cleaning](/images/15-09_malware_cleaning.gif)
+**Enregistrement obligatoire** : [EventBrite](https://www.eventbrite.ca/e/montrehack-tickets-19032869826)
 
-## Got Malware?
+![all your files are belong to us](/images/allyourfiles.jpg)
 
-Description: Revivez les défis malware du NorthSec 2015. Au programme: une
-machine est infectée par un logiciel malveillant. Votre tâche: le trouver et le
-comprendre pour découvrir que ce n'est que le début d'une quête vers plus de
-systèmes compromis.
+## ECCryptolocker
 
-Présenté par: [Louis Dion-Marcil](https://github.com/ldionmarcil)
+Description: Un cryptolocker s'est emparé de vos fichiers. Son auteur est 
+tellement confiant que sa crypto est incassable qu'il a publié le code source
+de son malware. Récupérez vos fichiers!
 
-Créé par: [Marc-Etienne M.Léveillé](https://twitter.com/marc_etienne_)
+Challenge et présentation par: [Catalin Patulea](https://github.com/cpatulea/cats)
 
 ## Outils nécessaires
 
-* VirtualBox
-* Client OpenVPN (une configuration sera fournie sur place)
-* Wireshark
-* Désassembleur: metasm, IDA Pro (propriétaire)
-* Client SSH
+* Éditeur de texte
+* Langage de programmation 
 
-Il est préférable de télécharger l'image au préalable (1 Go):
-http://ikan.marcetienne.com/hoon_desktop_montrehack.7z
+Il est recommandé de vous familiariser avec la cryptographie par courbes ellipitique
+avant l'événement.
+
+* https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
+* [A gentle introduction to Elliptic Curve Cryptography (Youtube)](https://www.youtube.com/watch?v=l6jTFxQaUJA)
 
 ## Où
 
-Salle de réception de la [Maison Notman](http://notman.org/)
+Google Montreal
 
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
+1er étage du 1253 McGill College, Montréal H3B 2Y5
 
 ## Quand
 
-Lundi le 21 septembre de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 19 octobre de 18h à 21h
+
+**Enregistrement obligatoire** : [EventBrite](https://www.eventbrite.ca/e/montrehack-tickets-19032869826)
 
 ## Notes
 
@@ -67,44 +68,43 @@ Lundi le 21 septembre de 18h à 21h (suivi de bières au Bénélux)
 
 
 <a id="english"></a>
-# Next edition: September 21st 2015
+# Next edition: October 19th 2015
 
-The next edition of Montrehack will be held on September 21st at the Notman house.
+The next edition of Montrehack will be held on October 19th at Google.
 
-![Malware cleaning](/images/15-09_malware_cleaning.gif)
+![All your files](/images/allyourfiles.jpg)
 
-## Got malware?
+## ECCryptolocker
 
+Description: A cryptolocker stole your files. His author is so confident
+in the security of its implemention that he published the source code
+of his malware. Get back your files!
 
-Description: Relive NorthSec 2015's malware track. Program: a machine is
-infected with a piece of malware. Your task: find it and understand it to
-discover that it's only the beginning of a quest to more compromised systems.
-
-Presented by : [Louis Dion-Marcil](https://github.com/ldionmarcil)
-
-Created by : [Marc-Etienne M.Léveillé](https://twitter.com/marc_etienne_)
+Created and presented by : [Catalin Patulea](https://github.com/cpatulea/cats)
 
 ## Tools needed
 
-* VirtualBox
-* OpenVPN client (a configuration will be provided on site)
-* Wireshark
-* Desassembler: metasm, IDA Pro (proprietary)
-* SSH client
+* Text editor
+* A programming language 
 
-It is preferable to download the image before the event (1 Gb):
-http://ikan.marcetienne.com/hoon_desktop_montrehack.7z
+It is recommended to familiarize yourself with Elliptic Curve Cryptography
+before the event.
+
+* https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
+* [A gentle introduction to Elliptic Curve Cryptography (Youtube)](https://www.youtube.com/watch?v=l6jTFxQaUJA)
 
 
 ## Where
 
-Reception room of [Maison Notman](http://notman.org/)
+Google Montreal
 
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
+1st floor of 1253 McGill College, Montreal H3B 2Y5
 
 ## When
 
-Monday September 21st from 6pm to 9pm (followed by drinks at Bénélux)
+Monday October 19th from 6pm to 9pm 
+
+**Registration is mandatory** : [EventBrite](https://www.eventbrite.ca/e/montrehack-tickets-19032869826)
 
 ## How
 
