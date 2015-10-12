@@ -25,7 +25,7 @@ La prochaine édition de Montréhack aura lieu le 19 octobre chez Google.
 
 **Enregistrement obligatoire** : [EventBrite](https://www.eventbrite.ca/e/montrehack-tickets-19032869826)
 
-![all your files are belong to us](/images/allyourfiles.jpg)
+<a href="/images/cryptolocker.png"><img src="/images/cryptolocker.png" width="400" alt="pay the fine at your local courthouse"/></a>
 
 ## ECCryptolocker
 
@@ -40,7 +40,7 @@ Challenge et présentation par: [Catalin Patulea](https://github.com/cpatulea/ca
 * Éditeur de texte
 * Langage de programmation 
 
-Il est recommandé de vous familiariser avec la cryptographie par courbes ellipitique
+Il est recommandé de vous familiariser avec la cryptographie par courbes elliptique
 avant l'événement.
 
 * https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
@@ -72,12 +72,12 @@ Lundi le 19 octobre de 18h à 21h
 
 The next edition of Montrehack will be held on October 19th at Google.
 
-![All your files](/images/allyourfiles.jpg)
+<a href="/images/cryptolocker.png"><img src="/images/cryptolocker.png" width="400" alt="pay the fine at your local courthouse"/></a>
 
 ## ECCryptolocker
 
 Description: A cryptolocker stole your files. His author is so confident
-in the security of its implemention that he published the source code
+in the security of its implementation that he published the source code
 of his malware. Get back your files!
 
 Created and presented by : [Catalin Patulea](https://github.com/cpatulea/cats)
