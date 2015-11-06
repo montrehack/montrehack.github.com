@@ -1,25 +1,9 @@
 ---
 layout: default
-title: MontréHack
+title: ECCryptolocker
+tags: crypto
 ---
-<!-- 
 
-  This is the absolute minimum to get stuff up. Feel free [obliged] to add
-  editorial niceties.
-
-  Put this in index.md and update the following variables (like w/ vim's s///)
-  $date $en_date
-  $eventbrite_link
-  $image (optional) format: ![AltText](path_to_image.png)
-  $problem1_name, $problem1_desc, $problem1_tools, $problem1_presenter
-  $en_problem1_name, $en_problem1_desc, $en_problem1_tools, $en_problem1_presenter
-  repeat for problem 2, 3, etc.
-
-/-->
-
-Le prochain Montrehack sera annoncé sous peu // The next Montrehack event will be announced shortly.
-
-<<<<<<< Updated upstream
 # Prochaine édition: 19 octobre 2015
 [English version](#english)
 
@@ -27,13 +11,17 @@ La prochaine édition de Montréhack aura lieu le 19 octobre chez Google.
 
 **Enregistrement obligatoire** : [EventBrite](https://www.eventbrite.ca/e/montrehack-tickets-19032869826)
 
-<a href="/images/cryptolocker.png"><img src="/images/cryptolocker.png" width="400" alt="pay the fine at your local courthouse"/></a>
+![all your files are belong to us](/images/allyourfiles.jpg)
 
 ## ECCryptolocker
 
 Description: Un cryptolocker s'est emparé de vos fichiers. Son auteur est 
 tellement confiant que sa crypto est incassable qu'il a publié le code source
 de son malware. Récupérez vos fichiers!
+
+Le flag est dans le fichier montrehack.flag.nc.
+
+Fichiers du challenge : https://github.com/montrehack/challenges/raw/master/2015-10-19/masterlock-src-c8bded5.zip
 
 Challenge et présentation par: [Catalin Patulea](https://github.com/cpatulea/cats)
 
@@ -42,11 +30,18 @@ Challenge et présentation par: [Catalin Patulea](https://github.com/cpatulea/ca
 * Éditeur de texte
 * Langage de programmation 
 
-Il est recommandé de vous familiariser avec la cryptographie par courbes elliptique
+Il est recommandé de vous familiariser avec la cryptographie par courbes ellipitique
 avant l'événement.
 
 * https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
 * [A gentle introduction to Elliptic Curve Cryptography (Youtube)](https://www.youtube.com/watch?v=l6jTFxQaUJA)
+
+
+## Solution
+
+Présentation : https://github.com/cpatulea/masterlock/raw/master/ECCryptolocker%20(Montre%CC%81hack%202015-10-19).pdf  
+
+Code source et solution : https://github.com/cpatulea/masterlock
 
 ## Où
 
@@ -70,17 +65,21 @@ Lundi le 19 octobre de 18h à 21h
 
 
 <a id="english"></a>
-# Next edition: October 19th 2015
+#Next edition : October 19th 2015
 
 The next edition of Montrehack will be held on October 19th at Google.
 
-<a href="/images/cryptolocker.png"><img src="/images/cryptolocker.png" width="400" alt="pay the fine at your local courthouse"/></a>
+![All your files](/images/allyourfiles.jpg)
 
 ## ECCryptolocker
 
 Description: A cryptolocker stole your files. His author is so confident
-in the security of its implementation that he published the source code
+in the security of its implemention that he published the source code
 of his malware. Get back your files!
+
+The flag is in the file montrehack.flag.nc
+
+Challenge files : https://github.com/montrehack/challenges/raw/master/2015-10-19/masterlock-src-c8bded5.zip
 
 Created and presented by : [Catalin Patulea](https://github.com/cpatulea/cats)
 
@@ -94,6 +93,12 @@ before the event.
 
 * https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
 * [A gentle introduction to Elliptic Curve Cryptography (Youtube)](https://www.youtube.com/watch?v=l6jTFxQaUJA)
+
+## Solution
+
+Presentation : https://github.com/cpatulea/masterlock/raw/master/ECCryptolocker%20(Montre%CC%81hack%202015-10-19).pdf  
+
+Source code and solution : https://github.com/cpatulea/masterlock
 
 
 ## Where
@@ -115,8 +120,6 @@ Monday October 19th from 6pm to 9pm
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
-=======
->>>>>>> Stashed changes
 
 <hr/>
 
