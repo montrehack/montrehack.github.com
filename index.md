@@ -15,7 +15,7 @@ La prochaine édition de Montréhack aura lieu le 16 novembre prochain.
 
 Une certaine compagnie offre un logiciel à l'épreuve de la rétro-ingénierie.
 Mais vous êtes un hacker redoutable et aucune EULA ne peut vous arrêter.
-Trouvez 3 mots de passe et vous aurez la récompense... ou vous serez mit en
+Trouvez 3 mots de passe et vous aurez la récompense... ou vous serez mis en
 demeure.
 
 ## Outils nécessaires
