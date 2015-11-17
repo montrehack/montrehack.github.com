@@ -5,13 +5,13 @@ title: MontréHack
 
 # Prochaine édition
 
-Lundi le $DATE 18h au [café Notman](http://notman.org)
+Lundi le $DATE 18h au [Notman Hall (3e étage)](http://notman.org)
 
 En cours de planification
 
 # Next event
 
-Monday $DATE 6pm at [Notman cafe](http://notman.org)
+Monday $DATE 6pm at [Notman Hall (3rd floor)](http://notman.org)
 
 In planning stage
 
