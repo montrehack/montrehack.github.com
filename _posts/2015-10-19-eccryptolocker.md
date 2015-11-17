@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ECCryptolocker
-tags: crypto
+tags: cryptography malware
 ---
 
 # Prochaine édition: 19 octobre 2015
