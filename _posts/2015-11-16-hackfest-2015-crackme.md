@@ -19,6 +19,8 @@ Mais vous êtes un hacker redoutable et aucune EULA ne peut vous arrêter.
 Trouvez 3 mots de passe et vous aurez la récompense... ou vous serez mis en
 demeure.
 
+Fichiers du challenge : https://github.com/montrehack/challenges/blob/master/2015-11-16/HFCrackMe.zip
+
 ## Outils nécessaires
 
 * Windows Dbg (Olly, ...)
@@ -26,6 +28,10 @@ demeure.
 * Python/Perl/...
 * Hex editor
 * Machine Virtuelle Windows 7 (ou +)
+
+## Solution
+
+Présentation : https://github.com/ek0/challenges/blob/master/2015-11-16/solution_crackme.pdf
 
 ## Où
 
@@ -66,6 +72,8 @@ Some company released a reverse-engineering proof software. But you are a
 hacker and no End User License Agreement can stop you. Find the 3 passwords and
 get the big bounty... or get sued.
 
+Challenge files : https://github.com/montrehack/challenges/blob/master/2015-11-16/HFCrackMe.zip
+
 ## Needed Tools
 
 * Windows Dbg (Olly, ...)
@@ -73,6 +81,10 @@ get the big bounty... or get sued.
 * Python/Perl/...
 * Hex editor
 * Windows 7 (or more recent) Virtual Machine
+
+## Solution
+
+Presentation : https://github.com/montrehack/challenges/blob/master/2015-11-16/solution_crackme.pdf
 
 ## Where
 
