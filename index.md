@@ -9,15 +9,19 @@ title: MontréHack
 
 ![It's Hacker Party Time!](http://i.imgur.com/9JlZKc7.png)
 
-Montréhack fait un spécial Noël avec une édition de réseautage et discussions
-sous la forme du légendaire h0h0h0day. Du plaisir garanti avec les membres de
-plusieurs communautés infosec du Québec!
+Montréhack vous invite à un spécial Noël avec une édition de réseautage et
+discussions sous la forme du légendaire h0h0h0day. Du plaisir garanti avec les
+membres de plusieurs communautés infosec du Québec!
 
 **Exceptionnellement le dimanche 20 décembre à 19h30**
 
 ### Inscriptions et détails
 
 https://h0h0h0day.cisspgroupies.party/
+
+Pour vous exercer, il y a des flags dans l'inscription qui vous permettrons de
+sauver jusqu'à 20$. La qualité du party dépend de l'argent récoltée donc SVP ne
+partagez pas les flags :)
 
 ## En collaboration avec
 
@@ -33,15 +37,19 @@ https://h0h0h0day.cisspgroupies.party/
 
 ![It's Hacker Party Time!](http://i.imgur.com/9JlZKc7.png)
 
-Montréhack does a Christmas special with a discussion and networking focused
-event in the shape of the legendary h0h0h0day party. Great fun with several
-infosec communities!
+Montréhack invites you to a Christmas special with a discussion and networking
+focused event in the shape of the legendary h0h0h0day party. Great fun with
+several infosec communities!
 
 **Exceptionally Sunday December 20th at 7:30 pm**
 
 ### Registration and event details
 
 https://h0h0h0day.cisspgroupies.party/
+
+In order to stay sharp, flags were inserted into registration page. You can
+save up to 20$ with the flags. However the quality of the party depends on the
+money we collect so please be honest and do not share flags ;)
 
 ## In collaboration with:
 
