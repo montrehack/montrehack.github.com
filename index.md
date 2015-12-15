@@ -29,7 +29,6 @@ partagez pas les flags :)
 * [Recon](http://recon.cx/)
 * [NorthSec](http://nsec.io/)
 * [mtlsec](http://blog.mtlsec.com)
-* [OWASP Montreal](https://www.owasp.org/index.php/Montr%C3%A9al)
 
 <a id="english"></a>
 
@@ -57,7 +56,6 @@ money we collect so please be honest and do not share flags ;)
 * [Recon](http://recon.cx/)
 * [NorthSec](http://nsec.io/)
 * [mtlsec](http://blog.mtlsec.com)
-* [OWASP Montreal](https://www.owasp.org/index.php/Montr%C3%A9al)
 
 <hr/>
 
