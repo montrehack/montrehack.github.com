@@ -1,61 +1,114 @@
 ---
 layout: default
 title: MontréHack
+tags: hardware reverse-engineering
 ---
 
+# Prochaine édition: lundi le 18 janvier
 [English version](#english)
 
-# h0h0h0day 2015
+La prochaine édition de Montréhack aura lieu le lundi 18 janvier 2016.
 
-![It's Hacker Party Time!](http://i.imgur.com/9JlZKc7.png)
+![Down the hardware rabbit hole... How deep can we go?](http://i.imgur.com/DvTnkD2.png)
 
-Montréhack vous invite à un spécial Noël avec une édition de réseautage et
-discussions sous la forme du légendaire h0h0h0day. Du plaisir garanti avec les
-membres de plusieurs communautés infosec du Québec!
+## Hackito Ergo Sum 2010 FPGA Challenge
 
-**Exceptionnellement le dimanche 20 décembre à 19h30**
+En 2010, Hackito Ergo Sum présentait l'un des premier challenge s'intéressant à
+la sécurité des FPGA offert au public. Le fichier de configuration en main, les
+participants devaient extraire le mot de passe permettant d'allumer une DEL.
+Malgré les 48 heures alouées, aucune équipe n'a pu compléter le challenge.
 
-### Inscriptions et détails
+Cinq ans plus tard, Montréhack vous propose de revisiter ce challenge en vous
+armant des outils open source s'étant développés ces dernières années.
 
-https://h0h0h0day.cisspgroupies.party/
+## Outils nécessaires
 
-Pour vous exercer, il y a des flags dans l'inscription qui vous permettrons de
-sauver jusqu'à 20$. La qualité du party dépend de l'argent récoltée donc SVP ne
-partagez pas les flags :)
+### Requis minimum:
 
-## En collaboration avec
+- Python
+- icestorm (https://github.com/ylm/icestorm)
 
-* Les CISSP Groupies
-* [Recon](http://recon.cx/)
-* [NorthSec](http://nsec.io/)
-* [mtlsec](http://blog.mtlsec.com)
+### Recommandés:
+
+- Yosys
+- arachne-pnr
+
+## Où
+
+Salle de reception de la [Maison Notman](http://notman.org/)
+
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
+
+## Quand
+
+Lundi le 18 janvier de 18h à 21h (suivi de bières au Bénélux)
+
+## Comment
+
+* Formule workshop
+* Apportez votre ordinateur portable
+* Des problèmes seront étudiés et expliqués
+* Chaque problème sera analysé en petit groupes
+* Les solutions seront présentées avec tout le monde à la fin de la rencontre
+
+## Remerciements
+
+Présenté par Yannick Lamarre
+
+Créé par [Hackito Ergo Sum](http://hackitoergosum.org/)
 
 <a id="english"></a>
+# Next edition: Monday January 18th
 
-# h0h0h0day 2015
+The next edition of Montrehack will be held on Monday January 18th.
 
-![It's Hacker Party Time!](http://i.imgur.com/9JlZKc7.png)
+![Down the hardware rabbit hole... How deep can we go?](http://i.imgur.com/DvTnkD2.png)
 
-Montréhack invites you to a Christmas special with a discussion and networking
-focused event in the shape of the legendary h0h0h0day party. Great fun with
-several infosec communities!
+## Hackito Ergo Sum 2010 FPGA Challenge
 
-**Exceptionally Sunday December 20th at 7:30 pm**
+In 2010, Hackito Ergo Sum presented one of the first challenge oriented towards
+the security of FPGA. Provided the configuration file, hackers had to extract
+the password enabling them to turn on an LED. After the 48 hours CTF, no team
+had successfully extracted the password.
 
-### Registration and event details
+Five years later, Montrehack invites you to try this unresolved challenge with
+the help of open source software developed within the last five years.
 
-https://h0h0h0day.cisspgroupies.party/
+## Needed Tools
 
-In order to stay sharp, flags were inserted into registration page. You can
-save up to 20$ with the flags. However the quality of the party depends on the
-money we collect so please be honest and do not share flags ;)
+### Minimal requirements:
 
-## In collaboration with:
+- Python
+- icestorm (https://github.com/ylm/icestorm)
 
-* The CISSP Groupies
-* [Recon](http://recon.cx/)
-* [NorthSec](http://nsec.io/)
-* [mtlsec](http://blog.mtlsec.com)
+### Recommended:
+
+- Yosys
+- arachne-pnr
+
+## Where
+
+Reception room of [Maison Notman](http://notman.org/)
+
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
+
+## When
+
+Monday January 18th from 6pm to 9pm (followed by drinks at Bénélux)
+
+## How
+
+* Workshop style
+* Bring your own laptop
+* Challenges will be analyzed
+* Small groups of people can work on each challenge
+* Solutions to each challenge will be presented to everyone at the end of the event
+
+## Credits
+
+Presented by Yannick Lamarre
+
+Created by [Hackito Ergo Sum](http://hackitoergosum.org/)
 
 <hr/>
 
