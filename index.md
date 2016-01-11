@@ -55,7 +55,7 @@ Lundi le 18 janvier de 18h à 21h (suivi de bières au Bénélux)
 
 Présenté par Yannick Lamarre
 
-Créé par [Hackito Ergo Sum](http://hackitoergosum.org/)
+Créé par [lekernel](http://m-labs.hk/) pour [Hackito Ergo Sum](http://hackitoergosum.org/) 2010
 
 <a id="english"></a>
 # Next edition: Monday January 18th
@@ -108,7 +108,7 @@ Monday January 18th from 6pm to 9pm (followed by drinks at Bénélux)
 
 Presented by Yannick Lamarre
 
-Created by [Hackito Ergo Sum](http://hackitoergosum.org/)
+Created by [lekernel](http://m-labs.hk/) for [Hackito Ergo Sum](http://hackitoergosum.org/) 2010
 
 <hr/>
 
