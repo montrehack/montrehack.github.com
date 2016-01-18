@@ -21,6 +21,8 @@ Malgré les 48 heures alouées, aucune équipe n'a pu compléter le challenge.
 Cinq ans plus tard, Montréhack vous propose de revisiter ce challenge en vous
 armant des outils open source s'étant développés ces dernières années.
 
+**[Fichiers du défi](https://github.com/montrehack/challenges/tree/master/2016-01-18/build)**
+
 ## Outils nécessaires
 
 ### Requis minimum:
@@ -73,6 +75,8 @@ had successfully extracted the password.
 
 Five years later, Montrehack invites you to try this unresolved challenge with
 the help of open source software developed within the last five years.
+
+**[Challenge files](https://github.com/montrehack/challenges/tree/master/2016-01-18/build)**
 
 ## Needed Tools
 
