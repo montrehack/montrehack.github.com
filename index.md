@@ -1,39 +1,40 @@
 ---
 layout: default
 title: MontréHack
-tags: hardware reverse-engineering
+tags: pentest exploit windows
 ---
 
-# Prochaine édition: lundi le 18 janvier
+# Prochaine édition: lundi le 15 février
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le lundi 18 janvier 2016.
+La prochaine édition de Montréhack aura lieu le lundi 15 février 2016.
 
-![Down the hardware rabbit hole... How deep can we go?](http://i.imgur.com/DvTnkD2.png)
+![Windows XP on fire](/images/16-02_windows_pentest.gif)
 
-## Hackito Ergo Sum 2010 FPGA Challenge
+## Test d'intrusion Windows
 
-En 2010, Hackito Ergo Sum présentait l'un des premier challenge s'intéressant à
-la sécurité des FPGA offert au public. Le fichier de configuration en main, les
-participants devaient extraire le mot de passe permettant d'allumer une DEL.
-Malgré les 48 heures alouées, aucune équipe n'a pu compléter le challenge.
+Vous dites Administrateur? Je répond Administrateur de domaine! Ce mois-ci
+MontréHack vous propose d’escalader vos privilèges à travers un parc
+d’ordinateurs Windows. Il ne s’agit pas d’un défi provenant d’un CTF en
+particulier, mais d’une mise en situation réaliste lors d’un test d’intrusion.
+Il y aura toutefois des flags cachés à vous de trouver. Comme à tout
+MontréHack, une solution sera présenté à la fin.
 
-Cinq ans plus tard, Montréhack vous propose de revisiter ce challenge en vous
-armant des outils open source s'étant développés ces dernières années.
+Il est recommandé de s'informer sur les concepts suivants avant l'événement:
 
-**[Fichiers du défi](https://github.com/montrehack/challenges/tree/master/2016-01-18/build)**
+* Les différents [modules Metasploit](https://www.offensive-security.com/metasploit-unleashed/metasploit-fundamentals/):
+  `Exploit`, `Payload`, `Sessions`, `Handlers`, `Post`, etc.
+* Pass the Hash
+* [Mimikatz](https://github.com/gentilkiwi/mimikatz)
+* NetBios et PsExec
+* Compte local versus compte de domaine
 
 ## Outils nécessaires
 
 ### Requis minimum:
 
-- Python
-- icestorm (https://github.com/ylm/icestorm)
-
-### Recommandés:
-
-- Yosys
-- arachne-pnr
+- [Metasploit](http://www.metasploit.com/)
+- Client OpenVPN
 
 ## Où
 
@@ -43,7 +44,7 @@ Salle de reception de la [Maison Notman](http://notman.org/)
 
 ## Quand
 
-Lundi le 18 janvier de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 15 février de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -55,40 +56,38 @@ Lundi le 18 janvier de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Yannick Lamarre
-
-Créé par [lekernel](http://m-labs.hk/) pour [Hackito Ergo Sum](http://hackitoergosum.org/) 2010
+Présenté et Créé par Mathieu Lavoie.
 
 <a id="english"></a>
-# Next edition: Monday January 18th
+# Next edition: Monday February 15th
 
-The next edition of Montrehack will be held on Monday January 18th.
+The next edition of Montrehack will be held on Monday February 15th.
 
-![Down the hardware rabbit hole... How deep can we go?](http://i.imgur.com/DvTnkD2.png)
+![Windows XP on fire](/images/16-02_windows_pentest.gif)
 
-## Hackito Ergo Sum 2010 FPGA Challenge
+## Windows penetration testing
 
-In 2010, Hackito Ergo Sum presented one of the first challenge oriented towards
-the security of FPGA. Provided the configuration file, hackers had to extract
-the password enabling them to turn on an LED. After the 48 hours CTF, no team
-had successfully extracted the password.
+You say Admin? I say Domain Admin! This month MontréHack offers you to escalate
+your privileges across a network of Windows computers. This challenge is not
+from a CTF strictly speaking, but a realistic scenario often encountered while
+performing penetration testing. There will still be flags for you to find and
+like all MontréHack events a solution will be presented at the end.
 
-Five years later, Montrehack invites you to try this unresolved challenge with
-the help of open source software developed within the last five years.
+It is recommended to learn a little on the following concepts before the event:
 
-**[Challenge files](https://github.com/montrehack/challenges/tree/master/2016-01-18/build)**
+* The different [Metasploit modules](https://www.offensive-security.com/metasploit-unleashed/metasploit-fundamentals/):
+  `Exploit`, `Payload`, `Sessions`, `Handlers`, `Post`, etc.
+* Pass the Hash
+* [Mimikatz](https://github.com/gentilkiwi/mimikatz)
+* NetBios and PsExec
+* Local User Account versus Domain User Account
 
 ## Needed Tools
 
 ### Minimal requirements:
 
-- Python
-- icestorm (https://github.com/ylm/icestorm)
-
-### Recommended:
-
-- Yosys
-- arachne-pnr
+- [Metasploit](http://www.metasploit.com/)
+- OpenVPN client
 
 ## Where
 
@@ -98,7 +97,7 @@ Reception room of [Maison Notman](http://notman.org/)
 
 ## When
 
-Monday January 18th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday February 15th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -110,9 +109,7 @@ Monday January 18th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Yannick Lamarre
-
-Created by [lekernel](http://m-labs.hk/) for [Hackito Ergo Sum](http://hackitoergosum.org/) 2010
+Presented and created by Mathieu Lavoie.
 
 <hr/>
 
