@@ -14,7 +14,7 @@ La prochaine édition de Montréhack aura lieu le lundi 21 mars 2016.
 ## Extension de taille d'un hash (Cryptographie)
 
 L'édition de mars 2016 est organisée autour de la cryptographie. Deux "challenges" d'extension 
-de la taille d'un hash seront présentés. Le premier "challenge. sera Parlour du PlaitCTF 2014.
+du contenu d'un hash seront présentés. Le premier "challenge. sera Parlour du PlaitCTF 2014.
 Le deuxième est inspiré d'un challenge présenté à Olympic CTF Sotchi 2014. Une présentation sur
 le fonctionnement des attaques par extension de la taille d'un hash sera fite en début de soirée.
 
