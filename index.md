@@ -4,37 +4,28 @@ title: MontréHack
 tags: pentest exploit windows
 ---
 
-# Prochaine édition: lundi le 15 février
+# Prochaine édition: lundi le 21 mars 
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le lundi 15 février 2016.
+La prochaine édition de Montréhack aura lieu le lundi 21 mars 2016.
 
-![Windows XP on fire](/images/16-02_windows_pentest.gif)
+![Size Matters](https://www.cloudave.com/wp-content/uploads/2015/05/size-matters.jpg)
 
-## Test d'intrusion Windows
+## Extension de taille d'un hash (Cryptographie)
 
-Vous dites Administrateur? Je répond Administrateur de domaine! Ce mois-ci
-MontréHack vous propose d’escalader vos privilèges à travers un parc
-d’ordinateurs Windows. Il ne s’agit pas d’un défi provenant d’un CTF en
-particulier, mais d’une mise en situation réaliste lors d’un test d’intrusion.
-Il y aura toutefois des flags cachés à vous de trouver. Comme à tout
-MontréHack, une solution sera présenté à la fin.
+L'édition de mars 2016 est organisée autour de la cryptographie. Deux "challenges" d'extension 
+de la taille d'un hash seront présentés. Le premier "challenge. sera Parlour du PlaitCTF 2014.
+Le deuxième est inspiré d'un challenge présenté à Olympic CTF Sotchi 2014. Une présentation sur
+le fonctionnement des attaques par extension de la taille d'un hash sera fite en début de soirée.
 
-Il est recommandé de s'informer sur les concepts suivants avant l'événement:
+Les deux challenges sont : 
 
-* Les différents [modules Metasploit](https://www.offensive-security.com/metasploit-unleashed/metasploit-fundamentals/):
-  `Exploit`, `Payload`, `Sessions`, `Handlers`, `Post`, etc.
-* Pass the Hash
-* [Mimikatz](https://github.com/gentilkiwi/mimikatz)
-* NetBios et PsExec
-* Compte local versus compte de domaine
+* https://gist.github.com/HoLyVieR/bbbe95bfa492ef57fd62
+* https://gist.github.com/HoLyVieR/947bedcb763df27f3e9a
 
 ## Outils nécessaires
 
-### Requis minimum:
-
-- [Metasploit](http://www.metasploit.com/)
-- Client OpenVPN
+* Votre langage de programmation préféré (Python ou autre)
 
 ## Où
 
@@ -44,7 +35,7 @@ Salle de reception de la [Maison Notman](http://notman.org/)
 
 ## Quand
 
-Lundi le 15 février de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 21 mars: de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -56,38 +47,31 @@ Lundi le 15 février de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté et Créé par Mathieu Lavoie.
+Présenté par Olivier Arteau.
 
 <a id="english"></a>
 # Next edition: Monday February 15th
 
-The next edition of Montrehack will be held on Monday February 15th.
+The next edition of Montrehack will be held on Monday March 21st.
 
-![Windows XP on fire](/images/16-02_windows_pentest.gif)
+![Size Matters](https://www.cloudave.com/wp-content/uploads/2015/05/size-matters.jpg)
 
-## Windows penetration testing
+## Hash-Length Extension Attacks (Cryptography)
 
-You say Admin? I say Domain Admin! This month MontréHack offers you to escalate
-your privileges across a network of Windows computers. This challenge is not
-from a CTF strictly speaking, but a realistic scenario often encountered while
-performing penetration testing. There will still be flags for you to find and
-like all MontréHack events a solution will be presented at the end.
+Two hash-length extension challenge will be presented. One of them is Parlour from 
+PlaidCTF 2014 and the second one is inspired by a challenge from Olympic CTF Sotchi 2014. 
+There will also be a brief presentation at the beginning about how length extension 
+attack work.
 
-It is recommended to learn a little on the following concepts before the event:
+The challenges can be found at the following URLs:
 
-* The different [Metasploit modules](https://www.offensive-security.com/metasploit-unleashed/metasploit-fundamentals/):
-  `Exploit`, `Payload`, `Sessions`, `Handlers`, `Post`, etc.
-* Pass the Hash
-* [Mimikatz](https://github.com/gentilkiwi/mimikatz)
-* NetBios and PsExec
-* Local User Account versus Domain User Account
+* https://gist.github.com/HoLyVieR/bbbe95bfa492ef57fd62
+* https://gist.github.com/HoLyVieR/947bedcb763df27f3e9a
+
 
 ## Needed Tools
 
-### Minimal requirements:
-
-- [Metasploit](http://www.metasploit.com/)
-- OpenVPN client
+* Your favorite programming language (Python or any other)
 
 ## Where
 
@@ -97,7 +81,7 @@ Reception room of [Maison Notman](http://notman.org/)
 
 ## When
 
-Monday February 15th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday March 21st from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -109,7 +93,7 @@ Monday February 15th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented and created by Mathieu Lavoie.
+Presented by Olivier Arteau.
 
 <hr/>
 
