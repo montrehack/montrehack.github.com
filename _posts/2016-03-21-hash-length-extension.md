@@ -6,7 +6,7 @@ tags: cryptography
 
 [English version](#english)
 
-![Size Matters](https://www.cloudave.com/wp-content/uploads/2015/05/size-matters.jpg)
+![Size Matters](/images/16-03_size_matters.jpg)
 
 ## Extension de taille d'un hash (Cryptographie)
 
@@ -37,7 +37,7 @@ Présenté par Olivier Arteau.
 
 <a id="english"></a>
 
-![Size Matters](https://www.cloudave.com/wp-content/uploads/2015/05/size-matters.jpg)
+![Size Matters](/images/16-03_size_matters.jpg)
 
 ## Hash-Length Extension Attacks (Cryptography)
 
