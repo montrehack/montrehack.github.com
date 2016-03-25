@@ -21,7 +21,7 @@ de son malware. Récupérez vos fichiers!
 
 Le flag est dans le fichier montrehack.flag.nc.
 
-Fichiers du challenge : https://github.com/montrehack/challenges/raw/master/2015-10-19/masterlock-src-c8bded5.zip
+Fichiers du challenge : <https://github.com/montrehack/challenges/raw/master/2015-10-19/masterlock-src-c8bded5.zip>
 
 Challenge et présentation par: [Catalin Patulea](https://github.com/cpatulea/cats)
 
@@ -33,15 +33,15 @@ Challenge et présentation par: [Catalin Patulea](https://github.com/cpatulea/ca
 Il est recommandé de vous familiariser avec la cryptographie par courbes ellipitique
 avant l'événement.
 
-* https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
+* <https://en.wikipedia.org/wiki/Elliptic_curve_cryptography>
 * [A gentle introduction to Elliptic Curve Cryptography (Youtube)](https://www.youtube.com/watch?v=l6jTFxQaUJA)
 
 
 ## Solution
 
-Présentation : https://github.com/cpatulea/masterlock/raw/master/ECCryptolocker%20(Montre%CC%81hack%202015-10-19).pdf  
+Présentation : <https://github.com/cpatulea/masterlock/raw/master/ECCryptolocker%20(Montre%CC%81hack%202015-10-19).pdf>
 
-Code source et solution : https://github.com/cpatulea/masterlock
+Code source et solution : <https://github.com/cpatulea/masterlock>
 
 ## Où
 
@@ -79,7 +79,7 @@ of his malware. Get back your files!
 
 The flag is in the file montrehack.flag.nc
 
-Challenge files : https://github.com/montrehack/challenges/raw/master/2015-10-19/masterlock-src-c8bded5.zip
+Challenge files : <https://github.com/montrehack/challenges/raw/master/2015-10-19/masterlock-src-c8bded5.zip>
 
 Created and presented by : [Catalin Patulea](https://github.com/cpatulea/cats)
 
@@ -91,14 +91,14 @@ Created and presented by : [Catalin Patulea](https://github.com/cpatulea/cats)
 It is recommended to familiarize yourself with Elliptic Curve Cryptography
 before the event.
 
-* https://en.wikipedia.org/wiki/Elliptic_curve_cryptography
+* <https://en.wikipedia.org/wiki/Elliptic_curve_cryptography>
 * [A gentle introduction to Elliptic Curve Cryptography (Youtube)](https://www.youtube.com/watch?v=l6jTFxQaUJA)
 
 ## Solution
 
-Presentation : https://github.com/cpatulea/masterlock/raw/master/ECCryptolocker%20(Montre%CC%81hack%202015-10-19).pdf  
+Presentation : <https://github.com/cpatulea/masterlock/raw/master/ECCryptolocker%20(Montre%CC%81hack%202015-10-19).pdf>
 
-Source code and solution : https://github.com/cpatulea/masterlock
+Source code and solution : <https://github.com/cpatulea/masterlock>
 
 
 ## Where

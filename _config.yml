@@ -1,13 +1,6 @@
 # pages github defaults
 safe: true
 lsi: false
-highlighter: pygments
-
-# get automatic linking of URLs w/ redcarpet and autolink extension
-markdown: redcarpet
-redcarpet:
-  extensions: [ "autolink" ]
-#  extensions: [ "autolink", "with_toc_data" ]
 
 # exclude some files we don't want to leak
 exclude: [ 'README.md', 'CNAME', 'meta' ]

@@ -22,10 +22,10 @@ Lien vers le défi à venir.
 
 Liens :
 
-* Burp Suite http://portswigger.net/burp/download.html
-* OWASP ZAP https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-* nginx http://nginx.org/en/download.html
-* Apache http://httpd.apache.org/download.cgi
+* Burp Suite <http://portswigger.net/burp/download.html>
+* OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
+* nginx <http://nginx.org/en/download.html>
+* Apache <http://httpd.apache.org/download.cgi>
 
 ## Solution
 
@@ -53,10 +53,10 @@ This month MontreHack will present two intermediate Web challenges. Your goal is
 
 Links:
 
-* Burp Suite http://portswigger.net/burp/download.html
-* OWASP ZAP https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-* nginx http://nginx.org/en/download.html
-* Apache http://httpd.apache.org/download.cgi
+* Burp Suite <http://portswigger.net/burp/download.html>
+* OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
+* nginx <http://nginx.org/en/download.html>
+* Apache <http://httpd.apache.org/download.cgi>
 
 ## Solution
 

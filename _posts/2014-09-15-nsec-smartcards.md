@@ -53,30 +53,30 @@ help.
 
 #### GPShell (Text-based script SmartCard Interaction) :
 
-* http://sourceforge.net/projects/globalplatform/files/
-* https://launchpad.net/~k-o-/+archive/globalplatform (for Ubuntu, you can take the 11.10 version)
+* <http://sourceforge.net/projects/globalplatform/files/>
+* <https://launchpad.net/~k-o-/+archive/globalplatform> (for Ubuntu, you can take the 11.10 version)
 
 #### Smart Card Shell (JavaScript-based SmartCard Interaction) :
 
-* http://www.openscdp.org/scsh3/
+* <http://www.openscdp.org/scsh3/>
 
 #### Python tools :
 
-* http://pyscard.sourceforge.net/
+* <http://pyscard.sourceforge.net/>
 
 #### Perl tools :
 
-* http://search.cpan.org/~whom/pcsc-perl-1.4.10/PCSC.pod
-* http://ludovic.rousseau.free.fr/softwares/pcsc-perl/
+* <http://search.cpan.org/~whom/pcsc-perl-1.4.10/PCSC.pod>
+* <http://ludovic.rousseau.free.fr/softwares/pcsc-perl/>
 
 #### Java tools:
 
-* http://docs.oracle.com/javase/7/docs/jre/api/security/smartcardio/spec/index.html?javax/smartcardio/package-summary.html
+* <http://docs.oracle.com/javase/7/docs/jre/api/security/smartcardio/spec/index.html?javax/smartcardio/package-summary.html>
 
 #### Other useful links :
 
-* http://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line
-* http://ludovicrousseau.blogspot.ca/
+* <http://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line>
+* <http://ludovicrousseau.blogspot.ca/>
 
 ## Diapos / Slides
 

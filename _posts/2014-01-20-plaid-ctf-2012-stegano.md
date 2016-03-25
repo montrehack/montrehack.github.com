@@ -18,15 +18,15 @@ tags: steganography
 
 Stegano-night!
 
-1) 3D, http://repo.shell-storm.org/CTF/PlaidCTF-2012/3d/
+1) 3D, <http://repo.shell-storm.org/CTF/PlaidCTF-2012/3d/>
 
 The robots appear to be testing some kind of new camera technology but we haven't quite figured it out yet. Understanding this imaging could be crucial to our understanding the enemy and winning the war.
 
-2) Rpo, http://repo.shell-storm.org/CTF/PlaidCTF-2012/rpo/
+2) Rpo, <http://repo.shell-storm.org/CTF/PlaidCTF-2012/rpo/>
 
 Ok, so we think we intercepted some robot pr0n but we are not entirely sure. Can you help us decide what it is?
 
-3) Stego, http://repo.shell-storm.org/CTF/PlaidCTF-2012/stego/
+3) Stego, <http://repo.shell-storm.org/CTF/PlaidCTF-2012/stego/>
 
 We are a little unsure what the robots fascination with Star Trek is but it would seem from the amount of accesses this image has been getting that it holds something interesting for them. Can you figure out what it is?
 

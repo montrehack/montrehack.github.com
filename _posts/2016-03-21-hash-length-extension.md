@@ -17,8 +17,8 @@ le fonctionnement des attaques par extension de la taille d'un hash sera fite en
 
 Les deux challenges sont : 
 
-* https://gist.github.com/HoLyVieR/bbbe95bfa492ef57fd62
-* https://gist.github.com/HoLyVieR/947bedcb763df27f3e9a
+* <https://gist.github.com/HoLyVieR/bbbe95bfa492ef57fd62>
+* <https://gist.github.com/HoLyVieR/947bedcb763df27f3e9a>
 
 ## Outils nécessaires
 
@@ -26,10 +26,10 @@ Les deux challenges sont :
 
 ## Solutions
 
-* Présentation: http://slides.com/olivierarteau/hash-length-extension-8
-* Solution 1: https://gist.github.com/HoLyVieR/2224af63adb804b68cef
-* Solution 2: https://gist.github.com/HoLyVieR/912a7769e90ded9fcda3
-* Solution 1 alternative: https://github.com/obilodeau/scratchpad/blob/master/infosec/crypto/hash-length-extension/Parlour-PlaidCTF-2014_exploit.py
+* Présentation: <http://slides.com/olivierarteau/hash-length-extension-8>
+* Solution 1: <https://gist.github.com/HoLyVieR/2224af63adb804b68cef>
+* Solution 2: <https://gist.github.com/HoLyVieR/912a7769e90ded9fcda3>
+* Solution 1 alternative: <https://github.com/obilodeau/scratchpad/blob/master/infosec/crypto/hash-length-extension/Parlour-PlaidCTF-2014_exploit.py>
 
 ## Remerciements
 
@@ -48,8 +48,8 @@ attack work.
 
 The challenges can be found at the following URLs:
 
-* https://gist.github.com/HoLyVieR/bbbe95bfa492ef57fd62
-* https://gist.github.com/HoLyVieR/947bedcb763df27f3e9a
+* <https://gist.github.com/HoLyVieR/bbbe95bfa492ef57fd62>
+* <https://gist.github.com/HoLyVieR/947bedcb763df27f3e9a>
 
 ## Needed Tools
 
@@ -57,10 +57,10 @@ The challenges can be found at the following URLs:
 
 ## Solutions
 
-* Presentation: http://slides.com/olivierarteau/hash-length-extension-8
-* Solution 1: https://gist.github.com/HoLyVieR/2224af63adb804b68cef
-* Solution 2: https://gist.github.com/HoLyVieR/912a7769e90ded9fcda3
-* Alternate solution 1: https://github.com/obilodeau/scratchpad/blob/master/infosec/crypto/hash-length-extension/Parlour-PlaidCTF-2014_exploit.py
+* Presentation: <http://slides.com/olivierarteau/hash-length-extension-8>
+* Solution 1: <https://gist.github.com/HoLyVieR/2224af63adb804b68cef>
+* Solution 2: <https://gist.github.com/HoLyVieR/912a7769e90ded9fcda3>
+* Alternate solution 1: <https://github.com/obilodeau/scratchpad/blob/master/infosec/crypto/hash-length-extension/Parlour-PlaidCTF-2014_exploit.py>
 
 ## Credits
 

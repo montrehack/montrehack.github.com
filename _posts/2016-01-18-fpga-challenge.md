@@ -23,7 +23,7 @@ armant des outils open source s'étant développés ces dernières années.
 ### Requis minimum:
 
 - Python
-- icestorm (https://github.com/ylm/icestorm)
+- [icestorm](https://github.com/ylm/icestorm)
 
 ### Recommandés:
 
@@ -74,7 +74,7 @@ the help of open source software developed within the last five years.
 ### Minimal requirements:
 
 - Python
-- icestorm (https://github.com/ylm/icestorm)
+- [icestorm](https://github.com/ylm/icestorm)
 
 ### Recommended:
 

@@ -29,7 +29,7 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 
 ## Instructions et solutionnaire
 
-* https://github.com/h3xstream/montrehack-2013-03
+* <https://github.com/h3xstream/montrehack-2013-03>
 
 ## Remerciements
 
@@ -60,7 +60,7 @@ This month, our target will be the website of a mafia baker (Anonymousse).  Your
 
 ## Instructions and write-up
 
-* https://github.com/h3xstream/montrehack-2013-03
+* <https://github.com/h3xstream/montrehack-2013-03>
 
 ## Credits
 

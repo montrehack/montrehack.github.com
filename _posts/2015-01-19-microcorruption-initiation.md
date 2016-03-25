@@ -33,7 +33,7 @@ Présenté par Pierre-Marc Bureau [@pmbureau](https://twitter.com/pmbureau)
 ## Starting with the microcorruption CTF
 
 We are presenting some challenges from Microcorruption, an embedded 
-security CTF, which can be played online: https://microcorruption.com/.  The
+security CTF, which can be played online: <https://microcorruption.com/>.  The
  challenges are about exploitation of software vulnerabilities.
 
 Solutions for the first levels will be presented in hope to motivate you into 

@@ -19,7 +19,7 @@ Mais vous êtes un hacker redoutable et aucune EULA ne peut vous arrêter.
 Trouvez 3 mots de passe et vous aurez la récompense... ou vous serez mis en
 demeure.
 
-Fichiers du challenge : https://github.com/montrehack/challenges/raw/master/2015-11-16/HFCrackMe.zip
+Fichiers du challenge : <https://github.com/montrehack/challenges/raw/master/2015-11-16/HFCrackMe.zip>
 
 ## Outils nécessaires
 
@@ -31,7 +31,7 @@ Fichiers du challenge : https://github.com/montrehack/challenges/raw/master/2015
 
 ## Solution
 
-Présentation : https://github.com/montrehack/challenges/raw/master/2015-11-16/solution_crackme.pdf
+Présentation : <https://github.com/montrehack/challenges/raw/master/2015-11-16/solution_crackme.pdf>
 
 ## Où
 
@@ -72,7 +72,7 @@ Some company released a reverse-engineering proof software. But you are a
 hacker and no End User License Agreement can stop you. Find the 3 passwords and
 get the big bounty... or get sued.
 
-Challenge files : https://github.com/montrehack/challenges/raw/master/2015-11-16/HFCrackMe.zip
+Challenge files : <https://github.com/montrehack/challenges/raw/master/2015-11-16/HFCrackMe.zip>
 
 ## Needed Tools
 
@@ -84,7 +84,7 @@ Challenge files : https://github.com/montrehack/challenges/raw/master/2015-11-16
 
 ## Solution
 
-Presentation : https://github.com/montrehack/challenges/raw/master/2015-11-16/solution_crackme.pdf
+Presentation : <https://github.com/montrehack/challenges/raw/master/2015-11-16/solution_crackme.pdf>
 
 ## Where
 
