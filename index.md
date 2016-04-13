@@ -7,7 +7,7 @@ tags: pentest exploit windows
 # Prochaine édition: lundi le 18 avril 
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le lundi 21 mars 2016.
+La prochaine édition de Montréhack aura lieu le lundi 18 avril 2016.
 
 Svp vous enregistrer sur Eventbrite avant l'événement :
 <https://www.eventbrite.ca/e/montrehack-tickets-24607620054>
@@ -43,6 +43,7 @@ Lundi le 18 mars: de 18h à 21h (suivi de bières au Bénélux)
 Présenté par Mathieu Lavoie et Olivier Arteau.
 
 <a id="english"></a>
+
 # Next edition: Monday April 18th
 
 The next edition of Montrehack will be held on Monday April 18th.
