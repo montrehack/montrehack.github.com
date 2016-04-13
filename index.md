@@ -1,21 +1,84 @@
 ---
 layout: default
 title: MontréHack
+tags: pentest exploit windows
 ---
 
-# Prochaine édition
+# Prochaine édition: lundi le 18 avril 
+[English version](#english)
 
-Lundi le 18 avril 18h au [Notman Hall (3e étage)](http://notman.org)
+La prochaine édition de Montréhack aura lieu le lundi 21 mars 2016.
 
-En cours de planification
+Svp vous enregistrer sur Eventbrite avant l'événement :
+<https://www.eventbrite.ca/e/montrehack-tickets-24607620054>
 
-# Next event
+![Totally Unrelated Logo](/images/logo_rop.gif)
 
-Monday April 18th 6pm at [Notman Hall (3rd floor)](http://notman.org)
+## ROP it like it's hot (Exploitation)
 
-In planning stage
+Challenges d'introduction au Return-Oriented Programming (ROP).
 
-Stay tuned!
+## Outils nécessaires
+
+* Votre langage de programmation préféré (Python ou autre)
+
+## Où
+
+Espace Desjardins, 175 boul René Lévesque Ouest, Montreal
+
+## Quand
+
+Lundi le 18 mars: de 18h à 21h (suivi de bières au Bénélux)
+
+## Comment
+
+* Formule workshop
+* Apportez votre ordinateur portable
+* Des problèmes seront étudiés et expliqués
+* Chaque problème sera analysé en petit groupes
+* Les solutions seront présentées avec tout le monde à la fin de la rencontre
+
+## Remerciements
+
+Présenté par Mathieu Lavoie et Olivier Arteau.
+
+<a id="english"></a>
+# Next edition: Monday April 18th
+
+The next edition of Montrehack will be held on Monday April 18th.
+
+Please register on Evenbrite before the event :
+<https://www.eventbrite.ca/e/montrehack-tickets-24607620054>
+
+![Totally Unrelated Logo](/images/logo_rop.gif)
+
+## ROP it like it's hot (Exploitation)
+
+We will go over intro challenges for Return-Oriented Programming (ROP).
+
+## Needed Tools
+
+* Your favorite programming language (Python or any other)
+
+## Where
+
+Espace Desjardins, 175 boul René Lévesque Ouest, Montreal
+
+## When
+
+Monday April 18th from 6pm to 9pm (followed by drinks at Bénélux)
+
+## How
+
+* Workshop style
+* Bring your own laptop
+* Challenges will be analyzed
+* Small groups of people can work on each challenge
+* Solutions to each challenge will be presented to everyone at the end of the event
+
+## Credits
+
+Presented by Mathieu Lavoie and Olivier Arteau.
 
 <hr/>
 
