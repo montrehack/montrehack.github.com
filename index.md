@@ -24,7 +24,7 @@ Challenges d'introduction au Return-Oriented Programming (ROP).
 
 ## Où
 
-Espace Desjardins, 175 boul René Lévesque Ouest, Montreal
+Salle Excentriq, 175 boul René Lévesque Ouest, Montreal
 
 ## Quand
 
@@ -63,7 +63,7 @@ We will go over intro challenges for Return-Oriented Programming (ROP).
 
 ## Where
 
-Espace Desjardins, 175 boul René Lévesque Ouest, Montreal
+Salle Excentriq, 175 boul René Lévesque Ouest, Montreal
 
 ## When
 
