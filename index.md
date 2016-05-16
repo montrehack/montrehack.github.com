@@ -50,6 +50,7 @@ Lundi le 16 mai prochain de 18h à 21h (suivi de bières au 3 brasseurs)
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
 <a id="english"></a>
+
 # Next edition: Monday May 16th
 
 **Attention! Hosted in a new venue!**
