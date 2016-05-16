@@ -30,12 +30,12 @@ Marché Bonsecours Bureau 300
 Montreal
 ```
 
-Prenez l'ascenceur jusqu'au bureau 300.
+Prenez l'ascenceur jusqu'au 3e étage et c'est là.
 
 En cas de pépins, allez à l'accueil au 350 rue Saint-Paul Est et demandez au gardien comment vous rendre au bureau 300.
 
-* http://www.marchebonsecours.qc.ca/en/images/plan/plan2015.jpg
-* http://www.marchebonsecours.qc.ca/en/joindre.html
+* [Plan](http://www.marchebonsecours.qc.ca/en/images/plan/plan2015.jpg)
+* [Adresse](http://www.marchebonsecours.qc.ca/en/joindre.html)
 
 ## Quand
 
@@ -69,6 +69,20 @@ Introduction to gdb prepared by Yannick Lamarre and presented by Philippe Gorley
 ## Where
 
 **New venue!**
+
+```
+Marché Bonsecours Office 300
+390 rue Saint-Paul Est
+Montreal
+```
+
+From the entrance on 390 you take the elevator to the 3rd floor and voilà!
+
+If something is not right, go to the help desk at 350 rue Saint-Paul Est and ask to be taken to office 300.
+
+* [Plan](http://www.marchebonsecours.qc.ca/en/images/plan/plan2015.jpg)
+* [Address](http://www.marchebonsecours.qc.ca/en/joindre.html)
+
 
 ## When
 
