@@ -17,6 +17,8 @@ La prochaine édition de Montréhack aura lieu lundi le 16 mai 2016.
 
 Un crackme/defuse préparé par Israël Hallé de la DCIETS utilisé comme introduction à GDB.
 
+[fichier du défi](https://github.com/montrehack/challenges/raw/master/2016-05-16/defuse)
+
 ## Outils nécessaires
 
 * gdb
@@ -70,6 +72,8 @@ The next edition of Montrehack will be held on Monday May 16th 2016.
 ## DCIETS CS Games 2016 Qualifications Teaser
 
 A crackme/defuse challenge prepared by the DCI's Israël Hallé as a quick introduction to GDB.
+
+[challenge file](https://github.com/montrehack/challenges/raw/master/2016-05-16/defuse)
 
 ## Needed Tools
 
