@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MontréHack
+tags: tutorial crackme
 ---
 
 # Prochaine édition: Lundi le 16 mai 2016
@@ -12,13 +13,14 @@ La prochaine édition de Montréhack aura lieu lundi le 16 mai 2016.
 
 <!-- image //-->
 
-## Préparation à NorthSec: gdb intro
+## Teaser pour les qualifications des CS Games 2016 de la DCIETS.
 
-Introduction à gdb préparée par Yannick Lamarre et présentée par Philippe Gorley.
+Un crackme/defuse préparé par Israël Hallé de la DCIETS utilisé comme introduction à GDB.
 
 ## Outils nécessaires
 
 * gdb
+* [peda gdb extension](https://github.com/longld/peda)
 
 ## Où
 
@@ -49,6 +51,12 @@ Lundi le 16 mai prochain de 18h à 21h (suivi de bières au 3 brasseurs)
 * Chaque problème sera analysé en petit groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
+## Remerciements
+
+Présenté par Yannick Lamarre et Philippe Gorley.
+
+Conçu par Israël Hallé pour les qualifications de la DCIETS pour les CSGames.
+
 <a id="english"></a>
 
 # Next edition: Monday May 16th
@@ -59,13 +67,14 @@ The next edition of Montrehack will be held on Monday May 16th 2016.
 
 <!-- $image //-->
 
-## NorthSec Preparation: gdb intro
+## DCIETS CS Games 2016 Qualifications Teaser
 
-Introduction to gdb prepared by Yannick Lamarre and presented by Philippe Gorley.
+A crackme/defuse challenge prepared by the DCI's Israël Hallé as a quick introduction to GDB.
 
 ## Needed Tools
 
 * gdb
+* [peda gdb extension](https://github.com/longld/peda)
 
 ## Where
 
@@ -96,6 +105,12 @@ Monday May 16th from 6pm to 9pm (followed by drinks at Les 3 brasseurs)
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
+
+## Credits
+
+Presented by Yannick Lamarre and Philippe Gorley.
+
+Created by Israël Hallé for DCIETS' CSGames qualifications.
 
 <hr/>
 
