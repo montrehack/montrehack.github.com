@@ -14,7 +14,7 @@ title: MontréHack
 * [CTF Field Guide](https://trailofbits.github.io/ctf/)
 * [A Bug Hunter’s Diary](http://www.nostarch.com/bughunter)
 * [Shellcoder’s handbook](http://ca.wiley.com/WileyCDA/WileyTitle/productCd-047008023X.html)
-* [PoC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
+* [PoC\|\|GTFO](https://www.alchemistowl.org/pocorgtfo/)
 * [CTF Resources](https://github.com/ctfs/resources)
 
 ## More Challenges
