@@ -1,120 +1,84 @@
 ---
 layout: default
 title: MontréHack
-tags: tutorial crackme
+tags: nsec16 cryptography hash_collision
 ---
 
-# Prochaine édition: Lundi le 16 mai 2016
+# Prochaine édition: lundi le 20 juin 
 [English version](#english)
 
-**Attention nouvelle salle!**
+La prochaine édition de Montréhack aura lieu le lundi 20 juin 2016.
 
-La prochaine édition de Montréhack aura lieu lundi le 16 mai 2016.
+![Boom](http://i.imgur.com/9GKTFxH.png)
 
-<!-- image //-->
+## Strudel Maker de NorthSec 2016 (Cryptographie)
 
-## Teaser pour les qualifications des CS Games 2016 de la DCIETS.
-
-Un crackme/defuse préparé par Israël Hallé de la DCIETS utilisé comme introduction à GDB.
-
-[fichier du défi](https://github.com/montrehack/challenges/raw/master/2016-05-16/defuse)
+L'édition de juin 2016 présente un challenge de NorthSec 2016 - "Strudel Maker". Dans le contexte du Marcus Madison Bakery, on demandait aux participants de faire la revue de code pour valider la cryptographie protégeant l'intégrité du "Strudel Maker".
 
 ## Outils nécessaires
 
-* gdb
-* [peda gdb extension](https://github.com/longld/peda)
+* Proxy d'attaque Web
+* Votre langage de programmation préféré (Python ou autre)
 
 ## Où
 
-**Nouvelle salle**
+Salle de reception de la [Maison Notman](http://notman.org/)
 
-```
-Marché Bonsecours Bureau 300
-390 rue Saint-Paul Est
-Montreal
-```
-
-Prenez l'ascenceur jusqu'au 3e étage et c'est là.
-
-En cas de pépins, allez à l'accueil au 350 rue Saint-Paul Est et demandez au gardien comment vous rendre au bureau 300.
-
-* [Plan](http://www.marchebonsecours.qc.ca/en/images/plan/plan2015.jpg)
-* [Adresse](http://www.marchebonsecours.qc.ca/en/joindre.html)
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
 ## Quand
 
-Lundi le 16 mai prochain de 18h à 21h (suivi de bières au 3 brasseurs)
+Lundi le 20 juin: de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
 * Formule workshop
 * Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petit groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
+* Le problème sera mis à la dispotion des participants sur un serveur Web local
+* Le problème sera analysé en petit groupes
+* La solution sera présentée avec tout le monde à la fin de la rencontre
 
 ## Remerciements
 
-Présenté par Yannick Lamarre et Philippe Gorley.
-
-Conçu par Israël Hallé pour les qualifications de la DCIETS pour les CSGames.
+Présenté par François Proulx.
 
 <a id="english"></a>
+# Next edition: Monday June 20th
 
-# Next edition: Monday May 16th
+The next edition of Montrehack will be held on Monday June 20th.
 
-**Attention! Hosted in a new venue!**
+![Boom](http://i.imgur.com/9GKTFxH.png)
 
-The next edition of Montrehack will be held on Monday May 16th 2016.
+## Strudel Maker from NorthSec 2016 (Cryptography)
 
-<!-- $image //-->
-
-## DCIETS CS Games 2016 Qualifications Teaser
-
-A crackme/defuse challenge prepared by the DCI's Israël Hallé as a quick introduction to GDB.
-
-[challenge file](https://github.com/montrehack/challenges/raw/master/2016-05-16/defuse)
+This month's edition will present a challenge from NorthSec 2016 - "Studel Maker". In the context of the Mardus Madison Baker, participants were asked to perform code review on cryptographic code protecting the integrity of the "Strudel Maker" device.
 
 ## Needed Tools
 
-* gdb
-* [peda gdb extension](https://github.com/longld/peda)
+* Web attack proxy
+* Your favorite programming language (Python or any other)
 
 ## Where
 
-**New venue!**
+Reception room of [Maison Notman](http://notman.org/)
 
-```
-Marché Bonsecours Office 300
-390 rue Saint-Paul Est
-Montreal
-```
-
-From the entrance on 390 you take the elevator to the 3rd floor and voilà!
-
-If something is not right, go to the help desk at 350 rue Saint-Paul Est and ask to be taken to office 300.
-
-* [Plan](http://www.marchebonsecours.qc.ca/en/images/plan/plan2015.jpg)
-* [Address](http://www.marchebonsecours.qc.ca/en/joindre.html)
-
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
 
 ## When
 
-Monday May 16th from 6pm to 9pm (followed by drinks at Les 3 brasseurs)
+Monday June 20th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
 * Workshop style
 * Bring your own laptop
-* Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
+* The challenge will be made available to participants on a local Web server
+* Small groups of people can work on the challenge
+* Solution to the challenge will be presented to everyone at the end of the event
 
 ## Credits
 
-Presented by Yannick Lamarre and Philippe Gorley.
-
-Created by Israël Hallé for DCIETS' CSGames qualifications.
+Presented by François Proulx.
 
 <hr/>
 
