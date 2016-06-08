@@ -63,6 +63,7 @@ Créé par ...
 $sponsor
 
 <a id="english"></a>
+
 # Next edition: $en_date
 
 The next edition of Montrehack will be held on $en_date.

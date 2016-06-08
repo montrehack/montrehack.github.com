@@ -43,6 +43,7 @@ Lundi le 20 juin: de 18h à 21h (suivi de bières au Bénélux)
 Présenté par François Proulx.
 
 <a id="english"></a>
+
 # Next edition: Monday June 20th
 
 The next edition of Montrehack will be held on Monday June 20th.
