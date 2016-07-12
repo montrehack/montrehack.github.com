@@ -17,7 +17,7 @@ title: Montréhack's archives
 
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
-<h4>{{ tag | first | capitalize }}</a></h4>
+<h4>{{ tag | first | capitalize }}</h4>
 <ul>
 {% for posts in tag %}
 {% for post in posts %}
