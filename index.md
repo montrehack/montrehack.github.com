@@ -1,24 +1,24 @@
 ---
 layout: default
 title: MontréHack
-tags: nsec16 cryptography hash_collision
 ---
 
-# Prochaine édition: lundi le 20 juin 
+# Prochaine édition: lundi le 18 juillet
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le lundi 20 juin 2016.
+La prochaine édition de Montréhack aura lieu le lundi 18 juillet 2016.
 
-![Boom](http://i.imgur.com/9GKTFxH.png)
 
-## Strudel Maker de NorthSec 2016 (Cryptographie)
+## Pinghelper & BusinessCards de NorthSec 2016
 
-L'édition de juin 2016 présente un challenge de NorthSec 2016 - "Strudel Maker". Dans le contexte du Marcus Madison Bakery, on demandait aux participants de faire la revue de code pour valider la cryptographie protégeant l'intégrité du "Strudel Maker".
+L'édition de juillet se concentrera sur Ruby! Deux problèmes de NorthSec seront présentés. Vous devrez tester deux application, un 'Ping Helper' et une applicaiton de cartes d'affaires. Les deux défis présentent des failles spécifiques à Ruby.
 
 ## Outils nécessaires
 
-* Proxy d'attaque Web
-* Votre langage de programmation préféré (Python ou autre)
+* Un interpréteur Ruby
+* Un navigteur Internet
+* Google
+* Un proxy comme Burp, Zap ou Fiddler
 
 ## Où
 
@@ -28,7 +28,7 @@ Salle de reception de la [Maison Notman](http://notman.org/)
 
 ## Quand
 
-Lundi le 20 juin: de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 18 juillet 2016: de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -40,24 +40,26 @@ Lundi le 20 juin: de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par François Proulx.
+Présenté par Laurent Desaulniers ([@el_d33](https://twitter.com/el_d33)).
 
 <a id="english"></a>
 
-# Next edition: Monday June 20th
+# Next edition: Monday July 18th.
 
-The next edition of Montrehack will be held on Monday June 20th.
+The next edition of Montrehack will be held on Monday July 18th.
 
-![Boom](http://i.imgur.com/9GKTFxH.png)
 
-## Strudel Maker from NorthSec 2016 (Cryptography)
+## Pinghelper & BusinessCards from NorthSec 2016
 
-This month's edition will present a challenge from NorthSec 2016 - "Studel Maker". In the context of the Mardus Madison Baker, participants were asked to perform code review on cryptographic code protecting the integrity of the "Strudel Maker" device.
+July 2016 challenges are focused on Ruby! Presenting two challenges from NorthSec, participants will test two applications, a 'Ping Helper' and a Business Card application. Both challenges are designed to present specific ruby flaws that are uncommon in other languages. 
 
 ## Needed Tools
 
-* Web attack proxy
-* Your favorite programming language (Python or any other)
+* Access to a ruby console would be helpful, especially for PingHelper.
+* Ability to Google
+* Your favourite browser.
+* A proxy tool, such as Burp, Zap or Fiddler could be helpful, but is not mandatory
+
 
 ## Where
 
@@ -67,7 +69,7 @@ Reception room of [Maison Notman](http://notman.org/)
 
 ## When
 
-Monday June 20th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday July 18th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -79,13 +81,14 @@ Monday June 20th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by François Proulx.
+Presented by Laurent Desaulniers ([@el_d33](https://twitter.com/el_d33)).
 
-<hr/>
+<hr>
 
 [Intéressé à présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
 
 <hr/>
+
 ### Sponsors // Partenaires
 
 [![Brasserie Benelux](/images/benelux.png)](http://brasseriebenelux.com/)
