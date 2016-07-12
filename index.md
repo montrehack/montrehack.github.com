@@ -1,7 +1,6 @@
 ---
 layout: default
 title: MontréHack
-tags: nsec16 cryptography hash_collision
 ---
 
 # Prochaine édition: lundi le 18 juillet
@@ -10,7 +9,7 @@ tags: nsec16 cryptography hash_collision
 La prochaine édition de Montréhack aura lieu le lundi 18 juillet 2016.
 
 
-## Pinghelper & BusinessCardsr de NorthSec 2016
+## Pinghelper & BusinessCards de NorthSec 2016
 
 L'édition de juillet se concentrera sur Ruby! Deux problèmes de NorthSec seront présentés. Vous devrez tester deux application, un 'Ping Helper' et une applicaiton de cartes d'affaires. Les deux défis présentent des failles spécifiques à Ruby.
 
@@ -41,7 +40,7 @@ Lundi le 18 juillet 2016: de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Laurent Desaulniers (@el_d33).
+Présenté par Laurent Desaulniers ([@el_d33](https://twitter.com/el_d33)).
 
 <a id="english"></a>
 
@@ -50,7 +49,8 @@ Présenté par Laurent Desaulniers (@el_d33).
 The next edition of Montrehack will be held on Monday July 18th.
 
 
-## Pinghelper * BusinessCards from NorthSec 2016
+## Pinghelper & BusinessCards from NorthSec 2016
+
 July 2016 challenges are focused on Ruby! Presenting two challenges from NorthSec, participants will test two applications, a 'Ping Helper' and a Business Card application. Both challenges are designed to present specific ruby flaws that are uncommon in other languages. 
 
 ## Needed Tools
@@ -81,7 +81,7 @@ Monday July 18th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Laurent Desaulniers (@el_d33).
+Presented by Laurent Desaulniers ([@el_d33](https://twitter.com/el_d33)).
 
 <hr>
 
