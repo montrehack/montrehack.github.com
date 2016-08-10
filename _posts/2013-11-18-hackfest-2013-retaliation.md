@@ -36,7 +36,7 @@ gratuit](http://ringzer0team.com/register).
 
 ### Créé et présenté par
 
-Charles F Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) lors du
+Charles F Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) lors du
 [HackFest 2013](http://hackfest.ca).
 
 <a id="english"></a>
@@ -71,7 +71,7 @@ Exceptionally, to access the challenges, an account on
 
 ### Created and presented by
 
-Charles F Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) during
+Charles F Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) during
 [HackFest 2013](http://hackfest.ca).
 
 <hr/>

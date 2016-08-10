@@ -43,7 +43,7 @@ Lundi le 15 août de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Créé et présenté par Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) dans le cadre de [NorthSec 2016](https://nsec.io)
+Créé et présenté par Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) dans le cadre de [NorthSec 2016](https://nsec.io)
 
 <a id="english"></a>
 
@@ -86,7 +86,7 @@ Monday August 15th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Created and presented by: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) at [NorthSec 2016](https://nsec.io)
+Created and presented by: Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) at [NorthSec 2016](https://nsec.io)
 
 <hr/>
 

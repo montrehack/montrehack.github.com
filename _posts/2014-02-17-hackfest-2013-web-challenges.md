@@ -21,7 +21,7 @@ Des défis Web sur une interface de webmail.
 
 ## Remerciements
 
-Créé et présenté par: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der))
+Créé et présenté par: Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r))
 pour le [HackFest 2013](http://hackfest.ca).
 
 
@@ -41,7 +41,7 @@ Web challenges on a Webmail interface.
 
 ## Credits
 
-Created and presented by: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) for
+Created and presented by: Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) for
 [HackFest 2013](http://hackfest.ca).
 
 <hr/>
