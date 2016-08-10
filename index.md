@@ -2,93 +2,111 @@
 layout: default
 title: MontréHack
 ---
+<!-- 
 
-# Prochaine édition: lundi le 18 juillet
+  This is the absolute minimum to get stuff up. Feel free [obliged] to add
+  editorial niceties.
+
+  Put this in index.md and update the following variables (like w/ vim's s///)
+  $date $en_date
+  $eventbrite_link
+  $image (optional) format: ![AltText](path_to_image.png)
+  $problem1_name, $problem1_desc, $problem1_tools, $problem1_presenter
+  $en_problem1_name, $en_problem1_desc, $en_problem1_tools, $en_problem1_presenter
+  repeat for problem 2, 3, etc.
+
+/-->
+
+# Prochaine édition: lundi le 15 août 2016
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le lundi 18 juillet 2016.
+La prochaine édition de Montréhack aura lieu lundi le 15 août 2016.
 
+![Assembly](http://i.gifntext.com/115072-assembly.gif)
 
-## Pinghelper & BusinessCards de NorthSec 2016
+## Trivia.fun et Rebate as a Service
 
-L'édition de juillet se concentrera sur Ruby! Deux problèmes de NorthSec seront présentés. Vous devrez tester deux application, un 'Ping Helper' et une applicaiton de cartes d'affaires. Les deux défis présentent des failles spécifiques à Ruby.
+Défis de rétro-ingénierie fabrication à l'ancienne (a la main en assembleur).
 
 ## Outils nécessaires
 
-* Un interpréteur Ruby
-* Un navigteur Internet
-* Google
-* Un proxy comme Burp, Zap ou Fiddler
+* IDA (optionnel)
+* Linux OS
+* GCC / NASM
+* GDB
+* gdb plugins comme Peda ou autres (optionnel)
+* Python
 
 ## Où
 
-Salle de reception de la [Maison Notman](http://notman.org/)
+Salle de réception de la [Maison Notman](http://notman.org/) au 3e dans le fond
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
 ## Quand
 
-Lundi le 18 juillet 2016: de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 15 août de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
-* Formule workshop
+* Formule atelier
 * Apportez votre ordinateur portable
-* Le problème sera mis à la dispotion des participants sur un serveur Web local
-* Le problème sera analysé en petit groupes
-* La solution sera présentée avec tout le monde à la fin de la rencontre
+* Des problèmes seront étudiés et expliqués
+* Chaque problème sera analysé en petits groupes
+* Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
 ## Remerciements
 
-Présenté par Laurent Desaulniers ([@el_d33](https://twitter.com/el_d33)).
+Créé et présenté par Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) dans le cadre de [NorthSec 2016](https://nsec.io)
 
 <a id="english"></a>
 
-# Next edition: Monday July 18th.
+# Next edition: Monday August 15th
 
-The next edition of Montrehack will be held on Monday July 18th.
+The next edition of Montrehack will be held on Monday August 15th.
 
+![Assembly](http://i.gifntext.com/115072-assembly.gif)
 
-## Pinghelper & BusinessCards from NorthSec 2016
+## Trivia.fun and Rebate as a Service
 
-July 2016 challenges are focused on Ruby! Presenting two challenges from NorthSec, participants will test two applications, a 'Ping Helper' and a Business Card application. Both challenges are designed to present specific ruby flaws that are uncommon in other languages. 
+Reverse engineering challenges purely written in assembly.
 
 ## Needed Tools
 
-* Access to a ruby console would be helpful, especially for PingHelper.
-* Ability to Google
-* Your favourite browser.
-* A proxy tool, such as Burp, Zap or Fiddler could be helpful, but is not mandatory
-
+* IDA (optional)
+* Linux OS
+* GCC / NASM
+* GDB
+* gdb plugins like Peda or others (optional)
+* Python
 
 ## Where
 
-Reception room of [Maison Notman](http://notman.org/)
+Reception room of [Maison Notman](http://notman.org/) on the 3rd floor in the new section
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
 
 ## When
 
-Monday July 18th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday August 15th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
 * Workshop style
 * Bring your own laptop
-* The challenge will be made available to participants on a local Web server
-* Small groups of people can work on the challenge
-* Solution to the challenge will be presented to everyone at the end of the event
+* Challenges will be analyzed
+* Small groups of people can work on each challenge
+* Solutions to each challenge will be presented to everyone at the end of the event
 
 ## Credits
 
-Presented by Laurent Desaulniers ([@el_d33](https://twitter.com/el_d33)).
-
-<hr>
-
-[Intéressé à présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+Created and presented by: Charles F. Hamilton ([@MrUn1k0der](https://twitter.com/MrUn1k0der)) at [NorthSec 2016](https://nsec.io)
 
 <hr/>
 
+[Vous souhaitez présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+
+<hr/>
 ### Sponsors // Partenaires
 
 [![Brasserie Benelux](/images/benelux.png)](http://brasseriebenelux.com/)

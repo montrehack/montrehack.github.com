@@ -27,17 +27,13 @@ $image
 ## Problème #1: $problem1_name
 $problem1_desc
 
-Présenté par: $problem1_presenter
-
-Créé par: ...
-
 ## Outils nécessaires
 
 $problem1_tools
 
 ## Où
 
-Salle de reception de la [Maison Notman](http://notman.org/)
+Salle de réception de la [Maison Notman](http://notman.org/) au 3e étage dans le fond
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
@@ -48,10 +44,10 @@ $date de 18h à 21h (suivi de bières au Bénélux)
 ## Comment
 
 * Enregistrez-vous sur: $eventbrite_link
-* Formule workshop
+* Formule atelier
 * Apportez votre ordinateur portable
 * Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petit groupes
+* Chaque problème sera analysé en petits groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
 ## Remerciements
@@ -80,7 +76,7 @@ $en_problem1_tools
 
 ## Where
 
-Reception room of [Maison Notman](http://notman.org/)
+Reception room of [Maison Notman](http://notman.org/) on the 3rd floor in the new section
 
 51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
 
@@ -107,7 +103,7 @@ $sponsor
 
 <hr/>
 
-[Intéressé à présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+[Vous souhaitez présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
 
 <hr/>
 ### Sponsors // Partenaires
