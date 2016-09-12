@@ -3,35 +3,35 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: lundi le 15 août 2016
+# Prochaine édition: lundi le 19 septembre 2016.
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 15 août 2016.
+La prochaine édition de Montréhack aura lieu lundi le 19 septembre 2016.
 
-![Assembly](http://i.gifntext.com/115072-assembly.gif)
+## Malware as a service
 
-## Trivia.fun et Rebate as a Service
-
-Défis de rétro-ingénierie fabrication à l'ancienne (a la main en assembleur).
+Défis de rétro-ingénierie de logiciels malveillants. 
 
 ## Outils nécessaires
 
-* IDA (optionnel)
+* IDA
 * Linux OS
-* GCC / NASM
 * GDB
-* gdb plugins comme Peda ou autres (optionnel)
+* Windows OS
+* OllyDBG
 * Python
 
 ## Où
 
-Salle de réception de la [Maison Notman](http://notman.org/) au 3e dans le fond
+Google Montréal
 
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
+1253 McGill College, suite 150, Montréal, QC H3B 2Y5, Canada
+
+Enregistrement obligatoire, prière de remplir ce [formulaire](https://www.eventbrite.com/e/montrehack-septembre-2016-tickets-27669661703).
 
 ## Quand
 
-Lundi le 15 août de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 19 septembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -43,38 +43,38 @@ Lundi le 15 août de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Créé et présenté par Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) dans le cadre de [NorthSec 2016](https://nsec.io)
+Créé et présenté par Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau)) dans le cadre de [NorthSec 2016](https://nsec.io)
 
 <a id="english"></a>
 
-# Next edition: Monday August 15th
+# Next edition: Monday September 19th.
 
-The next edition of Montrehack will be held on Monday August 15th.
+The next edition of Montrehack will be held on Monday September 19th.
 
-![Assembly](http://i.gifntext.com/115072-assembly.gif)
+## Malware as a service
 
-## Trivia.fun and Rebate as a Service
+Reverse engineering challenges mostly oriented around malware.
 
-Reverse engineering challenges purely written in assembly.
+## Tools Needed
 
-## Needed Tools
-
-* IDA (optional)
+* IDA
 * Linux OS
-* GCC / NASM
 * GDB
-* gdb plugins like Peda or others (optional)
+* Windows OS
+* OllyDBG
 * Python
 
 ## Where
 
-Reception room of [Maison Notman](http://notman.org/) on the 3rd floor in the new section
+Google Montréal
 
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
+1253 McGill College, suite 150, Montréal, QC H3B 2Y5, Canada
+
+Mandatory registration, please fill this [form](https://www.eventbrite.com/e/montrehack-septembre-2016-tickets-27669661703).
 
 ## When
 
-Monday August 15th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday September 19th, from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -86,7 +86,7 @@ Monday August 15th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Created and presented by: Charles F. Hamilton ([@MrUn1k0d3r](https://twitter.com/MrUn1k0d3r)) at [NorthSec 2016](https://nsec.io)
+Created and presented by: Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau)) at [NorthSec 2016](https://nsec.io)
 
 <hr/>
 
