@@ -3,35 +3,43 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: lundi le 19 septembre 2016.
+# Prochaine édition: lundi le 21 novembre 2016.
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 19 septembre 2016.
+Après une relâche en octobre, la prochaine édition de MontréHack aura lieu
+lundi le 21 novembre 2016.
 
-## Malware as a service
+![Indian key maker](http://i.imgur.com/LH0zQck.jpg)
 
-Défis de rétro-ingénierie de logiciels malveillants. 
+## Soirée _Keygen_
+
+Ce mois-ci, venez pratiquer vos habilité de rétro-ingénierie en essayant de
+fabriquer des générateurs de clés pour 3 à 5 "logiciels" conçus spécifiquement
+pour l'événement. Plusieurs niveaux de difficulté pour satisfaire les néophytes
+comme les pros: très facile jusqu'à plutôt difficile. Quelques indices de ce
+qui s'en vient: Javascript, Assembleur, Objective-C, _truestory_ et
+_cryptofail_.
 
 ## Outils nécessaires
 
-* IDA
-* Linux OS
-* GDB
-* Windows OS
-* OllyDBG
-* Python
+* Linux (une VM est suffisante)
+* Votre langage de programmation préféré (Python ou autre)
+* IDA Pro (le demo est suffisant)
+* gdb
+
+Optionnel
+
+* lldb
 
 ## Où
 
-Google Montréal
+Salle de réception de la [Maison Notman](http://notman.org/)
 
-1253 McGill College, suite 150, Montréal, QC H3B 2Y5, Canada
-
-Enregistrement obligatoire, prière de remplir ce [formulaire](https://www.eventbrite.com/e/montrehack-septembre-2016-tickets-27669661703).
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
 
 ## Quand
 
-Lundi le 19 septembre de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 21 novembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -43,38 +51,45 @@ Lundi le 19 septembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Créé et présenté par Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau)) dans le cadre de [NorthSec 2016](https://nsec.io)
+Créé et présenté par Marc-Etienne M.Léveillé
+([@marc_etienne_](https://twitter.com/marc_etienne_)) spécialement pour
+MontréHack.
 
 <a id="english"></a>
 
-# Next edition: Monday September 19th.
+# Next edition: Monday November 21st 2016
 
-The next edition of Montrehack will be held on Monday September 19th.
+After a break in October, the next edition of MontreHack will be held on Monday
+September 21st 2016 at Notman House.
 
-## Malware as a service
+## _Keygen_ night
 
-Reverse engineering challenges mostly oriented around malware.
+This month, come practice your reverse engineering skills trying to build key
+generators for 3 to 5 different "software" made specifically for this event.
+Multiple level of difficulty will be offered starting from very easy to pretty
+hard to satisfy newcomers and pros. Some clues to what's coming: Javascript,
+Assembly, Objective-C, _truestory_ and _cryptofail_.
 
 ## Tools Needed
 
-* IDA
-* Linux OS
-* GDB
-* Windows OS
-* OllyDBG
-* Python
+* Linux (a VM is okay)
+* Your preferred programming language (Python or other)
+* IDA Pro (Demo is okay)
+* gdb
+
+Optional
+
+* lldb
 
 ## Where
 
-Google Montréal
+Reception room of [Notman House](http://notman.org/)
 
-1253 McGill College, suite 150, Montréal, QC H3B 2Y5, Canada
-
-Mandatory registration, please fill this [form](https://www.eventbrite.com/e/montrehack-septembre-2016-tickets-27669661703).
+51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
 
 ## When
 
-Monday September 19th, from 6pm to 9pm (followed by drinks at Bénélux)
+Monday November 21st, from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -86,7 +101,8 @@ Monday September 19th, from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Created and presented by: Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau)) at [NorthSec 2016](https://nsec.io)
+Created and presented by Marc-Etienne M.Léveillé
+([@marc_etienne_](https://twitter.com/marc_etienne_)) for MontreHack.
 
 <hr/>
 
