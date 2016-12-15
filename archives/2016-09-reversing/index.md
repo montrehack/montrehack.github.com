@@ -1,5 +1,5 @@
----                                                                                                                                                                                                                                      ·
-layout: default                                                                                                                                                                                                                          ·
+---
+layout: default
 title: MontréHack
 ---
 
@@ -21,7 +21,7 @@ are two flags to be found in this binary.
    * --second_flag
    * FLAG1-M04RBL00D
 
-Binaries can be [downloaded here](goo.gl/GHzKek).
+Binaries can be [downloaded here](http://goo.gl/GHzKek).
 Code listing:
 {% highlight C %}
 #include <stdio.h>
