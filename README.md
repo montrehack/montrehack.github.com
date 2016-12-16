@@ -7,7 +7,7 @@ First, setup your stuff. We are following github's recommandations: <https://hel
 
 * To run the dev server:
 
-        $ jekyll serve
+        $ bundle exec jekyll serve
 
 * View the site: <http://localhost:4000/>
 
@@ -17,6 +17,8 @@ If github requires new version of stuff or you get some sort of server error
 just run:
 
 	bundle update
+
+Then retry the local testing.
 
 ## Attribution
 
