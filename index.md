@@ -21,6 +21,8 @@ courriel au Québec. Un assez simple et un autre plus complexe.
 Les débutants pourront apprendre tout en s'amusant en analyse dynamique et les
 plus chevronés pourront tenter de résoudre les défis en analyse statique.
 
+Les fichiers des défis: [https://github.com/montrehack/challenges/tree/master/2016-12-19](https://github.com/montrehack/challenges/tree/master/2016-12-19)
+
 ## Outils nécessaires
 
 Prenez-vous à l'avance car préparer une VM d'analyse de logiciel malveillant
@@ -75,6 +77,8 @@ One is simple and the other is more complex.
 
 Beginners will learn while having fun doing dynamic analysis and advanced
 analysts will attempt to resolve the challenges solely with static analysis.
+
+Challenge files: [https://github.com/montrehack/challenges/tree/master/2016-12-19](https://github.com/montrehack/challenges/tree/master/2016-12-19)
 
 ## Needed Tools
 
