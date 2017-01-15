@@ -3,4 +3,4 @@ safe: true
 lsi: false
 
 # exclude some files we don't want to leak
-exclude: [ 'README.md', 'CNAME', 'meta' ]
+exclude: [ 'README.md', 'CNAME', 'TODO', 'Gemfile', 'Gemfile.lock', 'meta', 'vendor' ]

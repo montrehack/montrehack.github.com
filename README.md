@@ -3,7 +3,7 @@ Quick how-to.
 
 ## Local testing
 
-First, setup your stuff. We are following github's recommandations: <https://help.github.com/articles/using-jekyll-with-pages/>. Make sure you have `bundle` and that you ran `bundle install` inside the repo.
+First, setup your stuff. We are following github's recommandations: <https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>. Make sure you have `bundle` and that you ran `bundle install` inside the repo.
 
 * To run the dev server:
 
