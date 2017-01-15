@@ -1,19 +1,15 @@
 ---
 layout: default
-title: MontréHack
+title: Malicious Documents
+tags: reverse-engineering windows malware
+status: fixme
 ---
 
-# Prochaine édition: lundi le 19 décembre 2016
 [English version](#english)
-
-La prochaine édition de Montréhack aura lieu lundi le 19 décembre 2016.
 
 ![Malicious Document](images/16-12_maldoc.jpg)
 
-## Les documents malicieux
-
-Note: Ce mois-ci nous changeons notre formule CTF pour une formule workshop en
-sécurité. Laissez-nous savoir si ça vous plaît (ou pas).
+# Les documents malicieux
 
 Nous allons analyser deux cas de vrais documents malicieux Office reçus par
 courriel au Québec. Un assez simple et un autre plus complexe.
@@ -34,24 +30,6 @@ c'est long (téléchargement, installation, etc.)!
 * [oledump](https://blog.didierstevens.com/programs/oledump-py/)
 * [ViperMonkey](https://github.com/decalage2/ViperMonkey/)
 
-## Où
-
-Salle de réception de la [Maison Notman](http://notman.org/) au 3e étage dans le fond
-
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2, Canada
-
-## Quand
-
-Lundi le 19 décembre de 18h à 21h (suivi de bières au Bénélux)
-
-## Comment
-
-* Formule atelier
-* Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petits groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
-
 ## Remerciements
 
 Présenté et créé par Olivier Bilodeau ([@obilodeau](https://twitter.com/obilodeau))
@@ -61,16 +39,9 @@ Aussi créé par les auteurs de logiciels malveillants.
 
 <a id="english"></a>
 
-# Next edition: Monday December 19th 2016
-
-The next edition of Montrehack will be held on Monday December 19th 2016.
-
 ![Malicious Document](images/16-12_maldoc.jpg)
 
-## Malicious Documents
-
-Note: This month, we are changing our usual CTF formula in favor of a more
-general security workshop. Let us know if you like it (or not).
+# Malicious Documents
 
 We will analyze two real-world cases of malicious Office documents received by email in Quebec.
 One is simple and the other is more complex.
@@ -90,24 +61,6 @@ install, etc.) so be ready before Monday.
 * [oletools](https://github.com/decalage2/oletools/)
 * [oledump](https://blog.didierstevens.com/programs/oledump-py/)
 * [ViperMonkey](https://github.com/decalage2/ViperMonkey/)
-
-## Where
-
-Reception room of [Maison Notman](http://notman.org/) on the 3rd floor in the new section
-
-51 Rue Sherbrooke Ouest, Montréal, QC H2X 1X2 Canada
-
-## When
-
-Monday December 19th from 6pm to 9pm (followed by drinks at Bénélux)
-
-## How
-
-* Workshop style
-* Bring your own laptop
-* Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
 
 ## Credits
 
