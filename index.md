@@ -15,6 +15,9 @@ La prochaine édition de Montréhack aura lieu lundi le 16 janvier 2017.
 Nous allons analyser différentes captures réseaux et nous allons déterminer
 si le contenu est légitime ou malicieux.
 
+Les fichiers des défis: [https://github.com/montrehack/challenges/tree/master/2017-01-16](https://github.com/montrehack/challenges/tree/master/2017-01-16)
+
+
 ## Outils nécessaires
 
 * Wireshark
@@ -58,6 +61,8 @@ The next edition of Montrehack will be held on Monday January 16th.
 
 We will analyze various network packet captures and we will assess if the
 traffic is legitimate or malicious.
+
+Challenge files: [https://github.com/montrehack/challenges/tree/master/2017-01-16](https://github.com/montrehack/challenges/tree/master/2017-01-16)
 
 ## Needed Tools
 
