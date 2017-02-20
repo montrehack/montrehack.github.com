@@ -16,6 +16,8 @@ Avant d'avoir 64 bits, on avait seulement 8 bits. Ce mois-ci nous proposons de
 trouver une clé dans une "cassette" de Nintendo (virtuel). Une petite
 introduction à l'assembleur du MOS 6502 et au matériel du NES sera présenté.
 
+Fichier du défi: [https://github.com/montrehack/challenges/tree/master/2017-02-20](https://github.com/montrehack/challenges/tree/master/2017-02-20)
+
 ## Outils nécessaires
 
 * [FCEUX](http://www.fceux.com/)
@@ -64,6 +66,8 @@ The next edition of Montrehack will be held on Monday February 20th.
 Before we had 64-bit systems, we had only 8 bits to play with. This month, you
 will have to find a key in a (virtual) Nintendo cartridge. A small introduction
 to MOS 6502 assembly and the NES hardware will be presented.
+
+Challenge file: [https://github.com/montrehack/challenges/tree/master/2017-02-20](https://github.com/montrehack/challenges/tree/master/2017-02-20)
 
 ## Needed Tools
 
