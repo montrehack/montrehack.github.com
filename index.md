@@ -18,7 +18,7 @@ introduction à l'assembleur du MOS 6502 et au matériel du NES sera présenté.
 
 Fichier du défi: [https://github.com/montrehack/challenges/tree/master/2017-02-20](https://github.com/montrehack/challenges/tree/master/2017-02-20)
 
-Présentation: [https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/edit?usp=sharing](https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/edit?usp=sharing)
+Présentation: [https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/preview?usp=sharing](https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/preview?usp=sharing)
 
 ## Outils nécessaires
 
@@ -71,7 +71,7 @@ to MOS 6502 assembly and the NES hardware will be presented.
 
 Challenge file: [https://github.com/montrehack/challenges/tree/master/2017-02-20](https://github.com/montrehack/challenges/tree/master/2017-02-20)
 
-Slides: [https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/edit?usp=sharing](https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/edit?usp=sharing)
+Slides: [https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/preview?usp=sharing](https://docs.google.com/presentation/d/1ntref9xIkr0x9PGCKNTbgmw6llGeQeahmNSap74m4To/preview?usp=sharing)
 
 ## Needed Tools
 

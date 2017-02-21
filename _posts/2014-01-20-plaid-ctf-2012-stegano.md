@@ -10,7 +10,7 @@ tags: steganography
 
 * [Source](http://www.techbrunch.fr/wp-content/uploads/2012/05/Plaid-CTF-2012-Simple-interface.htm)
 * [Challenges](http://repo.shell-storm.org/CTF/PlaidCTF-2012/)
-* [Solution slides](https://docs.google.com/presentation/d/1L7nEBBl7LyWPezbwY3FYY6pr7z7XDt-D-EPQ5wR4EZs/edit?usp=sharing)
+* [Solution slides](https://docs.google.com/presentation/d/1L7nEBBl7LyWPezbwY3FYY6pr7z7XDt-D-EPQ5wR4EZs/preview?usp=sharing)
 
 # Problème: Plaid CTF 2012 recap
 
@@ -49,7 +49,7 @@ Créé par: [Plaid CTF](http://www.plaidctf.com/)
 
 * [Source](http://www.techbrunch.fr/wp-content/uploads/2012/05/Plaid-CTF-2012-Simple-interface.htm)
 * [Challenges](http://repo.shell-storm.org/CTF/PlaidCTF-2012/)
-* [Solution slides](https://docs.google.com/presentation/d/1L7nEBBl7LyWPezbwY3FYY6pr7z7XDt-D-EPQ5wR4EZs/edit?usp=sharing)
+* [Solution slides](https://docs.google.com/presentation/d/1L7nEBBl7LyWPezbwY3FYY6pr7z7XDt-D-EPQ5wR4EZs/preview?usp=sharing)
 
 # Problem: Plaid CTF 2012 Stegano recap
 
