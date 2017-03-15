@@ -24,7 +24,7 @@ présentés et le tout dans une formule de capture the flag!
 
 Collège de Rosemont Local B338 au 6400 16e Avenue, Montréal, QC H1X 2S9
 
-Suivi de discussions à La Succursale après
+Suivi de discussions à [La Succursale](http://lasuccursale.com/) après
 
 ## Quand
 
@@ -68,7 +68,7 @@ be presented in a capture the flag formula.
 
 Collège de Rosemont Room B338 at 6400 16e Avenue, Montréal, QC H1X 2S9
 
-Followed by discussions at La Succursale afterwards
+Followed by discussions at [La Succursale](http://lasuccursale.com/) afterwards
 
 ## When
 
@@ -97,4 +97,4 @@ Hosted by College de Rosemont
 <hr/>
 ### Sponsors // Partenaires
 
-[![Brasserie Benelux](/images/benelux.png)](http://brasseriebenelux.com/)
+[![La Succursale](/images/sponsor_succursale.jpg)](http://lasuccursale.com/)
