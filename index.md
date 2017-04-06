@@ -3,36 +3,38 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: Lundi le 20 mars 2017
+# Prochaine édition: Lundi le 17 avril 2017
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 20 mars 2017.
+La prochaine édition de Montréhack aura lieu lundi le 17 avril 2017.
 
-![Hide the Pain Harold](http://i.imgur.com/qL7xRVZ.png)
+![Terminator captcha](http://i3.kym-cdn.com/photos/images/original/001/236/187/b11.jpg)
 
-## Back to Basics
+## Captcha Bypass de NorthSec
 
-L'édition de mars sera un retour aux sources. Des problèmes classiques seront
-présentés et le tout dans une formule de capture the flag!
+L'édition d'avril portera sur l'évitement de captchas. Ces challenges proviennent 
+d'anciennes éditions de NorthSec.
 
 ## Outils nécessaires
 
 * Navigateur Internet
-* Google
+* Burp
+* Php
+* Python
 
 ## Où
 
-Collège de Rosemont Local B338 au 6400 16e Avenue, Montréal, QC H1X 2S9
+Locaux de Google, suite 150, au 1253 McGill College, Montreal, QC H3B 2Y5
 
-Suivi de discussions à [La Succursale](http://lasuccursale.com/) après
+Suivi de discussions au [Benelux](http://brasseriebenelux.com/sherbrooke) après
 
 ## Quand
 
-Lundi le 20 mars de 18h à 21h
+Lundi le 17 avril de 18h à 21h
 
 ## Comment
 
-[Inscription obligatoire ici](https://montrehackrosemont.eventbrite.ca)!
+[Inscription obligatoire ici](https://www.eventbrite.ca/e/montrehack-avril-april-captcha-bypass-from-northsec-tickets-33469201282)!
 
 * Formule atelier
 * Apportez votre ordinateur portable
@@ -42,41 +44,43 @@ Lundi le 20 mars de 18h à 21h
 
 ## Remerciements
 
-Présenté par Julien Pineault
+Présenté par François Labrèche
 
-Hébergé par le Collège de Rosemont
+Créé par Laurent Desaulniers, pour NorthSec
 
 <a id="english"></a>
 
-# Next edition: March 20th 2017
+# Next edition: April 17th 2017
 
-The next edition of Montrehack will be held on Monday March 20th 2017.
+The next edition of Montrehack will be held on Monday April 17th 2017.
 
-![Hide the Pain Harold](http://i.imgur.com/qL7xRVZ.png)
+![Terminator captcha](http://i3.kym-cdn.com/photos/images/original/001/236/187/b11.jpg)
 
-## Back to Basics
+## Captcha Bypass from Northsec
 
-The March edition will be a return to basics. Classical problems will
-be presented in a capture the flag formula.
+The April edition will consist in various captcha bypasses. Challenges from
+previous Northsec editions will be presented.
 
 ## Needed Tools
 
 * Web Browser
-* Google
+* Burp
+* Php
+* Python
 
 ## Where
 
-Collège de Rosemont Room B338 at 6400 16e Avenue, Montréal, QC H1X 2S9
+Google offices, suite 150, at 1253 McGill College, Montreal, QC H3B 2Y5
 
-Followed by discussions at [La Succursale](http://lasuccursale.com/) afterwards
+Followed by discussions at [Benelux](http://brasseriebenelux.com/sherbrooke) afterwards
 
 ## When
 
-Monday March 20th from 6pm to 9pm
+Monday April 17th from 6pm to 9pm
 
 ## How
 
-Mandatory [registration here](https://montrehackrosemont.eventbrite.ca)!
+Mandatory [registration here](https://www.eventbrite.ca/e/montrehack-avril-april-captcha-bypass-from-northsec-tickets-33469201282)!
 
 * Workshop style
 * Bring your own laptop
@@ -86,9 +90,9 @@ Mandatory [registration here](https://montrehackrosemont.eventbrite.ca)!
 
 ## Credits
 
-Presented by: Julien Pineault
+Presented by: François Labrèche
 
-Hosted by College de Rosemont
+Created by Laurent Desaulniers, for Northsec
 
 <hr/>
 
@@ -97,4 +101,4 @@ Hosted by College de Rosemont
 <hr/>
 ### Sponsors // Partenaires
 
-[![La Succursale](/images/sponsor_succursale.jpg)](http://lasuccursale.com/)
+[![Benelux](/images/benelux.png)](http://brasseriebenelux.com)
