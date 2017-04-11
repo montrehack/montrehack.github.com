@@ -13,6 +13,8 @@ tags: web forensic network steganography tutorial
 L'édition de mars sera un retour aux sources. Des problèmes classiques seront
 présentés et le tout dans une formule de capture the flag!
 
+[Fichiers de défis et solutions](https://github.com/montrehack/challenges/tree/master/2017-03-20)
+
 ## Outils nécessaires
 
 * Navigateur Internet
@@ -40,6 +42,8 @@ Hébergé par le Collège de Rosemont
 
 The March edition will be a return to basics. Classical problems will
 be presented in a capture the flag formula.
+
+[Challenge files and write-ups](https://github.com/montrehack/challenges/tree/master/2017-03-20)
 
 ## Needed Tools
 
