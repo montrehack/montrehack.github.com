@@ -13,6 +13,8 @@ tags: malware network reverse-engineering windows
 L'édition d'avril portera sur l'évitement de captchas. Ces challenges proviennent 
 d'anciennes éditions de NorthSec.
 
+[Fichiers de défis et solutions](https://github.com/montrehack/challenges/tree/master/2017-04-17)
+
 ## Outils nécessaires
 
 * Navigateur Internet
@@ -40,6 +42,8 @@ Créé par Laurent Desaulniers, pour NorthSec.
 
 The April edition will consist in various captcha bypasses. Challenges from
 previous Northsec editions will be presented.
+
+[Challenge files and write-ups](https://github.com/montrehack/challenges/tree/master/2017-04-17)
 
 ## Needed Tools
 
