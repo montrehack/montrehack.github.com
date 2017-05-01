@@ -3,38 +3,48 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: Lundi le 17 avril 2017
+# Prochaine édition: Lundi le 15 mai 2017
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu lundi le 17 avril 2017.
+La prochaine édition de MontréHack aura lieu lundi le 15 mai 2017. **Elle sera
+hébergée par NorthSec au Marché Bonsecours.** Merci [NorthSec](https://nsec.io)!
 
-![Terminator captcha](http://i3.kym-cdn.com/photos/images/original/001/236/187/b11.jpg)
+![Hacked!](/images/17-05_hacked.gif)
 
-## Captcha Bypass de NorthSec
+## Canaux auxiliaires & cache CPU L3
 
-L'édition d'avril portera sur l'évitement de captchas. Ces challenges proviennent 
-d'anciennes éditions de NorthSec.
+Ce mois-ci nous allons nous intéresser à la fuite d'information par canal
+auxiliaire, et en particulier un canal auxiliaire induit par les caches des
+processeurs.
+
+Le fonctionnement des caches sera détaillé, ainsi qu'une attaque par canal
+auxiliaire reposant sur ces caches.
+
+Enfin une épreuve permettra (basé sur un challenge existant) de mettre en
+pratique cette attaque, objectifs : exploitation x86_64 et extraction de la clé
+de l'épreuve via le canal auxiliaire.
 
 ## Outils nécessaires
 
-* Navigateur Internet
-* Burp
-* Php
-* Python
+* Linux x86_64
+* Désassembleur x86_64 (IDA pro/[radare2](https://radare.org)/[Hopper](https://www.hopperapp.com)/...)
+* [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
+* Assembleur x86_64 ([nasm](http://www.nasm.us)/[keystone](http://www.keystone-engine.org)/...)
+* gdb / lldb
 
 ## Où
 
-Locaux de Google, suite 150, au 1253 McGill College, Montreal, QC H3B 2Y5
+3e étage du Marché Bonsecours, 350 rue St-Paul Est, Vieux-Montréal, H2Y 1H2
 
 Suivi de discussions au [Benelux](http://brasseriebenelux.com/sherbrooke) après
 
 ## Quand
 
-Lundi le 17 avril de 18h à 21h
+Lundi le 15 mai de 18h à 21h
 
 ## Comment
 
-[Inscription obligatoire ici](https://www.eventbrite.ca/e/montrehack-avril-april-captcha-bypass-from-northsec-tickets-33469201282)!
+Aucune inscription requise.
 
 * Formule atelier
 * Apportez votre ordinateur portable
@@ -44,43 +54,51 @@ Lundi le 17 avril de 18h à 21h
 
 ## Remerciements
 
-Présenté par François Labrèche
-
-Créé par Laurent Desaulniers, pour NorthSec
+Présenté par David BERARD, défi basé sur un challenge de NoSuchCon 2014.
 
 <a id="english"></a>
 
-# Next edition: April 17th 2017
+# Next edition: May 15th 2017
 
-The next edition of Montrehack will be held on Monday April 17th 2017.
+The next edition of Montrehack will be held on Monday May 15th 2017. **It will
+be hosted by NorthSec at Marché Bonsecours.** Thanks
+[NorthSec](https://nsec.io)!
 
-![Terminator captcha](http://i3.kym-cdn.com/photos/images/original/001/236/187/b11.jpg)
+![Hacked!](/images/17-05_hacked.gif)
 
-## Captcha Bypass from Northsec
+## Side channel & L3 CPU cache
 
-The April edition will consist in various captcha bypasses. Challenges from
-previous Northsec editions will be presented.
+This month, we will look into information leaking via side channel. More
+precisely, side channels introduced by CPU caches.
+
+The inner working of the CPU cache will be detailed and a side channel attack
+on the cache will be demonstrated.
+
+A challenge (based on an existing one) will be proposed to put the theory into
+practice. The objective: exploit a x86_64 application and extract a key via
+a side channel attack.
 
 ## Needed Tools
 
-* Web Browser
-* Burp
-* Php
-* Python
+* Linux x86_64
+* Disassembler x86_64 (IDA pro/[radare2](https://radare.org)/[Hopper](https://www.hopperapp.com)/...)
+* [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
+* Assembler x86_64 ([nasm](http://www.nasm.us)/[keystone](http://www.keystone-engine.org)/...)
+* gdb / lldb
 
 ## Where
 
-Google offices, suite 150, at 1253 McGill College, Montreal, QC H3B 2Y5
+3rd floor of Marché Bonsecours, 350 rue St-Paul Est, Vieux-Montréal, H2Y 1H2
 
 Followed by discussions at [Benelux](http://brasseriebenelux.com/sherbrooke) afterwards
 
 ## When
 
-Monday April 17th from 6pm to 9pm
+Monday May 15th 2017 from 6pm to 9pm
 
 ## How
 
-Mandatory [registration here](https://www.eventbrite.ca/e/montrehack-avril-april-captcha-bypass-from-northsec-tickets-33469201282)!
+No registration required.
 
 * Workshop style
 * Bring your own laptop
@@ -90,9 +108,7 @@ Mandatory [registration here](https://www.eventbrite.ca/e/montrehack-avril-april
 
 ## Credits
 
-Presented by: François Labrèche
-
-Created by Laurent Desaulniers, for Northsec
+Presented by David BERARD, challenge based on a challenge from NoSuchCon 2014.
 
 <hr/>
 
