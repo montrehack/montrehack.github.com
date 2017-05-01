@@ -7,7 +7,7 @@ status: fixme
 
 [English version](#english)
 
-![Malicious Document](images/16-12_maldoc.jpg)
+![Malicious Document](/images/16-12_maldoc.jpg)
 
 # Les documents malicieux
 
@@ -39,7 +39,7 @@ Aussi créé par les auteurs de logiciels malveillants.
 
 <a id="english"></a>
 
-![Malicious Document](images/16-12_maldoc.jpg)
+![Malicious Document](/images/16-12_maldoc.jpg)
 
 # Malicious Documents
 
