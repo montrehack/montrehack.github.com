@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NorthSec Captcha Bypass
-tags: malware network reverse-engineering windows
+tags: cryptography web
 ---
 
 [English version](#english)
