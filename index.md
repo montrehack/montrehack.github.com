@@ -52,6 +52,11 @@ Aucune inscription requise.
 * Chaque problème sera analysé en petits groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
+## Défi
+
+* [Diapo](http://0x1.fr/montrehack-slides.tar.gz)
+* [Fichier du défi](http://0x1.fr/montrehack-chall.zip)
+
 ## Remerciements
 
 Présenté par David BERARD, défi basé sur un challenge de NoSuchCon 2014.
@@ -105,6 +110,11 @@ No registration required.
 * Challenges will be analyzed
 * Small groups of people can work on each challenge
 * Solutions to each challenge will be presented to everyone at the end of the event
+
+## Challenge
+
+* [Slides](http://0x1.fr/montrehack-slides.tar.gz)
+* [Challenge](http://0x1.fr/montrehack-chall.zip)
 
 ## Credits
 
