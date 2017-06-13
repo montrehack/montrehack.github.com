@@ -1,17 +1,13 @@
 ---
 layout: default
-title: MontréHack
+title: Side channel & L3 CPU cache
+tags: exploit hardware tutorial
+status: FIXME
 ---
 
-# Prochaine édition: Lundi le 15 mai 2017
-[English version](#english)
-
-La prochaine édition de MontréHack aura lieu lundi le 15 mai 2017. **Elle sera
-hébergée par NorthSec au Marché Bonsecours.** Merci [NorthSec](https://nsec.io)!
+# Canaux auxiliaires & cache CPU L3
 
 ![Hacked!](/images/17-05_hacked.gif)
-
-## Canaux auxiliaires & cache CPU L3
 
 Ce mois-ci nous allons nous intéresser à la fuite d'information par canal
 auxiliaire, et en particulier un canal auxiliaire induit par les caches des
@@ -32,26 +28,6 @@ de l'épreuve via le canal auxiliaire.
 * Assembleur x86_64 ([nasm](http://www.nasm.us)/[keystone](http://www.keystone-engine.org)/...)
 * gdb / lldb
 
-## Où
-
-3e étage du Marché Bonsecours, 350 rue St-Paul Est, Vieux-Montréal, H2Y 1H2
-
-Suivi de discussions au [Benelux](http://brasseriebenelux.com/sherbrooke) après
-
-## Quand
-
-Lundi le 15 mai de 18h à 21h
-
-## Comment
-
-Aucune inscription requise.
-
-* Formule atelier
-* Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petits groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
-
 ## Défi
 
 * [Diapo](http://0x1.fr/montrehack-slides.tar.gz)
@@ -63,15 +39,9 @@ Présenté par David BERARD, défi basé sur un challenge de NoSuchCon 2014.
 
 <a id="english"></a>
 
-# Next edition: May 15th 2017
-
-The next edition of Montrehack will be held on Monday May 15th 2017. **It will
-be hosted by NorthSec at Marché Bonsecours.** Thanks
-[NorthSec](https://nsec.io)!
+# Side channel & L3 CPU cache
 
 ![Hacked!](/images/17-05_hacked.gif)
-
-## Side channel & L3 CPU cache
 
 This month, we will look into information leaking via side channel. More
 precisely, side channels introduced by CPU caches.
@@ -91,26 +61,6 @@ a side channel attack.
 * Assembler x86_64 ([nasm](http://www.nasm.us)/[keystone](http://www.keystone-engine.org)/...)
 * gdb / lldb
 
-## Where
-
-3rd floor of Marché Bonsecours, 350 rue St-Paul Est, Vieux-Montréal, H2Y 1H2
-
-Followed by discussions at [Benelux](http://brasseriebenelux.com/sherbrooke) afterwards
-
-## When
-
-Monday May 15th 2017 from 6pm to 9pm
-
-## How
-
-No registration required.
-
-* Workshop style
-* Bring your own laptop
-* Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
-
 ## Challenge
 
 * [Slides](http://0x1.fr/montrehack-slides.tar.gz)
@@ -127,4 +77,4 @@ Presented by David BERARD, challenge based on a challenge from NoSuchCon 2014.
 <hr/>
 ### Sponsors // Partenaires
 
-[![Benelux](/images/benelux.png)](http://brasseriebenelux.com)
+[Pub BreWskey](www.brewskey.ca/)
