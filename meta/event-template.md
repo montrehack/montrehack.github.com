@@ -27,7 +27,7 @@ $image
 ## Problème #1: $problem1_name
 $problem1_desc
 
-## Outils nécessaires
+## Outils et expérience requis
 
 $problem1_tools
 
@@ -70,7 +70,7 @@ $image
 
 $en_problem1_desc
 
-## Needed Tools
+## Tools and Experience Required
 
 $en_problem1_tools
 
