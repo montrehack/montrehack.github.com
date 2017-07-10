@@ -3,40 +3,36 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 19 juin 2017
+# Prochaine édition: 17 juillet 2017
 
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le 19 juin.
+La prochaine édition de Montréhack aura lieu le 17 juillet.
 
-![System Access Enabled](https://tr2.cbsistatic.com/hub/i/2016/02/25/d4398390-1749-4473-8287-45a3b86afe22/8462365ab7fdb42fc05f7238563dfe1c/hacker9.jpg)
+![System Access Enabled](/images/17-07_php.gif)
 
-## Introduction à l'exploitation sur le tas (heap)
+## Homework! Un challenge provenant du ALICTF 2016
 
-Une introduction à l'exploitation de débordement de tampon qui sont stockés sur
-le tas (buffer overflows affecting the heap :wink:). Le fonctionnement de malloc et
-de free sera expliqué ainsi qu'une technique classique d'exploitation dlmalloc
-unlink. Les participants seront en mesure de mettre leurs talents à l'épreuve
-contre beatmeonthedl, un défi de Defcon Quals 2017.
+Présentation d'un challenge web du ALICTF 2016. Ce challenge se concentre sur l'exploitation de 
+trois vulnérabilités/astuces permettant d'aller d'un simple "upload" de fichier à un web shell
+complet.
 
 ## Outils et expérience requis
 
-* un Linux 64-bit (ou une VM)
-* Debugger / Disassembler (j'utilise radare2 mais gdb, IDA, hopper ou autre)
-* Connaissance de base en assembleur 64-bit recommandé
-* Python avec pwntools (optional)
+* Connaissances de PHP, C et SQL
+* Un éditeur hex
+* Google
+* Linux 64-bit
 
 ## Où
 
-[ESET](https://www.eset.ca)
+[Shopify](https://www.shopify.com)
 
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
-
-L'entrée est sur le côté, près de l'église.
+490 Rue de la Gauchetière O, Montréal, QC H2Z 1E3, Canada
 
 ## Quand
 
-Lundi le 19 juin de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 17 juillet de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -48,45 +44,39 @@ Lundi le 19 juin de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Francis Labelle ([@xshill_](https://twitter.com/xshill_) ou shill sur slack)
+Présenté par Ian Bouchard ([@Corb3nik](https://twitter.com/Corb3nik))
 
-Créé par Defcon Quals 2017
+Créé par ALICTF 2016
 
 <a id="english"></a>
 
-# Next edition: June 19th 2017
+# Next edition: July 17th 2017
 
-The next edition of Montrehack will be held on Monday June 19th 2017
+The next edition of Montrehack will be held on Monday July 17th 2017
 
-![System Access Enabled](https://tr2.cbsistatic.com/hub/i/2016/02/25/d4398390-1749-4473-8287-45a3b86afe22/8462365ab7fdb42fc05f7238563dfe1c/hacker9.jpg)
+![System Access Enabled](/images/17-07_php.gif)
 
-## Introduction to Heap Exploitation
+## Homework! An ALICTF 2016 Web Challenge
 
-An introduction to how hackers can exploit overflows
-of buffers that are stored on the heap to achieve their evil deeds.
-The workings of malloc and free will be explained as well as the
-old-fashioned dlmalloc unlink exploitation technique. Participants
-will be able to put their skills to the test against beatmeonthedl,
-a challenge from defcon quals 2017.
+Presentation of a web challenge from ALICTF 2016. This challenge focuses on the exploitation of three
+different vulnerabilities/tricks allowing you to go from a simple file upload to a complete web shell.
 
 ## Tools and Experience Required
 
-* a Linux 64-bit system (or VM)
-* Debugger / Disassembler  (I use radare2 but gdb, IDA, hopper and others are fine too)
-* At least a basic knowledge of 64-bit assembly is recommended
-* Python with pwntools (recommended but optional).
+* Knowledge of PHP, C and SQl
+* An hex editor
+* Google
+* Linux 64-bit
 
 ## Where
 
-[ESET](https://www.eset.ca)
+[Shopify](https://www.shopify.com)
 
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
-
-The entrance is on the side of the building, close to the church.
+490 Rue de la Gauchetière W, Montréal, QC H2Z 1E3, Canada
 
 ## When
 
-Monday June 19th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday July 17th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -98,9 +88,9 @@ Monday June 19th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Francis Labelle ([@xshill_](https://twitter.com/xshill_) or shill on slack)
+Presented by Ian Bouchard ([@Corb3nik](https://twitter.com/Corb3nik))
 
-Created by Defcon Quals 2017
+Created by ALICTF 2016
 
 <hr/>
 
