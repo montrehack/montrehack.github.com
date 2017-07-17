@@ -17,6 +17,9 @@ Présentation d'un challenge web du ALICTF 2016. Ce challenge se concentre sur l
 trois vulnérabilités/astuces permettant d'aller d'un simple "upload" de fichier à un web shell
 complet.
 
+* [Slides](https://docs.google.com/presentation/d/1E74AcLHB5nL_epwRYq8R0sYq67pFSoBWXbFSpjAJniE/edit?pli=1#slide=id.p)
+* [Challenge](http://web.poptheshell.com:31337/)
+
 ## Outils et expérience requis
 
 * Connaissances de PHP, C et SQL
@@ -60,6 +63,9 @@ The next edition of Montrehack will be held on Monday July 17th 2017
 
 Presentation of a web challenge from ALICTF 2016. This challenge focuses on the exploitation of three
 different vulnerabilities/tricks allowing you to go from a simple file upload to a complete web shell.
+
+* [Slides](https://docs.google.com/presentation/d/1E74AcLHB5nL_epwRYq8R0sYq67pFSoBWXbFSpjAJniE/edit?pli=1#slide=id.p)
+* [Challenge](http://web.poptheshell.com:31337/)
 
 ## Tools and Experience Required
 
