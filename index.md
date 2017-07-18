@@ -19,6 +19,7 @@ complet.
 
 * [Slides](https://docs.google.com/presentation/d/1E74AcLHB5nL_epwRYq8R0sYq67pFSoBWXbFSpjAJniE/edit?pli=1#slide=id.p)
 * [Challenge](http://web.poptheshell.com:31337/)
+* [Fichiers côtés serveur (docker), diapos PDF and fichiers de solution](https://github.com/Corb3nik/Talk-MontreHack-Homework)
 
 ## Outils et expérience requis
 
@@ -66,6 +67,7 @@ different vulnerabilities/tricks allowing you to go from a simple file upload to
 
 * [Slides](https://docs.google.com/presentation/d/1E74AcLHB5nL_epwRYq8R0sYq67pFSoBWXbFSpjAJniE/edit?pli=1#slide=id.p)
 * [Challenge](http://web.poptheshell.com:31337/)
+* [Server files (docker), PDF slides and Solution files](https://github.com/Corb3nik/Talk-MontreHack-Homework)
 
 ## Tools and Experience Required
 
