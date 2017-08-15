@@ -3,40 +3,40 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 17 juillet 2017
+# Prochaine édition: 21 août 2017
 
 [English version](#english)
 
-La prochaine édition de Montréhack aura lieu le 17 juillet.
+La prochaine édition de MontréHack aura lieu le 21 août 2017.
 
-![System Access Enabled](/images/17-07_php.gif)
+![Fuzz pedal](/images/17-08_fuzz_pedal.jpg)
 
-## Homework! Un challenge provenant du ALICTF 2016
+## Fuzzing avec AFL et libfuzzer
 
-Présentation d'un challenge web du ALICTF 2016. Ce challenge se concentre sur l'exploitation de 
-trois vulnérabilités/astuces permettant d'aller d'un simple "upload" de fichier à un web shell
-complet.
-
-* [Slides](https://docs.google.com/presentation/d/1E74AcLHB5nL_epwRYq8R0sYq67pFSoBWXbFSpjAJniE/edit?pli=1#slide=id.p)
-* [Challenge](http://web.poptheshell.com:31337/)
-* [Fichiers côtés serveur (docker), diapos PDF and fichiers de solution](https://github.com/Corb3nik/Talk-MontreHack-Homework)
+Ce mois-ci nous ferons une introduction au fuzzing avec
+[AFL](http://lcamtuf.coredump.cx/afl/) et
+[libFuzzer](https://llvm.org/docs/LibFuzzer.html). Une librairie vulnérable a
+été préparée pour les besoins de la séance. Un projet intégrant ces outils de
+fuzzing sera distribué permettre aux participants de commencer le plus
+rapidement possible.
 
 ## Outils et expérience requis
 
-* Connaissances de PHP, C et SQL
-* Un éditeur hex
-* Google
-* Linux 64-bit
+* Linux, idéalement 64-bit
+* cmake, llvm/clang, libasan, gdb et/ou lldb
+* Un éditeur de code
 
 ## Où
 
-[Shopify](https://www.shopify.com)
+[ESET](https://www.eset.ca)
 
-490 Rue de la Gauchetière O, Montréal, QC H2Z 1E3, Canada
+473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
+
+L'entrée est sur le côté, près de l'église.
 
 ## Quand
 
-Lundi le 17 juillet de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 21 août de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -48,43 +48,41 @@ Lundi le 17 juillet de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Ian Bouchard ([@Corb3nik](https://twitter.com/Corb3nik))
-
-Créé par ALICTF 2016
+Présenté par Sébastien Duquette ([@ekse0x](https://twitter.com/ekse0x))
 
 <a id="english"></a>
 
-# Next edition: July 17th 2017
+# Next edition: August 21st 2017
 
-The next edition of Montrehack will be held on Monday July 17th 2017
+The next edition of MontréHack will be held on Monday August 21st 2017
 
-![System Access Enabled](/images/17-07_php.gif)
+![Fuzz pedal](/images/17-08_fuzz_pedal.jpg)
 
-## Homework! An ALICTF 2016 Web Challenge
+## Fuzzing with AFL and libFuzzer
 
-Presentation of a web challenge from ALICTF 2016. This challenge focuses on the exploitation of three
-different vulnerabilities/tricks allowing you to go from a simple file upload to a complete web shell.
-
-* [Slides](https://docs.google.com/presentation/d/1E74AcLHB5nL_epwRYq8R0sYq67pFSoBWXbFSpjAJniE/edit?pli=1#slide=id.p)
-* [Challenge](http://web.poptheshell.com:31337/)
-* [Server files (docker), PDF slides and Solution files](https://github.com/Corb3nik/Talk-MontreHack-Homework)
+This month we will do an introduction to fuzzing with
+[AFL](http://lcamtuf.coredump.cx/afl/) and
+[libFuzzer](https://llvm.org/docs/LibFuzzer.html). A vulnerable library was
+prepared for this workshop. To speed things up, a project integrating both AFL
+and libFuzzer will be distributed.
 
 ## Tools and Experience Required
 
-* Knowledge of PHP, C and SQl
-* An hex editor
-* Google
-* Linux 64-bit
+* Linux, ideally 64-bit
+* cmake, llvm/clang, libasan, gdb and/or lldb
+* A code editor
 
 ## Where
 
-[Shopify](https://www.shopify.com)
+[ESET](https://www.eset.ca)
 
-490 Rue de la Gauchetière W, Montréal, QC H2Z 1E3, Canada
+473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
+
+The entrance is on the side of the building, close to the church.
 
 ## When
 
-Monday July 17th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday August 21st from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -96,9 +94,7 @@ Monday July 17th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Ian Bouchard ([@Corb3nik](https://twitter.com/Corb3nik))
-
-Created by ALICTF 2016
+Presented by Sébastien Duquette ([@ekse0x](https://twitter.com/ekse0x))
 
 <hr/>
 
