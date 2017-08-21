@@ -20,6 +20,11 @@ Ce mois-ci nous ferons une introduction au fuzzing avec
 fuzzing sera distribué permettre aux participants de commencer le plus
 rapidement possible.
 
+Fichiers:
+
+- [Défi](https://goo.gl/7Y5YYw)
+- [Présentation](https://goo.gl/csMKGe)
+
 ## Outils et expérience requis
 
 * Linux, idéalement 64-bit
@@ -65,6 +70,11 @@ This month we will do an introduction to fuzzing with
 [libFuzzer](https://llvm.org/docs/LibFuzzer.html). A vulnerable library was
 prepared for this workshop. To speed things up, a project integrating both AFL
 and libFuzzer will be distributed.
+
+Files:
+
+- [Challenge](https://goo.gl/7Y5YYw)
+- [Slides](https://goo.gl/csMKGe)
 
 ## Tools and Experience Required
 
