@@ -3,33 +3,36 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 21 août 2017
+# Prochaine édition: 18 septembre 2017
 
 [English version](#english)
 
-La prochaine édition de MontréHack aura lieu le 21 août 2017.
+La prochaine édition de MontréHack aura lieu le 18 septembre 2017.
 
-![Fuzz pedal](/images/17-08_fuzz_pedal.jpg)
+![NorthSec 2017 badge](/images/17-09_nsec_badge.jpg)
 
-## Fuzzing avec AFL et libfuzzer
+## Exploitation ARM -- Badge NorthSec
 
-Ce mois-ci nous ferons une introduction au fuzzing avec
-[AFL](http://lcamtuf.coredump.cx/afl/) et
-[libFuzzer](https://llvm.org/docs/LibFuzzer.html). Une librairie vulnérable a
-été préparée pour les besoins de la séance. Un projet intégrant ces outils de
-fuzzing sera distribué permettre aux participants de commencer le plus
-rapidement possible.
+Une rentré en force pour MontréHack! Nous allons travailler sur le badge du
+NorthSec 2017 et exploiter un service Bluetooth vulnérable. Il y aura une
+introduction au matériel de la badge et au Bluetooth LE. Pour nous aider, nous
+utiliserons le debuggeur intégré à la badge.
 
-Fichiers:
-
-- [Défi](https://goo.gl/7Y5YYw)
-- [Présentation](https://goo.gl/csMKGe)
+Nous avons une quantité limité de badge à prêter, donc [**l'inscription est
+obligatoire**](https://www.eventbrite.ca/e/montrehack-arm-exploitation-northsec-badge-tickets-37805298666)
+ce mois-ci.
 
 ## Outils et expérience requis
 
-* Linux, idéalement 64-bit
-* cmake, llvm/clang, libasan, gdb et/ou lldb
-* Un éditeur de code
+* gdb
+* pybluez (Linux) ou Xcode (Mac)
+* [dfu-utils](http://dfu-util.sourceforge.net)
+* IDA or radare2
+* Un cable micro-USB
+* Un dongle Bluetooth 4.0 (ou intégré au laptop)
+
+Le Wi-Fi chez ESET est disponible **seulement en 5Ghz** (802.11ac). Aucune
+connexion n'est possible sur le 2.4Ghz.
 
 ## Où
 
@@ -37,11 +40,12 @@ Fichiers:
 
 473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
 
-L'entrée est sur le côté, près de l'église.
+L'entrée est sur le côté de l'église. Prendre les escaliers à l'extérieur
+jusqu'au 3e étage.
 
 ## Quand
 
-Lundi le 21 août de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 18 septembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -53,34 +57,37 @@ Lundi le 21 août de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Sébastien Duquette ([@ekse0x](https://twitter.com/ekse0x))
+Présenté par Marc-Etienne M.Léveillé ([@marc\_etienne\_](https://twitter.com/marc_etienne_))
+
+Challenge du [NorthSec](https://nsec.io) 2017.
 
 <a id="english"></a>
 
-# Next edition: August 21st 2017
+# Next edition: September 18th 2017
 
-The next edition of MontréHack will be held on Monday August 21st 2017
+The next edition of MontréHack will be held on September 18th 2017
 
-![Fuzz pedal](/images/17-08_fuzz_pedal.jpg)
+![NorthSec 2017 badge](/images/17-09_nsec_badge.jpg)
 
-## Fuzzing with AFL and libFuzzer
+## ARM Exploitation -- NorthSec badge
 
-This month we will do an introduction to fuzzing with
-[AFL](http://lcamtuf.coredump.cx/afl/) and
-[libFuzzer](https://llvm.org/docs/LibFuzzer.html). A vulnerable library was
-prepared for this workshop. To speed things up, a project integrating both AFL
-and libFuzzer will be distributed.
+A solid back to school for MontréHack! We will work on the NorthSec 2017 badge
+and exploit a vulnerable Bluetooth service. There will be an introduction to the
+badge hardware and Bluetooth LE. To help us, we will use the debugger integrated
+in the badge.
 
-Files:
-
-- [Challenge](https://goo.gl/7Y5YYw)
-- [Slides](https://goo.gl/csMKGe)
+We have a limited number of badge to borrow, so [**registration is
+required**](https://www.eventbrite.ca/e/montrehack-arm-exploitation-northsec-badge-tickets-37805298666)
+this month.
 
 ## Tools and Experience Required
 
-* Linux, ideally 64-bit
-* cmake, llvm/clang, libasan, gdb and/or lldb
-* A code editor
+* gdb
+* pybluez (Linux) or Xcode (Mac)
+* [dfu-utils](http://dfu-util.sourceforge.net)
+* IDA or radare2
+* A micro-USB cable
+* A Bluetooth 4.0 dongle (or integrated on your laptop)
 
 ## Where
 
@@ -88,11 +95,12 @@ Files:
 
 473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
 
-The entrance is on the side of the building, close to the church.
+The entrance is on the side of the church. Take the outside stairs to the 3rd
+floor.
 
 ## When
 
-Monday August 21st from 6pm to 9pm (followed by drinks at Bénélux)
+Monday September 18th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -104,7 +112,9 @@ Monday August 21st from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Sébastien Duquette ([@ekse0x](https://twitter.com/ekse0x))
+Presented by Marc-Etienne M.Léveillé ([@marc\_etienne\_](https://twitter.com/marc_etienne_)).
+
+Challenge from [NorthSec](https://nsec.io) 2017.
 
 <hr/>
 
