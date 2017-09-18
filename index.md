@@ -22,8 +22,8 @@ Nous avons une quantité limité de badge à prêter, donc [**l'inscription est
 obligatoire**](https://www.eventbrite.ca/e/montrehack-arm-exploitation-northsec-badge-tickets-37805298666)
 ce mois-ci.
 
-* Présentation: https://goo.gl/ha2mf8
-* Défi: https://goo.gl/FHrNcX
+* [Présentation](https://goo.gl/ha2mf8)
+* [Défi](https://goo.gl/FHrNcX)
 
 ## Outils et expérience requis
 
@@ -83,8 +83,8 @@ We have a limited number of badge to borrow, so [**registration is
 required**](https://www.eventbrite.ca/e/montrehack-arm-exploitation-northsec-badge-tickets-37805298666)
 this month.
 
-* Slides: https://goo.gl/ha2mf8
-* Challenge: https://goo.gl/FHrNcX
+* [Slides](https://goo.gl/ha2mf8)
+* [Challenge](https://goo.gl/FHrNcX)
 
 ## Tools and Experience Required
 
