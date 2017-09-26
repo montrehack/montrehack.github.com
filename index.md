@@ -3,52 +3,38 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 18 septembre 2017
+# Prochaine édition: 16 octobre 2017
 
 [English version](#english)
 
-La prochaine édition de MontréHack aura lieu le 18 septembre 2017.
+La prochaine édition de MontréHack aura lieu le 16 octobre 2017.
 
-![NorthSec 2017 badge](/images/17-09_nsec_badge.jpg)
+![ASCII ART](/images/ascii_art.jpg)
 
-## Exploitation ARM -- Badge NorthSec
+## Windows Reverse Engineering - GoogleCTF Ascii Art
 
-Une rentré en force pour MontréHack! Nous allons travailler sur le badge du
-NorthSec 2017 et exploiter un service Bluetooth vulnérable. Il y aura une
-introduction au matériel de la badge et au Bluetooth LE. Pour nous aider, nous
-utiliserons le debuggeur intégré à la badge.
+Présentation sur un challenge de reverse engineering C++ où il faut comprendre
+un protocol réseau et décoder le un message encodé dans un PCAP.
 
-Nous avons une quantité limité de badge à prêter, donc [**l'inscription est
-obligatoire**](https://www.eventbrite.ca/e/montrehack-arm-exploitation-northsec-badge-tickets-37805298666)
+Nous avons un nombre limité de places disponibles, [**l'inscription est
+obligatoire**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
 ce mois-ci.
-
-* [Présentation](https://goo.gl/ha2mf8)
-* [Défi](https://goo.gl/FHrNcX)
 
 ## Outils et expérience requis
 
-* gdb
-* pybluez (Linux) ou Xcode (Mac)
-* [dfu-utils](http://dfu-util.sourceforge.net)
-* IDA or radare2
-* Un cable micro-USB
-* Un dongle Bluetooth 4.0 (ou intégré au laptop)
-
-Le Wi-Fi chez ESET est disponible **seulement en 5Ghz** (802.11ac). Aucune
-connexion n'est possible sur le 2.4Ghz.
+* Debugger Windows (OllyDBG, WinDBG, IDA)
+* Disassembler (IDA, radare2)
+* Scripting language (Python, Ruby, etc)
 
 ## Où
 
-[ESET](https://www.eset.ca)
+Google
 
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
-
-L'entrée est sur le côté de l'église. Prendre les escaliers à l'extérieur
-jusqu'au 3e étage.
+1253 McGill College, Suite 150, Montreal, QC H3B 2Y5, Canada.
 
 ## Quand
 
-Lundi le 18 septembre de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 16 octobre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -60,53 +46,43 @@ Lundi le 18 septembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Marc-Etienne M.Léveillé ([@marc\_etienne\_](https://twitter.com/marc_etienne_))
+Présenté par Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau)).
 
-Challenge du [NorthSec](https://nsec.io) 2017.
+Challenge du [GoogleCTF](https://capturetheflag.withgoogle.com/) 2017.
 
 <a id="english"></a>
 
-# Next edition: September 18th 2017
+# Next edition: October 16th 2017
 
-The next edition of MontréHack will be held on September 18th 2017
+The next edition of MontréHack will be held on October 16th 2017
 
-![NorthSec 2017 badge](/images/17-09_nsec_badge.jpg)
+![ASCII ART](/images/ascii_art.jpg)
 
-## ARM Exploitation -- NorthSec badge
+## Windows Reverse Engineering - GoogleCTF Ascii Art
 
-A solid back to school for MontréHack! We will work on the NorthSec 2017 badge
-and exploit a vulnerable Bluetooth service. There will be an introduction to the
-badge hardware and Bluetooth LE. To help us, we will use the debugger integrated
-in the badge.
+We will present a Windows reverse engineering challenge where you need to
+understand a C++ program and its network protocol to decode an encoded message
+from a PCAP.
 
 We have a limited number of badge to borrow, so [**registration is
-required**](https://www.eventbrite.ca/e/montrehack-arm-exploitation-northsec-badge-tickets-37805298666)
+required**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
 this month.
-
-* [Slides](https://goo.gl/ha2mf8)
-* [Challenge](https://goo.gl/FHrNcX)
 
 ## Tools and Experience Required
 
-* gdb
-* pybluez (Linux) or Xcode (Mac)
-* [dfu-utils](http://dfu-util.sourceforge.net)
-* IDA or radare2
-* A micro-USB cable
-* A Bluetooth 4.0 dongle (or integrated on your laptop)
+* Debugger Windows (OllyDBG, WinDBG, IDA)
+* Disassembler (IDA, radare2)
+* Scripting language (Python, Ruby, etc)
 
 ## Where
 
-[ESET](https://www.eset.ca)
+Google
 
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
-
-The entrance is on the side of the church. Take the outside stairs to the 3rd
-floor.
+1253 McGill College, Suite 150, Montreal, QC H3B 2Y5, Canada.
 
 ## When
 
-Monday September 18th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday October 16th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -118,9 +94,9 @@ Monday September 18th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Marc-Etienne M.Léveillé ([@marc\_etienne\_](https://twitter.com/marc_etienne_)).
+Presented by Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau))
 
-Challenge from [NorthSec](https://nsec.io) 2017.
+Challenge from [GoogleCTF](https://capturetheflag.withgoogle.com/) 2017.
 
 <hr/>
 
