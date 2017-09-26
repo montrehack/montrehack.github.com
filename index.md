@@ -9,7 +9,7 @@ title: MontréHack
 
 La prochaine édition de MontréHack aura lieu le 16 octobre 2017.
 
-![ASCII ART](/images/ascii_art.jpg)
+![ASCII ART](/images/17-10_ascii_art.jpg)
 
 ## Windows Reverse Engineering - GoogleCTF Ascii Art
 
@@ -56,7 +56,7 @@ Challenge du [GoogleCTF](https://capturetheflag.withgoogle.com/) 2017.
 
 The next edition of MontréHack will be held on October 16th 2017
 
-![ASCII ART](/images/ascii_art.jpg)
+![ASCII ART](/images/17-10_ascii_art.jpg)
 
 ## Windows Reverse Engineering - GoogleCTF Ascii Art
 
