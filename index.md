@@ -22,9 +22,9 @@ ce mois-ci.
 
 ## Outils et expérience requis
 
-* Debugger Windows (OllyDBG, WinDBG, IDA)
-* Disassembler (IDA, radare2)
-* Scripting language (Python, Ruby, etc)
+* Débuggeur Windows (OllyDBG, WinDBG, IDA)
+* Déassembleur (IDA, radare2)
+* Votre langage de programmation préféré (Python, Ruby, etc)
 
 ## Où
 
@@ -72,7 +72,7 @@ this month.
 
 * Debugger Windows (OllyDBG, WinDBG, IDA)
 * Disassembler (IDA, radare2)
-* Scripting language (Python, Ruby, etc)
+* Your favorite programming language (Python, Ruby, etc)
 
 ## Where
 
