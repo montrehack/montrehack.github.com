@@ -64,7 +64,7 @@ We will present a Windows reverse engineering challenge where you need to
 understand a C++ program and its network protocol to decode an encoded message
 from a PCAP.
 
-We have a limited number of badge to borrow, so [**registration is
+We have a limited number of seats, so [**registration is
 required**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
 this month.
 
