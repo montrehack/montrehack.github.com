@@ -20,6 +20,10 @@ Nous avons un nombre limité de places disponibles, [**l'inscription est
 obligatoire**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
 ce mois-ci.
 
+- [Préstentation](https://goo.gl/qPsfJS)
+- [Exécutable](https://goo.gl/xhCDSX)
+- [Capture réseau](https://goo.gl/DkUrmg)
+
 ## Outils et expérience requis
 
 * Débuggeur Windows (OllyDBG, WinDBG, IDA)
@@ -67,6 +71,10 @@ from a PCAP.
 We have a limited number of seats, so [**registration is
 required**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
 this month.
+
+- [Slides](https://goo.gl/qPsfJS)
+- [Executable](https://goo.gl/xhCDSX)
+- [Network capture](https://goo.gl/DkUrmg)
 
 ## Tools and Experience Required
 
