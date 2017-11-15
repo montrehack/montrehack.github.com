@@ -19,7 +19,7 @@ introduction à l’exploitation de unserialize PHP.
 
 Nous avons un nombre limité de places disponibles, [**l'inscription est
 obligatoire**](https://www.eventbrite.ca/e/billets-montrehack-39923111100)
-ce mois-ci.
+ce mois-ci **avant dimanche 15:00**.
 
 ## Outils et expérience requis
 
@@ -64,7 +64,7 @@ an introduction to the exploitation of unserialize PHP.
 
 We have a limited number of seats, so [**registration is
 required**](https://www.eventbrite.ca/e/billets-montrehack-39923111100)
-this month.
+this month **before Sunday 3pm**.
 
 ## Tools and Experience Required
 
