@@ -3,42 +3,38 @@ layout: default
 title: MontréHack
 ---
 
-# Prochaine édition: 16 octobre 2017
+# Prochaine édition: 20 novembre 2017
 
 [English version](#english)
 
-La prochaine édition de MontréHack aura lieu le 16 octobre 2017.
+La prochaine édition de MontréHack aura lieu le 20 novembre 2017.
 
-![ASCII ART](/images/17-10_ascii_art.jpg)
+![CTF](/images/17-11_ctf.png)
 
-## Windows Reverse Engineering - GoogleCTF Ascii Art
+## Mini-CTF OWASP
 
-Présentation sur un challenge de reverse engineering C++ où il faut comprendre
-un protocol réseau et décoder le un message encodé dans un PCAP.
+Présentation de 3 défis du Mini-CTF OWASP. Au menu, des techniques 
+d’injection SQL, du contournement de protection de téléversement de fichier et une 
+introduction à l’exploitation de unserialize PHP.
 
 Nous avons un nombre limité de places disponibles, [**l'inscription est
-obligatoire**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
-ce mois-ci.
-
-- [Préstentation](https://goo.gl/qPsfJS)
-- [Exécutable](https://goo.gl/xhCDSX)
-- [Capture réseau](https://goo.gl/DkUrmg)
+obligatoire**](https://www.eventbrite.ca/e/billets-montrehack-39923111100)
+ce mois-ci **avant dimanche 15:00**.
 
 ## Outils et expérience requis
 
-* Débuggeur Windows (OllyDBG, WinDBG, IDA)
-* Déassembleur (IDA, radare2)
-* Votre langage de programmation préféré (Python, Ruby, etc)
+* Votre langage de scripting favori (ex.: Python).
+* Un proxy d'interception (ex.: Burp ou Zap).
 
 ## Où
 
-Google
+OVH
 
-1253 McGill College, Suite 150, Montreal, QC H3B 2Y5, Canada.
+1801 Avenue McGill College #800, Montréal, QC H3A 2N4
 
 ## Quand
 
-Lundi le 16 octobre de 18h à 21h (suivi de bières au Bénélux)
+Lundi le 20 novembre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Comment
 
@@ -50,47 +46,40 @@ Lundi le 16 octobre de 18h à 21h (suivi de bières au Bénélux)
 
 ## Remerciements
 
-Présenté par Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau)).
+Présenté par Olivier Arteau.
 
-Challenge du [GoogleCTF](https://capturetheflag.withgoogle.com/) 2017.
 
 <a id="english"></a>
 
-# Next edition: October 16th 2017
+# Next edition: November 20th 2017
 
-The next edition of MontréHack will be held on October 16th 2017
+The next edition of MontréHack will be held on November 20th 2017
 
-![ASCII ART](/images/17-10_ascii_art.jpg)
+![CTF](/images/17-11_ctf.png)
 
-## Windows Reverse Engineering - GoogleCTF Ascii Art
+## Mini-CTF OWASP
 
-We will present a Windows reverse engineering challenge where you need to
-understand a C++ program and its network protocol to decode an encoded message
-from a PCAP.
+On the menu are SQL injection techniques, file upload protections bypass and 
+an introduction to the exploitation of unserialize PHP.
 
 We have a limited number of seats, so [**registration is
-required**](https://www.eventbrite.com/e/montrehack-tickets-38286163947)
-this month.
-
-- [Slides](https://goo.gl/qPsfJS)
-- [Executable](https://goo.gl/xhCDSX)
-- [Network capture](https://goo.gl/DkUrmg)
+required**](https://www.eventbrite.ca/e/billets-montrehack-39923111100)
+this month **before Sunday 3pm**.
 
 ## Tools and Experience Required
 
-* Debugger Windows (OllyDBG, WinDBG, IDA)
-* Disassembler (IDA, radare2)
-* Your favorite programming language (Python, Ruby, etc)
+* Your favorite scripting language (e.g. Python)
+* A proxy (e.g. Burp of Zap)
 
 ## Where
 
-Google
+OVH
 
-1253 McGill College, Suite 150, Montreal, QC H3B 2Y5, Canada.
+1801 Avenue McGill College #800, Montréal, QC H3A 2N4
 
 ## When
 
-Monday October 16th from 6pm to 9pm (followed by drinks at Bénélux)
+Monday November 20th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## How
 
@@ -102,9 +91,7 @@ Monday October 16th from 6pm to 9pm (followed by drinks at Bénélux)
 
 ## Credits
 
-Presented by Pierre-Marc Bureau ([@pmbureau](https://twitter.com/pmbureau))
-
-Challenge from [GoogleCTF](https://capturetheflag.withgoogle.com/) 2017.
+Presented by Olivier Arteau
 
 <hr/>
 
