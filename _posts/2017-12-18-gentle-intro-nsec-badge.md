@@ -22,8 +22,6 @@ Nous avons une quantité limité de badge à prêter, donc [**l'inscription est
 obligatoire**](https://www.eventbrite.ca/e/montrehack-gentle-introduction-to-the-2017-northsec-badge-tickets-41230165535)
 ce mois-ci.
 
-* Présentation (à venir)
-
 ## Outils et expérience requis
 
 * Badge NorthSec 2017 (si vous en avez un)
@@ -77,8 +75,6 @@ badge to achieve your craziest ideas.
 
 We have a limited quantity of badges to share, so we ask you to
 [**register before the event**](https://www.eventbrite.ca/e/montrehack-gentle-introduction-to-the-2017-northsec-badge-tickets-41230165535).
-
-* Slides (eventually)
 
 ## Tools and Experience Required
 
