@@ -8,7 +8,7 @@ title: Montréhack's archives
 ### By date
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts offset:1 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
   {% endfor %}
 </ul>

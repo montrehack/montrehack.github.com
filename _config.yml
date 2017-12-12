@@ -2,6 +2,9 @@
 safe: true
 lsi: false
 
+# Publish posts or collection documents with a future date.
+future: true
+
 # exclude some files we don't want to leak
 exclude: [ 'README.md', 'CNAME', 'TODO', 'Gemfile', 'Gemfile.lock', 'meta', 'vendor' ]
 
