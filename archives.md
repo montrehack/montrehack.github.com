@@ -21,7 +21,8 @@ title: Montréhack's archives
 <ul>
 {% for posts in tag %}
 {% for post in posts %}
-  {% if post.url %}
+  {% comment %}first post is the currently announced montrehack so we remove it from archive display{% endcomment %}
+  {% if post.next and post.url %}
   <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
   {% endif %}
 {% endfor %}
