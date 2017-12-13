@@ -8,11 +8,11 @@ tags: hardware tutorial arm hacking
 
 [English version](#english)
 
+## Douce introduction au badge NorthSec 2017
+
 La prochaine édition de MontréHack sera tenu le 18 décembre 2017.
 
 ![NorthSec 2017 badge](/images/17-12_nsec_badge_wired.png)
-
-## Douce introduction au badge NorthSec 2017
 
 Pour finir l'année, nous présentons le badge électronique distribué lors de
 l'événement NorthSec édition 2017. Nous vous donnerons la formation nécessaire
@@ -61,11 +61,9 @@ Badge électronique du [NorthSec](https://nsec.io) 2017.
 
 # Next edition: December 18th, 2017
 
-The next edition of MontréHack will be held on December 18th, 2017.
-
 ## Gentle Introduction to the 2017 NorthSec Badge
 
-The next edition of MontréHack will be held on December 18th 2017.
+The next edition of MontréHack will be held on December 18th, 2017.
 
 ![NorthSec 2017 badge](/images/17-12_nsec_badge_wired.png)
 
