@@ -21,6 +21,8 @@ s'échoueront dans les abysses de vos terminaux. Il s'agit d'un challenge
 provenant de la compétition de reverse engineering Flare-On 2017, organisé par
 FireEye.
 
+- [Fichier du défi](https://github.com/montrehack/challenges/tree/master/2018-01-17)
+
 ## Outils et expérience requis
 
 * Linux 64-bits (VM ou pas)
@@ -68,6 +70,8 @@ To start the year 2018, we will be presenting a reverse engineering challenge
 based on the famous BattleShip game. Armed with your favorite disassembler,
 you will need to sink ships in the depths of your terminals. This is a challenge
 from the 2017 Flare-On reverse engineering competition, organized by FireEye.
+
+- [Challenge file](https://github.com/montrehack/challenges/tree/master/2018-01-17)
 
 ## Tools and Experience Required
 
