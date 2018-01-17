@@ -18,7 +18,7 @@ Pour commencer l'année 2018 de façon ludique, on vous présente un petit
 challenge de reverse engineering basé sur le célèbre jeu BattleShip. Armés de
 votre désassembleur préféré, vous serez amenés à couler des navires qui
 s'échoueront dans les abysses de vos terminaux. Il s'agit d'un challenge
-provenant de la compétition de reverse engineering Flare-On 2018, organisé par
+provenant de la compétition de reverse engineering Flare-On 2017, organisé par
 FireEye.
 
 ## Outils et expérience requis
@@ -67,7 +67,7 @@ The next edition of MontréHack will be held on January 17th, 2018.
 To start the year 2018, we will be presenting a reverse engineering challenge
 based on the famous BattleShip game. Armed with your favorite disassembler,
 you will need to sink ships in the depths of your terminals. This is a challenge
-from the 2018 Flare-On reverse engineering competition, organized by FireEye.
+from the 2017 Flare-On reverse engineering competition, organized by FireEye.
 
 ## Tools and Experience Required
 
