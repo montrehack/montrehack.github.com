@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Battleship reverse engineering
-tags: reverse-engineering
+title: Battleship Reverse Engineering
+tags: reverse-engineering crackme linux
 ---
 
-# Prochaine édition: 17 janvier 2018
+# Challenge de reversing de jeu battleship de Flare-On
 
 [English version](#english)
-
-## Challenge de reversing de jeu battleship de Flare-On
 
 La prochaine édition de MontréHack sera tenu le 17 janvier 2018. MontréHack aura dorénavant lieu le troisième mercredi du mois! 
 
@@ -30,26 +28,6 @@ FireEye.
 * Votre débogueur Linux préféré (gdb, lldb, etc.)
 * Votre language de programmation préféré
 
-## Où
-
-[ESET](https://www.eset.ca)
-
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
-
-L'entrée est sur le côté de l'immeuble, près de l'église.
-
-## Quand
-
-Mercredi le 17 janvier de 18h à 21h (suivi de bières au Bénélux)
-
-## Comment
- 
-* Formule atelier
-* Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petits groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
-
 ## Remerciements
 
 Présenté par Frédéric Vachon.
@@ -58,9 +36,7 @@ Challenge [Flare-On](http://flare-on.com/) 2017.
 
 <a id="english"></a>
 
-# Next edition: January 17th, 2018
-
-## Battleship game reversing challenge from Flare-On
+# Battleship game reversing challenge from Flare-On
 
 The next edition of MontréHack will be held on January 17th, 2018.
 
@@ -79,26 +55,6 @@ from the 2017 Flare-On reverse engineering competition, organized by FireEye.
 * Disassembler (IDA, radare2, binary ninja, hopper, etc.)
 * Your choice of Linux debugger (gdb, lldb, etc.)
 * Your choice of programming language
-
-## Where
-
-[ESET](https://www.eset.ca)
-
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
-
-The entrance is on the side of the building, close to the church.
-
-## When
-
-Wednesday January 17th, from 6pm to 9pm (followed by drinks at Bénélux)
-
-## How
-
-* Workshop style
-* Bring your own laptop
-* Challenges will be studied and explained
-* Challenges will be studied in small groups
-* Solutions will be presented to all at the end
 
 ## Credits
 
