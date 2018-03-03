@@ -7,9 +7,7 @@ En cours de planification! [Intéressé à présenter?](https://github.com/montr
 
 En attendant, il y a les [archives](/archives.html).
 
-```
-¯\_(ツ)_/¯ <( Désolé! )
-```
+`¯\_(ツ)_/¯ <( Désolé! )`
 
 # Next event
 
@@ -20,9 +18,7 @@ In planning stage, stay tuned! [Interested to present a challenge?](https://gith
 Meanwhile, have a look to the [past events](/archives.html).
 
 
-```
-¯\_(ツ)_/¯ <( Sorry! )
-```
+`¯\_(ツ)_/¯ <( Sorry! )`
 
 <hr/>
 
