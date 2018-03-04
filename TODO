@@ -1,5 +1,6 @@
 = Stuff to do
 
+* apply date automation to regular _posts/ files
 * finish conversion of archives to _posts/
 * Move footer into template (or menu)
 * Diverge from default layout for archives?
