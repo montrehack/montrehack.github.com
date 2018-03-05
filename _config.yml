@@ -6,7 +6,7 @@ lsi: false
 future: true
 
 # exclude some files we don't want to leak
-exclude: [ 'README.md', 'CNAME', 'TODO', 'Gemfile', 'Gemfile.lock', 'meta', 'vendor' ]
+exclude: [ 'README.md', 'CNAME', 'TODO', 'Gemfile', 'Gemfile.lock', 'meta', 'vendor', 'scripts' ]
 
 plugins:
   - jemoji
