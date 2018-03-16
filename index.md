@@ -6,7 +6,7 @@ title: MontréHack - Monthly IT Security Workshops
 {% assign currentDate = site.time | date: '%s' %}
 
 {% if latestPostDate > currentDate %}
-    {{ site.posts.first.content }}
+  {{ site.posts.first.content }}
 {% else %}
-    {% include stay-tuned.md %}
+  {% include stay-tuned.md %}
 {% endif %}
