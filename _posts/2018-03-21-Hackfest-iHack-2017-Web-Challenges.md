@@ -21,6 +21,14 @@ en présentant une série de 5 défis tirés du Hackfest et iHack 2017.
 L'événement est ouvert à tous, avec des défis autant pour débutant
 que pour professionnels.
 
+Les [Diapos](https://docs.google.com/presentation/d/12ZF2K5AR4m3mmOspccXZJugGxQ0le2OByvJZBffcl_s/present?token=AC4w5VjIyDxDFYUXLcK_sHjxnKX65Pkzlg:1521668194416&includes_info_params=1#slide=id.p)
+
+Les défis:
+* [EZ Flag Reloaded](http://challenge.montrehack.ca:17000)
+* [Baby SQLi](http://challenge.montrehack.ca:16000)
+* [I :heart: PHP](http://challenge.montrehack.ca:20000)
+* [PHP Litter Box](http://challenge.montrehack.ca:22000)
+
 ## Outils et expérience requis
 
 * Navigateur Internet
@@ -68,6 +76,14 @@ For this edition of MontreHack, we're working on your web skills by
 presenting a series of 5 challenges taken from Hackfest and iHack 2017.
 The event is open to everything, with challenges for both beginners and
 professionals alike.
+
+The [Slides](https://docs.google.com/presentation/d/12ZF2K5AR4m3mmOspccXZJugGxQ0le2OByvJZBffcl_s/present?token=AC4w5VjIyDxDFYUXLcK_sHjxnKX65Pkzlg:1521668194416&includes_info_params=1#slide=id.p)
+
+The challenges:
+* [EZ Flag Reloaded](http://challenge.montrehack.ca:17000)
+* [Baby SQLi](http://challenge.montrehack.ca:16000)
+* [I :heart: PHP](http://challenge.montrehack.ca:20000)
+* [PHP Litter Box](http://challenge.montrehack.ca:22000)
 
 ## Tools and Experience Required
 
