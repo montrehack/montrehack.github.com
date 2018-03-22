@@ -29,6 +29,8 @@ Les défis:
 * [I :heart: PHP](http://challenge.montrehack.ca:20000)
 * [PHP Litter Box](http://challenge.montrehack.ca:22000)
 
+Les [Solutions](https://docs.google.com/presentation/d/1UuEkZnnaalpk086H6RSUvT8IYBvGKFvyCoE72R6eSbY/edit?usp=sharing)
+
 ## Outils et expérience requis
 
 * Navigateur Internet
@@ -84,6 +86,8 @@ The challenges:
 * [Baby SQLi](http://challenge.montrehack.ca:16000)
 * [I :heart: PHP](http://challenge.montrehack.ca:20000)
 * [PHP Litter Box](http://challenge.montrehack.ca:22000)
+
+The [Solutions](https://docs.google.com/presentation/d/1UuEkZnnaalpk086H6RSUvT8IYBvGKFvyCoE72R6eSbY/edit?usp=sharing)
 
 ## Tools and Experience Required
 
