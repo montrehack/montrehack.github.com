@@ -31,6 +31,8 @@ Les défis:
 
 Les [Solutions](https://docs.google.com/presentation/d/1UuEkZnnaalpk086H6RSUvT8IYBvGKFvyCoE72R6eSbY/edit?usp=sharing)
 
+Le [code source](https://github.com/Corb3nik/Hackfest2017-Challenges)
+
 ## Outils et expérience requis
 
 * Navigateur Internet
@@ -88,6 +90,8 @@ The challenges:
 * [PHP Litter Box](http://challenge.montrehack.ca:22000)
 
 The [Solutions](https://docs.google.com/presentation/d/1UuEkZnnaalpk086H6RSUvT8IYBvGKFvyCoE72R6eSbY/edit?usp=sharing)
+
+[Source code](https://github.com/Corb3nik/Hackfest2017-Challenges)
 
 ## Tools and Experience Required
 
