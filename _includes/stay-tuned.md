@@ -1,6 +1,6 @@
-{% assign next_date = "2018-03-21" %}
+{% assign next_date = "2018-04-18" %}
 {% comment %}When venue is not determined, set to nil{% endcomment %}
-{% assign venue = nil %}
+{% assign venue = "Shopify" %}
 
 # Prochaine édition
 
