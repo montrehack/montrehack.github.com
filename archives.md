@@ -5,11 +5,23 @@ title: Montréhack's archives
 
 ## Archives
 
+{% comment %}
+We don't want to display the current edition in the archives, so we do some
+fancy timestamp checking.
+
+The plus 1-day (in seconds) prevents updates during the event to add the event
+to the archives. The plus 1 second is to cast the string as int.
+{% endcomment %}
+{% assign currentDate = site.time | date: '%s' | plus: 1 %}
+
 ### By date
 
 <ul>
-  {% for post in site.posts offset:1 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
+  {% for post in site.posts %}
+    {% assign latestPostDate = post.date | date: '%s' | plus: 86400 %}
+    {% if latestPostDate < currentDate %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
+    {% endif %}
   {% endfor %}
 </ul>
 
@@ -21,9 +33,9 @@ title: Montréhack's archives
 <ul>
 {% for posts in tag %}
 {% for post in posts %}
-  {% comment %}first post is the currently announced montrehack so we remove it from archive display{% endcomment %}
-  {% if post.next and post.url %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
+  {% assign latestPostDate = post.date | date: '%s' | plus: 86400 %}
+  {% if latestPostDate < currentDate and post.url %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
   {% endif %}
 {% endfor %}
 {% endfor %}
