@@ -18,5 +18,3 @@ current edition with stay-tuned page. Plus 1 casts a string into an int.
   {% include stay-tuned.md %}
 {% endif %}
 
-{{ latestPostDate }} // {{ currentDate }}
-
