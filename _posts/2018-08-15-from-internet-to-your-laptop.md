@@ -59,7 +59,7 @@ Mercredi le 15 août 2018 de 18h à 21h (suivi de bières à un endroit à déte
 
 ## Remerciements
 
-Présenté et créé par Florent Lalegerie ([@KASH](https://twitter.com/KASH______)) de Ubisoft
+Présenté et créé par Florent Lalegerie ([@KASH](https://twitter.com/KASH______))
 
 <a id="english"></a>
 
@@ -117,7 +117,7 @@ Wednesday August 15th from 6pm to 9pm (followed by drinks at a location to be de
 
 ## Credits
 
-Created and Presented by Florent Lalegerie ([@KASH](https://twitter.com/KASH______)) from Ubisoft
+Created and Presented by Florent Lalegerie ([@KASH](https://twitter.com/KASH______))
 
 <hr/>
 
