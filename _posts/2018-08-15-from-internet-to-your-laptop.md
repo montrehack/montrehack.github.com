@@ -21,6 +21,14 @@ Ce mois-ci MontréHack vous propose un mini-lab, où vous pourrez exercer vos co
 Le but est de vous mettre dans une situation réelle, afin de pouvoir escalader jusqu'à un flag final sur l'infra.
 Une solution sera présentée à la fin, comme à l'habitude.
 
+## Access
+
+* DO NOT bruteforce
+* http://lab1.p0c.fr:8080/ (and port 22)
+* http://lab2.p0c.fr:8080/ (and port 22)
+* https://github.com/montrehack/challenges/tree/master/2018-08-15/
+
+
 ## Outils et expérience requis
 
 Il est conseillé d'avoir une première idée des concepts suivants;
