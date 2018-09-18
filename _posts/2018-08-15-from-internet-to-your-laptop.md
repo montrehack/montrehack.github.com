@@ -4,16 +4,9 @@ title: From the Internet to Your Laptop!
 tags: pentest windows
 ---
 
-# Prochaine édition: le 15 août 2018
 [English version](#english)
 
 ## From the Internet to your laptop !
-
-La prochaine édition de Montréhack aura lieu le 15 août 2018.
-
-:warning: : MontréHack a lieu le troisième mercredi du mois depuis le début de l'année.
-
-:clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/e/montrehack-from-the-internet-to-your-laptop-tickets-48875089709?ref=estw)
 
 <span title="MRW on the receiving end of a pentest"><img src="/images/18-08_this-is-fine.png" alt="This is fine. Dog in a fire."></span>
 
@@ -53,33 +46,13 @@ Ubisoft Montréal
 
 Montréal, QC H1Y 3J2
 
-## Quand
-
-Mercredi le 15 août 2018 de 18h à 21h (suivi de bières à un endroit à déterminer)
-
-## Comment
-
-* Formule atelier
-* Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petits groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
-
 ## Remerciements
 
 Présenté et créé par Florent Lalegerie ([@KASH](https://twitter.com/KASH______))
 
 <a id="english"></a>
 
-# Next edition: August 15th 2018
-
 ## From the Internet to Your Laptop!
-
-The next edition of Montrehack will be held on Wednesday August 15th.
-
-:warning: : Starting in 2018, MontréHack is now on the 3rd Wednesday of every month.
-
-:clipboard: : [Registration is mandatory](https://www.eventbrite.ca/e/montrehack-from-the-internet-to-your-laptop-tickets-48875089709?ref=estw)
 
 <span title="MRW on the receiving end of a pentest"><img src="/images/18-08_this-is-fine.png" alt="This is fine. Dog in a fire."></span>
 
@@ -111,18 +84,6 @@ Ubisoft Montréal
 
 Montréal, QC H1Y 3J2
 
-## When
-
-Wednesday August 15th from 6pm to 9pm (followed by drinks at a location to be determined)
-
-## How
-
-* Workshop style
-* Bring your own laptop
-* Challenges will be analyzed
-* Small groups of people can work on each challenge
-* Solutions to each challenge will be presented to everyone at the end of the event
-
 ## Credits
 
 Created and Presented by Florent Lalegerie ([@KASH](https://twitter.com/KASH______))
@@ -130,8 +91,3 @@ Created and Presented by Florent Lalegerie ([@KASH](https://twitter.com/KASH____
 <hr/>
 
 [Vous souhaitez présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
-
-<hr/>
-### Sponsors // Partenaires
-
-[![Brasserie Benelux](/images/benelux.png)](http://brasseriebenelux.com/)
