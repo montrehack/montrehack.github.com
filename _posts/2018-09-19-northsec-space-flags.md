@@ -29,6 +29,51 @@ Vous aurez accès aux sites web de deux organisations:
 * Ordinateur portable
 * Burp, ZAP ou curl [note de l'éditeur: j'imagine]
 
+## Les défis / The Challenges
+
+### Space Shop
+
+The first Mars online shop was launched. The website has a bug bounty open to Mars citizen.
+
+*Objective 1:*
+Can you access users passwords ?
+
+Unfortunally, the registration is closed.
+The only information the client is willing to give is this SQL snippet that was use in a test environment.
+`insert into user(email, name, password) values ('testuser@spaceshop.com','test','test');`
+
+*Objective 2:*
+If you bend the scope, you might be able access more information..
+
+[http://xss.lol:8007/](http://xss.lol:8007/)
+
+
+### Spice-X - Part 1
+
+The mysterious Company Spice X is very discreet about its research projects.
+
+Spice X was about to announce a new factory but, took down the page minutes after the accidental publication.
+
+*Objective:* Can you recover the page that was taken offline?
+
+Their is another rumor floating around. A whistle blower will release compromising information about the company.
+
+*Objective:* Can you find who is the whistle blower ready to leak information about Spice X?
+
+[http://xss.lol:8000/](http://xss.lol:8000/)
+
+
+### Spice-X - Part 2
+
+You previously find out about the whistler blower that is preparing a publication.
+
+Apparently the Spice X official website is hosting some internal document.
+
+*Objective:* Can you find out about Spice X secret activity details before the whistler blower take action.
+
+[http://xss.lol:8000/](http://xss.lol:8000/)
+
+
 ## Où
 
 [ESET](https://www.eset.ca)
