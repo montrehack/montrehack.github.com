@@ -18,6 +18,8 @@ Pour cette édition du Montréhack, vous aurez 6 flags à touver en exploitant u
 
 De plus, le CTF sera de format "King of the Hill".
 
+Le CTF est à l'adresse suivante: shopiflag.com
+
 ## Outils et expérience requis
 
 * Ordinateur portable
@@ -60,6 +62,8 @@ The next edition of Montrehack will be held on Wednesday November 21st.
 For this edition of MontreHack, you will have 6 flags to find while exploring multiple vulnerabilities on a web platform, with the ultimate goal to obtain a RCE. This CTF was initially made for the Desjardins 5 to 7 during the Hackfest, but a more difficult version will also be presented in order to offer additional challenge to anyone that has participated to the 5 to 7.
 
 This CTF will be in the King of the Hill format.
+
+The CTF is at : shopiflag.com
 
 ## Tools and Experience Required
 
