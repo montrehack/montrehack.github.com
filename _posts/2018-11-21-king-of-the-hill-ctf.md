@@ -18,7 +18,9 @@ Pour cette édition du Montréhack, vous aurez 6 flags à touver en exploitant u
 
 De plus, le CTF sera de format "King of the Hill".
 
-Le CTF est à l'adresse suivante: shopiflag.com
+Le CTF est à l'adresse suivante: http://shopiflag.com (le scoreboard est sur le port 8080)
+
+Le CTF en version difficle est à l'adresse suivante: http://shopiflag.com:81 (le scoreboard est sur le port 8181)
 
 ## Outils et expérience requis
 
@@ -63,7 +65,9 @@ For this edition of MontreHack, you will have 6 flags to find while exploring mu
 
 This CTF will be in the King of the Hill format.
 
-The CTF is at : shopiflag.com
+The CTF is at : http://shopiflag.com (the scoreboard is on the 8080 port)
+
+The difficul version of the CTF is at http://shopiflag.com:81 (the scoreboard is on the 8181 port)
 
 ## Tools and Experience Required
 
