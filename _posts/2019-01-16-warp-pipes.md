@@ -118,3 +118,5 @@ Presented and created by David Sylvestre of [DCI-ETS](https://dciets.com/)
 ### Sponsors // Partenaires
 
 [![GoSecure: Powered by CounterTack](https://gosecure.net/wp-content/uploads/2019/01/logo-web.large-transparent.png)](https://gosecure.net/)
+
+[![Brasserie Benelux](/images/benelux.png)](http://brasseriebenelux.com/)
