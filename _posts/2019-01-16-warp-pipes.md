@@ -19,6 +19,10 @@ La prochaine édition de MontréHack sera tenu le 16 janvier 2019.
 Saurez-vous trouver le flag caché à la fin du jeu? Plusieurs moyens sont bons
 pour y arriver, à vous de choisir vos armes!
 
+[Fichiers du
+défi](https://www.dropbox.com/s/40ivcsod4v92s2c/Challenge_Dave.zip?dl=0).
+Extraire et exécuter pour ouvrir le jeu.
+
 ## Outils et expérience requis
 
 * un Linux 64-bit (VM est ok)
@@ -71,6 +75,9 @@ The next edition of MontréHack will be held on January 16th 20th, 2019.
 
 Will you find the hidden flag at the end of the game? All means are good to get
 there. Choose your weapon!
+
+[Challenge files](https://www.dropbox.com/s/40ivcsod4v92s2c/Challenge_Dave.zip?dl=0).
+Extract and execute to run the game.
 
 ## Tools and Experience Required
 
