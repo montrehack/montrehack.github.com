@@ -23,6 +23,7 @@ pour y arriver, à vous de choisir vos armes!
   Extraire et exécuter pour ouvrir le jeu.
 * Si vous avez une erreur, mettez [ce fichier](https://www.dropbox.com/s/l4nlbj46lze2ghp/libjpeg.so.8?dl=0) dans le meme repertoire que ./start.sh
 * [Présentation d'intro](https://docs.google.com/presentation/d/1WOPJvqHABDLBhT5zs0IxeJB_FMUIOi5anQtPiTRmCxE/)
+* [Solutions](https://gist.github.com/Dave1840438/e6b1c0fc84883513993b18db075fdda0)
 
 
 ## Outils et expérience requis
@@ -82,6 +83,7 @@ there. Choose your weapon!
   Extract and execute to run the game.
 * If you get a libjpeg error, put [this file](https://www.dropbox.com/s/l4nlbj46lze2ghp/libjpeg.so.8?dl=0) in the same directory as ./start.sh
 * [Introduction presentation](https://docs.google.com/presentation/d/1NYWdvTdtLR09YixQ9gpKr7njBet_2rZwwf8G9Gj4hRk/edit?usp=sharing)
+* [Write-up](https://gist.github.com/Dave1840438/e6b1c0fc84883513993b18db075fdda0)
 
 ## Tools and Experience Required
 
