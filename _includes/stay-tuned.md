@@ -1,4 +1,4 @@
-{% assign next_date = "2019-01-16" %}
+{% assign next_date = "2019-02-20" %}
 {% comment %}When venue is not determined, set to nil{% endcomment %}
 {% assign venue = nil %}
 
