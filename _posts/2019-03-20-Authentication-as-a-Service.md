@@ -45,7 +45,7 @@ Mercredi le 20 mars de 18h à 21h (suivi de bières à un lieu à déterminer)
 
 ## Remerciements
 
-Présenté et créée par Michael Lahaye ([@michaellahaye](https://twitter.com/michaellahaye))
+Présenté et créée par Michael Lahaye ([@michaellahaye](https://twitter.com/michaellahaye)) dans le cadre de [NorthSec](https://nsec.io/) 2018
 
 <a id="english"></a>
 
@@ -88,7 +88,7 @@ Wednesday March 20th, from 6pm to 9pm (followed by drinks at a location yet to b
 
 ## Credits
 
-Presented and created by Michael Lahaye ([@michaellahaye](https://twitter.com/michaellahaye))
+Presented and created by Michael Lahaye ([@michaellahaye](https://twitter.com/michaellahaye)) during [NorthSec](https://nsec.io/) 2018
 
 <hr/>
 
