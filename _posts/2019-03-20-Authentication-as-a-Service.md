@@ -16,7 +16,7 @@ La prochaine édition de MontréHack sera tenu le 20 mars 2019.
 
 ![AaaS](/images/19-03_aaas.png)
 
-Le prochain MontréHack portera sur le challenge "Authentication-as-a-Service", de NSEC 2018, est un challenge Web où vous devrez aussi utiliser votre OAuth2 et Python Kung fu.
+Le prochain MontréHack portera sur le challenge "Authentication-as-a-Service", de NSEC 2018, un challenge Web où vous devrez utiliser votre OAuth2 et Python Kung fu.
 
 ## Outils et expérience requis
 
@@ -27,7 +27,7 @@ Le prochain MontréHack portera sur le challenge "Authentication-as-a-Service", 
 
 Ubisoft
 
-5505 Boul St-Laurent #2000, Montréal, QC H2T 1S6
+5505 Boul St-Laurent, Montréal, QC H2T 1S6
 
 Suite #2000
 
@@ -70,7 +70,7 @@ The next MontreHack will feature the challenge Authentication-as-a-Service, from
 
 Ubisoft
 
-5505 Boul St-Laurent #2000, Montréal, QC H2T 1S6
+5505 Boul St-Laurent, Montréal, QC H2T 1S6
 
 Suite #2000
 
