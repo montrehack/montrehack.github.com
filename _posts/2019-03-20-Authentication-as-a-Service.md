@@ -27,7 +27,7 @@ Le prochain MontréHack portera sur le challenge "Authentication-as-a-Service", 
 
 Ubisoft
 
-5505 Boul St-Laurent, Montréal, QC H2T 1S6
+5480 Rue Saint-Dominique, Montréal, QC H2T 1V4
 
 Suite #2000
 
@@ -70,7 +70,7 @@ The next MontreHack will feature the challenge Authentication-as-a-Service, from
 
 Ubisoft
 
-5505 Boul St-Laurent, Montréal, QC H2T 1S6
+5480 St. Dominique street, Montréal, QC H2T 1V4
 
 Suite #2000
 
@@ -92,7 +92,7 @@ Presented and created by Michael Lahaye ([@michaellahaye](https://twitter.com/mi
 
 <hr/>
 
-[Vous souhaitez présenter? / Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+[Vous souhaitez présenter? / Interested to present a challenge?](https://docs.google.com/forms/d/e/1FAIpQLScyp0WithS4NLBHxUeQr-RG1CNozr4ZyCInvJfWPpv_cv_CeQ/viewform)
 
 <hr/>
 
