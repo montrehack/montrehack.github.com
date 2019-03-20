@@ -18,6 +18,8 @@ La prochaine édition de MontréHack sera tenu le 20 mars 2019.
 
 Le prochain MontréHack portera sur le challenge "Authentication-as-a-Service", de NSEC 2018, un challenge Web où vous devrez utiliser votre OAuth2 et Python Kung fu.
 
+[Challenge site](https://challenge.montrehack.ca/)
+
 ## Outils et expérience requis
 
 * Burp ou l'équivalent
@@ -60,6 +62,8 @@ The next edition of MontréHack will be held on March 20th, 2019.
 ![AaaS](/images/19-03_aaas.png)
 
 The next MontreHack will feature the challenge Authentication-as-a-Service, from NSEC 2018, a Web challenge where you will need to use your OAuth2 and Python Kung fu.
+
+[Challenge site](https://challenge.montrehack.ca/)
 
 ## Tools and Experience Required
 
