@@ -23,7 +23,7 @@
 
 Mercredi le {{ jour }} {{ mois }} 18h chez {% if venue %}{{ venue }}{% else %}**`$A_DETERMINER`**{% endif %}
 
-En cours de planification! [Intéressé à présenter?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+En cours de planification! [Intéressé à présenter?](https://docs.google.com/forms/d/e/1FAIpQLScyp0WithS4NLBHxUeQr-RG1CNozr4ZyCInvJfWPpv_cv_CeQ/viewform)
 
 En attendant, il y a les [archives](/archives.html).
 
@@ -42,7 +42,7 @@ En attendant, il y a les [archives](/archives.html).
 
 Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 6pm at {% if venue %}{{ venue }}{% else %}**`$TO_BE_DETERMINED`**{% endif %}
 
-In planning stage, stay tuned! [Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+In planning stage, stay tuned! [Interested to present a challenge?](https://docs.google.com/forms/d/e/1FAIpQLScyp0WithS4NLBHxUeQr-RG1CNozr4ZyCInvJfWPpv_cv_CeQ/viewform)
 
 Meanwhile, have a look to the [past events](/archives.html).
 
