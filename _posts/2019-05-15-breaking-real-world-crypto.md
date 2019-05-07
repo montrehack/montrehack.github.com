@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Breaking AES 101"
+title: "Breaking Real-World Crypto"
 tags: cryptography web
 ---
 
@@ -8,15 +8,15 @@ tags: cryptography web
 
 [English version](#english)
 
-## Breaking AES 101
+## Breaking Real-World Crypto
 
 La prochaine édition de MontréHack sera tenue le 15 mai 2019, pendant NorthSec!
 
 :clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/e/montrehack-breaking-aes-101-tickets-61008084824)
 
-![Breaking AES 101](/images/19-05_breaking_aes_101.jpg)
+![Breaking real-world crypto 101](/images/19-05_breaking_real_world_crypto.jpg)
 
-L'objectif du workshop est d'exploiter les vulnérabilités AES, et autres algorithmes de chiffrement symétrique, sans avoir recours à des scripts connus. Il s'agit de trouver les failles présentes sur les pages Web, allant d'un simple nonce statique CTR à une attaque de padding d'Oracle basée sur le temps, ainsi qu'un défi d'inversion.
+L'objectif du workshop est d'exploiter les vulnérabilités découlant d'une mauvaise utilisation de AES, et autres algorithmes de chiffrement symétrique, sans avoir recours à des scripts connus. Il s'agit de trouver les failles présentes sur les pages Web, allant d'un simple nonce statique CTR à une attaque de padding d'Oracle basée sur le temps, ainsi qu'un défi d'inversion.
 
 ## Outils et expérience requis
 
@@ -52,15 +52,15 @@ Salle fournie par [NorthSec](https://nsec.io/)
 
 # Next edition: May 15th, 2019
 
-## Breaking AES 101
+## Breaking Real-World Crypto
 
 The next edition of MontréHack will be held on May 15th, 2019, during NorthSec!
 
 :clipboard: : [Registration is mandatory](https://www.eventbrite.ca/e/montrehack-breaking-aes-101-tickets-61008084824)
 
-![Breaking AES 101](/images/19-05_breaking_aes_101.jpg)
+![Breaking real-world crypto 101](/images/19-05_breaking_real_world_crypto.jpg)
 
-The objective of the workshop is to exploit AES vulnerabilities, and other symmetric encryption algorithms, without using known scripts. It is about finding the flaws in the web pages, ranging from a simple static-nonce CTR to a time-based Oracle padding attack, as well as an inversion challenge.
+The objective of the workshop is to exploit vulnerabilities resulting from the misuse of AES, and other symmetric encryption algorithms, without the use of known scripts. It is about finding the flaws in the web pages, ranging from a simple static-nonce CTR to a time-based Oracle padding attack, as well as an inversion challenge.
 
 ## Tools and Experience Required
 
