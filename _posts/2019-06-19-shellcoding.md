@@ -32,6 +32,7 @@ L'objectif de l'atelier est de plonger dans le monde du shellcoding linux. L'env
 [ÉTS](https://www.etsmtl.ca/)
 
 Local A-1150
+
 1100 Notre-Dame St W, Montreal, QC H3C 1K3
 
 ## Quand
@@ -78,6 +79,7 @@ The objective of the workshop is to give an introduction to the world of linux s
 [ÉTS](https://www.etsmtl.ca/)
 
 Local A-1150
+
 1100 Notre-Dame St W, Montreal, QC H3C 1K3
 
 ## When
