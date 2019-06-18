@@ -12,7 +12,7 @@ tags: exploit linux
 
 La prochaine édition de MontréHack sera tenue le 19 juin 2019!
 
-:clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/e/montrehack-breaking-aes-101-tickets-61008084824)
+:clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/e/intro-to-linux-x86-64-shellcoding-tickets-63699592195)
 
 ![Intro to Linux x86\_64 shellcoding](/images/19-06_shellcode.png)
 
@@ -58,11 +58,11 @@ Présenté par Philippe Dugré ([@zer0x86\_64](https://twitter.com/zer0x86_64))
 
 The next edition of MontréHack will be held on June 19, 2019!
 
-:clipboard: : [Registration is mandatory](https://www.eventbrite.ca/e/montrehack-breaking-aes-101-tickets-61008084824)
+:clipboard: : [Registration is mandatory](https://www.eventbrite.ca/e/intro-to-linux-x86-64-shellcoding-tickets-63699592195)
 
 ![Intro to Linux x86\_64 shellcoding](/images/19-06_shellcode.png)
 
-The objective of the workshop is to give an introduction to the world of linux shellcoding. The target environment is the x86_64 architecture, which is the predominant CPU architecture of modern personnal computers and servers. For this, you will need to develop specific piece of assembly code while taking care of optimizing it to avoid bad characters and to get the smallest resulting machine code possible, most of which are commonly used for exploitation purposes. We will also touch a bit of more advanced concept, like dynamic shellcode generation and stagers, which are mostly used in framework like metasploit.
+The objective of the workshop is to give an introduction to the world of linux shellcoding. The target environment is the x86\_64 architecture, which is the predominant CPU architecture of modern personnal computers and servers. For this, you will need to develop specific piece of assembly code while taking care of optimizing it to avoid bad characters and to get the smallest resulting machine code possible, most of which are commonly used for exploitation purposes. We will also touch a bit of more advanced concept, like dynamic shellcode generation and stagers, which are mostly used in framework like metasploit.
 
 ## Tools and Experience Required
 
