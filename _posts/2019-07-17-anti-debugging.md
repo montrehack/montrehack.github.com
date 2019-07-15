@@ -20,9 +20,9 @@ Un défi anti-débogage qui introduit les techniques Windows couramment utilisé
 
 ## Outils et expérience requis
 
-* Windows 64bits (VM est okay)
+* Windows 64bits (VM est ok)
 * Débogeur dynamique (ex: x64dbg)
-* SRE (ex: Ghidra, IDA, r2, medusa)
+* SRE (ex: Ghidra, r2, medusa)
 
 ## Où
 
@@ -34,7 +34,7 @@ Shopify
 
 ## Quand
 
-Mercredi le 17 juille de 18h à 21h (suivi de bières au Benelux)
+Mercredi le 17 juillet de 18h à 21h (suivi de bières au Benelux)
 
 ## Comment
  
@@ -46,7 +46,7 @@ Mercredi le 17 juille de 18h à 21h (suivi de bières au Benelux)
 
 ## Remerciements
 
-Présenté et créée par [Alexandre Beaulie](https://twitter.com/alxbl_sec).
+Présenté et créé par [Alexandre Beaulieu](https://twitter.com/alxbl_sec).
 
 
 <a id="english"></a>
@@ -65,9 +65,9 @@ Level-up style anti-debugging challenge that introduces common Windows technique
 
 ## Tools and Experience Required
 
-* Windows 64bits (VM is okay)
+* Windows 64bits (in a VM is okay)
 * Dynamic debugger (ex: x64dbg)
-* SRE (ex: Ghidra, IDA, r2, medusa)
+* SRE (ex: Ghidra, r2, medusa)
 
 ## Where
 
@@ -91,7 +91,7 @@ Wednesday July 17th, from 6pm to 9pm (followed by drinks at Benelux)
 
 ## Credits
 
-Presented and created by [Alexandre Beaulie](https://twitter.com/alxbl_sec).
+Presented and created by [Alexandre Beaulieu](https://twitter.com/alxbl_sec).
 
 <hr/>
 
