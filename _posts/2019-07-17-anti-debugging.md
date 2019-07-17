@@ -18,6 +18,8 @@ La prochaine édition de MontréHack sera tenue le 17 juillet 2019.
 
 Un défi anti-débogage qui introduit les techniques Windows couramment utilisées par les DRM et les logiciels malveillants pour fausser l'analyse dynamique dans lequel vous devrez gagner des niveaux.
 
+Les challenges sont à l'intérieur du fichier suivant : [https://segfault.me/ctf/debugme.exe](https://segfault.me/ctf/debugme.exe)
+
 ## Outils et expérience requis
 
 * Windows 64bits (VM est ok)
@@ -62,6 +64,8 @@ The next edition of MontréHack will be held on July 17th, 2019.
 ![Keep stepping!](/images/19-07_anti_debugging.png)
 
 Level-up style anti-debugging challenge that introduces common Windows techniques used by DRM and malware to twart dynamic analysis.
+
+The challenges are in the following file : [https://segfault.me/ctf/debugme.exe](https://segfault.me/ctf/debugme.exe)
 
 ## Tools and Experience Required
 
