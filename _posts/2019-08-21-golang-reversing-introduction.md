@@ -50,17 +50,17 @@ Présenté par [Hugo Genesse](https://twitter.com/hugospns).
 
 <a id="english"></a>
 
-# Next edition: August 21th, 2019
+# Next edition: August 21st, 2019
 
 ## Golang Reversing Introduction
 
-The next edition of MontréHack will be held on August 21th, 2019!
+The next edition of MontréHack will be held on August 21st, 2019!
 
 :clipboard: : [Registration is mandatory](https://www.eventbrite.ca/e/billets-golang-reversing-introduction-68726816759)
 
 ![golang-reversing-introduction](/images/19-08_golang-reversing-introduction.png)
 
-Reversing compiled code is always the same, right? A Golang binary? Easy. Oh, ltrace doesn't work, that's weird. Strings are all mangled together? Ah man. Thousand of functions in a hello world program? No way! As C-like languages like Golang are bound to get more popular, learning how to approach reversing binaries written in those becomes useful... and fun! Let's learn together while making the same mistakes and then drink beer to forget about all of it! Three new challenges will presented, with the solutions, to guide you through the world of Golang reversing!
+Reversing compiled code is always the same, right? A Golang binary? Easy. Oh, ltrace doesn't work, that's weird. Strings are all mangled together? Ah man. Thousands of functions in a hello world program? No way! As C-like languages like Golang are bound to get more popular, learning how to approach reversing binaries written in those becomes useful... and fun! Let's learn together while making the same mistakes and then drink beer to forget about all of it! Three new challenges will presented, with the solutions, to guide you through the world of Golang reversing!
 
 ## Tools and Experience Required
 
@@ -79,7 +79,7 @@ Google
 
 ## When
 
-Wednesday August 21th, from 6pm to 9pm (followed by drinks at Benelux)
+Wednesday August 21st, from 6pm to 9pm (followed by drinks at Benelux)
 
 ## How
 
