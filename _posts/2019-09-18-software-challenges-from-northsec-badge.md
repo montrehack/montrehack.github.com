@@ -60,7 +60,7 @@ Si vous n'avez pas de badge, nous aurons quelques extra ou nous vous pairerons a
 
 ## Remerciements
 
-Présenté par [Éric Tremblay](https://github.com/cashew22) et [Thomas Dupuy](https://twitter.com/nyx__o).
+Présenté par [Éric Tremblay](https://github.com/cashew22), chef de l'équipe du badge, et [Thomas Dupuy](https://twitter.com/nyx__o) membre de l'équipe du badge.
 
 Badge électronique du [NorthSec](https://nsec.io) 2019.
 
@@ -122,7 +122,7 @@ If you don't have a badge, we will lend you one. When we run out, we will pair y
 
 ## Credits
 
-Presented by [Éric Tremblay](https://github.com/cashew22) and [Thomas Dupuy](https://twitter.com/nyx__o).
+Presented by [Éric Tremblay](https://github.com/cashew22), badge team lead, and [Thomas Dupuy](https://twitter.com/nyx__o) badge team member.
 
 Electronic badge from [NorthSec](https://nsec.io) 2019.
 
