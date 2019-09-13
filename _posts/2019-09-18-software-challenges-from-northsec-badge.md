@@ -21,7 +21,7 @@ Au menu, le challenge de minesweeper et ceux accessible à partir du Bluetooth L
 Si le temps le permet d'autres défis seront explorés.
 
 Nous avons une quantité limité de badge à prêter, donc [**l'inscription est
-obligatoire**](http://TODO) ce mois-ci.
+obligatoire**](https://www.eventbrite.ca/e/montrehack-northsec-2019-badge-tickets-72732008395) ce mois-ci.
 
 ## Ressources
 
@@ -43,7 +43,7 @@ Hydro-Québec
 
 2ième étage Salle Bleu
 
-[**Inscription obligatoire**](http://TODO)
+[**Inscription obligatoire**](https://www.eventbrite.ca/e/montrehack-northsec-2019-badge-tickets-72732008395)
 
 ## Quand
 
@@ -83,7 +83,7 @@ Bluetooth Low-Energy interface. If time there is some time left other
 challenges will be explored.
 
 We have a limited quantity of badges to share, so we ask you to
-[**register before the event**](https://TODO).
+[**register before the event**](https://www.eventbrite.ca/e/montrehack-northsec-2019-badge-tickets-72732008395).
 
 ## Ressources
 
@@ -105,7 +105,7 @@ Hydro-Québec
 
 2ième étage Salle Bleu
 
-[**Register before the event**](https://TODO)
+[**Register before the event**](https://www.eventbrite.ca/e/montrehack-northsec-2019-badge-tickets-72732008395)
 
 ## When
 
