@@ -47,7 +47,7 @@ Hydro-Québec
 
 ## Quand
 
-Mercredi le 18 septembre de 18h à 21h (suivi de bières à TODO)
+Mercredi le 18 septembre de 18h à 21h (suivi de bières au Cheval Blanc)
 
 ## Comment
 
@@ -109,7 +109,7 @@ Hydro-Québec
 
 ## When
 
-Wednesday September 18th, from 18h to 21h (followed by drinks at TODO)
+Wednesday September 18th, from 18h to 21h (followed by drinks at Cheval Blanc)
 
 ## How
 
