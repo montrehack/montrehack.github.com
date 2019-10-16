@@ -16,7 +16,7 @@ La prochaine édition de MontréHack sera tenu le 16 octobre 2019.
 
 Ce mois-ci, Montréhack vous propose un retour sur la track Windows du NorthSec 2019. Au menu: 2 forêts, 5 VMs Windows, 22 flags, des tickets Kerberos, pass-the-hash, DPAPI, 8 vulnérabilités de mots de passes et de nombreuses mauvaises pratiques de sécurité qu'on retrouve en entreprise! Pour les plus avancés, ce sera une occasion de peaufinner vos compétences en tests d'intrusions. Pour les moins expérimentés, nous nous concentrerons sur 5 flags. Une solution sera présentée à la fin, comme à l’habitude.
 
-Instructions pour se connecter à l'environnement : https://gist.github.com/martindube/affa9c8bd8e45960baf727fab1334fdd
+Instructions pour se connecter à l'environnement : [https://gist.github.com/martindube/affa9c8bd8e45960baf727fab1334fdd](https://gist.github.com/martindube/affa9c8bd8e45960baf727fab1334fdd)
 
 [**L'inscription est obligatoire**](https://www.eventbrite.com/e/montrehack-tickets-76181772733).
 
@@ -66,7 +66,7 @@ The next edition of MontréHack will be held on October 16th, 2019.
 
 This month, Montréhack offers you a look back at the Windows track of NorthSec 2019. On the menu: 2 forests, 5 Windows VMs, 22 flags, Kerberos tickets, pass-the-hash, DPAPI, 8 password vulnerabilities and many bad security practices found in companies! For the more advanced, this will be an opportunity to refine your penetration testing skills. For the less experienced, we will focus on 5 flags. A solution will be presented at the end, as usual.
 
-Instructions to connect to the environment: https://gist.github.com/martindube/affa9c8bd8e45960baf727fab1334fdd
+Instructions to connect to the environment: [https://gist.github.com/martindube/affa9c8bd8e45960baf727fab1334fdd](https://gist.github.com/martindube/affa9c8bd8e45960baf727fab1334fdd)
 
 
 ## Tools and Experience Required
