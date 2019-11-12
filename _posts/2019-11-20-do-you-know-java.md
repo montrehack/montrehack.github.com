@@ -4,13 +4,13 @@ title: "Do You Know Java?"
 tags: web exploitation
 ---
 
-# Prochaine édition: 13 novembre 2019
+# Prochaine édition: 20 novembre 2019
 
 [English version](#english)
 
 ## Java, vous connaissez?
 
-La prochaine édition de MontréHack sera tenu le 13 novembre 2019.
+La prochaine édition de MontréHack sera tenu le 20 novembre 2019.
 
 :clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/e/montrehack-do-you-know-java-tickets-81550296131)
 
@@ -36,7 +36,7 @@ mini-CTF OWASP de cette année.
 
 ## Quand
 
-Mercredi le 13 novembre de 18h à 21h
+Mercredi le 20 novembre de 18h à 21h
 
 ## Comment
  
@@ -53,11 +53,11 @@ Présenté par Olivier Arteau ([@\_holyvier\_](https://twitter.com/_holyvier_))
 
 <a id="english"></a>
 
-# Next edition: November 13th, 2019
+# Next edition: November 20th, 2019
 
 ## Do You Know Java?
 
-The next edition of MontréHack will be held on November 13th, 2019.
+The next edition of MontréHack will be held on November 20th, 2019.
 
 :clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/e/montrehack-do-you-know-java-tickets-81550296131)
 
@@ -82,7 +82,7 @@ Challenges are from this year's NorthSec and HackFest OWASP Mini-CTF.
 
 ## When
 
-Wednesday November 13th, from 6pm to 9pm
+Wednesday November 20th, from 6pm to 9pm
 
 ## How
 
