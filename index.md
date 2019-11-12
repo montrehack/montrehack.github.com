@@ -8,7 +8,6 @@ current event page based on the date.
 
 The plus 1-day (in seconds) prevents updates during the event to replace the
 current edition with stay-tuned page. Plus 1 casts a string into an int.
-{% endcomment %}
 {% assign latestPostDate = site.posts.first.date | date: '%s' | plus: 86400 %}
 {% assign currentDate = site.time | date: '%s' | plus: 1 %}
 
@@ -17,4 +16,5 @@ current edition with stay-tuned page. Plus 1 casts a string into an int.
 {% else %}
   {% include stay-tuned.md %}
 {% endif %}
-
+{% endcomment %}
+{{ site.posts.first.content }}
