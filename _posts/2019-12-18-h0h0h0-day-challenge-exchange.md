@@ -62,7 +62,7 @@ Mercredi le 18 décembre de 18h à 23h
 
 The next edition of MontréHack will be held on December 18th, 2019.
 
-:clipboard: : [Enregistrement obligatoire](https://h0h0h0.montrehack.ca/)
+:clipboard: : [Registration mandatory](https://h0h0h0.montrehack.ca/)
 
 ![h0h0h0day challenge Xchange](/images/19-12_h0h0h0-day-challenge-exchange.png)
 
