@@ -24,7 +24,7 @@ Bouffe, boisson, échange de challenges et autres surprises!
 * Pizza, bouffe vegane, bière, vin et spiritueux gratuit!
 * Surprises!
 
-Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosement et de la DCI.
+Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosemont et de la DCI.
 
 ## Outils et expérience requis
 
