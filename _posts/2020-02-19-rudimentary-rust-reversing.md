@@ -67,7 +67,7 @@ Bring your Ghidra and let's rumble!
 * Laptop
 * Ghidra or a similar reverse engineering tool
 * gdb
-* rustc (si vous voulez bricoler)
+* rustc (if you want to tinker)
 * python
 
 ## Where
