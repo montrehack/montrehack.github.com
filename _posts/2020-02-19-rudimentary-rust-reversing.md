@@ -20,11 +20,13 @@ La prochaine édition de MontréHack sera tenue le 19 février 2020.
 
 * Ordinateur portable
 * Ghidra, ou un outil de reversing semblable
+* gdb
+* rustc (si vous voulez bricoler)
+* python
 
 ## Où
 
 [GoSecure](https://www.gosecure.net/)
-
 
 630 Boulevard René-Lévesque Ouest, Suite 2630, Montréal, QC H3B 1S6, Canada
 
@@ -43,7 +45,6 @@ Mercredi le 19 février de 18h à 21h
 ## Remerciements
 
 Présenté par Alexandre Beaulieu.
-
 
 <a id="english"></a>
 
@@ -65,12 +66,15 @@ Bring your Ghidra and let's rumble!
 
 * Laptop
 * Ghidra or a similar reverse engineering tool
+* gdb
+* rustc (si vous voulez bricoler)
+* python
 
 ## Where
 
-[ESET](https://www.eset.ca)
+[GoSecure](https://www.gosecure.net/)
 
-473 Ste-Catherine Ouest, Suite 300, Montréal, QC H3B 1B1, Canada
+630 Boulevard René-Lévesque Ouest, Suite 2630, Montréal, QC H3B 1S6, Canada
 
 ## When
 
