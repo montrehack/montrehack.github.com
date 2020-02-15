@@ -12,7 +12,7 @@ tags: reverse-engineering rust
 
 La prochaine édition de MontréHack sera tenue le 19 février 2020.
 
-:clipboard: : [Enregistrement obligatoire](https://www.eventbrite.ca/preview?eid=94949312951/)
+:clipboard: : [Enregistrement obligatoire](https://www.eventbrite.com/e/montrehack-tickets-94949312951)
 
 <img src="/images/2020-02_rudimentary_rust_reversing.png" alt="Rust" style="width:400px;"/>
 
@@ -54,7 +54,7 @@ Présenté par Alexandre Beaulieu.
 
 The next edition of MontréHack will be held on February 19th, 2020.
 
-:clipboard: : [Registration Mandatory](https://www.eventbrite.ca/preview?eid=94949312951/)
+:clipboard: : [Registration Mandatory](https://www.eventbrite.com/e/montrehack-tickets-94949312951)
 
 <img src="/images/2020-02_rudimentary_rust_reversing.png" alt="Rust" style="width:400px;"/>
 
