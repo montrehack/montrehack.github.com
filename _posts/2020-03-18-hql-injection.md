@@ -22,6 +22,11 @@ L'atelier portera sur la comment sortir du contexte d'hibernate dans une injecti
 * [Voice team work sur Discord](https://discord.gg/BKur9d)
 * [Slack Chat](https://montrehack.slack.com/) ([Inscription](https://montrehack-slack-signup.herokuapp.com/))
 
+### Les défis
+
+* [Premier défi pour se réchauffer](http://68.183.205.121:8000/)
+* [Deuxième défi (Web track) pour se casser les dents](http://68.183.205.121:8006/)
+
 ## Outils et expérience requis
 
 * Ordinateur portable
@@ -65,6 +70,11 @@ The next workshop will focus on how to get out of the hibernate context in a HQL
 * [Livestream on Twitch](https://www.twitch.tv/montrehack)
 * [Voice team work on Discord](https://discord.gg/BKur9d)
 * [Slack Chat](https://montrehack.slack.com/) ([Sign-up](https://montrehack-slack-signup.herokuapp.com/))
+
+### The Challenges
+
+* [Warm-up challenge](http://68.183.205.121:8000/)
+* [Nose-bleeding track (Web track)](http://68.183.205.121:8006/)
 
 ## Tools and Experience Required
 
