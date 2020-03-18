@@ -16,6 +16,12 @@ L'atelier portera sur la comment sortir du contexte d'hibernate dans une injecti
 
 <img src="/images/2020-03_hql_injection.png" alt="HQLi" style="width:400px;"/>
 
+### Configuration pour travail à distance
+
+* [Livestream sur Twitch](https://www.twitch.tv/montrehack)
+* [Voice team work sur Discord](https://discord.gg/BKur9d)
+* [Slack Chat](https://montrehack.slack.com/) ([Inscription](https://montrehack-slack-signup.herokuapp.com/))
+
 ## Outils et expérience requis
 
 * Ordinateur portable
@@ -53,6 +59,12 @@ The next edition of MontréHack will be held on March 18th, 2020.
 <img src="/images/2020-03_hql_injection.png" alt="HQLi" style="width:400px;"/>
 
 The next workshop will focus on how to get out of the hibernate context in a HQL (Hibernate Query Language) injection in order to obtain a SQL injection context.
+
+### Remote Setup
+
+* [Livestream on Twitch](https://www.twitch.tv/montrehack)
+* [Voice team work on Discord](https://discord.gg/BKur9d)
+* [Slack Chat](https://montrehack.slack.com/) ([Sign-up](https://montrehack-slack-signup.herokuapp.com/))
 
 ## Tools and Experience Required
 
