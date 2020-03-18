@@ -37,6 +37,11 @@ Mercredi le 18 mars de 18h à 21h
 * Chaque problème sera analysé en petits groupes
 * Les solutions seront présentées avec tout le monde à la fin de la rencontre
 
+## Remerciements
+
+Créée et présenté par Sideni pour les CS Games 2020 qui ont dûes être cancelées à la dernière minute à cause du Corona virus
+
+
 <a id="english"></a>
 
 # Next edition: March 18th, 2020
@@ -69,6 +74,11 @@ Wednesday March 18th, from 6pm to 9pm
 * Challenges will be studied and explained
 * Challenges will be studied in small groups
 * Solutions will be presented to all at the end
+
+## Credits
+
+Created and presented by Sideni for the CS Games 2020 which got cancelled very last minute due to the Corona virus
+
 
 ### Sponsors // Partenaires
 
