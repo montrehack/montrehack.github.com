@@ -24,6 +24,7 @@ L'atelier portera sur la comment sortir du contexte d'hibernate dans une injecti
 
 ### Les défis
 
+* [Les diapos](https://drive.google.com/open?id=1l_WN5U-A7_CTZlaap8bdjZOryFAT-frd)
 * [Premier défi pour se réchauffer](http://68.183.205.121:8000/)
 * [Deuxième défi (Web track) pour se casser les dents](http://68.183.205.121:8006/)
 
@@ -73,6 +74,7 @@ The next workshop will focus on how to get out of the hibernate context in a HQL
 
 ### The Challenges
 
+* [Slides](https://drive.google.com/open?id=1l_WN5U-A7_CTZlaap8bdjZOryFAT-frd)
 * [Warm-up challenge](http://68.183.205.121:8000/)
 * [Nose-bleeding track (Web track)](http://68.183.205.121:8006/)
 
