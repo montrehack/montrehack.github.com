@@ -14,7 +14,7 @@ La prochaine édition de MontréHack sera tenue le 20 mai 2020.
 
 ![vault-pwning](/images/2020-05_vault-pwning.png)
 
-Deux défis de [Ringzer0 CTF](https://ringzer0ctf.com/) seront présentés par [Mr.Un1k0d3r](https://twitter.com/MrUn1k0d3r). Les sujets seront le pwning (défi exclusif) et l'injection SQL.
+Deux défis de [Ringzer0 CTF](https://ringzer0ctf.com/) seront présentés par [Mr.Un1k0d3r](https://twitter.com/MrUn1k0d3r). Les sujets seront le pwning (exclusif) et l'injection SQL.
 En raison du confinement, nous organiserons à nouveau l'atelier en ligne ce mois-ci.
 
 ### Configuration pour travail à distance
@@ -56,7 +56,7 @@ The next edition of MontréHack will be held on May 20th, 2020.
 
 ![vault-pwning](/images/2020-05_vault-pwning.png)
 
-Two challenges of [Ringzer0 CTF](https://ringzer0ctf.com/) will be presented by [Mr.Un1k0d3r](https://twitter.com/MrUn1k0d3r). The topics will be pwning (exclusive challenge) and SQL injection.
+Two challenges of [Ringzer0 CTF](https://ringzer0ctf.com/) will be presented by [Mr.Un1k0d3r](https://twitter.com/MrUn1k0d3r). The topics will be pwning (exclusive) and SQL injection.
 Due to containment, we will organize the workshop online again this month.
 
 ### Remote Setup
