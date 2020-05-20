@@ -20,7 +20,7 @@ En raison du confinement, nous organiserons à nouveau l'atelier en ligne ce moi
 ### Configuration pour travail à distance
 
 * Livestream sur [Twitch](https://twitch.tv/montrehack)
-* Travail en équipe sur [Discord](https://https://discord.gg/XPjpAvP)
+* Travail en équipe sur [Discord](https://discord.gg/XPjpAvP)
 * [Slack Chat](https://montrehack.slack.com/) Canal: #vault-pwning ([Inscription](https://montrehack-slack-signup.herokuapp.com/))  
 
 ## Outils et expérience requis
@@ -63,7 +63,7 @@ Due to containment, we will organize the workshop online again this month.
 ### Remote Setup
 
 * Livestream on [Twitch](https://twitch.tv/montrehack)
-* Voice team work on [Discord](https://https://discord.gg/XPjpAvP)
+* Voice team work on [Discord](https://discord.gg/XPjpAvP)
 * [Slack Chat](https://montrehack.slack.com/) Canal: #vault-pwning ([Inscription](https://montrehack-slack-signup.herokuapp.com/))
 
 ## Tools and Experience Required
