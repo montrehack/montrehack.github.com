@@ -19,8 +19,9 @@ En raison du confinement, nous organiserons à nouveau l'atelier en ligne ce moi
 
 ### Configuration pour travail à distance
 
-* [Zoom](https://zoom.us/download): Inscription pour la réunion: [https://zoom.us/meeting/register/tJwpcOqurDovEtyR36KdkJ4g9SdUmzNWjjnI](https://zoom.us/meeting/register/tJwpcOqurDovEtyR36KdkJ4g9SdUmzNWjjnI)
-* [Slack Chat](https://montrehack.slack.com/) Canal: #vault-pwning ([Inscription](https://montrehack-slack-signup.herokuapp.com/))
+* Livestream sur [Twitch](https://twitch.tv/montrehack)
+* Travail en équipe sur [Discord](https://https://discord.gg/XPjpAvP)
+* [Slack Chat](https://montrehack.slack.com/) Canal: #vault-pwning ([Inscription](https://montrehack-slack-signup.herokuapp.com/))  
 
 ## Outils et expérience requis
 
@@ -61,8 +62,9 @@ Due to containment, we will organize the workshop online again this month.
 
 ### Remote Setup
 
-* [Zoom](https://zoom.us/download): meeting registration: [https://zoom.us/meeting/register/tJwpcOqurDovEtyR36KdkJ4g9SdUmzNWjjnI](https://zoom.us/meeting/register/tJwpcOqurDovEtyR36KdkJ4g9SdUmzNWjjnI)
-* [Slack Chat](https://montrehack.slack.com/) Channel: #vault-pwning ([Inscription](https://montrehack-slack-signup.herokuapp.com/))
+* Livestream on [Twitch](https://twitch.tv/montrehack)
+* Voice team work on [Discord](https://https://discord.gg/XPjpAvP)
+* [Slack Chat](https://montrehack.slack.com/) Canal: #vault-pwning ([Inscription](https://montrehack-slack-signup.herokuapp.com/))
 
 ## Tools and Experience Required
 
