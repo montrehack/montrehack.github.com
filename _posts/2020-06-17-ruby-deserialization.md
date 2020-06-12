@@ -31,7 +31,7 @@ La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 
 ## Outils et expérience requis
 
-{% for tool in page.tools_fr%}
+{% for tool in page.tools_fr %}
 * {{ tool }}
 {% endfor %}
 
@@ -71,7 +71,7 @@ The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
 ## Tools and Experience Required
 
-{% for tool in page.tools_fr%}
+{% for tool in page.tools_en %}
 * {{ tool }}
 {% endfor %}
 
