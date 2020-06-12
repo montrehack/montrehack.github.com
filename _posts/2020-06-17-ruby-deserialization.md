@@ -4,19 +4,26 @@ layout: default
 # free [obliged] to add editorial niceties or strip the page if you need to
 # include something more complex.
 title: NorthSec's Ruby Deserialization
+tags: web
 date_fr: 17 juin 2020
 date_long_fr: mercredi le 17 juin 2020
 date_en: June 17th 2020
 date_long_en: Wednesday June 17th 2020
 description_fr: >
-  Des affaires en ruby par Becojo
+  Nous aurons trois défis de *unsafe deserialization* en Ruby avec trois librairies différentes affectés et une difficulté progressive.
+  Pour réussir nous aurons droit à un Ruby deserialization 101: les quirks du language, les bases du “property oriented programming”
+  et comment chasser pour un gadget dans le dernier Ruby.
+  Les défis étaient appelés Math Homework pendant NorthSec 2020.
 description_en: >
-  Ruby stuff by becojo
-tools_fr: ['Burp', 'un éditeur texte (vscode, sublime, vim)']
-tools_en: ['Burp', 'a text editor (vscode, sublime, vim)']
+  We will have three Ruby unsafe deserialization challenges with three different libraries affected and of progressive difficulty.
+  To succeed we will have a Ruby deserialization 101 crash-course: language quirks, basis of property oriented programming and
+  how to hunt for a gadget in the latest Ruby.
+  The challenges were called Math Homework during NorthSec 2020.
+tools_fr: ['netcat', 'un éditeur texte (vscode, sublime, vim)', 'un environnement Ruby (docker recommandé: `docker run -it ruby:2.7.1`)']
+tools_en: ['netcat', 'a text editor (vscode, sublime, vim)', 'a Ruby environment (docker recommanded: `docker run -it ruby:2.7.1`)']
 presented_by_fr: Défi créé et présenté par Benoit Côté-Jodoin ([@becojo](https://twitter.com/becojo)) dans le cadre de [NorthSec 2020](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io))
 presented_by_en: Challenge created and presented by Benoit Côté-Jodoin ([@becojo](https://twitter.com/becojo)) during [NorthSec 2020](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io))
-featured_img: /images/2020-05_ruby-deserialization.png
+featured_img: /images/20-06_ruby-deserialization.png
 featured_img_alt: Ruby Deserialization is success!
 ---
 
