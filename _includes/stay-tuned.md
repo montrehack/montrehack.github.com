@@ -1,6 +1,6 @@
-{% assign next_date = "2020-03-18" %}
+{% assign next_date = "2020-07-15" %}
 {% comment %}When venue is not determined, set to nil{% endcomment %}
-{% assign venue = nil %}
+{% assign venue = "Twitch+Discord" %}
 
 # Prochaine édition
 
@@ -21,7 +21,7 @@
   {% when '12' %}{% assign mois = "décembre" %}
 {% endcase %}
 
-Mercredi le {{ jour }} {{ mois }} 18h chez {% if venue %}{{ venue }}{% else %}**`$A_DETERMINER`**{% endif %}
+Mercredi le {{ jour }} {{ mois }} 19h chez {% if venue %}{{ venue }}{% else %}**`$A_DETERMINER`**{% endif %}
 
 En cours de planification! [Intéressé à présenter?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
 
@@ -40,7 +40,7 @@ En attendant, il y a les [archives](/archives.html).
   {% else %}{% assign day_suffix = "th" %}
 {% endcase %}
 
-Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 6pm at {% if venue %}{{ venue }}{% else %}**`$TO_BE_DETERMINED`**{% endif %}
+Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 7pm at {% if venue %}{{ venue }}{% else %}**`$TO_BE_DETERMINED`**{% endif %}
 
 In planning stage, stay tuned! [Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
 
