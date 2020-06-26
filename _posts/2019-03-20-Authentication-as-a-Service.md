@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Authentication-as-a-Service"
-tags: Web Pentest
+tags: web pentest
 ---
 
 # Prochaine édition: 20 mars 2019
