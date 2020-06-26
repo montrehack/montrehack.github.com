@@ -42,7 +42,7 @@ En attendant, il y a les [archives](/archives.html).
 
 Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 7pm at {% if venue %}{{ venue }}{% else %}**`$TO_BE_DETERMINED`**{% endif %}
 
-In planning stage, stay tuned! [Interested to present a challenge?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+In planning stage, stay tuned! [Interested to present a challenge?](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link)
 
 Meanwhile, have a look to the [past events](/archives.html).
 
@@ -53,4 +53,8 @@ Meanwhile, have a look to the [past events](/archives.html).
 
 ### Sponsors // Partenaires
 
+Interested to sponsor? [Contact us here](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link).
+
+{% comment %}
 [![Brasserie Benelux](/images/benelux.png)](http://brasseriebenelux.com/)
+{% endcomment %}
