@@ -25,6 +25,13 @@ presented_by_fr: Défi créé et présenté par Benoit Côté-Jodoin ([@becojo](
 presented_by_en: Challenge created and presented by Benoit Côté-Jodoin ([@becojo](https://twitter.com/becojo)) during [NorthSec 2020](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io))
 featured_img: /images/20-06_ruby-deserialization.png
 featured_img_alt: Ruby Deserialization is success!
+archived_assets:
+  - name: Twitch Video Recording
+    url: https://www.twitch.tv/videos/654083008
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1PHkuqk0m2ucOsoW4E331F965g9PFOz75Ci5-RLQpGAM/edit#slide=id.g89ba1ca4f6_0_211
+  - name: Files
+    url: https://github.com/Becojo/math-homeworks
 ---
 
 # Prochaine édition: {{ page.date_fr }}
@@ -35,6 +42,17 @@ La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 ![{{ page.featured_img_alt }}]({{ page.featured_img }})
 
 {{ page.description_fr }}
+
+{% if page.archived_assets %}
+{::options parse_block_html="true" /}
+<div class="archives">
+## Les Archives
+Cette édition est terminé, voici les archives:
+{% for asset in page.archived_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 ## Outils et expérience requis
 
@@ -75,6 +93,17 @@ The next edition of Montrehack will be held on {{ page.date_long_en }}.
 ![{{ page.featured_img_alt }}]({{ page.featured_img }})
 
 {{ page.description_en }}
+
+{% if page.archived_assets %}
+{::options parse_block_html="true" /}
+<div class="archives">
+## Archives
+This edition is over. Here are the archived assets:
+{% for asset in page.archived_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 ## Tools and Experience Required
 

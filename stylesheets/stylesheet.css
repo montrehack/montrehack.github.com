@@ -206,3 +206,11 @@ a {
 .cf {
   zoom:1;
 }
+
+/* Archived assets */
+div.archives {
+  border: 1px dashed #b5e853;
+  padding: 1em;
+  background-color: #192405;
+  margin-bottom: 1em;
+}
