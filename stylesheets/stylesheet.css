@@ -207,8 +207,8 @@ a {
   zoom:1;
 }
 
-/* Archived assets */
-div.archives {
+/* Assets (archives kept for backward compatibility) */
+div.archives, div.assets {
   border: 1px dashed #b5e853;
   padding: 1em;
   background-color: #192405;
