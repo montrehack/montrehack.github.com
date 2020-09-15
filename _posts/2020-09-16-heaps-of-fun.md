@@ -19,8 +19,8 @@ description_en: >
   Three increasingly difficult challenges exploiting a custom-built heap.
   Learn about the different bug classes that can happen on the heap and witness their impact first-hand!
   We can already tell you're overflowing with excitement.
-tools_fr: ['gdb', '', 'un navigateur Web']
-tools_en: ['gdb', 'a text editor (vscode, sublime, vim)', 'a Web browser']
+tools_fr: ['assembleur', 'gdb']
+tools_en: ['assembly language', 'gdb']
 presented_by_fr: Défi créé et présenté par Alexandre Beaulieu ([@alxbl_sec](https://twitter.com/alxbl_sec))
 presented_by_en: Challenge created and presented by Alexandre Beaulieu ([@alxbl_sec](https://twitter.com/alxbl_sec))
 featured_img: /images/20-09_heaps-of-fun.png
