@@ -25,11 +25,13 @@ presented_by_fr: Défi créé et présenté par Alexandre Beaulieu ([@alxbl_sec]
 presented_by_en: Challenge created and presented by Alexandre Beaulieu ([@alxbl_sec](https://twitter.com/alxbl_sec))
 featured_img: /images/20-09_heaps-of-fun.png
 featured_img_alt: "Binary Exploitation is Heaps of Fun"
-#challenge_assets:
-#  - name: Network Capture
-#    url: https://github.com/montrehack/challenges/raw/master/2020-07-22_giga-ctf/capture.pcap
-#  - name: Challenge
-#    url: http://giga.montrehack.ca/
+challenge_assets:
+  - name: Slides
+    url: http://ctf.segfault.me/slides.pdf
+  - name: All Files
+    url: http://ctf.segfault.me/
+  - name: Challenge
+    url: netcat://ctf.segfault.me:3000/
 #archived_assets:
 #  - name: Twitch Video Recording
 #    url: https://www.twitch.tv/videos/689648709
