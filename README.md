@@ -1,5 +1,5 @@
 # MontreHack website
-Quick how-to.
+Quickly understand how-to setup.
 
 ## Local testing
 
