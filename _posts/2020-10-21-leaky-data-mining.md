@@ -40,6 +40,8 @@ featured_img_alt: I Declare A Data Breach!
 
 [Version française](#french)
 
+## {{ page.title }}
+
 The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
 ![{{ page.featured_img_alt }}]({{ page.featured_img }})
@@ -89,6 +91,8 @@ This edition is over. Here are the archived assets:
 
 <a id="french"></a>
 # Prochaine édition: {{ page.date_fr }}
+
+## {{ page.title }}
 
 La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 

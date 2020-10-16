@@ -38,6 +38,8 @@ featured_img_alt: Ruby Deserialization is success!
 # Prochaine édition: {{ page.date_fr }}
 [English version](#english)
 
+## {{ page.title }}
+
 La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 
 ![{{ page.featured_img_alt }}]({{ page.featured_img }})
@@ -88,6 +90,8 @@ Cette édition est terminé, voici les archives:
 <a id="english"></a>
 
 # Next edition: {{ page.date_en }}
+
+## {{ page.title }}
 
 The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
