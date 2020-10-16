@@ -25,22 +25,34 @@ presented_by_fr: Défi créé et présenté par Alexandre Beaulieu ([@alxbl_sec]
 presented_by_en: Challenge created and presented by Alexandre Beaulieu ([@alxbl_sec](https://twitter.com/alxbl_sec))
 featured_img: /images/20-09_heaps-of-fun.png
 featured_img_alt: "Binary Exploitation is Heaps of Fun"
-challenge_assets:
-  - name: Slides
-    url: http://ctf.segfault.me/slides.pdf
-  - name: All Files
-    url: http://ctf.segfault.me/
-  - name: Challenge
-    url: netcat://ctf.segfault.me:3000/
-#archived_assets:
-#  - name: Twitch Video Recording
-#    url: https://www.twitch.tv/videos/689648709
+#challenge_assets:
 #  - name: Slides
-#    url: https://docs.google.com/presentation/d/1WA5cYjyhosgjYZjB74iYbI7f4fRUDJ579pJo200ho_g/edit#slide=id.p
-#  - name: Network Capture
-#    url: https://github.com/montrehack/challenges/raw/master/2020-07-22_giga-ctf/capture.pcap
-#  - name: Challenge Source Code for Deployment
-#    url: https://github.com/montrehack/challenges/tree/master/2020-07-22_giga-ctf/
+#    url: http://ctf.segfault.me/slides.pdf
+#  - name: All Files
+#    url: http://ctf.segfault.me/
+#  - name: Challenge
+#    url: netcat://ctf.segfault.me:3000/
+archived_assets:
+  - name: Twitch Video Recording
+    url: https://www.twitch.tv/videos/747299745
+  - name: Slides
+    url: https://github.com/montrehack/challenges/blob/master/2020-09-16/slides.pdf
+  - name: Challenge Files
+    url: https://github.com/montrehack/challenges/tree/master/2020-09-16
+  - name: "Video: Jump to 1st hint"
+    url: https://www.twitch.tv/videos/747299745?t=0h44m30s
+  - name: "Video: Jump to 2nd hint"
+    url: https://www.twitch.tv/videos/747299745?t=1h10m11s
+  - name: "Video: Jump to solution of the 1st challenge"
+    url: https://www.twitch.tv/videos/747299745?t=1h30m33s
+  - name: "Video: Jump to a hint for the 2nd challenge"
+    url: https://www.twitch.tv/videos/747299745?t=1h38m10s
+  - name: "Video: Jump to the solution of the 2nd challenge"
+    url: https://www.twitch.tv/videos/747299745?t=2h41m0s
+  - name: "Video: Jump to a challenge 3 hint (takehome)"
+    url: https://www.twitch.tv/videos/747299745?t=2h55m12s
+  - name: "Video: Jump to the interview with Alexandre Beaulieu after his MontréHack presentation"
+    url: https://www.twitch.tv/videos/747299745?t=2h55m58s
 ---
 
 # Prochaine édition: {{ page.date_fr }}
