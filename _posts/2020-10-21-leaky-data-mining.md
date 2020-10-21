@@ -26,6 +26,9 @@ presented_by_fr: Défi créé et présenté par Serge-Olivier Paquette ([@_sorus
 presented_by_en: Challenge created and presented by Serge-Olivier Paquette ([@_soruso](https://twitter.com/_soruso)) during [NorthSec 2020](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io))
 featured_img: /images/20-10_leaky-data-mining.png
 featured_img_alt: I Declare A Data Breach!
+challenge_assets:
+  - name: Challenge files
+    url: https://drive.google.com/drive/folders/1YXAdHqtYBdZkDJ1LL4gJfRuvEQx74d3T
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Twitch Video Recording
@@ -47,6 +50,16 @@ The next edition of Montrehack will be held on {{ page.date_long_en }}.
 ![{{ page.featured_img_alt }}]({{ page.featured_img }})
 
 {{ page.description_en }}
+
+{% if page.challenge_assets %}
+{::options parse_block_html="true" /}
+<div class="assets">
+## Challenge Assets
+{% for asset in page.challenge_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 {% if page.archived_assets %}
 {::options parse_block_html="true" /}
@@ -99,6 +112,16 @@ La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 ![{{ page.featured_img_alt }}]({{ page.featured_img }})
 
 {{ page.description_fr }}
+
+{% if page.challenge_assets %}
+{::options parse_block_html="true" /}
+<div class="assets">
+## Les ressources du défi
+{% for asset in page.challenge_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 {% if page.archived_assets %}
 {::options parse_block_html="true" /}
