@@ -12,6 +12,8 @@ date_long_en: Wednesday December 16th 2020
 description_fr: |
     Pour ce MontréHack de Décembre, nous revisitons notre mythique party local appelé le h0h0h0day en version à distance.
     Échange de challenges, invités sur le stream, livraison de bouffe et autres surprises!
+
+    L'inscription est maintenant ouverte : [https://h0h0h0day.montrehack.ca/](https://h0h0h0day.montrehack.ca/)
     
     Avant:
     * :ballot_box_with_check: Faites un challenge
@@ -35,6 +37,8 @@ description_fr: |
 description_en: |
     For December's MontréHack, we revisit our mythic local party called the h0h0h0day but with an online twist.
     Challenge exchange, guests on the Twitch stream, food deliveries and other suprises!
+
+    Registration is now open: [https://h0h0h0day.montrehack.ca/](https://h0h0h0day.montrehack.ca/)
 
     Before:
     * :ballot_box_with_check: Create a challenge
@@ -68,8 +72,8 @@ presented_by_en: Challenges created and presented by all of us!
 featured_img: /images/20-12-01_mandatory-harold.jpg
 featured_img_alt: h0h0h0day-special-covid
 #challenge_assets:
-#  - name: Challenge executable
-#    url: https://github.com/montrehack/challenges/raw/master/2020-10-25_defcon-b3s23/challenge/b3s23
+#  - name: Event registration
+#    url: https://h0h0h0day.montrehack.ca/
 #  - name: Server to exploit
 #    url:  ncat://challenge.montrehack.ca:2323
 # Once the edition is over, adjust these below with what we have and uncomment
