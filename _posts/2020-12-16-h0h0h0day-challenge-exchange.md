@@ -36,7 +36,7 @@ description_fr: |
     Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosemont et de la DCI.
 description_en: |
     For December's MontréHack, we revisit our mythic local party called the h0h0h0day but with an online twist.
-    Challenge exchange, guests on the Twitch stream, food deliveries and other suprises!
+    Challenge exchange, guests on the Twitch stream, food deliveries and other surprises!
 
     Registration is now open: [https://h0h0h0day.montrehack.ca/](https://h0h0h0day.montrehack.ca/)
 
@@ -217,6 +217,13 @@ Cette édition est terminé, voici les archives:
 <hr/>
 ### Sponsors // Partenaires
 
+Infrastructure provided by
+
+[![GoSecure](/images/sponsor_gosecure.png)](https://gosecure.net/)
+
+Community partners
+
 [![NorthSec](/images/nsec_logo.png)](https://nsec.io/)
+
 
 Interested to sponsor or present a challenge? [Contact us here](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link).
