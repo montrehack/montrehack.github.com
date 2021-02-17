@@ -29,11 +29,11 @@ presented_by_fr: Défi créé et présenté par Philippe Dugré ([@zer0x64](http
 presented_by_en: Challenge created and presented by Philippe Dugré ([@zer0x64](https://github.com/zer0x64/)) for [NorthSec 2020 CTF](https://nsec.io/)
 #featured_img: /images/21-01_malware-reversing-is-vt.jpg
 #featured_img_alt: "Uploading files to VirusTotal: Is this malware analysis?"
-#challenge_assets:
-#  - name: Challenge entrypoint (a Pcap)
-#    url:  https://niclov.in/montrehack/montrehack.pcap
-#  - name: Stage 2
-#    url:  https://niclov.in/montrehack/stage2.exe
+challenge_assets:
+  - name: Teach Help
+    url:  http://challenge.montrehack.ca/
+  - name: Bonus Challenge
+    url:  https://github.com/montrehack/challenges/blob/master/2021-02-17_teacher-hotline/challenge/bonus-essay_final.txt
 #  - name: Slides
 #    url:  https://niclov.in/montrehack/slides_4KJM.html
 # TODO: link to ringzero this malware excels
