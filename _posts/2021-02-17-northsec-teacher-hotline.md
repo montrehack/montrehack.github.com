@@ -31,7 +31,7 @@ presented_by_en: Challenge created and presented by Philippe Dugré ([@zer0x64](
 #featured_img_alt: "Uploading files to VirusTotal: Is this malware analysis?"
 challenge_assets:
   - name: Teach Help
-    url:  http://challenge.montrehack.ca/
+    url:  http://challenge.montrehack.ca:1337/
   - name: Bonus Challenge
     url:  https://github.com/montrehack/challenges/blob/master/2021-02-17_teacher-hotline/challenge/bonus-essay_final.txt
 #  - name: Slides
