@@ -27,11 +27,15 @@ presented_by_fr: Défi créé et présenté par salt dans le cadre du [Hackfest 
 presented_by_en: Challenge created and presented by salt for [Hackfest 2020 CTF](https://hackfest.ca)
 featured_img: https://media.giphy.com/media/l0D76LT6o1jaG2g0M/giphy.gif
 featured_img_alt: "Some girl hax0ring on a laptop"
-#challenge_assets:
-#  - name: Challenge entrypoint (a Pcap)
-#    url:  https://niclov.in/montrehack/montrehack.pcap
-#  - name: Stage 2
-#    url:  https://niclov.in/montrehack/stage2.exe
+challenge_assets:
+  - name: chal1 file
+    url:  https://github.com/montrehack/challenges/raw/master/2021-03-17_hackfest-pwn/chal1
+  - name: chal1 challenge server
+    url:  ncat://138.197.158.98:1234
+  - name: chal2 file
+    url:  https://github.com/montrehack/challenges/raw/master/2021-03-17_hackfest-pwn/chal2
+  - name: chal2 challenge server
+    url:  ncat://138.197.158.98:5678
 #  - name: Slides
 #    url:  https://niclov.in/montrehack/slides_4KJM.html
 # Once the edition is over, adjust these below with what we have and uncomment
