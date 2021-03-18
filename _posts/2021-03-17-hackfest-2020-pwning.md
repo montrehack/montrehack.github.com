@@ -36,8 +36,8 @@ challenge_assets:
     url:  https://github.com/montrehack/challenges/raw/master/2021-03-17_hackfest-pwn/chal2
   - name: chal2 challenge server
     url:  ncat://138.197.158.98:5678
-#  - name: Slides
-#    url:  https://niclov.in/montrehack/slides_4KJM.html
+  - name: Slides
+    url:  https://github.com/montrehack/challenges/blob/master/2021-03-17_hackfest-pwn/montreahack.pdf
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Twitch Video Recording
