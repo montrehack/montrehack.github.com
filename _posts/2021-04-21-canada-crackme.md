@@ -20,18 +20,20 @@ tools_fr:
   - Python
   - "gdb (pwntools, gef, peda)"
   - Connaissance de l'assembleur
+  - "Kernel de Linux <= 5.4.0 (5.8 et 5.11 confirmés qu'ils ne fonctionnent pas)"
 tools_en: 
   - Ghidra
   - Python
   - "gdb (pwntools, gef, peda)"
   - Assembly knowledge
+  - "Linux environment with <= 5.4.0 kernel (5.8 and 5.11 known to be buggy)"
 presented_by_fr: Défi créé et présenté par axdoomer dans le cadre du [h0h0h0day 2020](https://montrehack.ca/2020/12/16/h0h0h0day-challenge-exchange.html)
 presented_by_en: Challenge created and presented by axdoomer for [h0h0h0day 2020](https://montrehack.ca/2020/12/16/h0h0h0day-challenge-exchange.html)
 #featured_img: https://media.giphy.com/media/l0D76LT6o1jaG2g0M/giphy.gif
 #featured_img_alt: "Ghidra Karateka"
-#challenge_assets:
-#  - name: chal1 file
-#    url:  https://github.com/montrehack/challenges/raw/master/2021-03-17_hackfest-pwn/chal1
+challenge_assets:
+  - name: challenge file
+    url:  https://github.com/montrehack/challenges/raw/master/2021-04-21_canada-crackme/canada
 #  - name: chal1 challenge server
 #    url:  ncat://138.197.158.98:1234
 #  - name: chal2 file
@@ -102,7 +104,7 @@ This edition is over. Here are the archived assets:
 
 :heavy_exclamation_mark: **New hours for the online formula!**
 
-{{ page.date_long_en | capitalize }} from **7pm to 10pm**
+{{ page.date_long_en | capitalize }} from **7pm to 10pm Eastern**
 
 ## How
 
@@ -166,7 +168,7 @@ Cette édition est terminé, voici les archives:
 
 :heavy_exclamation_mark: **Nouvelles heures pour la formule en ligne!**
 
-{{ page.date_long_fr | capitalize }} de **19h à 22h**
+{{ page.date_long_fr | capitalize }} de **19h à 22h heure de l'est**
 
 ## Comment
 
