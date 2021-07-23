@@ -1,4 +1,4 @@
-{% assign next_date = "2021-02-17" %}
+{% assign next_date = "2021-09-15" %}
 {% comment %}When venue is not determined, set to nil{% endcomment %}
 {% assign venue = "Twitch+Discord" %}
 
@@ -23,7 +23,7 @@
 
 Mercredi le {{ jour }} {{ mois }} 19h chez {% if venue %}{{ venue }}{% else %}**`$A_DETERMINER`**{% endif %}
 
-En cours de planification! [Intéressé à présenter?](https://github.com/montrehack/montrehack.github.com/wiki/Present-at-Montrehack)
+En cours de planification! [Intéressé à présenter?](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link)
 
 En attendant, il y a les [archives](/archives.html).
 
