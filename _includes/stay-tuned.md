@@ -2,6 +2,26 @@
 {% comment %}When venue is not determined, set to nil{% endcomment %}
 {% assign venue = "Twitch+Discord" %}
 
+# Next event
+
+{% assign day = next_date | date: "%-d"  %}
+{% assign month = next_date | date: "%B" %}
+{% case day %}
+  {% when '1' or '21' or '31' %}{% assign day_suffix = "st" %}
+  {% when '2' or '22' %}{% assign day_suffix = "nd" %}
+  {% when '3' or '23' %}{% assign day_suffix = "rd" %}
+  {% else %}{% assign day_suffix = "th" %}
+{% endcase %}
+
+Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 7pm at {% if venue %}{{ venue }}{% else %}**`$TO_BE_DETERMINED`**{% endif %}
+
+In planning stage, stay tuned! [Interested to present a challenge?](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link)
+
+Meanwhile, have a look to the [past events](/archives.html).
+
+`¯\_(ツ)_/¯ <( Sorry! )`
+
+
 # Prochaine édition
 
 {% assign jour = next_date | date: "%-d" %}
@@ -28,26 +48,6 @@ En cours de planification! [Intéressé à présenter?](https://docs.google.com/
 En attendant, il y a les [archives](/archives.html).
 
 `¯\_(ツ)_/¯ <( Désolé! )`
-
-# Next event
-
-{% assign day = next_date | date: "%-d"  %}
-{% assign month = next_date | date: "%B" %}
-{% case day %}
-  {% when '1' or '21' or '31' %}{% assign day_suffix = "st" %}
-  {% when '2' or '22' %}{% assign day_suffix = "nd" %}
-  {% when '3' or '23' %}{% assign day_suffix = "rd" %}
-  {% else %}{% assign day_suffix = "th" %}
-{% endcase %}
-
-Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 7pm at {% if venue %}{{ venue }}{% else %}**`$TO_BE_DETERMINED`**{% endif %}
-
-In planning stage, stay tuned! [Interested to present a challenge?](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link)
-
-Meanwhile, have a look to the [past events](/archives.html).
-
-
-`¯\_(ツ)_/¯ <( Sorry! )`
 
 <hr/>
 
