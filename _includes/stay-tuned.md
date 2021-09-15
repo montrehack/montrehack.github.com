@@ -1,4 +1,4 @@
-{% assign next_date = "2021-09-15" %}
+{% assign next_date = "2021-09-29" %}
 {% comment %}When venue is not determined, set to nil{% endcomment %}
 {% assign venue = "Twitch+Discord" %}
 
