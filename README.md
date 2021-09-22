@@ -3,7 +3,13 @@ Quick how-to.
 
 ## Local testing
 
-First, setup your stuff. We are following github's recommandations: <https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>. Make sure you have `bundle` and that you ran `bundle install` inside the repo.
+NOTE: Ruby switching complexity has been introduced because GitHub pages uses Jekyll 3.x and Jekyll 3.x does not work with Ruby 3.x
+
+To manage ruby versions install [chruby](https://github.com/postmodern/chruby#install) and [ruby-install](https://github.com/postmodern/ruby-install#install). Install the [auto-switching feature](https://github.com/postmodern/chruby#auto-switching) as well.
+
+	ruby-install ruby 2.7
+
+Then, in a new terminal, following github's recommandations: <https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>. Make sure you have `bundle` and that you ran `bundle install` inside the repo.
 
 * To run the dev server:
 
