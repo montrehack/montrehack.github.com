@@ -35,61 +35,8 @@ featured_img_alt: Ruby Deserialization is success!
 #    url: https://github.com/Becojo/math-homeworks
 ---
 
-# Prochaine édition: {{ page.date_fr }}
-[English version](#english)
-
-## {{ page.title }}
-
-La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
-
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
-
-{{ page.description_fr }}
-
-{% if page.archived_assets %}
-{::options parse_block_html="true" /}
-<div class="archives">
-## Les Archives
-Cette édition est terminé, voici les archives:
-{% for asset in page.archived_assets %}
-* [{{ asset.name }}]({{ asset.url}})
-{% endfor %}
-</div>
-{% endif %}
-
-## Outils et expérience requis
-
-{% for tool in page.tools_fr %}
-* {{ tool }}
-{% endfor %}
-
-## Où
-
-* Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
-* Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
-
-## Quand
-
-:heavy_exclamation_mark: **Nouvelles heures pour la formule en ligne!**
-
-{{ page.date_long_fr | capitalize }} de **19h à 22h**
-
-## Comment
-
-* Formule atelier
-* Apportez votre ordinateur portable
-* Des problèmes seront étudiés et expliqués
-* Chaque problème sera analysé en petits groupes
-* Les solutions seront présentées avec tout le monde à la fin de la rencontre
-
-## Remerciements
-
-{{ page.presented_by_fr }}
-
-
-<a id="english"></a>
-
 # Next edition: {{ page.date_en }}
+[French version](#french)
 
 ## {{ page.title }}
 
@@ -139,7 +86,56 @@ This edition is over. Here are the archived assets:
 
 {{ page.presented_by_en }}
 
+<a id="french"></a>
+# Prochaine édition: {{ page.date_fr }}
 
+## {{ page.title }}
+
+La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
+
+![{{ page.featured_img_alt }}]({{ page.featured_img }})
+
+{{ page.description_fr }}
+
+{% if page.archived_assets %}
+{::options parse_block_html="true" /}
+<div class="archives">
+## Les Archives
+Cette édition est terminé, voici les archives:
+{% for asset in page.archived_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
+
+## Outils et expérience requis
+
+{% for tool in page.tools_fr %}
+* {{ tool }}
+{% endfor %}
+
+## Où
+
+* Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
+* Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
+
+## Quand
+
+:heavy_exclamation_mark: **Nouvelles heures pour la formule en ligne!**
+
+{{ page.date_long_fr | capitalize }} de **19h à 22h**
+
+## Comment
+
+* Formule atelier
+* Apportez votre ordinateur portable
+* Des problèmes seront étudiés et expliqués
+* Chaque problème sera analysé en petits groupes
+* Les solutions seront présentées avec tout le monde à la fin de la rencontre
+
+## Remerciements
+
+{{ page.presented_by_fr }}
 
 <hr/>
 ### Sponsors // Partenaires
