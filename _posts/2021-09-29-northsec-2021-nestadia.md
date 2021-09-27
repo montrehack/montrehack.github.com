@@ -9,9 +9,9 @@ date_long_fr: mercredi le 29 septembre 2021
 date_en: September 29th 2021
 date_long_en: Wednesday September 29th 2021
 description_fr: >
-   Nestadia est un émulateur NES basé sur le cloud. Les participants devaient le reverser pour trouver des vulnérabilités, ainsi qu'une porte dérobée et les exploiter. La séquence de défis se conclue avec un exploit dans le jeu style [TAS](https://www.urbandictionary.com/define.php?term=tas) sur un ROM maison.
+   Nestadia est un émulateur NES basé sur le cloud. Les participants devaient le reverser pour trouver des vulnérabilités, ainsi qu'une porte dérobée et les exploiter. La séquence de défis se conclue avec un exploit dans le jeu style [TAS](https://www.urbandictionary.com/define.php?term=tas) sur un ROM maison. C'est un défi épicé :hot_pepper: :hot_pepper: :hot_pepper: :hot_pepper:
 description_en: >
-   Nestadia is a cloud-based NES emulator. Participants were required to reverse it to find and exploit vulnerabilities and a backdoor. The track ends up with a [TAS](https://www.urbandictionary.com/define.php?term=tas)-like in-game exploit of a custom ROM file.
+   Nestadia is a cloud-based NES emulator. Participants were required to reverse it to find and exploit vulnerabilities and a backdoor. The track ends up with a [TAS](https://www.urbandictionary.com/define.php?term=tas)-like in-game exploit of a custom ROM file. This is a spicy challenge :hot_pepper: :hot_pepper: :hot_pepper: :hot_pepper:
 tools_fr:
   - Python
   - Ghidra
