@@ -3,6 +3,8 @@ layout: default
 title: Microcorruption initiation
 tags: exploit reverse-engineering
 status: FIXME
+season: 5
+episode: 1
 ---
 
 [English version](#english)

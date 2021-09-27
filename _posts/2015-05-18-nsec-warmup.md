@@ -2,6 +2,8 @@
 layout: default
 title: NorthSec 2015 Warm-up Party!
 tags: things-humans-do
+season: 5
+episode: 5
 ---
 
 [English version](#english)

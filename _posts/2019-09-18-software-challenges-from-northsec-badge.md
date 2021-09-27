@@ -2,6 +2,8 @@
 layout: default
 title: Some Software Challenges of the NorthSec 2019 Badge
 tags: hardware tutorial arm
+season: 14
+episode: 3
 ---
 
 # Prochaine édition: 18 septembre 2019

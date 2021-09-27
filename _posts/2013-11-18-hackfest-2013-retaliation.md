@@ -2,6 +2,8 @@
 layout: default
 title: Hackfest 2013 Retaliation
 tags: sql-injection crackme exploit
+season: 2
+episode: 4
 ---
 
 [English version](#english)

@@ -2,6 +2,8 @@
 layout: default
 title: NES Reversing
 tags: reverse-engineering crackme
+season: 9
+episode: 2
 ---
 
 [English version](#english)

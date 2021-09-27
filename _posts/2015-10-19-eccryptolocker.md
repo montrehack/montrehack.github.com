@@ -2,6 +2,8 @@
 layout: default
 title: ECCryptolocker
 tags: cryptography malware
+season: 6
+episode: 4
 ---
 
 # Prochaine édition: 19 octobre 2015

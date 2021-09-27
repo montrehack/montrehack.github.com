@@ -2,6 +2,8 @@
 layout: default
 title: Access Control
 tags: reverse-engineering crackme
+season: 5
+episode: 6
 ---
 
 [English version](#english)

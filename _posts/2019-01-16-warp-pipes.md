@@ -2,6 +2,8 @@
 layout: default
 title: "Warp Pipes"
 tags: reverse-engineering crackme
+season: 13
+episode: 1
 ---
 
 # Prochaine édition: 16 janvier 2019

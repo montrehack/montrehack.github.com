@@ -2,6 +2,8 @@
 layout: default
 title: Windows Reverse Engineering - GoogleCTF Ascii Art
 tags: reverse-engineering cryptography network
+season: 10
+episode: 4
 ---
 
 [English version](#english)

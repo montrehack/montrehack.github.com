@@ -2,9 +2,13 @@
 layout: default
 title: Password Reset "Features"
 tags: cryptography web
+season: 2
+episode: 2
 ---
 
 [English version](#english)
+
+# Saison {{ page.season }} épisode {{ page.episode }}
 
 ## Problème: Password Reset _Features_
 
@@ -25,6 +29,8 @@ Gabriel Tremblay ([@etrangeca](https://twitter.com/etrangeca))
 
 <a id="english"></a>
 **English version**
+
+# Season {{ page.season }} Episode {{ page.episode }}
 
 ## Problem #1: Password Reset _Features_
 

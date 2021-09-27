@@ -2,6 +2,8 @@
 layout: default
 title: Back To Basics
 tags: web forensic network steganography tutorial
+season: 9
+episode: 3
 ---
 
 [English version](#english)

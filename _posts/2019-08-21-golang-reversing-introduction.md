@@ -2,6 +2,8 @@
 layout: default
 title: "Golang Reversing Introduction"
 tags: reversing web
+season: 14
+episode: 2
 ---
 
 # Prochaine édition: 21 août 2019

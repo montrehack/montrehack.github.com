@@ -2,6 +2,8 @@
 layout: default
 title: Gentle Introduction to the NorthSec Badge
 tags: hardware tutorial arm hacking
+season: 10
+episode: 6
 ---
 
 # Prochaine édition: 18 décembre 2017

@@ -2,6 +2,8 @@
 layout: default
 title: Windows track of the NorthSec CTF 2019
 tags: windows pentest privilege-escalation
+season: 14
+episode: 4
 ---
 
 # Prochaine édition: 16 octobre 2019

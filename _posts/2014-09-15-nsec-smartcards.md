@@ -2,6 +2,8 @@
 layout: default
 title: NorthSec Smartcards
 tags: cryptography hardware
+season: 4
+episode: 2
 ---
 
 # NorthSec Smartcards

@@ -2,6 +2,8 @@
 layout: default
 title: "Breaking Real-World Crypto"
 tags: cryptography web
+season: 13
+episode: 5
 ---
 
 # Prochaine édition: 15 mai 2019

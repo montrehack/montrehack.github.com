@@ -2,6 +2,8 @@
 layout: default
 title: Social meetup / Rencontre sociale
 tags: things-humans-do
+season: 4
+episode: 1
 ---
 
 ## Recontre sociale // Social meetup

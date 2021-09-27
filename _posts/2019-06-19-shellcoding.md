@@ -2,6 +2,8 @@
 layout: default
 title: "Intro to Linux x86\_64 shellcoding"
 tags: exploit linux
+season: 13
+episode: 6
 ---
 
 # Prochaine édition: 19 juin 2019

@@ -2,11 +2,13 @@
 layout: default
 title: Hackfest 2012 Web/Crypto
 tags: web cryptography
+season: 1
+episode: 2
 ---
 
 [English version](#english)
 
-# Hackfest 2012 Web/Crypto
+# Saison {{ page.season }} épisode {{ page.episode }}: Hackfest 2012 Web/Crypto
 
 ![Hackers at work](/images/130213.jpg)
 
@@ -37,7 +39,7 @@ Pour ce mois ci, la cible sera un site web de pâtissiers mafieux (Anonymousse).
 * Ces niveaux ont été présentés au Hackfest 2012
 
 <a id="english"></a>
-# Hackfest 2012 Web/Crypto
+# Season {{ page.season }} Episode {{ page.episode }}: Hackfest 2012 Web/Crypto
 
 ![Hackers at work](/images/130213.jpg)
 

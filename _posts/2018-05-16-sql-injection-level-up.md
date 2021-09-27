@@ -2,6 +2,8 @@
 layout: default
 title: "SQL Injection"
 tags: web sql-injection
+season: 11
+episode: 5
 ---
 
 # Prochaine édition: 16 mai 2018

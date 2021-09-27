@@ -2,6 +2,8 @@
 layout: default
 title: From the Internet to Your Laptop!
 tags: pentest windows
+season: 12
+episode: 2
 ---
 
 [English version](#english)

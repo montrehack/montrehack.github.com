@@ -3,9 +3,13 @@ layout: default
 title: CSAW Quals Recap
 status: FIXME
 tags: exploit
+season: 2
+episode: 3
 ---
 
 [English version](#english)
+
+# Saison {{ page.season }} épisode {{ page.episode }}
 
 ## Problème: CSAW Quals Recap
 
@@ -23,6 +27,8 @@ Créé par: [CSAW CTF Quals 2013](https://ctf.isis.poly.edu/)
 
 <a id="english"></a>
 **English version**
+
+# Season {{ page.season }} Episode {{ page.episode }}
 
 ## CSAW Quals Recap
 

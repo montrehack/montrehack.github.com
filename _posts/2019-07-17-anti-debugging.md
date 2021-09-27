@@ -2,6 +2,8 @@
 layout: default
 title: "Anti-debugging"
 tags: reverse-engineering crackme
+season: 14
+episode: 1
 ---
 
 # Prochaine édition: 17 juillet 2019

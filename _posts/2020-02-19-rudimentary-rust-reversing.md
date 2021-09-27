@@ -2,6 +2,8 @@
 layout: default
 title: "Rudimentary Rust reversing"
 tags: reverse-engineering rust
+season: 15
+episode: 2
 ---
 
 # Prochaine édition: 19 février 2020

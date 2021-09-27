@@ -3,6 +3,8 @@ layout: default
 title: Silkstreet (CSAW Finals)
 status: FIXME
 tags: exploit linux
+season: 2
+episode: 5
 ---
 
 [English version](#english)

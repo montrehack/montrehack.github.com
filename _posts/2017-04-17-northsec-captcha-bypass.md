@@ -2,6 +2,8 @@
 layout: default
 title: NorthSec Captcha Bypass
 tags: cryptography web
+season: 9
+episode: 4
 ---
 
 [English version](#english)

@@ -2,6 +2,8 @@
 layout: default
 title: XSS for grown-ups
 tags: web xss
+season: 6
+episode: 2
 ---
 
 [English version](#english)

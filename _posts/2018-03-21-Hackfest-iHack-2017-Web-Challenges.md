@@ -2,6 +2,8 @@
 layout: default
 title: "Hackfest/iHack 2017 Web Challenges"
 tags: web
+season: 11
+episode: 3
 ---
 
 # Prochaine édition: 21 mars 2018

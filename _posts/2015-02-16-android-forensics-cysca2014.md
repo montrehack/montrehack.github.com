@@ -3,6 +3,8 @@ layout: default
 title: Android Forensics CySCA2014
 status: FIXME
 tags: forensic android
+season: 5
+episode: 2
 ---
 
 [English version](#english)

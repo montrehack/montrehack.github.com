@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Trivia and Rebase as a Service
+season: 8
+episode: 2
 ---
 
 [English version](#english)

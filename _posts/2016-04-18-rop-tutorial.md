@@ -2,6 +2,8 @@
 layout: default
 title: ROP It Like It's Hot!
 tags: exploit linux
+season: 7
+episode: 4
 ---
 
 [English version](#english)

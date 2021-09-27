@@ -2,6 +2,8 @@
 layout: default
 title: Crypto-Oracle
 tags: cryptography
+season: 1
+episode: 5
 ---
 
 [English version](#english)

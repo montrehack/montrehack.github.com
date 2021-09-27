@@ -2,6 +2,8 @@
 layout: default
 title: "Vault pwning (exclusive)"
 tags: pwning injection
+season: 15
+episode: 5
 ---
 
 # Prochaine édition: 20 mai 2020

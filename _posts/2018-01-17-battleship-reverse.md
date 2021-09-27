@@ -2,6 +2,8 @@
 layout: default
 title: Battleship Reverse Engineering
 tags: reverse-engineering crackme linux
+season: 11
+episode: 1
 ---
 
 # Challenge de reversing de jeu battleship de Flare-On

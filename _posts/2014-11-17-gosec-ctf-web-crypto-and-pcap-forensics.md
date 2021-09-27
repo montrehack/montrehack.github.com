@@ -3,6 +3,8 @@ layout: default
 title: Secure webmail and lost data
 tags: web cryptography network forensic
 status: FIXME
+season: 4
+episode: 4
 ---
 
 [English version](#english)

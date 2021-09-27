@@ -2,6 +2,8 @@
 layout: default
 title: "Authentication-as-a-Service"
 tags: web pentest
+season: 13
+episode: 3
 ---
 
 # Prochaine édition: 20 mars 2019

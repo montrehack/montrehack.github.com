@@ -3,6 +3,8 @@ layout: default
 title: Hackfest 2013 Web Challenges 
 tags: web
 status: FIXME
+season: 3
+episode: 2
 ---
 
 [English version](#english)

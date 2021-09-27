@@ -2,6 +2,8 @@
 layout: default
 title: Malicious Network Traffic
 tags: malware network reverse-engineering windows
+season: 9
+episode: 1
 ---
 
 [English version](#english)

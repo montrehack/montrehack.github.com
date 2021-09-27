@@ -2,11 +2,15 @@
 layout: default
 title: iOS Forensics and Network
 tags: forensic network ios
+season: 1
+episode: 3
 ---
 
 [English version](#english)
 
 ![NorthSec](/images/nsec_logo.png)
+
+# Saison {{ page.season }} épisode {{ page.episode }}
 
 ## Problème #1: iOS Forensics
 Pour ce mois ci, la cible sera un groupe de criminels à cravate qui effectue des transactions financières douteuses. Vous ferez parti d'une équipe d'experts en analyse de preuves judiciaires (forensics). Un agent d'information a pu momentanément distraire le suspect pour lui subtiliser son appareil juste assez longtemps pour faire une copie exacte de celui-ci avant de lui retourner sans qu'il ne s'en rende compte... 
@@ -66,6 +70,8 @@ Guillaume Germain
 
 <a id="english"></a>
 **English version**
+
+# Season {{ page.season }} Episode {{ page.episode }}
 
 ## Problem #1: iOS Forensics
 This month, the target is a group of white collar criminals involved in shady financial transactions.  You will be part of a team of forensics experts.  One of your agent was able to distract one of the suspects to steal his mobile phone, just long enough to get an exact copy of the filesystem.

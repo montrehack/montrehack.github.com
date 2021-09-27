@@ -3,6 +3,8 @@ layout: default
 title: Pinghelper and BusinessCards
 status: FIXME
 tags: web
+season: 8
+episode: 1
 ---
 
 [English version](#english)

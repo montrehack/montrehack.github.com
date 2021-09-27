@@ -3,6 +3,8 @@ layout: default
 title: Side channel & L3 CPU cache
 tags: exploit hardware tutorial
 status: FIXME
+season: 9
+episode: 5
 ---
 
 # Canaux auxiliaires & cache CPU L3

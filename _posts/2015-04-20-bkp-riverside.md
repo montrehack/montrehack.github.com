@@ -2,6 +2,8 @@
 layout: default
 title: Network Forensics BKP Riverside 2015
 tags: forensic network bkp 
+season: 5
+episode: 4
 ---
 
 # Riverside

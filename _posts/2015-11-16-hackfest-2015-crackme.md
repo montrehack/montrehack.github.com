@@ -3,6 +3,8 @@ layout: default
 title: Hackfest 2015 CrackMe
 tags: crackme reverse-engineering windows
 status: FIXME
+season: 6
+episode: 5
 ---
 
 # Prochaine édition: 16 novembre 2015

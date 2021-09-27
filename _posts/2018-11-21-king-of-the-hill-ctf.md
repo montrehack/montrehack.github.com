@@ -2,6 +2,8 @@
 layout: default
 title: King of the hill CTF
 tags: web  
+season: 12
+episode: 5
 ---
 
 # Prochaine édition: Mercredi le 21 novembre

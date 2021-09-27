@@ -3,6 +3,8 @@ layout: default
 title: Malicious Documents
 tags: reverse-engineering windows malware
 status: fixme
+season: 8
+episode: 4
 ---
 
 [English version](#english)

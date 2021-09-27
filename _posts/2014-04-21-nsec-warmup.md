@@ -2,6 +2,8 @@
 layout: default
 title: NorthSec 2014 Pre-Party!
 tags: things-humans-do
+season: 3
+episode: 4
 ---
 
 [English version](#english)

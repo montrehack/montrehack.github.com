@@ -2,6 +2,8 @@
 layout: default
 title: Plaid CTF 2012 Stegano
 tags: steganography
+season: 3
+episode: 1
 ---
 
 [English version](#english)

@@ -2,6 +2,8 @@
 layout: default
 title: NorthSec Thank You Mr ISP
 tags: forensic network web
+season: 3
+episode: 5
 ---
 
 [English version](#english)

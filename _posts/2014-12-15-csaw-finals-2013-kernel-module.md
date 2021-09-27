@@ -2,6 +2,8 @@
 layout: default
 title: Brad Oberberg (CSAW Finals 2013)
 tags: exploit linux
+season: 4
+episode: 5
 ---
 
 [English version](#english)

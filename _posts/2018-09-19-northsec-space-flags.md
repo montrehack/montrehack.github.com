@@ -2,6 +2,8 @@
 layout: default
 title: Flags from Space from NorthSec 2018
 tags: web
+season: 12
+episode: 3
 ---
 
 # Prochaine édition: Mercredi le 19 septembre

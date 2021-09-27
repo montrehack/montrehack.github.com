@@ -2,6 +2,8 @@
 layout: default
 title: "Do You Know Java?"
 tags: web exploitation
+season: 14
+episode: 5
 ---
 
 # Prochaine édition: 20 novembre 2019

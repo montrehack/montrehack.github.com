@@ -2,6 +2,8 @@
 layout: default
 title: Hash Length Extension attacks
 tags: cryptography
+season: 7
+episode: 3
 ---
 
 [English version](#english)

@@ -3,6 +3,8 @@ layout: default
 title: adctf 2014 password-checker
 tags: reverse-engineering crackme
 status: FIXME
+season: 5
+episode: 3
 ---
 
 [English version](#english)

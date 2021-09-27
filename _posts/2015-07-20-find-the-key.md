@@ -2,6 +2,8 @@
 layout: default
 title: Find The Key
 tags: reverse-engineering crackme
+season: 6
+episode: 1
 ---
 
 [English version](#english)

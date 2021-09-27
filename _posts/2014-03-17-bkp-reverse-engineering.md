@@ -2,6 +2,8 @@
 layout: default
 title: Boston Key Party Reverse Engineering
 tags: reverse-engineering linux
+season: 3
+episode: 3
 ---
 
 [English version](#english)

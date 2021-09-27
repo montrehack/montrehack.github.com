@@ -2,6 +2,8 @@
 layout: default
 title: "HQL Injection"
 tags: hql injection
+season: 15
+episode: 3
 ---
 
 # Prochaine édition: 18 mars 2020

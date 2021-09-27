@@ -2,6 +2,8 @@
 layout: default
 title: Hackito Ergo Sum 2010 FPGA Challenge
 tags: hardware reverse-engineering
+season: 7
+episode: 1
 ---
 
 # Hackito Ergo Sum 2010 FPGA Challenge

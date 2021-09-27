@@ -3,6 +3,8 @@ layout: default
 title: Web Get $SHELL
 tags: web
 status: FIXME
+season: 4
+episode: 3
 ---
 
 [English version](#english)

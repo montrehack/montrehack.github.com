@@ -2,6 +2,8 @@
 layout: default
 title: "h0h0h0day Party and Challenge Xchange!"
 tags: things-humans-do
+season: 14
+episode: 6
 ---
 
 # Prochaine édition: 18 décembre 2019
