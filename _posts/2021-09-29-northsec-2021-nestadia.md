@@ -54,6 +54,16 @@ The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
 {{ page.description_en }}
 
+{% if page.challenge_assets %}
+{::options parse_block_html="true" /}
+<div class="assets">
+## Challenge Assets
+{% for asset in page.challenge_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
+
 {% if page.archived_assets %}
 {::options parse_block_html="true" /}
 <div class="archives">
@@ -107,6 +117,16 @@ La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 ![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_fr }}
+
+{% if page.challenge_assets %}
+{::options parse_block_html="true" /}
+<div class="assets">
+## Challenge Assets
+{% for asset in page.challenge_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 {% if page.archived_assets %}
 {::options parse_block_html="true" /}
