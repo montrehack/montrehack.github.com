@@ -47,7 +47,7 @@ featured_img_alt: Mario Bros 3 glitching
 
 The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
+![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_en }}
 
@@ -101,7 +101,7 @@ This edition is over. Here are the archived assets:
 
 La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
+![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_fr }}
 
