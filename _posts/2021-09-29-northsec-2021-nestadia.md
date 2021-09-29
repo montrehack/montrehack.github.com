@@ -28,6 +28,9 @@ presented_by_fr: Défi présenté par Philippe Dugre ([@zer0x64](https://github.
 presented_by_en: Presented by Philippe Dugre ([@zer0x64](https://github.com/zer0x64)) and Alexandre Beaulieu ([@alxbl](https://twitter.com/alxbl_sec)). Made for [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 featured_img: /images/21-09_mario3tas.gif
 featured_img_alt: Mario Bros 3 glitching
+challenge_assets:
+  - name: Challenge server
+    url: http://challenge.montrehack.ca/
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Twitch Video Recording
