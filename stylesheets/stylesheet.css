@@ -78,6 +78,14 @@ header h2 {
   margin-bottom: 0;
 }
 
+#badges p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 0px;
+}
+
 #badges iframe {
   vertical-align: middle;
 }
