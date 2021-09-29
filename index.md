@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MontréHack - Monthly IT Security Workshops
+title: MontréHack - Monthly Capture-The-Flag Solving and Cybersecurity Workshop
 ---
 {% comment %}
 We implemented a simple logic to switch between a "Stay Tuned" page and the

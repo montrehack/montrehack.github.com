@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 767.98px; /* changed in 2021 since 600px seemed dated */
   margin: 0 auto;
 }
 
@@ -72,10 +72,19 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+  margin-bottom: 0px;
 }
 
 .container #badges {
   margin-bottom: 0;
+}
+
+#badges p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 0px;
 }
 
 #badges iframe {
@@ -91,6 +100,11 @@ header h2 {
 }
 section img {
   max-width: 100%
+}
+
+img[src$="#centered"] {
+  margin: auto;
+  display: block;
 }
 
 h1, h2, h3, h4, h5, h6 {
