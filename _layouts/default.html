@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -9,6 +9,28 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
 
     <title>{{ page.title }}</title>
+
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta name="twitter:site" content="@montrehack" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{ page.summary }}">
+    {% else %}
+    <meta name="twitter:description" content="Monthly Capture-The-Flag Solving and Cybersecurity Workshop">
+    <meta property="og:description" content="Monthly Capture-The-Flag Solving and Cybersecurity Workshop" />
+    {% endif %}
+
+    {% if page.featured_img %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ page.featured_img }}">
+    <meta property="og:image" content="{{ page.featured_img }}" />
+    {% else %}
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.logo }}">
+    <meta property="og:image" content="{{ site.logo }}" />
+    {% endif %}
+
   </head>
 
   <body>
