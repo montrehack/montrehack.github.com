@@ -17,6 +17,7 @@
 
     {% if page.summary %}
     <meta name="twitter:description" content="{{ page.summary }}">
+    <meta property="og:description" content="{{ page.summary }}" />
     {% else %}
     <meta name="twitter:description" content="Monthly Capture-The-Flag Solving and Cybersecurity Workshop">
     <meta property="og:description" content="Monthly Capture-The-Flag Solving and Cybersecurity Workshop" />
@@ -26,10 +27,12 @@
     <meta name="twitter:card"  content="summary_large_image">
     <meta name="twitter:image" content="{{ page.featured_img | absolute_url }}">
     <meta property="og:image" content="{{ page.featured_img | absolute_url }}" />
+    <meta property="og:image:alt" content="{{ page.featured_img_alt }}" />
     {% else %}
     <meta name="twitter:card"  content="summary">
     <meta name="twitter:image" content="{{ site.logo | absolute_url }}">
     <meta property="og:image" content="{{ site.logo | absolute_url }}" />
+    <meta property="og:image:alt" content="The MontréHack Logo" />
     {% endif %}
 
   </head>

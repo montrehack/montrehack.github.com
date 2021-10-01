@@ -3,6 +3,8 @@ season: 18
 episode: 1
 layout: default
 title: NorthSec CTF 2021's Nestadia
+# summary for social media cards. Ideal length 55 chars, max 200
+summary: Reverse and exploit a cloud-based NES emulator in rust
 tags: reverse-engineering
 date_fr: 29 septembre 2021
 date_long_fr: mercredi le 29 septembre 2021
