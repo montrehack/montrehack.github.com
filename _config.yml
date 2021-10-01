@@ -2,7 +2,7 @@
 safe: true
 lsi: false
 
-logo: "/be_hacker.png"
+logo: "/images/be_hacker.png"
 
 # Publish posts or collection documents with a future date.
 future: true

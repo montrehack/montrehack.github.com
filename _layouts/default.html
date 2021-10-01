@@ -24,12 +24,12 @@
 
     {% if page.featured_img %}
     <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ page.featured_img }}">
-    <meta property="og:image" content="{{ page.featured_img }}" />
+    <meta name="twitter:image" content="{{ page.featured_img | absolute_url }}">
+    <meta property="og:image" content="{{ page.featured_img | absolute_url }}" />
     {% else %}
     <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}">
-    <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+    <meta name="twitter:image" content="{{ site.logo | absolute_url }}">
+    <meta property="og:image" content="{{ site.logo | absolute_url }}" />
     {% endif %}
 
   </head>
