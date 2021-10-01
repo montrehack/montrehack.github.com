@@ -41,10 +41,9 @@ archived_assets:
     url: https://github.com/zer0x64/nsec-2021-nestadia
 ---
 
-# Next edition: {{ page.date_en }}
 [French version](#french)
 
-### Season {{ page.season }} Episode {{ page.episode }}
+### Season {{ page.season }} Episode {{ page.episode }} aired on {{ page.date_en }}
 
 ## {{ page.title }}
 
@@ -106,9 +105,7 @@ This edition is over. Here are the archived assets:
 
 <a id="french"></a>
 
-# Prochaine édition: {{ page.date_fr }}
-
-### Saison {{ page.season }} épisode {{ page.episode }}
+### Saison {{ page.season }} épisode {{ page.episode }} en ondes le {{ page.date_fr }}
 
 ## {{ page.title }}
 
