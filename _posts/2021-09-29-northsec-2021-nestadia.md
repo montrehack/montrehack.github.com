@@ -30,17 +30,15 @@ presented_by_fr: Défi présenté par Philippe Dugre ([@zer0x64](https://github.
 presented_by_en: Presented by Philippe Dugre ([@zer0x64](https://github.com/zer0x64)) and Alexandre Beaulieu ([@alxbl](https://twitter.com/alxbl_sec)). Made for [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 featured_img: /images/21-09_mario3tas.gif
 featured_img_alt: Mario Bros 3 glitching
-challenge_assets:
-  - name: Challenge server
-    url: http://challenge.montrehack.ca/
+#challenge_assets:
+#  - name: Challenge server
+#    url: http://challenge.montrehack.ca/
 # Once the edition is over, adjust these below with what we have and uncomment
 archived_assets:
   - name: Video Recording
     url: https://www.youtube.com/watch?v=7xwB6GHpQpc
-#  - name: Slides
-#    url: https://docs.google.com/presentation/d/1PHkuqk0m2ucOsoW4E331F965g9PFOz75Ci5-RLQpGAM/edit#slide=id.g89ba1ca4f6_0_211
-#  - name: Files
-#    url: https://github.com/Becojo/math-homeworks
+  - name: Challenge Files
+    url: https://github.com/zer0x64/nsec-2021-nestadia
 ---
 
 # Next edition: {{ page.date_en }}
