@@ -32,9 +32,9 @@ challenge_assets:
   - name: Challenge server
     url: http://challenge.montrehack.ca/
 # Once the edition is over, adjust these below with what we have and uncomment
-#archived_assets:
-#  - name: Twitch Video Recording
-#    url: https://www.twitch.tv/videos/654083008
+archived_assets:
+  - name: Video Recording
+    url: https://www.youtube.com/watch?v=7xwB6GHpQpc
 #  - name: Slides
 #    url: https://docs.google.com/presentation/d/1PHkuqk0m2ucOsoW4E331F965g9PFOz75Ci5-RLQpGAM/edit#slide=id.g89ba1ca4f6_0_211
 #  - name: Files
