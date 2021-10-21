@@ -38,7 +38,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed #00bf00;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -55,12 +55,6 @@ header h1 {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
-}
-/* header make header link invisible */
-header h1 a,
-header h1 a:link {
-  color: #b5e853;
-  text-decoration: none;
 }
 
 header h1:before {
@@ -110,11 +104,10 @@ img[src$="#centered"] {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #00bf00;
   letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  text-shadow: 0 0 5px rgba(0, 191, 0, 0.3),
+               0 0 10px rgba(0, 191, 0, 0.3);
 }
 
 #main_content h1 {
@@ -166,7 +159,7 @@ pre {
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 14px;
-  color: #b5e853;
+  color: #00bf00;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -182,7 +175,7 @@ table {
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed #00bf00;
   padding: 5px 10px;
 }
 
@@ -193,8 +186,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+  border-bottom: 1px dashed #00bf00;
 }
 
 /* Links
@@ -223,7 +215,7 @@ a {
 
 /* Assets (archives kept for backward compatibility) */
 div.archives, div.assets {
-  border: 1px dashed #b5e853;
+  border: 1px dashed #00bf00;
   padding: 1em;
   background-color: #192405;
   margin-bottom: 1em;
