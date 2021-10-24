@@ -5,6 +5,7 @@ lsi: false
 logo: "/images/montrehack.svg"
 # OpenGraph/TwitterCard don't support svg logos
 logo_opengraph: "/images/montrehack.png"
+logo_twittercard: "images/montrehack-tw.png"
 
 # Publish posts or collection documents with a future date.
 future: true
