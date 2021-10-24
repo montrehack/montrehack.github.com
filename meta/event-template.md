@@ -1,50 +1,71 @@
 ---
-layout: default
 # Editing the below variables is the absolute minimum to get stuff up. Feel
 # free [obliged] to add editorial niceties or strip the page if you need to
 # include something more complex.
-title: NorthSec's Ruby Deserialization
-tags: web
-date_fr: 17 juin 2020
-date_long_fr: mercredi le 17 juin 2020
-date_en: June 17th 2020
-date_long_en: Wednesday June 17th 2020
+season: 18
+episode: 1
+layout: default
+title: NorthSec CTF 2021's Nestadia
+# summary for social media cards. Ideal length 55 chars, max 200
+summary: Reverse and exploit a cloud-based NES emulator in rust
+tags: reverse-engineering
+date_fr: 29 septembre 2021
+date_long_fr: mercredi le 29 septembre 2021
+date_en: September 29th 2021
+date_long_en: Wednesday September 29th 2021
 description_fr: >
-  Nous aurons trois défis de *unsafe deserialization* en Ruby avec trois librairies différentes affectés et une difficulté progressive.
-  Pour réussir nous aurons droit à un Ruby deserialization 101: les quirks du language, les bases du “property oriented programming”
-  et comment chasser pour un gadget dans le dernier Ruby.
-  Les défis étaient appelés Math Homework pendant NorthSec 2020.
+   Nestadia est un émulateur NES basé sur le cloud. Les participants devaient le reverser pour trouver des vulnérabilités, ainsi qu'une porte dérobée et les exploiter. La séquence de défis se conclue avec un exploit dans le jeu style [TAS](https://www.urbandictionary.com/define.php?term=tas) sur un ROM maison. C'est un défi épicé :hot_pepper: :hot_pepper: :hot_pepper: :hot_pepper:
 description_en: >
-  We will have three Ruby unsafe deserialization challenges with three different libraries affected and of progressive difficulty.
-  To succeed we will have a Ruby deserialization 101 crash-course: language quirks, basis of property oriented programming and
-  how to hunt for a gadget in the latest Ruby.
-  The challenges were called Math Homework during NorthSec 2020.
-tools_fr: ['netcat', 'un éditeur texte (vscode, sublime, vim)', 'un environnement Ruby (docker recommandé: `docker run -it ruby:2.7.1`)']
-tools_en: ['netcat', 'a text editor (vscode, sublime, vim)', 'a Ruby environment (docker recommanded: `docker run -it ruby:2.7.1`)']
-presented_by_fr: Défi créé et présenté par Benoit Côté-Jodoin ([@becojo](https://twitter.com/becojo)) dans le cadre de [NorthSec 2020](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io))
-presented_by_en: Challenge created and presented by Benoit Côté-Jodoin ([@becojo](https://twitter.com/becojo)) during [NorthSec 2020](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io))
-featured_img: /images/20-06_ruby-deserialization.png
-featured_img_alt: Ruby Deserialization is success!
+   Nestadia is a cloud-based NES emulator. Participants were required to reverse it to find and exploit vulnerabilities and a backdoor. The track ends up with a [TAS](https://www.urbandictionary.com/define.php?term=tas)-like in-game exploit of a custom ROM file. This is a spicy challenge :hot_pepper: :hot_pepper: :hot_pepper: :hot_pepper:
+tools_fr:
+  - Python
+  - Ghidra
+  - gdb (avec pwndbg)
+  - assembleur 6502 (Nesticide IDE)
+  - Connaissances en rétro-ingénierie x86 et 6502/NES seront utiles
+tools_en:
+  - Python
+  - Ghidra
+  - gdb (pwndbg recommended)
+  - 6502 assembler toolchain (Nesticide IDE recommended)
+  - Knowledge in x86 reverse-engineering and 6502/NES helpful
+presented_by_fr: Défi présenté par Philippe Dugre ([@zer0x64](https://github.com/zer0x64)) et Alexandre Beaulieu ([@alxbl](https://twitter.com/alxbl_sec)). Créé pour [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
+presented_by_en: Presented by Philippe Dugre ([@zer0x64](https://github.com/zer0x64)) and Alexandre Beaulieu ([@alxbl](https://twitter.com/alxbl_sec)). Made for [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
+featured_img: /images/21-09_mario3tas.gif
+featured_img_alt: Mario Bros 3 glitching
+#challenge_assets:
+#  - name: Challenge server
+#    url: http://challenge.montrehack.ca/
 # Once the edition is over, adjust these below with what we have and uncomment
-#archived_assets:
-#  - name: Twitch Video Recording
-#    url: https://www.twitch.tv/videos/654083008
-#  - name: Slides
-#    url: https://docs.google.com/presentation/d/1PHkuqk0m2ucOsoW4E331F965g9PFOz75Ci5-RLQpGAM/edit#slide=id.g89ba1ca4f6_0_211
-#  - name: Files
-#    url: https://github.com/Becojo/math-homeworks
+archived_assets:
+  - name: Video Recording
+    url: https://www.youtube.com/watch?v=7xwB6GHpQpc
+  - name: Challenge Files
+    url: https://github.com/zer0x64/nsec-2021-nestadia
 ---
 
 # Next edition: {{ page.date_en }}
 [French version](#french)
 
+### Season {{ page.season }} Episode {{ page.episode }}
+
 ## {{ page.title }}
 
 The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
+![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_en }}
+
+{% if page.challenge_assets %}
+{::options parse_block_html="true" /}
+<div class="assets">
+## Challenge Assets
+{% for asset in page.challenge_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 {% if page.archived_assets %}
 {::options parse_block_html="true" /}
@@ -87,15 +108,28 @@ This edition is over. Here are the archived assets:
 {{ page.presented_by_en }}
 
 <a id="french"></a>
+
 # Prochaine édition: {{ page.date_fr }}
+
+### Saison {{ page.season }} épisode {{ page.episode }}
 
 ## {{ page.title }}
 
 La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
+![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_fr }}
+
+{% if page.challenge_assets %}
+{::options parse_block_html="true" /}
+<div class="assets">
+## Challenge Assets
+{% for asset in page.challenge_assets %}
+* [{{ asset.name }}]({{ asset.url}})
+{% endfor %}
+</div>
+{% endif %}
 
 {% if page.archived_assets %}
 {::options parse_block_html="true" /}
