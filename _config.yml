@@ -3,6 +3,8 @@ safe: true
 lsi: false
 
 logo: "/images/montrehack.svg"
+# OpenGraph/TwitterCard don't support svg logos
+logo_opengraph: "/images/montrehack.png"
 
 # Publish posts or collection documents with a future date.
 future: true
