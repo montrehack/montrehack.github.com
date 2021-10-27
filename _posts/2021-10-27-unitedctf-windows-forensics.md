@@ -26,9 +26,11 @@ presented_by_fr: Défi présenté par Émilio Gonzalez ([@res260](https://twitte
 presented_by_en: Presented by Émilio Gonzalez ([@res260](https://twitter.com/res260)). Created for [UnitedCTF 2021](https://www.unitedctf.ca/) ([@UnitedCTF](https://twitter.com/unitedctf)).
 featured_img: /images/21-10_windows-forensics.png
 featured_img_alt: "Car salesman slaps on Windows logo: This bad boy can fit so many forensics artifacts in it"
-#challenge_assets:
-#  - name: Challenge server
-#    url: http://challenge.montrehack.ca/
+challenge_assets:
+  - name: Virtual Machine
+    url: https://montrehack.nyc3.cdn.digitaloceanspaces.com/UnitedCTF2021WindowsForensics.7z
+  - name: Virtual Machine (Mirror)
+    url: https://mega.nz/file/3K4mWTDC#ecc7qxXL1l7UMLFu9pNfxh9nBoiDNDtwn0FZ4e3Orag
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Video Recording
