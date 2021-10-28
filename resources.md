@@ -59,7 +59,7 @@ These types of challenges usually resembles more what an actual pentest or red t
 
 ### Learning Platform
 
-These types of plaforms offer some free training in cybersecurity. They are hands-on excercises targeting specific vulnerabilities.
+These types of platforms offer some free training in cybersecurity. They are hands-on excercises targeting specific vulnerabilities.
 
 * [Burp Academy](https://portswigger.net/web-security)
 * [Hack The Box Academy](https://academy.hackthebox.com/)
