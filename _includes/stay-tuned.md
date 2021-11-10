@@ -18,7 +18,7 @@ Wednesday, {{ month }} {{ day }}{{ day_suffix }}, 7pm ({{ timezone }}) at {% if 
 
 In planning stage, stay tuned! [Interested to present a challenge?](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link)
 
-Meanwhile, have a look to the [past events](/archives.html).
+Meanwhile, have a look at the [past events](/archives.html).
 
 `¯\_(ツ)_/¯ <( Sorry! )`
 

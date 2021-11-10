@@ -94,6 +94,12 @@ header h2 {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
 section img {
   max-width: 100%
 }
