@@ -26,9 +26,11 @@ presented_by_fr: Présenté et créé par [crowell](https://github.com/crowell) 
 presented_by_en: Presented and created by [crowell](https://github.com/crowell) for DEFCON 29 CTF Finals ([@defcon](https://twitter.com/defcon))
 featured_img: /images/21-11_ruby-on-bare-metal-for-babies.jpg
 featured_img_alt: IOT Ruby on Bare Metal x86 for babies
-#challenge_assets:
-#  - name: Challenge Page
-#    url: https://archive.ooo/c/barb-metal/427/
+challenge_assets:
+  - name: Challenge Setup (On Your Laptop - Full Source)
+    url: https://archive.ooo/c/barb-metal/427/
+  - name: Challenge Source
+    url: https://github.com/o-o-overflow/dc2021f-barb-metal-public
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Video Recording
