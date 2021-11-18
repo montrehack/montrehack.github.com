@@ -31,6 +31,8 @@ challenge_assets:
     url: https://archive.ooo/c/barb-metal/427/
   - name: Challenge Source
     url: https://github.com/o-o-overflow/dc2021f-barb-metal-public
+  - name: Slides
+    url: https://github.com/montrehack/challenges/blob/master/2021-11-17_defcon-ctf-barb-metal/barbmetal.pdf
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Video Recording
