@@ -12,4 +12,8 @@ current edition with stay-tuned page. Plus 1 casts a string into an int.
 {% assign latestPostDate = site.posts.first.date | date: '%s' | plus: 86400 %}
 {% assign currentDate = site.time | date: '%s' | plus: 1 %}
 
-{{ site.posts.first.content }}
+{% if latestPostDate > currentDate %}
+  {{ site.posts.first.content }}
+{% else %}
+  {% include stay-tuned.md %}
+{% endif %}
