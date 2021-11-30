@@ -33,13 +33,40 @@ description_fr: |
 
     Pendant: 
 
-    * Résoudre des challenges!
-    * Se commettre en diffusant live sur Twitch ou en personne!
-    * Cadeaux sous forme de livraison de pizza!
+    * :chart_with_upwards_trend: Résoudre des challenges!
+    * :tv: Se commettre en diffusant live sur Twitch ou en personne!
+    * :gift: Comme cadeau, nous livrons la pizza!
 
     Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosemont et de la DCI.
 description_en: |
-    todo
+    For the first time since February 2020, MontréHack is back *in person*! Prepare a small challenge and come play a friendly CTF with us at l'Amère à Boire, or even remote on Twitch!
+    On the menu:
+    * :triangular_flag_on_post: CTF
+    * :pizza: pizza (with vegan options)
+    * :beer: drinks (with alcohol-free options)
+    * :family: real persons
+
+    _IN PERSON: PLACES ARE LIMITED, TICKET MANDATORY_. [Buy your ticket (5$)](https://www.eventbrite.ca/e/219608634337) (ticket sales opening November 30th at noon)
+
+    Before:
+    * :ballot_box_with_check: Create a challenge
+      * Short and simple (examples of [2019](https://github.com/montrehack/challenges/tree/master/2019-12-18_h0h0h0/challenges) or [2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020))
+      * The walkthrough should take a maximum of 30 minutes
+      * Not mandatory, but strongly encouraged
+    * :package: Bundle it
+      * [Follow the specification of ctfcli](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml) (more examples: [h0h0h0day-2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020) or [upstream](https://github.com/CTFd/ctfcli/tree/master/ctfcli/templates))
+      * We can host files, or even infrastructure (Dockerfile or docker-compose), you can also self-host
+      * Tell us if you want to solve it live!
+    * :incoming_envelope: Send it to us on [Discord](https://discord.gg/4qfFwPX) in #challenge-deposit. Deadline : Monday 13th December at 20h EST.
+    * :question: Questions? [Discord](https://discord.gg/4qfFwPX) in #questions
+
+    During: 
+
+    * :chart_with_upwards_trend: Solve challenges!
+    * :tv: Commit to diffusing it live on Twitch or in person!
+    * :gift: As a gift, we deliver pizza!
+
+    The concept of challenge exchange is inspired by the members of the community of Cegep de Rosemont and of the DCI.
 tools_fr: 
   - (en personne) Votre billet Eventbrite
   - (en personne) Votre preuve de vaccination contre la COVID-19 Québécoise (2 doses)
