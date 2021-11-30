@@ -16,6 +16,7 @@ description_fr: |
     * De la :pizza: pizza (avec option végane)
     * Des :beer: consommations (avec options sans alcool)
     * Des :family: vraies personnes
+    * :money_with_wings: Tout ça pour seulement 5$ grâce à [NorthSec](https://nsec.io)
 
     _EN PERSONNE: PLACES LIMITÉES, BILLET OBLIGATOIRE_. [Achetez votre billet (5$)](https://www.eventbrite.ca/e/219608634337) (ouverture des places le 30 novembre à midi)
 
@@ -45,6 +46,7 @@ description_en: |
     * :pizza: pizza (with vegan options)
     * :beer: drinks (with alcohol-free options)
     * :family: real persons
+    * :money_with_wings: All this for only 5$ thanks to [NorthSec](https://nsec.io)
 
     _IN PERSON: PLACES ARE LIMITED, TICKET MANDATORY_. [Buy your ticket (5$)](https://www.eventbrite.ca/e/219608634337) (ticket sales opening November 30th at noon)
 
