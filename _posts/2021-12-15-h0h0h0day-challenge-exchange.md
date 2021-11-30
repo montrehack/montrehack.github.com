@@ -46,7 +46,7 @@ description_en: |
     * :beer: drinks (with alcohol-free options)
     * :family: real persons
 
-    _IN PERSON: PLACES ARE LIMITED, TICKET MANDATORY_. [Buy your ticket (5$)](https://www.eventbrite.ca/e/219608634337) (reservation opening the 30th november at noon)
+    _IN PERSON: PLACES ARE LIMITED, TICKET MANDATORY_. [Buy your ticket (5$)](https://www.eventbrite.ca/e/219608634337) (ticket sales opening November 30th at noon)
 
     Before:
     * :ballot_box_with_check: Create a challenge
