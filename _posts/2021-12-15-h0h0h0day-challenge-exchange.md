@@ -66,7 +66,7 @@ description_en: |
     * :tv: Commit to diffusing it live on Twitch or in person!
     * :gift: As a gift, we deliver pizza!
 
-    The concept of challenge exchange is inspired by the members of the community of Cegep de Rosemon and of the DCI.
+    The concept of challenge exchange is inspired by the members of the community of Cegep de Rosemont and of the DCI.
 tools_fr: 
   - (en personne) Votre billet Eventbrite
   - (en personne) Votre preuve de vaccination contre la COVID-19 Québécoise (2 doses)
