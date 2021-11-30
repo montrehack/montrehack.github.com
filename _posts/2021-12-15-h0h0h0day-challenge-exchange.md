@@ -145,6 +145,7 @@ This edition is over. Here are the archived assets:
 
 ## Where
 
+* [L'Amère à Boire Brewpub, St-Denis street, Montréal](https://g.page/amereaboire?share) (Between Sherbrooke and Berri-UQAM stations)
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
@@ -205,7 +206,7 @@ Cette édition est terminé, voici les archives:
 
 ## Où
 
-* [Microbrasserie L'Amère à Boire, rue St-Denis, Montréal](https://g.page/amereaboire?share) (Entre la station Sherbrooke et Berri-UQAM).
+* [Microbrasserie L'Amère à Boire, rue St-Denis, Montréal](https://g.page/amereaboire?share) (Entre la station Sherbrooke et Berri-UQAM)
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
