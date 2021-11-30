@@ -50,7 +50,7 @@ description_en: |
 
     Before:
     * :ballot_box_with_check: Create a challenge
-      * Short and simpple (examples of [2019](https://github.com/montrehack/challenges/tree/master/2019-12-18_h0h0h0/challenges) or [2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020))
+      * Short and simple (examples of [2019](https://github.com/montrehack/challenges/tree/master/2019-12-18_h0h0h0/challenges) or [2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020))
       * The walkthrough should take a maximum of 30 minutes
       * Not mandatory, but strongly encouraged
     * :package: Bundle it
