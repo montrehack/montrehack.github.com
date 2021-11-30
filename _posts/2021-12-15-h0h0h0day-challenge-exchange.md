@@ -10,22 +10,22 @@ date_long_fr: mercredi le 15 décembre 2021
 date_en: December 15th 2021
 date_long_en: Wednesday December 15th 2021
 description_fr: |
-    Pour la première fois depuis février 2020, MontréHack retourne *en personne*! Préparez un petit challenge et venez faire un CTF amical à l'Amère à Boire avec nous!
+    Pour la première fois depuis février 2020, MontréHack retourne *en personne*! Préparez un petit challenge et venez faire un CTF amical à l'Amère à Boire avec nous ou encore à distance sur Twitch!
     Au menu:
     * Un :triangular_flag_on_post: CTF
-    * De la :pizza: pizza
-    * Des :beer: consommations
+    * De la :pizza: pizza (avec option végane)
+    * Des :beer: consommations (avec options sans alcool)
     * Des :family: vraies personnes
 
-    _EN PERSONNE: PLACES LIMITÉES, BILLET OBLIGATOIRE_. [Achetez votre billet (5$)](INSÉRER LIEN EVENTBRITE).
+    _EN PERSONNE: PLACES LIMITÉES, BILLET OBLIGATOIRE_. [Achetez votre billet (5$)](https://www.eventbrite.ca/e/219608634337) (ouverture des places le 30 novembre à midi)
 
     Avant:
     * :ballot_box_with_check: Faites un challenge
-      * Court et simple ([exemples de 2019](https://github.com/montrehack/challenges/tree/master/2019-12-18_h0h0h0/challenges))
+      * Court et simple (exemples de [2019](https://github.com/montrehack/challenges/tree/master/2019-12-18_h0h0h0/challenges) ou [2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020))
       * La démonstration de la solution devrait prendre max 30 minutes
-      * Ce n'est pas obligatoire, mais fortement encouragé.
+      * Ce n'est pas obligatoire, mais fortement encouragé
     * :package: Packagez-le
-      * [Suivez la spécification de ctfcli](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml) ([Plus d'exemples](https://github.com/CTFd/ctfcli/tree/master/ctfcli/templates))
+      * [Suivez la spécification de ctfcli](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml) (plus d'exemples: [h0h0h0day-2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020) ou [upstream](https://github.com/CTFd/ctfcli/tree/master/ctfcli/templates))
       * On peut hoster des fichiers ou de l'infra (Dockerfile ou docker-compose), vous pouvez hoster aussi
       * Dites-nous si vous êtes intéressés à le résoudre live!
     * :incoming_envelope: Envoyez-le nous sur [Discord](https://discord.gg/4qfFwPX) sur #challenge-deposit. Date limite: Lundi 13 Décembre à 20h EST.
@@ -37,31 +37,29 @@ description_fr: |
     * Se commettre en diffusant live sur Twitch ou en personne!
     * Cadeaux sous forme de livraison de pizza!
 
-    Un merci spécial à [NSec](https://nsec.io) pour leur soutien financier pour cet événement :blue_heart:
-
     Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosemont et de la DCI.
 description_en: |
-    à traduire
+    todo
 tools_fr: 
   - (en personne) Votre billet Eventbrite
-  - (en personne) Votre preuve de vaccination Covid québécoise (2 doses)
+  - (en personne) Votre preuve de vaccination contre la COVID-19 Québécoise (2 doses)
   - (en personne) Votre masque (pendant les déplacements)
   - (en personne) Votre ordinateur portable CHARGÉ.
   - Votre boîte à outils habituelle
-  - Votre réserve de boisson festive habituelle
   - Votre bonne humeur
+  - (à distance) Votre réserve de boisson festive habituelle
 tools_en: 
   - (in person) Your eventbrite ticket
-  - (in person) Your Quebec Covid vaccination proof (2 doses)
+  - (in person) Your Quebec COVID-19 vaccination proof (2 doses)
   - (in person) Your mask (when moving)
   - (in person) Your CHARGED laptop
   - Your usual toolbox
-  - A reserve of your favorite drinks
   - Your good mood
+  - (remote) A reserve of your favorite drinks
 presented_by_fr: Défis créés et présentés par vous!
 presented_by_en: Challenges created and presented by all of us!
 featured_img: /images/21-12_h0h0h0day.jpg
-featured_img_alt: h0h0h0day-special-covid
+featured_img_alt: "Why can't I hold all these shells!?"
 #challenge_assets:
 #  - name: Challenge executable
 #    url: https://github.com/montrehack/challenges/raw/master/2020-10-25_defcon-b3s23/challenge/b3s23
@@ -87,7 +85,7 @@ featured_img_alt: h0h0h0day-special-covid
 
 The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
+![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_en }}
 
@@ -147,7 +145,7 @@ This edition is over. Here are the archived assets:
 
 ## {{ page.title }}
 
-![{{ page.featured_img_alt }}]({{ page.featured_img }})
+![{{ page.featured_img_alt }}]({{ page.featured_img }}#centered)
 
 {{ page.description_fr }}
 
@@ -201,10 +199,15 @@ Cette édition est terminé, voici les archives:
 {{ page.presented_by_fr }}
 
 
-
 <hr/>
 ### Sponsors // Partenaires
 
+This edition of MontréHack was made possible by
+
 [![NorthSec](/images/nsec_logo.png)](https://nsec.io/)
+
+Infrastructure provided by
+
+[![GoSecure](/images/sponsor_gosecure.png)](https://gosecure.net/)
 
 Interested to sponsor or present a challenge? [Contact us here](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link).
