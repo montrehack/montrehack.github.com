@@ -89,9 +89,9 @@ presented_by_fr: Défis créés et présentés par vous!
 presented_by_en: Challenges created and presented by all of us!
 featured_img: /images/21-12_h0h0h0day.jpg
 featured_img_alt: "Why can't I hold all these shells!?"
-#challenge_assets:
-#  - name: Challenge executable
-#    url: https://github.com/montrehack/challenges/raw/master/2020-10-25_defcon-b3s23/challenge/b3s23
+challenge_assets:
+  - name: Enter the Capture-The-Flag here!
+    url: https://h0h0h0day.montrehack.ca/
 #  - name: Server to exploit
 #    url:  ncat://challenge.montrehack.ca:2323
 # Once the edition is over, adjust these below with what we have and uncomment
