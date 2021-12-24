@@ -15,3 +15,4 @@ exclude: [ 'README.md', 'CNAME', 'TODO', 'Gemfile', 'Gemfile.lock', 'meta', 'ven
 
 plugins:
   - jemoji
+  - jekyll-feed
