@@ -1,7 +1,7 @@
-{% assign next_date = "2021-11-17" %}
+{% assign next_date = "2022-01-26" %}
 {% assign timezone = "EST/UTC−05:00" %}
 {% comment %}When venue is not determined, set to nil{% endcomment %}
-{% assign venue = nil %}
+{% assign venue = "Twitch+Discord" %}
 
 # Next event
 
