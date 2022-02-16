@@ -24,9 +24,11 @@ presented_by_fr: Défi présenté par Ron Bowes ([@iagox86](https://twitter.com/
 presented_by_en: Presented by Ron Bowes ([@iagox86](https://twitter.com/iagox86)) from Counter Hack ([@counterhacksec](https://twitter.com/counterhacksec)), from the event [Holiday Hack Challenge](https://www.sans.org/mlp/holiday-hack-challenge/) ([@KringleCon](https://twitter.com/KringleCon)).
 featured_img: /images/22-02_shellcoding.jpg
 featured_img_alt: "Managing my infoSec career: My shellcoding skills drowned long time ago"
-#challenge_assets:
-#  - name: Challenge Environment
-#    url: https://tracer.kringlecastle.com/
+challenge_assets:
+  - name: Challenge Environment
+    url: https://montrehack.skullsecurity.org
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1Fpohp1kyzwmF--kvnfp2NR-E5R-B3OAHFLFBukj3UW4/edit?usp=sharing
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Video Recording
@@ -84,7 +86,7 @@ This edition is over. Here are the archived assets:
 
 :heavy_exclamation_mark: **New hours for the online formula!**
 
-{{ page.date_long_en | capitalize }} from **7pm to 10pm**
+{{ page.date_long_en | capitalize }} from **7pm to 10pm** EST
 
 ## How
 
@@ -148,7 +150,7 @@ Cette édition est terminé, voici les archives:
 
 :heavy_exclamation_mark: **Nouvelles heures pour la formule en ligne!**
 
-{{ page.date_long_fr | capitalize }} de **19h à 22h**
+{{ page.date_long_fr | capitalize }} de **19h à 22h** EST
 
 ## Comment
 
