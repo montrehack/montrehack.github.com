@@ -13,7 +13,7 @@ jobs:
       uses: helaili/jekyll-action@v2
       with:
          build_only: true
-         jekyll_build_options: "--destination _site/"
+         jekyll_build_options: "--baseurl '' --destination _site/"
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
