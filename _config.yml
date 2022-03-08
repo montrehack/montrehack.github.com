@@ -1,6 +1,11 @@
 # pages github defaults
 safe: true
 lsi: false
+baseurl: ""
+url: "https://montrehack.ca"
+title: "MontréHack - Monthly Capture-The-Flag Solving and Cybersecurity Workshop"
+repository: montrehack/montrehack.github.com
+
 
 logo: "/images/montrehack.svg"
 # OpenGraph/TwitterCard don't support svg logos
