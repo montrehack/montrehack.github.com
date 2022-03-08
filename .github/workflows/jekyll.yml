@@ -14,8 +14,7 @@ jobs:
       uses: helaili/jekyll-action@v2
       with:
          build_only: true
-         jekyll_build_options: "--baseurl '' --destination _site/"
-         pre_build_commands: "ls -la"
+         pre_build_commands: "echo $PWD"
          target_branch: master
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
