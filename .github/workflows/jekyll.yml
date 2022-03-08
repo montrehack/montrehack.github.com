@@ -1,0 +1,21 @@
+name: Build website
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      uses: helaili/jekyll-action@v2
+      with:
+         build_only: true
+         jekyll_build_options: "--destination _site/"
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: website
+        path: _site/
