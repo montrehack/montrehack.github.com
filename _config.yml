@@ -1,6 +1,8 @@
 # pages github defaults
 safe: true
 lsi: false
+baseurl: ""
+url: "https://montrehack.ca"
 
 logo: "/images/montrehack.svg"
 # OpenGraph/TwitterCard don't support svg logos
