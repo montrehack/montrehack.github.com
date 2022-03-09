@@ -19,10 +19,6 @@ jobs:
       with:
         name: website
         path: _site/
-  screenshot-site:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
     - name: Screenshot Website
       uses: res260/jekyll-screenshot-github-action@master
     - name: Upload Screenshot
@@ -30,4 +26,3 @@ jobs:
       with:
        name: screenshot
        path: /home/runner/work/_temp/_github_home/screenshot.png
-
