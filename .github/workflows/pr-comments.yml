@@ -1,9 +1,8 @@
 name: add artifact links to pull request and related issues
 on:
   workflow_run:
-    workflows: [build-site, Build website]
-    types:
-      - completed
+    workflows: [build-site, Build website, jekyll]
+    types: [completed]
 
 jobs:
   artifacts-url-comments:
