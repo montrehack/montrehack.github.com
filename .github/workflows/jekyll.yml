@@ -21,7 +21,7 @@ jobs:
         name: website
         path: _site/
     - name: Screenshot Website
-      uses: hakierspejs/jekyll-screenshot-github-action@master
+      uses: res260/jekyll-screenshot-github-action@master
     - name: Upload Screenshot
       uses: actions/upload-artifact@v1
       with:
