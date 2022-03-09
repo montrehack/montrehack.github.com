@@ -20,3 +20,11 @@ jobs:
       with:
         name: website
         path: _site/
+    - name: Screenshot Website
+      - uses: hakierspejs/jekyll-screenshot-github-action@master
+    - name: Upload Screenshot
+      - uses: actions/upload-artifact@v1
+        with:
+          name: screenshot
+          path: /home/runner/work/_temp/_github_home/screenshot.png
+
