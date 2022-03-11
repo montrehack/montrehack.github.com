@@ -22,9 +22,9 @@ presented_by_fr: Présenté par André-Yves du Centre Canadien pour la CyberSéc
 presented_by_en: Presented by André-Yves from the Canadian Center for  CyberSecurity ([CCCS](https://cyber.gc.ca/)).
 featured_img: /images/22-03-cccs.jpg
 featured_img_alt: "Distracted boyfriend meme. CTF Player looks at 'cryptography' instead of 'cryptocurrency'."
-#challenge_assets:
-#  - name: AAAAAAAAAAAAAAAAA
-#    url: AAAAAAAAAAAAAAAAAAAA
+challenge_assets:
+  - name: Challenge files
+    url: https://github.com/montrehack/challenges/raw/master/2022-03-16_cccs_home_grown_crypto/home_grown_crypto.zip
 # Once the edition is over, adjust these below with what we have and uncomment
 #archived_assets:
 #  - name: Video Recording
