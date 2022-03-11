@@ -18,3 +18,4 @@ jobs:
             suffix: Have a nice day.
             format: name
             addTo: pull
+
