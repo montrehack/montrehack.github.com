@@ -1,4 +1,4 @@
-name: add artifact links to pull request and related issues
+name: Link Artifacts
 on:
   workflow_run:
     workflows: [build-site, Build website, jekyll]
