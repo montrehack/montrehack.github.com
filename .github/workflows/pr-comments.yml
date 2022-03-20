@@ -1,4 +1,4 @@
-name: Link Artifacts
+name: Link Artifacts in PR
 on:
   workflow_run:
     workflows: [build-site, Build website, jekyll]

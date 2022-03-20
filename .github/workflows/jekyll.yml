@@ -1,7 +1,6 @@
 name: Build website
 
 on:
-  - push
   - pull_request
 
 jobs:
@@ -20,3 +19,11 @@ jobs:
       with:
         name: website
         path: _site/
+    - name: Screenshot Website
+      uses: res260/jekyll-screenshot-github-action@master
+    - name: Upload Screenshot
+      uses: actions/upload-artifact@v1
+      with:
+       name: screenshot
+       path: /home/runner/work/_temp/_github_home/screenshot.png
+
