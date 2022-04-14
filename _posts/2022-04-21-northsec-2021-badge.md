@@ -167,4 +167,13 @@ Cette édition est terminé, voici les archives:
 [![GoSecure](/images/sponsor_gosecure.png)](https://gosecure.net/)
 [![Genetec](/images/sponsor_genetec.png)](https://www.genetec.com/)
 
+Badge and Challenge Sponsor
+
+[![NorthSec](/images/nsec_logo.png)](https://nsec.io/)
+
+Venue Sponsor
+
+[![ESET](/images/sponsor_eset.png)](https://www.welivesecurity.com/research/)
+
+
 Interested to sponsor or present a challenge? [Contact us here](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link).
