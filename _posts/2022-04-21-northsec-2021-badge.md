@@ -27,11 +27,9 @@ presented_by_en: Presented by the badge and game designers.
 featured_img: /images/22-04_nsec_badge.jpg
 featured_img_alt: "Picture of the Northsec 2021 badge."
 # Once the edition is over, adjust these below with what we have and uncomment
-#archived_assets:
-#  - name: Video Recording
-#    url: https://www.youtube.com/watch?v=7xwB6GHpQpc
-#  - name: Challenge Files
-#    url: https://github.com/zer0x64/nsec-2021-nestadia
+archived_assets:
+  - name: Slides
+    url: https://github.com/montrehack/challenges/tree/master/2022-04-21_northsec_badge_2021
 ---
 
 # Next edition: {{ page.date_en }}
