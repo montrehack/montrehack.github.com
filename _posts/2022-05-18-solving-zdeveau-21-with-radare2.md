@@ -10,7 +10,7 @@ title: NorthSec CTF 2021's Rare Metal Sequence
 summary: Reverse a SNES crackme by Zack Deveau using radare2 and Jupyter Notebooks
 tags: reverse-engineering
 date_fr: 18 mai 2022
-date_long_fr: mercredi le 18 mai 2022
+date_long_fr: mercredi le 18 mai 2022 18h à 21h
 date_en: Mai 18th 2022
 date_long_en: Wednesday May 18th 2022
 description_fr: >
