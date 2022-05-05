@@ -26,7 +26,7 @@ tools_en:
   - Python
   - Jupyter Notebooks
   - radare2
-  - Knowledge in x86 reverse-engineering a little but knowledge of SNES assembly is not necessary
+  - A little knowledge in x86 reverse-engineering. Knowledge of SNES assembly is **not** necessary
 presented_by_fr: Défi présenté par Ben Gardiner ([@BenGardiner](https://github.com/BenGardiner)). Créé par Zack Deveau pour [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 presented_by_en: Presented by Ben Gardiner ([@BenGardiner](https://github.com/BenGardiner)). Made by Zack Deveau for [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 featured_img: /images/22-05_snes_zdeveau.png
