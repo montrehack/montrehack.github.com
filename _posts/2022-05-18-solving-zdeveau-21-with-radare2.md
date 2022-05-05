@@ -32,7 +32,7 @@ presented_by_en: Presented by Ben Gardiner ([@BenGardiner](https://github.com/Be
 featured_img: /images/22-05_snes_zdeveau.png
 featured_img_alt: SNES Rare Metal Sequencer Screenshot
 challenge_assets:
-  - name: (SPOILERS) writeup
+#  - name: (SPOILERS) writeup
     url: https://gist.github.com/BenGardiner/13fe76fd43f179a872acbb9f5729eb2c
   - name: challenge binary 1
     url: https://gist.github.com/BenGardiner/8b0b69ef1952375c86c89d377a4f8319#file-sequence_1-smc
