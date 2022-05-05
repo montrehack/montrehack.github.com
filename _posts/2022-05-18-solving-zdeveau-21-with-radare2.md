@@ -95,7 +95,7 @@ This edition is over. Here are the archived assets:
 
 :heavy_exclamation_mark: **New hours for the online formula!**
 
-{{ page.date_long_en | capitalize }} from **7pm to 10pm**
+{{ page.date_long_en | capitalize }} from **6pm to 9pm**
 
 ## How
 
