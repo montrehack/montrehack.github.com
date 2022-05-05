@@ -21,7 +21,7 @@ tools_fr:
   - Python
   - Jupyter Notebooks
   - radare2
-  - Connaissances en rétro-ingénierie un peut mais connaissances de SNES assembleur n'est pas nécessaire
+  - Un peu de connaissances en rétro-ingénierie. Pas besoin de connaissance en assembleur SNES.
 tools_en:
   - Python
   - Jupyter Notebooks
