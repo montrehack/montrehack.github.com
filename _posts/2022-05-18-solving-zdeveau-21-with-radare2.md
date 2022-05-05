@@ -14,7 +14,7 @@ date_long_fr: mercredi le 18 mai 2022 18h à 21h
 date_en: Mai 18th 2022
 date_long_en: Wednesday May 18th 2022 18:00 to 21:00
 description_fr: >
-   Les NSec 2021 CTF challenges "Rare metal sequencer" 1 et 2 etait des crackme par Zack Deveau. Zack a crée les challenge pour le Super Nintendo Entertainment System (SNES) et let participants devaient le reverser pour trouver les entrées du joypad qui vas le débloquer. Nous alons etudié comment utiliser radare2 pour le reverser en deux directions: en l'avant et en l'arrière. Aussi en prime nous allons montrer comment on peut fair le 2022 Nsec warmup challenge logically bonus flag.
+   Le challenge du CTF NSec 2021 "Rare metal sequencer" 1 et 2 sont des crackme par Zack Deveau. Zack a créé les challenges pour le Super Nintendo Entertainment System (SNES) et les participants devaient faire de la rétro-ingénierie pour trouver les entrées du joypad pour résoudre le défi. Nous allons voir comment utiliser radare2 pour le *reverse* en deux directions: par l'avant et par l'arrière (forward and backward). En prime, nous allons montrer comment on peut résoudre le défi d'échauffement du CTF du NSec 2022 *logically bonus flag*.
 description_en: >
    Rare metal sequencer was a NSec 2021 CTF crackme by Zack Deveau. _This crackme_ runs on a Super Nintendo Entertainment System (SNES) and the required input is a sequence of SNES controller inputs. We will use radare2 to understand how the rare metal sequencers (levels 1 and 2) work. We will demonstrate the rerversing process with radare2 both forwards and backwards. As a bonus we will also do a bonus solve of the 2022 NSec warmup challenge logically bonus flag.
 tools_fr:
