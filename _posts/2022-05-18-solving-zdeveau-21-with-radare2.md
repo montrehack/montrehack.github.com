@@ -12,7 +12,7 @@ tags: reverse-engineering
 date_fr: 18 mai 2022
 date_long_fr: mercredi le 18 mai 2022 18h à 21h
 date_en: Mai 18th 2022
-date_long_en: Wednesday May 18th 2022
+date_long_en: Wednesday May 18th 2022 18:00 to 21:00
 description_fr: >
    Les NSec 2021 CTF challenges "Rare metal sequencer" 1 et 2 etait des crackme par Zack Deveau. Zack a crée les challenge pour le Super Nintendo Entertainment System (SNES) et let participants devaient le reverser pour trouver les entrées du joypad qui vas le débloquer. Nous alons etudié comment utiliser radare2 pour le reverser en deux directions: en l'avant et en l'arrière. Aussi en prime nous allons montrer comment on peut fair le 2022 Nsec warmup challenge logically bonus flag.
 description_en: >
