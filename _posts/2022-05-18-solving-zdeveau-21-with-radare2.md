@@ -159,7 +159,7 @@ Cette édition est terminé, voici les archives:
 
 :heavy_exclamation_mark: **Nouvelles heures pour la formule en ligne!**
 
-{{ page.date_long_fr | capitalize }} de **19h à 22h**
+{{ page.date_long_fr | capitalize }} de **18h à 21h**
 
 ## Comment
 
