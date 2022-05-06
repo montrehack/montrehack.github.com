@@ -5,15 +5,6 @@ title: Montréhack's archives
 
 ## Archives
 
-{% comment %}
-We don't want to display the current edition in the archives, so we do some
-fancy timestamp checking.
-
-The plus 1-day (in seconds) prevents updates during the event to add the event
-to the archives. The plus 1 second is to cast the string as int.
-{% endcomment %}
-{% assign currentDate = site.time | date: '%s' | plus: 1 %}
-
 * [By Season](#by_episode)
 * [By Topic](#by_topic)
 * [By Date](#by_date)
@@ -31,10 +22,7 @@ to the archives. The plus 1 second is to cast the string as int.
   <ul>
   {% endif %}
 
-  {% assign latestPostDate = post.date | date: '%s' | plus: 86400 %}
-  {% if latestPostDate < currentDate %}
-    <li>Episode {{ post.episode }}: <a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date_to_long_string }}</li>
-  {% endif %}
+  <li>Episode {{ post.episode }}: <a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date_to_long_string }}</li>
 
   {% if forloop.last %}
   </ul>
@@ -56,8 +44,7 @@ to the archives. The plus 1 second is to cast the string as int.
 <ul>
 {% for posts in tag %}
 {% for post in posts %}
-  {% assign latestPostDate = post.date | date: '%s' | plus: 86400 %}
-  {% if latestPostDate < currentDate and post.url %}
+  {% if post.url %}
     <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_long_string }}</li>
   {% endif %}
 {% endfor %}
@@ -77,11 +64,8 @@ to the archives. The plus 1 second is to cast the string as int.
   <ul>
   {% endif %}
 
-  {% assign latestPostDate = post.date | date: '%s' | plus: 86400 %}
-  {% if latestPostDate < currentDate %}
   <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%B %-d" }}</li>
-  {% endif %}
-
+  
   {% if forloop.last %}
   </ul>
   {% else %}

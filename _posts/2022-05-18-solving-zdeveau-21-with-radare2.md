@@ -29,7 +29,7 @@ tools_en:
   - A little knowledge in x86 reverse-engineering. Knowledge of SNES assembly is **not** necessary
 presented_by_fr: Défi présenté par Ben Gardiner ([@BenGardiner](https://github.com/BenGardiner)). Créé par Zack Deveau pour [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 presented_by_en: Presented by Ben Gardiner ([@BenGardiner](https://github.com/BenGardiner)). Made by Zack Deveau for [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
-featured_img: /images/22-05_snes_zdeveau.png
+featured_img: /images/22-05-snes.jpg
 featured_img_alt: SNES Rare Metal Sequencer Screenshot
 challenge_assets:
 #  - name: (SPOILERS) writeup
@@ -88,12 +88,12 @@ This edition is over. Here are the archived assets:
 
 ## Where
 
+
+* Marché Bonsecours, Montréal 350 rue Saint-Paul Est (Salle de bal). TICKET MANDATORY: [https://www.eventbrite.ca/e/montrehack-may-2022-northsec-ctf-2021s-rare-metal-sequence-tickets-334937596367](https://www.eventbrite.ca/e/montrehack-may-2022-northsec-ctf-2021s-rare-metal-sequence-tickets-334937596367)
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
 ## When
-
-:heavy_exclamation_mark: **New hours for the online formula!**
 
 {{ page.date_long_en | capitalize }} from **6pm to 9pm**
 
@@ -152,12 +152,11 @@ Cette édition est terminé, voici les archives:
 
 ## Où
 
+* Marché Bonsecours, Montréal 350 rue Saint-Paul Est (Salle de bal). BILLET OBLIGATOIRE: [https://www.eventbrite.ca/e/montrehack-may-2022-northsec-ctf-2021s-rare-metal-sequence-tickets-334937596367](https://www.eventbrite.ca/e/montrehack-may-2022-northsec-ctf-2021s-rare-metal-sequence-tickets-334937596367)
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
 ## Quand
-
-:heavy_exclamation_mark: **Nouvelles heures pour la formule en ligne!**
 
 {{ page.date_long_fr | capitalize }} de **18h à 21h**
 
