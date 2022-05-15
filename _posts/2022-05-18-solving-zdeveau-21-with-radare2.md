@@ -18,15 +18,27 @@ description_fr: >
 description_en: >
    Rare metal sequencer was a NSec 2021 CTF crackme by Zack Deveau. _This crackme_ runs on a Super Nintendo Entertainment System (SNES) and the required input is a sequence of SNES controller inputs. We will use radare2 to understand how the rare metal sequencers (levels 1 and 2) work. We will demonstrate the rerversing process with radare2 both forwards and backwards. As a bonus we will also do a bonus solve of the 2022 NSec warmup challenge logically bonus flag.
 tools_fr:
-  - Python
-  - Jupyter Notebooks
-  - radare2
+  - radare2 v5.4.2
+```
+git clone --depth=1 https://github.com/radare/radare2 && cd radare2
+./sys/install-rev.sh v5.4.2
+```
+  - Python3 JupyterLab et r2pipe
+```
+pip3 install jupyterlab r2pipe
+```
   - Un peu de connaissances en rétro-ingénierie. Pas besoin de connaissance en assembleur SNES.
 tools_en:
-  - Python
-  - Jupyter Notebooks
-  - radare2
-  - A little knowledge in x86 reverse-engineering. Knowledge of SNES assembly is **not** necessary
+  - radare2 v5.4.2
+```
+git clone --depth=1 https://github.com/radare/radare2 && cd radare2
+./sys/install-rev.sh v5.4.2
+```
+  - Python3 JupyterLab and r2pipe
+```
+pip3 install jupyterlab r2pipe
+```
+  - A little knowledge in reverse-engineering. Knowledge of SNES assembly is **not** necessary
 presented_by_fr: Défi présenté par Ben Gardiner ([@BenGardiner](https://github.com/BenGardiner)). Créé par Zack Deveau pour [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 presented_by_en: Presented by Ben Gardiner ([@BenGardiner](https://github.com/BenGardiner)). Made by Zack Deveau for [NorthSec 2021](https://nsec.io/) ([@NorthSec_io](https://twitter.com/northsec_io)).
 featured_img: /images/22-05-snes.jpg
