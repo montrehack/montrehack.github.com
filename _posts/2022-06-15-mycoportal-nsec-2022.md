@@ -7,16 +7,16 @@ episode: 5
 layout: default
 title: NorthSec CTF 2022's Mycoverse Portal
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: Dotnet Web Track from NorthSec CTF 2022
-tags: web, dotnet, northsec
+summary: Dotnet Track from NorthSec CTF 2022
+tags: dotnet, northsec
 date_fr: 15 juin 2022
 date_long_fr: mercredi le 15 juin 2022 18h à 21h
 date_en: June 15th 2022
 date_long_en: Wednesday June 15th 2022 18:00 to 21:00
 description_fr: >
-   Dans cette édition de MontréHack, nous allons travailler sur les deux premiers flags de la track "The Mycoverse Portal" du NSec2022. C'est une track Web en dotnet.
+   Dans cette édition de MontréHack, nous allons travailler sur les deux premiers flags de la track "The Mycoverse Portal" du NSec2022. C'est une challenge en dotnet.
 description_en: >
-   In this edition of Montrehack, we will work on challenges 1 and 2 of the Mycoverse Portal track from NorthSec 2022. It's a dotnet Web challenge.
+   In this edition of Montrehack, we will work on challenges 1 and 2 of the Mycoverse Portal track from NorthSec 2022. It's a dotnet challenge.
 tools_fr:
   - dnSpy or dotPeek, Python 3 with pwntools, and a dotnet 6 development environment (docker pull mcr.microsoft.com/dotnet/sdk:6.0-focal)
 tools_en:
@@ -79,7 +79,7 @@ This edition is over. Here are the archived assets:
 ## Where
 
 
-* École des Technologies Supérieures (ÉTS)
+* École des Technologies Supérieures (ÉTS), local A-1302
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
@@ -142,7 +142,7 @@ Cette édition est terminé, voici les archives:
 
 ## Où
 
-* École des Technologies Supérieures (ÉTS).
+* École des Technologies Supérieures (ÉTS), A-1302.
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
