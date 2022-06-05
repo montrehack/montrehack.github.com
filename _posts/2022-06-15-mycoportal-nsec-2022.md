@@ -23,7 +23,7 @@ tools_en:
   - dnSpy or dotPeek, Python 3 with pwntools, and a dotnet 6 development environment (docker pull mcr.microsoft.com/dotnet/sdk:6.0-focal)
 presented_by_fr: Défi présenté par Alexandre Beaulieu ([@alxbl_sec](https://twitter.com/alxbl_sec)).
 presented_by_en: Presented by Alexandre Beaulieu ([@alxbl_sec](https://twitter.com/alxbl_sec)).
-featured_img: /images/22-05-snes.jpg
+featured_img: /images/22-06-mycoportal.jpg
 featured_img_alt: TODO
 challenge_assets:
 #  - name: (SPOILERS) writeup
