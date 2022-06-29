@@ -77,7 +77,7 @@ This edition is over. Here are the archived assets:
 ## Where
 
 
-* École de Technologie Supérieure (ÉTS), local A-1302
+* École Polytechnique, local M-1420 (1st floor, deep on the right (??))
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
@@ -140,7 +140,7 @@ Cette édition est terminé, voici les archives:
 
 ## Où
 
-* École de Technologie Supérieure (ÉTS), A-1302.
+* École Polytechnique, local M-1420 (premier étage au fond à droite)
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
