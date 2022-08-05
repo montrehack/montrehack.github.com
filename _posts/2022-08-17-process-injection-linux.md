@@ -75,7 +75,7 @@ This edition is over. Here are the archived assets:
 ## Where
 
 
-* UQAM, Pavillon Président Kennedy
+* UQAM, Pavillon Président Kennedy, PK-R220
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
@@ -138,7 +138,7 @@ Cette édition est terminé, voici les archives:
 
 ## Où
 
-* UQAM, pavillon Président Kennedy
+* UQAM, pavillon Président Kennedy, PK-R220
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
