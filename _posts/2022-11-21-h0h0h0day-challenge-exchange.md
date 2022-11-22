@@ -5,7 +5,7 @@ layout: default
 # Editing the below variables is the absolute minimum to get stuff up. Feel
 # free [obliged] to add editorial niceties or strip the page if you need to
 # include something more complex.
-title: [IN-PERSON + Online] h0h0h0day Challenge Exchange Special
+title: "[IN-PERSON + Online] - h0h0h0day Challenge Exchange Special"
 tags: things-humans-do
 date_fr: 14 décembre 2022
 date_long_fr: mercredi le 14 décembre 2022
@@ -87,8 +87,8 @@ tools_en:
   - (remote) A reserve of your favorite drinks
 presented_by_fr: Défis créés et présentés par vous!
 presented_by_en: Challenges created and presented by all of us!
-featured_img: /images/21-12_h0h0h0day.jpg TODO
-featured_img_alt: "Why can't I hold all these shells!?" TODO
+featured_img: /images/22-12_h0h0h0day.gif
+featured_img_alt: "Me explaining why I couldn't design a challenge for h0h0h0day"
 challenge_assets:
   - name: Enter the Capture-The-Flag here!
     url: https://h0h0h0day.montrehack.ca/
