@@ -10,7 +10,7 @@ date_long_fr: mercredi le 14 décembre 2022
 date_en: December 14th 2022
 date_long_en: Wednesday December 14th 2022
 description_fr: |
-    Pour le MontréHack de décembre, on se regroupe en personne dans les bureaux de GoSecure (ou en ligne sur Twitch) afin de célébrer notre évènement annuel, le h0h0h0day! La formule est simple : Un échange de ~~cadeaux~~ challenges qu'on regroupe dans un CTF! Les solutions seront présentés par vous (participant ou designer). Si vous présentez à distance, on vous livre une pizza!
+    Pour le MontréHack de décembre, on se regroupe en personne dans les bureaux de GoSecure (ou en ligne sur Twitch) afin de célébrer notre évènement annuel, le h0h0h0day! La formule est simple : Un échange de ~~cadeaux~~ challenges qu'on regroupe dans un CTF! Les solutions seront présentés par VOUS (participant ou designer). Si vous présentez à distance, on vous livre une pizza!
 
     Au menu:
     * Un :triangular_flag_on_post: CTF
@@ -41,7 +41,8 @@ description_fr: |
 
     Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosemont et de la DCI.
 description_en: |
-    For the first time since February 2020, MontréHack is back *in person*! Prepare a small challenge and come play a friendly CTF with us at l'Amère à Boire, or even remote on Twitch!
+    For this december's Montrehack, we gather in person in GoSecure's offices (or online on Twitch) to celebrate our yearly event, the h0h0h0day! The formula is simple : a ~~gift~~ challenge exchange in one CTF! The solutions will be presented by YOU (participant or designer). If you are presenting remote, we will deliver you pizza!
+
     On the menu:
     * :triangular_flag_on_post: CTF
     * :pizza: pizza (with vegan options)
