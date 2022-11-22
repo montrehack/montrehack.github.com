@@ -1,4 +1,6 @@
 ---
+season: 19
+episode: 10
 layout: default
 # Editing the below variables is the absolute minimum to get stuff up. Feel
 # free [obliged] to add editorial niceties or strip the page if you need to
