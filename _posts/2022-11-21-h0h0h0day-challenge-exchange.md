@@ -89,21 +89,6 @@ presented_by_fr: Défis créés et présentés par vous!
 presented_by_en: Challenges created and presented by all of us!
 featured_img: /images/22-12_h0h0h0day.gif
 featured_img_alt: "Me explaining why I couldn't design a challenge for h0h0h0day"
-challenge_assets:
-  - name: Enter the Capture-The-Flag here!
-    url: https://h0h0h0day.montrehack.ca/
-#  - name: Server to exploit
-#    url:  ncat://challenge.montrehack.ca:2323
-# Once the edition is over, adjust these below with what we have and uncomment
-#archived_assets:
-#  - name: Twitch Video Recording
-#    url: https://www.twitch.tv/videos/654083008
-#  - name: Solution
-#    url: https://docs.google.com/presentation/d/1PHkuqk0m2ucOsoW4E331F965g9PFOz75Ci5-RLQpGAM/edit#slide=id.g89ba1ca4f6_0_211
-#  - name: Challenge executable
-#    url: https://github.com/montrehack/challenges/raw/master/2020-11-25_defcon-b3s23/challenge/b3s23
-#  - name: Challenge infrastructure
-#    url: https://github.com/montrehack/challenges/tree/master/2020-11-25_defcon-b3s23/
 ---
 
 # Next edition: {{ page.date_en }}
