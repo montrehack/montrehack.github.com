@@ -12,7 +12,7 @@ date_long_fr: mercredi le 14 décembre 2022
 date_en: December 14th 2022
 date_long_en: Wednesday December 14th 2022
 description_fr: |
-    Pour le MontréHack de décembre, on se regroupe en personne dans les bureaux de GoSecure (ou en ligne sur Twitch) afin de célébrer notre évènement annuel, le h0h0h0day! La formule est simple : Un échange de ~~cadeaux~~ challenges qu'on regroupe dans un CTF! Les solutions seront présentés par VOUS (participant ou designer). Si vous présentez à distance, on vous livre une pizza!
+    Pour le MontréHack de décembre, on se regroupe en personne dans les bureaux de GoSecure (ou en ligne sur Twitch) afin de célébrer notre évènement annuel, le h0h0h0day! La formule est simple : Un échange de ~~cadeaux~~ challenges qu'on regroupe dans un CTF! Les solutions seront présentés par VOUS (participant ou designer). Si vous présentez à distance, on vous livre une pizza! Merci à NSec pour la 🍻 et la 🍕! Merci à GoSecure pour l'endroit, et Genetec pour les challenges :)
 
     Au menu:
     * Un :triangular_flag_on_post: CTF
@@ -43,7 +43,7 @@ description_fr: |
 
     Le concept de l'échange de défis est inspiré par des membres de la communauté du Cegep de Rosemont et de la DCI.
 description_en: |
-    For this december's Montrehack, we gather in person in GoSecure's offices (or online on Twitch) to celebrate our yearly event, the h0h0h0day! The formula is simple : a ~~gift~~ challenge exchange in one CTF! The solutions will be presented by YOU (participant or designer). If you are presenting remote, we will deliver you pizza!
+    For this december's Montrehack, we gather in person in GoSecure's offices (or online on Twitch) to celebrate our yearly event, the h0h0h0day! The formula is simple : a ~~gift~~ challenge exchange in one CTF! The solutions will be presented by YOU (participant or designer). If you are presenting remote, we will deliver you pizza! Thanks to NSec for the 🍻 and 🍕 included! Thanks to GoSecure for the venue, and Genetec for the challenges :)
 
     On the menu:
     * :triangular_flag_on_post: CTF
