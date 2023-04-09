@@ -23,7 +23,7 @@ tools_en:
   - SSH
 presented_by_fr: Défi présenté par Simon Nolet (@ViperBlackSkull)
 presented_by_en: Presented by Simon Nolet (@ViperBlackSkull)
-featured_img: /images/22-04_beginner_privesc.png
+featured_img: /images/22-04_beginner_privesc.jpg
 featured_img_alt: The key to privesc is to run dirtycow, and then the kernel crashes
 challenge_assets:
   
