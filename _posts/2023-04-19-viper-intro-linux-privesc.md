@@ -7,14 +7,14 @@ episode: 02
 layout: default
 title: The Eternal Beginner/Learner
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: XXXXXXXXXXXXXXXXX
+summary: Élévation de privilège Linux de base, utilisé en entreprise.
 tags: linux, beginner, privilege escalation
 date_fr: 19 avril 2023
 date_long_fr: Mercredi le 19 avril 2023 18:00 à 21:00
 date_en: 2023-04-19
 date_long_en: Wednesday April 19th, 2023, 18:00 to 21:00
 description_fr: >
-   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   Élévation de privilège Linux de base, utilisé en entreprise.
 description_en: >
    Basic Linux privilege escalation that we use in enterprise.
 tools_fr:
@@ -23,8 +23,8 @@ tools_en:
   - SSH
 presented_by_fr: Défi présenté par Simon Nolet (@ViperBlackSkull)
 presented_by_en: Presented by Simon Nolet (@ViperBlackSkull)
-featured_img: /images/2023-04-19.png
-featured_img_alt: XXXXXXXXXXXXXXXXXXX
+featured_img: /images/22-04_beginner_privesc.png
+featured_img_alt: The key to privesc is to run dirtycow, and then the kernel crashes
 challenge_assets:
   
 ---
