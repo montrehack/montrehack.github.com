@@ -14,9 +14,9 @@ date_long_fr: Mercredi le 19 avril 2023 18:00 à 21:00
 date_en: 2023-04-19
 date_long_en: Wednesday April 19th, 2023, 18:00 to 21:00
 description_fr: >
-   Élévation de privilège Linux de base, utilisé en entreprise.
+   Atelier pour débutants! Nous apprendrons des techniques d'élévation de privilèges sur Linux avec plusieurs défis simples. Ce seront des cas réels de mauvaises configurations et erreurs qu'on trouve en entreprise.
 description_en: >
-   Basic Linux privilege escalation that we use in enterprise.
+   Beginner-friendly workshop! We'll learn Linux privilege escalation techniques with multiple simple challenges. They will be real-world misconfigurations and mistakes that are found in many businesses.
 tools_fr:
   - SSH
 tools_en:
