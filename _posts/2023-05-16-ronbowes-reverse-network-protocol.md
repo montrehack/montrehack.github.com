@@ -31,8 +31,8 @@ tools_en:
   - A development language (such as Python or Ruby)
 presented_by_fr: Défi présenté par [Ron Bowes](https://www.skullsecurity.org)
 presented_by_en: Presented by [Ron Bowes](https://www.skullsecurity.org)
-featured_img: /images/2023-05-16.png
-featured_img_alt: XXXXXXXXXXXXXXXXXXX
+featured_img: /images/23-05.jpg
+featured_img_alt: Asking Aliens to give you the flag peacefully (from movie Arival)
 ---
 
 # Next edition: {{ page.date_en }}
