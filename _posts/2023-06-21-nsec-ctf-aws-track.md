@@ -31,9 +31,10 @@ presented_by_fr: Défi présenté par [Marc-Antoine Bernier & Simon Décosse](ht
 presented_by_en: Presented by [Marc-Antoine Bernier & Simon Décosse](https://twitter.com/marcan2020 & https://twitter.com/simondotsh)
 featured_img: /images/2023-06.png
 featured_img_alt: Meme "old man yells at cloud" but it's "nsec participant yells at cloud" and the cloud is AWS.
-challenge_assets: |
-  On-site: Everything will be provided.
-  Remote: Deploy the following https://github.com/simondotsh/nsec2023-ctf-aws
+challenge_assets:
+  - name: "On-site: Everything will be provided."
+  - name: "Remote: Deploy the following"
+    url: https://github.com/simondotsh/nsec2023-ctf-aws
 ---
 
 # Next edition: {{ page.date_en }}
