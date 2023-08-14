@@ -31,7 +31,7 @@ tools_en:
 - A RingZer0 account
 presented_by_fr: Défi présenté par Marc Olivier Bergeron (mbergeron)
 presented_by_en: Presented by Marc Olivier Bergeron (mbergeron)
-featured_img: /images/2023-08.jpg
+featured_img: /images/23-08.jpg
 featured_img_alt: Animorphs meme where a common SSTI template transforms into a value.
 ---
 
