@@ -21,8 +21,8 @@ tools_fr:
   Python et la capacité d'installer des packages Python.
 tools_en:
   Python and the abilities to install new Python packages
-presented_by_fr: Défi présenté par [Laurent Desaulniers](@el_d33@infosec.exchange)
-presented_by_en: Presented by [Laurent Desaulniers](@el_d33@infosec.exchange)
+presented_by_fr: Défi présenté par [Laurent Desaulniers](https://infosec.exchange/@el_d33)
+presented_by_en: Presented by [Laurent Desaulniers](https://infosec.exchange/@el_d33)
 featured_img: /images/2023-09-20.jpg
 featured_img_alt: Board meeting meme where someone proposing to read a whitepaper to solve a challenge gets yeeted out of the building.
 location: Polytechnique, Local M-1120
