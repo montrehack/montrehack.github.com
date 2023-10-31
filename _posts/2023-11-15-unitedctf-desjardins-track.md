@@ -14,9 +14,9 @@ date_long_fr: Mercredi le 15 novembre 2023 18:00 à 21:00
 date_en: 2023-11-15
 date_long_en: Wednesday, november 15th 18:00 to 21:00
 description_fr: >
-   [Beginner-friendly] Cette track au thème de pirate a été faite pour le UnitedCTF comme un challenge d'introduction à l'escalade de privilège (privilege escalation) via des mauvaises pratiques de sysadmin, menant ultimement à une exécution de code (RCE). NOTE IMPORTANTE: Avant d'aller à l'événement au 12e étage, on doit s'enregistrer au 9e étage.
+   [Beginner-friendly] Cette track au thème de pirate a été faite pour le UnitedCTF comme un challenge d'introduction à l'escalade de privilège (privilege escalation) via des mauvaises pratiques de sysadmin, menant ultimement à une exécution de code (RCE). NOTE IMPORTANTE: Avant d'aller à l'événement au 11e étage, on doit s'enregistrer au 9e étage.
 description_en: >
-   [Beginner-friendly] This pirate-themed track was made for UnitedCTF as an introduction to privilege escalation through common bad sysadmin practices, ultimately leading to RCE. IMPORTANT NOTE: Before going to the event on the 12th floor, you need to register on the 9th floor.
+   [Beginner-friendly] This pirate-themed track was made for UnitedCTF as an introduction to privilege escalation through common bad sysadmin practices, ultimately leading to RCE. IMPORTANT NOTE: Before going to the event on the 11th floor, you need to register on the 9th floor.
 tools_fr:
   - Client SSH
   - Navigateur Web
