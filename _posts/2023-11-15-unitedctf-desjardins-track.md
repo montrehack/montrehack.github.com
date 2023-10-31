@@ -27,7 +27,7 @@ presented_by_fr: Défi présenté par [zuyoutoki](https://twitter.com/zuyoutoki,
 presented_by_en: Presented by [zuyoutoki](https://twitter.com/zuyoutoki, https://zuy.out.oki.moe)
 featured_img: /images/2023-11-15.jpg
 featured_img_alt: Car on highway drifting to Montrehack instead of going back home.
-location: Google Montréal, 425 Viger Ouest, 12th floor. Must register on the 9th floor before.
+location: Google Montréal, 425 Viger Ouest, 11th floor. Must register on the 9th floor before.
 
   
 ---
