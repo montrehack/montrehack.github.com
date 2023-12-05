@@ -29,7 +29,7 @@ description_fr: |
       * [Suivez la spécification de ctfcli](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml) (plus d'exemples: [h0h0h0day-2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020) ou [upstream](https://github.com/CTFd/ctfcli/tree/master/ctfcli/templates))
       * On peut hoster des fichiers ou de l'infra (Dockerfile ou docker-compose), vous pouvez hoster aussi
       * Dites-nous si vous êtes intéressés à le résoudre live!
-    * :incoming_envelope: Envoyez-le nous sur [Discord](https://discord.gg/4qfFwPX) sur #challenge-deposit / par message privé à Res260. Date limite: Lundi 18 Décembre à 20h EST.
+    * :incoming_envelope: Envoyez-le nous sur [Discord](https://discord.gg/4qfFwPX) sur #challenge-deposit / par message privé à Pourliver. Date limite: Lundi 18 Décembre à 20h EST.
     * :question: Questions? [Discord](https://discord.gg/4qfFwPX) sur #questions
 
     Pendant:
@@ -59,7 +59,7 @@ description_en: |
       * [Follow the specification of ctfcli](https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml) (more examples: [h0h0h0day-2020](https://github.com/montrehack/h0h0h0day-ctfcli-2020) or [upstream](https://github.com/CTFd/ctfcli/tree/master/ctfcli/templates))
       * We can host files, or even infrastructure (Dockerfile or docker-compose), you can also self-host
       * Tell us if you want to solve it live!
-    * :incoming_envelope: Send it to us on [Discord](https://discord.gg/4qfFwPX) in #challenge-deposit / DM Res260. Deadline : Monday December 18th at 20h EST.
+    * :incoming_envelope: Send it to us on [Discord](https://discord.gg/4qfFwPX) in #challenge-deposit / DM Pourliver. Deadline : Monday December 18th at 20h EST.
     * :question: Questions? [Discord](https://discord.gg/4qfFwPX) in #questions
 
     During the event:
