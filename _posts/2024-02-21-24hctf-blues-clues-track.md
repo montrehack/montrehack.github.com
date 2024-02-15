@@ -25,7 +25,7 @@ tools_en:
 presented_by_fr: Défi présenté par [Émilio Gonzalez](https://infosec.exchange/@res260)
 presented_by_en: Presented by [Émilio Gonzalez](https://infosec.exchange/@res260)
 featured_img: /images/2024-02-21.png
-featured_img_alt: XXXXXXXXXXXXXXXXXXX
+featured_img_alt: Blue's Clues show with caption "the first soc analyst"
 location: Flare Systems, Nordelec, 1751 Rue Richardson Unit 3.108, Montreal, Quebec H3K 1G6
 challenge_assets: []
   
