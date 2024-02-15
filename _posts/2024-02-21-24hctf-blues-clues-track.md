@@ -80,7 +80,7 @@ This edition is over. Here are the archived assets:
 
 ## When
 
-{{ page.date_long_en | capitalize }} from **6pm to 9pm**
+{{ page.date_long_en | capitalize }}
 
 ## How
 
@@ -143,7 +143,7 @@ Cette édition est terminé, voici les archives:
 
 ## Quand
 
-{{ page.date_long_fr | capitalize}} de **18h à 21h**
+{{ page.date_long_fr | capitalize}}
 
 ## Comment
 
