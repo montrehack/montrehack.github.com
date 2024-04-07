@@ -22,7 +22,7 @@ tools_fr:
 - Un décompilateur, comme Ghidra
 - Votre language de scripting préféré
 - 'Vos outils de hacking habituels: Une VM Kali Linux est fortement recommandé!'
-- 'Vous pouvez rouler cette commande pendant l'évènement:'
+- 'Vous pouvez rouler cette commande pendant l''évènement:'
 - sudo apt-get install unblob mosquitto-clients hashcat
 tools_en:
 - A decompiler, like Ghidra
