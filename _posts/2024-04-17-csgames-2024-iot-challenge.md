@@ -36,7 +36,8 @@ featured_img: /images/2024-04-17.png
 featured_img_alt: IoT Security in a nutshell - It ain't much
 location: Flare Systems, Nordelec, 1751 Rue Richardson Unit 3.108, Montreal, Quebec H3K 1G6
 challenge_assets:
-  The firmware: https://drive.google.com/file/d/1zeVLiIqhddg3TpOxh0v8yQvSyL5Vn18k/view?usp=sharing
+  - name: The firmware
+    url: https://drive.google.com/file/d/1zeVLiIqhddg3TpOxh0v8yQvSyL5Vn18k/view?usp=sharing
 ---
 
 # Next edition: {{ page.date_en }}
