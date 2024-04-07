@@ -1,13 +1,10 @@
 ---
-# Editing the below variables is the absolute minimum to get stuff up. Feel
-# free [obliged] to add editorial niceties or strip the page if you need to
-# include something more complex.
 season: 21
 episode: 02
 layout: default
 title: CSGames 2024 IoT Challenge
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: 
+summary: An IoT Exploitation challenge
 tags: IoT, CSGames
 date_fr: 2024-04-17
 date_long_fr: Mercredi le 17 février 18:00 à 21:00
@@ -17,7 +14,7 @@ description_fr: >
   Dans un futur dystopique, vous avez mis la main sur le firmware de l'un des poteaux de surveillance installés par la dangereuse organisation ChlorophyllAI. Votre mission est de trouver les vulnérabilités de ce firmware, puis de les exploiter sur un appareil actif.
 
   Ce défi tente de reproduire des vulnérabilités réalistes trouvées dans les appareils courants de l’Internet des objets et s’inspire principalement de découvertes réelles. Il souligne l’utilité d’extraire le firmware lors d’un test de sécurité et vise à sensibiliser au lacunes de cybersécurité des appareils IoT par rapport aux ordinateurs classiques.
-description_en: 
+description_en: >
   In a dystopian future, you have gotten hold of the firmware of one of the surveillance poles installed by the dangerous organization ChlorophyllAI. Your mission is to find vulnerabilities in this firmware and then exploit them on a live device.
 
   This challenge tries to reproduce realistic vulnerabilities found in common Internet of Things devices and was mostly inspired by real findings. It emphasizes the usefulness of extracting the firmware during a security test and aims to raise awareness about the lag in cybersecurity of IoT devices compared to regular computers.
