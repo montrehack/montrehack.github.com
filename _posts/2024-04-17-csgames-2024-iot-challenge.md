@@ -22,17 +22,17 @@ description_en:
 
   This challenge tries to reproduce realistic vulnerabilities found in common Internet of Things devices and was mostly inspired by real findings. It emphasizes the usefulness of extracting the firmware during a security test and aims to raise awareness about the lag in cybersecurity of IoT devices compared to regular computers.
 tools_fr:
-  - Un décompilateur, comme Ghidra
-  - Votre language de scripting préféré
-  - 'Vos outils de hacking habituels: Une VM Kali Linux est fortement recommandé!'
-  - 'Vous pouvez rouler cette commande pendant l'évènement:'
-  - sudo apt-get install unblob mosquitto-clients hashcat
+- Un décompilateur, comme Ghidra
+- Votre language de scripting préféré
+- 'Vos outils de hacking habituels: Une VM Kali Linux est fortement recommandé!'
+- 'Vous pouvez rouler cette commande pendant l'évènement:'
+- sudo apt-get install unblob mosquitto-clients hashcat
 tools_en:
-  - A decompiler, like Ghidra
-  - Your favorite scripting language
-  - 'Common hacking tools: a Kali Linux VM is highly recommended!'
-  - 'You can run this command beforehand:'
-  - sudo apt-get install unblob mosquitto-clients hashcat
+- A decompiler, like Ghidra
+- Your favorite scripting language
+- 'Common hacking tools: a Kali Linux VM is highly recommended!'
+- 'You can run this command beforehand:'
+- sudo apt-get install unblob mosquitto-clients hashcat
 presented_by_fr: Défi présenté par [Colin Stéphenne](https://niftic.ca)
 presented_by_en: Presented by [Colin Stéphenne](https://niftic.ca)
 featured_img: /images/2024-04-17.png
