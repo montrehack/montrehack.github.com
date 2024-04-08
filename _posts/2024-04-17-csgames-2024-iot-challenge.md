@@ -7,7 +7,7 @@ title: CSGames 2024 IoT Challenge
 summary: An IoT Exploitation challenge
 tags: IoT, CSGames
 date_fr: 2024-04-17
-date_long_fr: Mercredi le 17 février 18:00 à 21:00
+date_long_fr: Mercredi le 17 avril 18:00 à 21:00
 date_en: 2024-04-17
 date_long_en: Wednesday April 17th 18:00 to 21:00
 description_fr: >
