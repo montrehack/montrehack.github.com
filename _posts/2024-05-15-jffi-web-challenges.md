@@ -7,21 +7,23 @@ episode: 03
 layout: default
 title: 'JFFI: Two Web Challenges'
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: XXXXXXXXXXXXXXXXX
+summary: Two beginner-friendly web challenges from JFFI 2024 CTF.
 tags: JFFI, web, nsec, northsec
 date_fr: 2024-05-15
 date_long_fr: Mercredi 15 mai 18:00 à 21:00
 date_en: 2024-05-15
 date_long_en: Wednesday May 15th 18:00 to 21:00
 description_fr: >
-   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   [Beginner-friendly] Dans ce MontréHack pré-nsec, on va voir deux challenges web du CTF de la Journée francophone pour les femmes en informatique (JFFI). Ce sont des défis basés sur les websockets. [https://jffi.ca/comp%C3%A9tition](https://jffi.ca/comp%C3%A9tition)
 description_en: >
-   Last April, we organized a CTF for the Journée francophone pour les femmes en informatique (JFFI). We will have a look at two web challenges from the event. [https://jffi.ca/comp%C3%A9tition](https://jffi.ca/comp%C3%A9tition)
+   [Beginner-friendly] In this pre-nsec MontréHack, we will have a look at two web challenges from the Journée francophone pour les femmes en informatique (JFFI)'s CTF from last month. They are websocket-based challenges. [https://jffi.ca/comp%C3%A9tition](https://jffi.ca/comp%C3%A9tition)
 tools_fr:
-  Navigateur Web
+  - Navigateur Web
+  - Langage de scripting (par exemple Python)
 tools_en:
-  Web browser
-presented_by_fr: Défi présenté par Linkster78 et Klammydia
+  - Web browser
+  - Scripting language (like Python)
+presented_by_fr: Défis présentés par Linkster78 et Klammydia
 presented_by_en: Presented by Linkster78 and Klammydia
 featured_img: /images/2024-05-15.png
 featured_img_alt: XXXXXXXXXXXXXXXXXXX
