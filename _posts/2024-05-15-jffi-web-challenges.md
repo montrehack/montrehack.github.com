@@ -26,7 +26,7 @@ tools_en:
 presented_by_fr: Défis présentés par Linkster78 et Klammydia
 presented_by_en: Presented by Linkster78 and Klammydia
 featured_img: /images/2024-05-15.png
-featured_img_alt: XXXXXXXXXXXXXXXXXXX
+featured_img_alt: Screenshot of MS Paint with a textbox saying 'we have no meme this month but please come to pre-nsec montréhack at marché bonsecours :)'
 location: Marché Bonsecours (350 Rue Saint-Paul E, Montréal, QC H2Y 1H2)
 challenge_assets:
   
