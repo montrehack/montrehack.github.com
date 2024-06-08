@@ -29,8 +29,8 @@ tools_en:
   - Scripting language (optional)
 presented_by_fr: Défi présenté par [François Proulx](https://ca.linkedin.com/in/francoisp)
 presented_by_en: Presented by [François Proulx](https://ca.linkedin.com/in/francoisp)
-featured_img: /images/2024-06-19.png
-featured_img_alt: XXXXXXXXXXXXXXXXXXX
+featured_img: /images/2024-06-19.jpg
+featured_img_alt: Car salesman meme saying that github actions are full over vulnerabilities
 location: CyberEco (355 Rue Peel Suites 203-208, Montréal, QC H3C 2G9)
 ---
 
