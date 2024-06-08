@@ -9,11 +9,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      uses: helaili/jekyll-action@v2
+      uses: actions/jekyll-build-pages@v1
       with:
-        build_only: true
-        target_branch: master
-        jekyll_build_options: "--destination _site/"
+        destination: "_site/"
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
