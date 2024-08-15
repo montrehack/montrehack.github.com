@@ -37,25 +37,25 @@ location: École de Technologie Supérieure, D-3017
   
 ---
 
-# Next edition: [[ page.date_en ]]
+# Next edition: {{ page.date_en }}
 [French version](#french)
 
-### Season [[ page.season ]] Episode [[ page.episode ]]
+### Season {{ page.season }} Episode {{ page.episode }}
 
-## [[ page.title ]]
+## {{ page.title }}
 
-The next edition of Montrehack will be held on [[ page.date_long_en ]].
+The next edition of Montrehack will be held on {{ page.date_long_en }}.
 
-![ [[ page.featured_img_alt ]] ]( [[ page.featured_img ]]#centered)
+![ {{ page.featured_img_alt }} ]( {{ page.featured_img }}#centered)
 
-[[ page.description_en ]]
+{{ page.description_en }}
 
 {% if page.challenge_assets %}
 {::options parse_block_html="true" /}
 <div class="assets">
 ## Challenge Assets
 {% for asset in page.challenge_assets %}
-* [ [[ asset.name ]] ]([[ asset.url ]])
+* [ {{ asset.name }} ]({{ asset.url }})
 {% endfor %}
 </div>
 {% endif %}
@@ -66,7 +66,7 @@ The next edition of Montrehack will be held on [[ page.date_long_en ]].
 ## Archives
 This edition is over. Here are the archived assets:
 {% for asset in page.archived_assets %}
-* [ [[ asset.name ]] ]([[ asset.url ]])
+* [ {{ asset.name }} ]({{ asset.url }})
 {% endfor %}
 </div>
 {% endif %}
@@ -74,19 +74,19 @@ This edition is over. Here are the archived assets:
 ## Tools and Experience Required
 
 {% for tool in page.tools_en %}
-* [[ tool ]]
+* {{ tool }}
 {% endfor %}
 
 ## Where
 
 
-* [[ page.location ]]
+* {{ page.location }}
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
 ## When
 
-[[ page.date_long_en | capitalize ]]
+{{ page.date_long_en | capitalize }}
 
 ## How
 
@@ -98,28 +98,28 @@ This edition is over. Here are the archived assets:
 
 ## Credits
 
-[[ page.presented_by_en ]]
+{{ page.presented_by_en }}
 
 <a id="french"></a>
 
-# Prochaine édition: [[ page.date_fr ]]
+# Prochaine édition: {{ page.date_fr }}
 
-### Saison [[ page.season ]] épisode [[ page.episode ]]
+### Saison {{ page.season }} épisode {{ page.episode }}
 
-## [[ page.title ]]
+## {{ page.title }}
 
-La prochaine édition de Montréhack aura lieu [[ page.date_long_fr ]].
+La prochaine édition de Montréhack aura lieu {{ page.date_long_fr }}.
 
-![ [[ page.featured_img_alt ]]]( [[ page.featured_img ]]#centered)
+![ {{ page.featured_img_alt }}]( {{ page.featured_img }}#centered)
 
-[[ page.description_fr ]]
+{{ page.description_fr }}
 
 {% if page.challenge_assets %}
 {::options parse_block_html="true" /}
 <div class="assets">
 ## Challenge Assets
 {% for asset in page.challenge_assets %}
-* [ [[ asset.name ]] ]([[ asset.url ]])
+* [ {{ asset.name }} ]({{ asset.url }})
 {% endfor %}
 </div>
 {% endif %}
@@ -130,7 +130,7 @@ La prochaine édition de Montréhack aura lieu [[ page.date_long_fr ]].
 ## Les Archives
 Cette édition est terminé, voici les archives:
 {% for asset in page.archived_assets %}
-* [ [[ asset.name ]] ]([[ asset.url ]])
+* [ {{ asset.name }} ]({{ asset.url }})
 {% endfor %}
 </div>
 {% endif %}
@@ -138,18 +138,18 @@ Cette édition est terminé, voici les archives:
 ## Outils et expérience requis
 
 {% for tool in page.tools_fr %}
-* [[ tool ]]
+* {{ tool }}
 {% endfor %}
 
 ## Où
 
-* [[ page.location ]]
+* {{ page.location }}
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
 ## Quand
 
-[[ page.date_long_fr | capitalize]]
+{{ page.date_long_fr | capitalize}}
 
 ## Comment
 
@@ -161,7 +161,7 @@ Cette édition est terminé, voici les archives:
 
 ## Remerciements
 
-[[ page.presented_by_fr ]]
+{{ page.presented_by_fr }}
 
 <hr/>
 ### Sponsors // Partenaires
