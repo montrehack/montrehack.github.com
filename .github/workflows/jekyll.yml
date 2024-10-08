@@ -13,14 +13,14 @@ jobs:
       with:
         destination: "_site/"
     - name: Upload artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: website
         path: _site/
     - name: Screenshot Website
       uses: res260/jekyll-screenshot-github-action@master
     - name: Upload Screenshot
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
        name: screenshot
        path: /home/runner/work/_temp/_github_home/screenshot.png
