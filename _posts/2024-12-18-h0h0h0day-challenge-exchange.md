@@ -22,9 +22,9 @@ description_fr: |
 
     Avant:
     * :ballot_box_with_check: Faites un challenge de CTF court et simple, suivant l'un des format de soumission suivant:
-      * Dockerized : https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/truncator
-      * Self-hosted : https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/VulnWebsite
-      * Fichier téléchargeable : https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/steg/ChristmasCookies
+      * [Dockerized](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/truncator)
+      * [Self-hosted](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/VulnWebsite)
+      * [Fichier téléchargeable](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/steg/ChristmasCookies)
     * On peut hoster des fichiers ou de l'infra (Dockerfile ou docker-compose), vous pouvez hoster aussi
     * :incoming_envelope: Envoyez-le nous sur [Discord](https://discord.gg/4qfFwPX) par message privé à @Pourliver. Date limite: Lundi 16 Décembre
     * :question: Questions? [Discord](https://discord.gg/4qfFwPX) sur #general-h0h0h0 ou en message privé à @Pourliver
@@ -49,12 +49,12 @@ description_en: |
 
     Before:
     * :ballot_box_with_check: Create a short and simple challenge, following one these submission format:
-      * Dockerized : https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/truncator
-      * Self-hosted : https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/VulnWebsite
-      * Downloadable file : https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/steg/ChristmasCookies
+      * [Dockerized](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/truncator)
+      * [Self-hosted](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/VulnWebsite)
+      * [Downloadable file](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/steg/ChristmasCookies)
       * We can host files, or even infrastructure (Dockerfile or docker-compose), you can also self-host
     * :incoming_envelope: Send it to us on [Discord](https://discord.gg/4qfFwPX) by DM to @Pourliver. Deadline : Monday December 16th
-    * :question: Questions? [Discord](https://discord.gg/4qfFwPX) in #general-h0h0h0 ou en message privé à @Pourliver
+    * :question: Questions? [Discord](https://discord.gg/4qfFwPX) in #general-h0h0h0 or by DM to @Pourliver
 
     During the event:
 
