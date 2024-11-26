@@ -21,7 +21,7 @@ description_fr: |
     _EN PERSONNE: PLACES LIMITÉES, BILLET OBLIGATOIRE_. [Achetez votre billet (~7$)](https://www.eventbrite.ca/e/1092759616429)
 
     Avant:
-    * :ballot_box_with_check: Faites un challenge de CTF court et simple, suivant l'un des format de soumission suivant:
+    * :ballot_box_with_check: Faites un challenge de CTF court et simple, suivant l'un des formats de soumission suivant:
       * [Dockerized](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/truncator)
       * [Self-hosted](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/web/VulnWebsite)
       * [Fichier téléchargeable](https://github.com/montrehack/h0h0h0day-ctfcli-2023/tree/main/steg/ChristmasCookies)
