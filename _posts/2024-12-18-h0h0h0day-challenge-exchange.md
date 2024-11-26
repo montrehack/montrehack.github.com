@@ -119,7 +119,7 @@ This edition is over. Here are the archived assets:
 
 ## Where
 
-* [GoSecure](https://goo.gl/maps/Mo46fXm2WskTnV9m7) (Télus tower, 26th floor)
+* [Flare](https://www.google.ca/maps/place/Flare+Systems/@45.4839276,-73.5717461,14.75z/data=!3m1!5s0x4cc91b0749eb2775:0x7a07b9e1c6af0ea0!4m5!3m4!1s0x4cc91b9996c6b747:0x932220e3dd22a408!8m2!3d45.484051!4d-73.562141) (1751 Rue Richardson Unit 3.108, Montreal, Quebec H3K 1G6, 3rd floor, #108)
 * Follow the presentation [online on Twitch](https://twitch.tv/montrehack/)
 * Participate in teams or on your own [on Discord](https://discord.gg/4qfFwPX)
 
@@ -178,7 +178,7 @@ Cette édition est terminé, voici les archives:
 
 ## Où
 
-* [GoSecure](https://goo.gl/maps/Mo46fXm2WskTnV9m7) (Tour Telus, 26ième étage)
+* [Flare](https://www.google.ca/maps/place/Flare+Systems/@45.4839276,-73.5717461,14.75z/data=!3m1!5s0x4cc91b0749eb2775:0x7a07b9e1c6af0ea0!4m5!3m4!1s0x4cc91b9996c6b747:0x932220e3dd22a408!8m2!3d45.484051!4d-73.562141) (1751 Rue Richardson Unit 3.108, Montreal, Quebec H3K 1G6, 3rd floor, #108)
 * Suivez la présentation [en ligne sur Twitch](https://twitch.tv/montrehack/)
 * Participez seul ou en équipe [sur Discord](https://discord.gg/4qfFwPX)
 
@@ -203,7 +203,6 @@ Cette édition est terminé, voici les archives:
 ### Sponsors // Partenaires
 
 
-[![GoSecure](/images/sponsor_gosecure.png)](https://gosecure.net/)
 [![NorthSec](/images/nsec_logo.png)](https://nsec.io/)
 
 Interested to sponsor or present a challenge? [Contact us here](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link).
