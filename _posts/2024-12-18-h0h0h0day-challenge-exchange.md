@@ -16,7 +16,7 @@ description_fr: |
     * De la :pizza: pizza (avec option végane)
     * Des :beer: consommations (avec options sans alcool)
     * :family: bin du fun
-    * :money_with_wings: Tout ça pour seulement ~7$ grâce à [NorthSec](https://nsec.io)
+    * :money_with_wings: Tout ça pour seulement ~7$ grâce à [NorthSec](https://nsec.io) et [Flare](https://flare.io)
 
     _EN PERSONNE: PLACES LIMITÉES, BILLET OBLIGATOIRE_. [Achetez votre billet (~7$)](https://www.eventbrite.ca/e/1092759616429)
 
@@ -43,7 +43,7 @@ description_en: |
     * :pizza: pizza (with vegan options)
     * :beer: drinks (with alcohol-free options)
     * :family: a great time
-    * :money_with_wings: All this for only ~7$ thanks to [NorthSec](https://nsec.io)
+    * :money_with_wings: All this for only ~7$ thanks to [NorthSec](https://nsec.io) and [Flare](https://flare.io)
 
     _IN PERSON: PLACES ARE LIMITED, TICKET MANDATORY_. [Buy your ticket (~7$)](https://www.eventbrite.ca/e/1092759616429)
 
@@ -204,5 +204,6 @@ Cette édition est terminé, voici les archives:
 
 
 [![NorthSec](/images/nsec_logo.png)](https://nsec.io/)
+[![Flare](/images/flare_logo.png)](https://flare.io/)
 
 Interested to sponsor or present a challenge? [Contact us here](https://docs.google.com/forms/d/e/1FAIpQLSecc0vfe3pIwMJjIBCYW4G43ZwtagwVESu_qHKnglnBc3R3ww/viewform?usp=sf_link).
