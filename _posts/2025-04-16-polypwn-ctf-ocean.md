@@ -7,7 +7,7 @@ episode: 3
 layout: default
 title: PolyPwn CTF 2025's "Ocean's" Track
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: XXXXXXXXXXXXXXXXX
+summary: Camera stream hijacking from PolyPwn CTF 2025
 tags: polytechnique,polypwn,camera,video
 date_fr: 2025-04-16
 date_long_fr: Mercredi 16 avril 18:00 à 21:00
