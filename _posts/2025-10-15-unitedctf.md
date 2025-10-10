@@ -38,7 +38,7 @@ tools_en:
 presented_by_fr: Défi présenté par [Romain Lebbadi-Breteau](https://github.com/romainL972/)
 presented_by_en: Presented by [Romain Lebbadi-Breteau](https://github.com/romainL972/)
 featured_img: /images/2025-10-15.png
-featured_img_alt: TBD
+featured_img_alt: Rao staring at Montrehack, vibe hacking.
 location: CyberEco (355 Rue Peel Suites 203-208, Montréal, QC H3C 2G9)
 challenge_assets:
   - name: Image de la machine virtuelle
