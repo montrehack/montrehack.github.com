@@ -1,9 +1,9 @@
 ---
-season: 21
-episode: 07
+season: 22
+episode: 09
 layout: default
 title: "MontréHack's Classic h0h0h0day CTF - Challenge Exchange"
-tags: things-humans-do
+tags: h0h0h0 ctf
 date_fr: 16 décembre 2025
 date_long_fr: Mardi le 16 décembre 2025
 date_en: December 16th 2025
