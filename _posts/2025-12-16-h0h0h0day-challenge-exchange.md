@@ -76,8 +76,8 @@ tools_en:
   - Your good mood
 presented_by_fr: Défis créés et présentés par vous!
 presented_by_en: Challenges created and presented by all of us!
-featured_img: /images/2025-12-16.png
-featured_img_alt: "Triangle factory meme but its printing shells"
+featured_img: /images/h0h0h0-2025.gif
+featured_img_alt: "christmas elmo holding shells"
 location: CyberEco (355 Rue Peel Suites 203-208, Montréal, QC H3C 2G9)
 ---
 
