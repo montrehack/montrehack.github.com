@@ -2,31 +2,32 @@
 # Editing the below variables is the absolute minimum to get stuff up. Feel
 # free [obliged] to add editorial niceties or strip the page if you need to
 # include something more complex.
-season: XX
-episode: XX
+season: 23
+episode: 02
 layout: default
 title: This WASM my kind of web challenge
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: XXXXXXXXXXXXXXXXX
-tags: XXXXXXXXXXXXXXXXXXXXXXXXXXX
+summary: WASM crackme challenge from PolyPwn 2026 LabOps
+tags: wasm reverse-engineering crackme
 date_fr: 2026-04-15
-date_long_fr: XXXXXXXXXXXXXXXXXXXXXXXXXX 18:00 à 21:00
+date_long_fr: Mercredi le 15 avril 2026 18:00 à 21:00
 date_en: 2026-04-15
-date_long_en: XXXXXXXXXXXXXXXXXXXXXXXXXXX 18:00 to 21:00
+date_long_en: Wednesday April 15th 2026 18:00 to 21:00
 description_fr: >
-   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   Présentation de la piste LabOps de PolyPwn 2026. Un défi de type crackme en WASM.
 description_en: >
    Presenting the PolyPwn 2026 LabOps track. WASM crackme style challenge.
 tools_fr:
-  XXXXXXXXXXXXXXXXXXXXX
+  - Ghidra
+  - https://github.com/nneonneo/ghidra-wasm-plugin
 tools_en:
-  Ghidra
-  https://github.com/nneonneo/ghidra-wasm-plugin
+  - Ghidra
+  - https://github.com/nneonneo/ghidra-wasm-plugin
 presented_by_fr: Défi présenté par [Kyle Bouchard (ptrstr)](https://github.com/ptrstr)
 presented_by_en: Presented by [Kyle Bouchard (ptrstr)](https://github.com/ptrstr)
 featured_img: /images/2026-04-15.png
-featured_img_alt: XXXXXXXXXXXXXXXXXXX
-location: XXXXXXXXX
+featured_img_alt: This WASM my kind of web challenge
+location: "Cybereco, 355 Rue Peel Suites 203-208, Montréal, QC H3C 2G9"
 challenge_assets:
   
 ---
