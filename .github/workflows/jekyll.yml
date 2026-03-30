@@ -18,7 +18,7 @@ jobs:
         name: website
         path: _site/
     - name: Screenshot Website
-      uses: res260/jekyll-screenshot-github-action@fix/replace-pyppeteer-with-playwright
+      uses: res260/jekyll-screenshot-github-action@master
     - name: Upload Screenshot
       uses: actions/upload-artifact@v4
       with:
