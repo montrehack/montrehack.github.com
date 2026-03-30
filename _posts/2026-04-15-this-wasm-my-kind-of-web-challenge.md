@@ -14,9 +14,9 @@ date_long_fr: Mercredi le 15 avril 2026 18:00 à 21:00
 date_en: 2026-04-15
 date_long_en: Wednesday April 15th 2026 18:00 to 21:00
 description_fr: >
-   Présentation de la track LabOps de PolyPwn 2026. Un défi de type crackme en WebAssembly (WASM).
+   Présentation de la track LabOps de PolyPwn 2026. L'objectif est de faire un keygen pour une application web de gestion de laboratoire compilée en WebAssembly (WASM). L'application comporte plusieurs pages, chacune nécessitant une licence différente (Bronze, Silver ou Gold). Il faut donc créer un générateur de clés capable de produire une licence valide pour chaque niveau afin d'obtenir les flags.
 description_en: >
-   Presenting the PolyPwn 2026 LabOps track. Web Assembly (WASM) crackme style challenge.
+   Presenting the PolyPwn 2026 LabOps track. The goal is to write a keygen for a lab management web application compiled to WebAssembly (WASM). The app has multiple pages, each requiring a different license tier (Bronze, Silver, or Gold). You'll need to build a key generator that can produce a valid license for each tier to unlock the flags.
 tools_fr:
   - Ghidra
   - https://github.com/nneonneo/ghidra-wasm-plugin
