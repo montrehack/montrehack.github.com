@@ -25,7 +25,7 @@ tools_en:
   - https://github.com/nneonneo/ghidra-wasm-plugin
 presented_by_fr: Défi présenté par [Kyle Bouchard (ptrstr)](https://github.com/ptrstr)
 presented_by_en: Presented by [Kyle Bouchard (ptrstr)](https://github.com/ptrstr)
-featured_img: /images/22026-04.jpg
+featured_img: /images/2026-04.jpg
 featured_img_alt: Friendship with JS has ended, WASM is my new best friend
 location: "École de Technologie Supérieure (ÉTS), local D-4007"
   
