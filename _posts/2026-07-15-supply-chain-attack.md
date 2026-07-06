@@ -12,7 +12,7 @@ tags: northsec supply chain ci cd
 date_fr: 2026-07-15
 date_long_fr: Mercredi le 15 juillet 2026 18:00 à 21:00
 date_en: 2026-07-15
-date_long_en: Wednesday April 15th 2026 18:00 to 21:00
+date_long_en: Wednesday July 15th 2026 18:00 to 21:00
 description_fr: >
    Lors du CTF NorthSec 2026, j'ai créé une épreuve qui exploitait un pipeline CI/CD vulnérable afin de réaliser une attaque de la chaîne d'approvisionnement (supply chain attack).
 description_en: >
