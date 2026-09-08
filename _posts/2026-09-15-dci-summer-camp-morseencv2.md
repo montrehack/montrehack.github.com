@@ -7,7 +7,7 @@ episode: 04
 layout: default
 title: DCI Summer Camp - MorseEncV2 
 # summary for social media cards. Ideal length 55 chars, max 200
-summary: DCI Summer Camp 2026 - Supply Chain Attack using CI/CD Pipeline
+summary: DCI Summer Camp 2026 - MorseEncV2
 tags: dcisummercamp morseencv2 web
 date_fr: 2026-09-16
 date_long_fr: Mercredi le 16 septembre 2026 18:00 à 21:00
@@ -25,7 +25,7 @@ presented_by_fr: Défi présenté par Vincent Laferriere (kptcheesewhiz)
 presented_by_en: Presented by Vincent Laferriere (kptcheesewhiz)
 featured_img: /images/2026-09.png
 featured_img_alt: MorseEncV2 banner
-location: TBD
+location: TBD (Probably ETS)
 ---
 
 # Next edition: {{ page.date_en }}
