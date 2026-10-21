@@ -23,7 +23,7 @@ tools_en:
   - IDA Free, Qemu and pwndbg
 presented_by_fr: Défi présenté par Olivier Ouellette (P.S.Y)
 presented_by_en: Presented by Olivier Ouellette (P.S.Y)
-featured_img: /images/2026-10.jpeg
+featured_img: /images/2026-10-2.jpeg
 featured_img_alt: Matryoshka banner
 location: CyberEco
 ---
