@@ -5,9 +5,9 @@ layout: default
 title: "MontréHack's Classic h0h0h0day CTF - Challenge Exchange"
 tags: h0h0h0 ctf
 date_fr: 16 décembre 2026
-date_long_fr: Mardi le 16 décembre 2026
+date_long_fr: Mercredi le 16 décembre 2026
 date_en: December 16th 2026
-date_long_en: Tuesday December 16th 2026
+date_long_en: Wednesday December 16th 2026
 description_fr: |
     Pour le MontréHack de décembre, on se rejoint aux bureaux de Cybereco afin de célébrer notre CTF annuel, le h0h0h0day! La formule est simple: Un échange de ~~cadeaux~~ challenges qu'on regroupe dans un CTF! Merci à NSec pour la 🍻 et la 🍕!:)
 
